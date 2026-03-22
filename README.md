@@ -1,6 +1,6 @@
 # Ireland Bin Price Comparison - Project Summary
 
-> **⚠️ Built with AI:** This project was built entirely through conversation with [Claude](https://claude.ai) (Anthropic's AI assistant). The code was generated iteratively and has not been reviewed by a professional developer. It works, but it is far from perfect — approach it accordingly.
+> **⚠️ Built with AI:** This project was built entirely through conversation with [Claude](https://claude.ai) (Anthropic's AI assistant). The code was generated iteratively. It works, but it is far from perfect — approach it accordingly.
 
 ## What this is
 
