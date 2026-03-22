@@ -1,5 +1,5 @@
 const COUNTY_DATA = {
-"carlow": {
+"Carlow": {
   "county": "Carlow",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites/signup portals",
@@ -196,7 +196,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"cavan": {
+"Cavan": {
   "county": "Cavan",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -521,7 +521,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"clare": {
+"Clare": {
   "county": "Clare",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
@@ -728,7 +728,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"cork": {
+"Cork": {
   "county": "Cork",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -997,7 +997,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"donegal": {
+"Donegal": {
   "county": "Donegal",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and Panda signup flow",
@@ -1246,7 +1246,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"dublin": {
+"Dublin": {
   "county": "Dublin",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites + Panda API",
@@ -1261,7 +1261,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from Panda API for Dublin zone 3."
       },
       "address_used": "Dublin zone 3",
-      "service_notes": "1 month free when signing up online. No glass collection in zone 3 (Dublin 15 area). Unlimited recycling and compost on all flat-rate plans.",
+      "service_notes": "1 month free when signing up online. Glass collection not available in most Dublin regions. Unlimited recycling and compost on all flat-rate plans.",
       "plans": [
         {
           "name": "Essential",
@@ -1269,7 +1269,7 @@ const COUNTY_DATA = {
           "price": 24.50,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 42,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
@@ -1285,7 +1285,7 @@ const COUNTY_DATA = {
           "price": 28.50,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 65,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
@@ -1301,7 +1301,7 @@ const COUNTY_DATA = {
           "price": 32.50,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
@@ -1769,7 +1769,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"galway": {
+"Galway": {
   "county": "Galway",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
@@ -2135,7 +2135,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"kerry": {
+"Kerry": {
   "county": "Kerry",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
@@ -2306,7 +2306,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"kildare": {
+"Kildare": {
   "county": "Kildare",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
@@ -2708,7 +2708,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"kilkenny": {
+"Kilkenny": {
   "county": "Kilkenny",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
@@ -2881,16 +2881,50 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental",
-      "phone": "0818 694 438",
+      "phone": "0818 694 436",
       "website": "https://www.oxigen.ie",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Kilkenny city addresses tested."
+        "level": "medium",
+        "reason": "Pricing from oxigen.ie national pay-by-lift and pay-by-weight pages. Serves Cavan to Waterford including Kilkenny. Exact Kilkenny-specific rates may vary."
       },
       "address_used": null,
-      "service_notes": "Does not appear to serve Kilkenny county.",
-      "plans": []
+      "service_notes": "Fortnightly collection. Serves Kilkenny as part of their south-east region (Cavan to Waterford, 100,000+ customers).",
+      "plans": [
+        {
+          "name": "Pay By Lift",
+          "type": "pay_by_lift",
+          "price": 0,
+          "price_frequency": "per_lift",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "per_lift_waste": 12.50,
+          "per_lift_recycling": 6.00,
+          "per_lift_compost": 7.50,
+          "waste_allowance_kg": 45,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.23,
+          "recycling_allowance_kg": 20,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 45,
+          "compost_excess_per_kg": 0.18,
+          "notes": "No monthly service charge. Waste €12.50/lift (45kg included, then €0.23/kg). Recycling €6/lift (20kg, then €0.15/kg). Organic €7.50/lift (45kg, then €0.18/kg)."
+        },
+        {
+          "name": "Pay By Weight",
+          "type": "pay_by_weight",
+          "price": 0,
+          "price_frequency": "per_collection",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling"],
+          "per_kg_waste": 0.28,
+          "per_kg_recycling": 0.16,
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "notes": "Pure pay-by-weight. Waste €0.28/kg, Recycling €0.16/kg. No monthly fee."
+        }
+      ]
     },
     {
       "name": "Quality Recycling Ltd",
@@ -2907,15 +2941,15 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan Limited",
-      "phone": "059 9147 680",
+      "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "WIS portal (raywhelan.wis.ie) returned 'Location not served' for Kilkenny city address. Ray Whelan primarily serves Kildare and surrounding counties."
+        "reason": "Ray Whelan confirms they serve Kilkenny (listed on raywhelan.ie alongside Carlow, Laois, Kildare, Wicklow, Wexford) but no pricing is published online."
       },
       "address_used": null,
-      "service_notes": "Does not appear to serve Kilkenny county.",
+      "service_notes": "Serves Kilkenny from Carlow base. No pricing published online - contact directly. Payment via direct debit, Payzone, online or phone.",
       "plans": []
     },
     {
@@ -2973,7 +3007,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"laois": {
+"Laois": {
   "county": "Laois",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -3362,7 +3396,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"leitrim": {
+"Leitrim": {
   "county": "Leitrim",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
@@ -3562,7 +3596,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"limerick": {
+"Limerick": {
   "county": "Limerick",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
@@ -3825,7 +3859,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"longford": {
+"Longford": {
   "county": "Longford",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
@@ -3996,7 +4030,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"louth": {
+"Louth": {
   "county": "Louth",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
@@ -4199,7 +4233,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"mayo": {
+"Mayo": {
   "county": "Mayo",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
@@ -4441,7 +4475,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"meath": {
+"Meath": {
   "county": "Meath",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
@@ -4848,7 +4882,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"monaghan": {
+"Monaghan": {
   "county": "Monaghan",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
@@ -5029,7 +5063,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"offaly": {
+"Offaly": {
   "county": "Offaly",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
@@ -5301,7 +5335,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"roscommon": {
+"Roscommon": {
   "county": "Roscommon",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
@@ -5647,7 +5681,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"sligo": {
+"Sligo": {
   "county": "Sligo",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
@@ -5898,7 +5932,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"tipperary": {
+"Tipperary": {
   "county": "Tipperary",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Tipperary Town), aesirl.wis.ie (Parnell St, Thurles & Kickham St, Nenagh), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
@@ -6167,7 +6201,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"waterford": {
+"Waterford": {
   "county": "Waterford",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
@@ -6468,7 +6502,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"westmeath": {
+"Westmeath": {
   "county": "Westmeath",
   "scraped_date": "2026-03-21",
   "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
@@ -6804,7 +6838,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"wexford": {
+"Wexford": {
   "county": "Wexford",
   "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
@@ -7121,7 +7155,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"wicklow": {
+"Wicklow": {
   "county": "Wicklow",
   "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
