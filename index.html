@@ -287,10 +287,35 @@ footer a{color:#7fdba9;text-decoration:none}
   .bl{font-size:11px}
   /* People buttons */
   .pb{width:36px;height:36px;font-size:13px}
-  /* Plan table: horizontal scroll already works, just tighten it up */
+  /* Plan table: convert to stacked cards on mobile */
   .pwrap{padding:0 14px 16px}
-  .ptab{font-size:12px;min-width:480px}
-  .ptab th,.ptab td{padding:8px 7px}
+  .ptab-wrap{overflow-x:visible}
+  .ptab{min-width:0;display:flex;flex-direction:column;gap:12px}
+  .ptab thead{display:none}
+  .ptab tbody{display:flex;flex-direction:column;gap:12px}
+  .ptab tr{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;background:var(--gp);border-radius:10px;padding:14px;border:1px solid #eee8dd;position:relative}
+  .ptab tr:hover td{background:transparent}
+  .ptab tr:last-child td{border-bottom:none}
+  .ptab td{padding:0;border-bottom:none;vertical-align:baseline;line-height:1.4}
+  /* Plan name spans full width */
+  .ptab td:nth-child(1){grid-column:1/-1;padding-bottom:8px;border-bottom:1px solid #e8e2d6;margin-bottom:4px;font-size:14px}
+  .ptab td:nth-child(1) .pn{font-size:14px}
+  /* Price */
+  .ptab td:nth-child(2):before{content:'Price';display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:2px;font-weight:500}
+  /* Est for you */
+  .ptab td.td-est:before{content:'Est. for you';display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:2px;font-weight:500}
+  .ptab td.td-rate:before{content:'Rate info'!important}
+  /* Bins */
+  .ptab td:nth-child(4):before{content:'Bins';display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:2px;font-weight:500}
+  /* Allowance */
+  .ptab td:nth-child(5):before{content:'Allowance';display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:2px;font-weight:500}
+  /* Excess */
+  .ptab td:nth-child(6):before{content:'Excess';display:block;font-size:9.5px;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:2px;font-weight:500}
+  .ptab td:nth-child(4),.ptab td:nth-child(5),.ptab td:nth-child(6){font-size:12px}
+  .plan-best{background:#f0faf4!important;border-color:var(--gl)!important}
+  .bchips{flex-wrap:wrap;gap:3px}
+  .pc{font-size:14px}
+  .pc .per{font-size:10px}
   .pc{font-size:14px}
   /* Compare tray */
   .ctray-bar{padding:10px 18px}
@@ -1096,7 +1121,7 @@ function cardHtml(c, idx, topScore) {
             lines.push('\u20ac' + p.per_kg_recycling.toFixed(2) + '/kg recycling');
           if (p.per_kg_compost)
             lines.push('\u20ac' + p.per_kg_compost.toFixed(2) + '/kg brown');
-          estCell = '<td class="td-est" style="font-size:10.5px;color:#888;line-height:1.6">'
+          estCell = '<td class="td-est td-rate" style="font-size:10.5px;color:#888;line-height:1.6">'
             + (lines.length ? lines.join('<br>') : '<span class="est-na">See provider</span>')
             + '</td>';
         } else if (est) {
