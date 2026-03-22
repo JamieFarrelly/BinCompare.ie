@@ -2673,10 +2673,10 @@ const COUNTY_DATA = {
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "No public pricing on website. Serves Dublin/Kildare area but pricing requires signup or direct contact."
+        "reason": "Serves very limited areas of Kildare. No pricing available online - contact directly."
       },
       "address_used": null,
-      "service_notes": "Serves Dublin and Kildare areas. Pricing varies by area and plan. Contact enquiries@advancedwaste.ie for details.",
+      "service_notes": "Serves very limited areas of Kildare. Contact them directly to check if your area is covered.",
       "plans": []
     },
     {
@@ -4847,10 +4847,10 @@ const COUNTY_DATA = {
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "WIS portal (advancedwaste.wis.ie) returned price_group_ids=0 (not served) for 7 different Meath addresses tried: Navan (C15 Y8X5), Kells (A82 A272), Ashbourne (A84 VN62), Dunboyne (A86 XY02), Laytown (A92 H9R4), Ratoath (A85 XH72), Trim (C15 XC50). Does not serve Co. Meath."
+        "reason": "Serves very limited areas of Meath. No pricing available online - contact directly."
       },
       "address_used": null,
-      "service_notes": "Based in Saggart, Co. Dublin. Primarily serves Dublin. Does not serve Co. Meath.",
+      "service_notes": "Serves very limited areas of Meath. Contact them directly to check if your area is covered.",
       "plans": []
     }
   ]
