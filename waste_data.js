@@ -3355,32 +3355,6 @@ const COUNTY_DATA = {
       ]
     },
     {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Panda signup flow returned 'no available price options' for Church Street, Portlaoise, Co. Laois. Panda does not appear to serve Laois."
-      },
-      "address_used": "Church Street, Portlaoise, Co. Laois",
-      "service_notes": "Does not serve Laois.",
-      "plans": []
-    },
-    {
-      "name": "Thorntons Recycling",
-      "phone": "01 6235 135",
-      "website": "https://www.thorntons-recycling.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Thorntons service area page explicitly states they only serve Dublin, Kildare, Meath and Wicklow. Laois is outside their service area."
-      },
-      "address_used": null,
-      "service_notes": "Service area is Dublin, Kildare, Meath and Wicklow only.",
-      "plans": []
-    },
-    {
       "name": "Doheny Wheelie Bins & Recycling Limited",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
