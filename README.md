@@ -1,5 +1,7 @@
 # Ireland Bin Price Comparison - Project Summary
 
+> **⚠️ Built with AI:** This project was built entirely through conversation with [Claude](https://claude.ai) (Anthropic's AI assistant). The code was generated iteratively and has not been reviewed by a professional developer. It works, but it is far from perfect — approach it accordingly.
+
 ## What this is
 
 A single-page website (`index.html`) that compares household bin collection prices across all 26 Irish counties. Users select their county, number of people, bins needed, and estimated waste weight - the site calculates their real monthly cost across every provider in their area.
@@ -11,7 +13,7 @@ index.html                      ← The entire website (HTML + CSS + JS, single 
 waste_data.js                   ← All 26 county JSONs bundled into one JS variable
 ireland_waste_collectors.csv    ← Master list of all companies from mywaste.ie
 [county]_waste_pricing.json     ← 26 individual county pricing files (source of truth)
-PROJECT_SUMMARY.md              ← This file
+README.md                       ← This file
 ```
 
 ## Why waste_data.js exists
