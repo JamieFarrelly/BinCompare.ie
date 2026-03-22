@@ -1,0 +1,264 @@
+{
+  "county": "Kilkenny",
+  "scraped_date": "2026-03-21",
+  "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
+  "companies": [
+    {
+      "name": "Ryan Brothers Waste Recycling Services",
+      "phone": "0504 21658",
+      "website": "https://www.ryanbros.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
+      },
+      "address_used": null,
+      "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste. Plans named by bin size.",
+      "plans": [
+        {
+          "name": "140L Plan",
+          "type": "monthly",
+          "price": 31.10,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+        },
+        {
+          "name": "240L Plan",
+          "type": "monthly",
+          "price": 34.25,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+        },
+        {
+          "name": "360L Plan",
+          "type": "monthly",
+          "price": 44.21,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+        }
+      ]
+    },
+    {
+      "name": "Panda Green",
+      "phone": "01 8298992",
+      "website": "https://www.panda.ie/household/",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from panda.ie signup flow for 1 High Street, Kilkenny."
+      },
+      "address_used": "1 High Street, Kilkenny",
+      "service_notes": "Glass bin included for Kilkenny. Compost rollout ongoing in rural areas — may not be available at all addresses. €0.25/kg excess on waste. Unlimited recycling and compost included in flat plans.",
+      "plans": [
+        {
+          "name": "Essential",
+          "type": "monthly",
+          "price": 32.00,
+          "price_frequency": "monthly",
+          "household_size": "1-3 people",
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 46,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Unlimited recycling and compost included. Glass bin included."
+        },
+        {
+          "name": "Standard",
+          "type": "monthly",
+          "price": 36.00,
+          "price_frequency": "monthly",
+          "household_size": "3-5 people",
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 59,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Unlimited recycling and compost included. Glass bin included."
+        },
+        {
+          "name": "Plus",
+          "type": "monthly",
+          "price": 39.00,
+          "price_frequency": "monthly",
+          "household_size": "5+ people",
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 85,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Unlimited recycling and compost included. Glass bin included."
+        },
+        {
+          "name": "Pay Per Lift",
+          "type": "pay_by_lift",
+          "price": 12.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Glass bin included."
+        }
+      ]
+    },
+    {
+      "name": "Kilkenny County Council",
+      "phone": "056 7794 000",
+      "website": "https://www.kilkennycoco.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Kilkenny County Council regulates waste collectors but does not directly provide household bin collection services. No collection pricing applicable."
+      },
+      "address_used": null,
+      "service_notes": "Regulatory body only. Household waste collection in Kilkenny is provided by private operators.",
+      "plans": []
+    },
+    {
+      "name": "Kollect Developments Group Ltd",
+      "phone": "051 364 495",
+      "website": "https://www.kollect.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Kollect is a skip hire and junk removal service, not a regular household bin collection provider. Not applicable to this dataset."
+      },
+      "address_used": null,
+      "service_notes": "Skip hire and on-demand junk removal only. No regular bin collection service.",
+      "plans": []
+    },
+    {
+      "name": "Oxigen Environmental",
+      "phone": "0818 694 438",
+      "website": "https://www.oxigen.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Kilkenny city addresses tested."
+      },
+      "address_used": null,
+      "service_notes": "Does not appear to serve Kilkenny county.",
+      "plans": []
+    },
+    {
+      "name": "Quality Recycling Ltd",
+      "phone": "051 642 334",
+      "website": "https://www.qrl.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (qrl.wis.ie) returned 'Location not served' for Kilkenny city and Thomastown addresses. QRL is based in Carrick-on-Suir, Co. Tipperary and does not appear to serve Kilkenny."
+      },
+      "address_used": null,
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Tested Kilkenny city and south Kilkenny — neither served.",
+      "plans": []
+    },
+    {
+      "name": "Ray Whelan Limited",
+      "phone": "059 9147 680",
+      "website": "https://www.raywhelan.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (raywhelan.wis.ie) returned 'Location not served' for Kilkenny city address. Ray Whelan primarily serves Kildare and surrounding counties."
+      },
+      "address_used": null,
+      "service_notes": "Does not appear to serve Kilkenny county.",
+      "plans": []
+    },
+    {
+      "name": "AES Recycling",
+      "phone": "045 580 060",
+      "website": "https://www.aesrecycling.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Kilkenny city and Callan addresses. AES is based in Newbridge, Co. Kildare and does not appear to serve Kilkenny."
+      },
+      "address_used": null,
+      "service_notes": "Does not appear to serve Kilkenny county.",
+      "plans": []
+    },
+    {
+      "name": "Clean Ireland Recycling",
+      "phone": "1890 361 802",
+      "website": "https://www.cleanireland.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Clean Ireland serves Limerick, Clare and North Kerry. Kilkenny is outside their service area."
+      },
+      "address_used": null,
+      "service_notes": "Service area is Limerick, Clare and North Kerry only.",
+      "plans": []
+    },
+    {
+      "name": "Country Clean Recycling",
+      "phone": "022 468 49",
+      "website": "https://www.countryclean.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (countryclean.wis.ie) returned 'Location not served' for Kilkenny city and Thomastown addresses."
+      },
+      "address_used": null,
+      "service_notes": "Does not appear to serve Kilkenny county despite being listed.",
+      "plans": []
+    },
+    {
+      "name": "Doheny Wheelie Bins & Recycling Limited",
+      "phone": "056 772 9838",
+      "website": "https://www.dohenywheeliebins.com",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
+      },
+      "address_used": null,
+      "service_notes": "Kilkenny-based waste collector. Website inaccessible due to SSL certificate error.",
+      "plans": []
+    }
+  ]
+}

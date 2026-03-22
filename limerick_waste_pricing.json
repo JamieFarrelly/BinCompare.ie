@@ -1,0 +1,262 @@
+{
+  "county": "Limerick",
+  "scraped_date": "2026-03-21",
+  "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
+  "companies": [
+    {
+      "name": "KWD Recycling",
+      "phone": "1850 373 737",
+      "website": "https://www.kwd.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from kwd.ie/page96.php. KWD explicitly states it serves Kerry, West Cork and West Limerick."
+      },
+      "address_used": null,
+      "service_notes": "Fortnightly collection. Service and weight charge model — the less you weigh, the less you pay. Payment options: 12 months, 6 months, or monthly Easy Pay direct debit. Serves West Limerick.",
+      "plans": [
+        {
+          "name": "Option A (240L)",
+          "type": "monthly",
+          "price": 29.50,
+          "price_frequency": "monthly",
+          "household_size": "Households with more than 2 people or higher waste volumes",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€29.50/month (Easy Pay). Also available: €175 per 6 months or €340 per year. 240L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+        },
+        {
+          "name": "Option B (140L)",
+          "type": "monthly",
+          "price": 25.50,
+          "price_frequency": "monthly",
+          "household_size": "Households of 2 people or less / low waste volumes",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€25.50/month (Easy Pay). Also available: €150 per 6 months or €290 per year. 140L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+        }
+      ]
+    },
+    {
+      "name": "Mr Binman",
+      "phone": "061 351 132",
+      "website": "https://www.mrbinman.com",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ selecting Co. Limerick."
+      },
+      "address_used": null,
+      "service_notes": "Limerick is country area — organic bin is 25L (not 140L city size) for Xtralite and Lite plans. Household Standard plan includes 140L organic bin. Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. Glass caddy free. Text reminders provided.",
+      "plans": [
+        {
+          "name": "Household Standard",
+          "type": "monthly",
+          "price": 27.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 50,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.20,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. 300kg allowance per 6 months (~50kg/month). 240L waste, 240L recycling, 140L organic, 25L glass. €0.20/kg excess on waste."
+        },
+        {
+          "name": "Pay Per Lift (Xtralite)",
+          "type": "pay_by_lift",
+          "price": 6.05,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 20,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.20,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": 0.10,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country 25L rate). Glass free. Min account credit €12."
+        },
+        {
+          "name": "Lite",
+          "type": "pay_by_lift",
+          "price": 9.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 25,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€9.50/mo service charge + €9.50/lift waste (240L, 25kg) + €4.00/lift recycling (240L, 15kg) + €3.00/lift organic (country 25L rate). Glass free. Min account credit €13."
+        }
+      ]
+    },
+    {
+      "name": "Panda Green",
+      "phone": "01 8298992",
+      "website": "https://www.panda.ie/household/",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Panda signup flow returned 'no available price options' for Limerick address."
+      },
+      "address_used": null,
+      "service_notes": "Does not serve Limerick.",
+      "plans": []
+    },
+    {
+      "name": "AES Recycling",
+      "phone": "045 580 060",
+      "website": "https://www.aesrecycling.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from aesirl.wis.ie/residential for 1 O'Connell Street, Limerick (V94 CD78). Location confirmed served with price_group_ids=1."
+      },
+      "address_used": "1 O'Connell Street, Limerick",
+      "service_notes": "Fortnightly collections. 12-month contract applies (€50 cancellation fee within 12 months). €50 prepayment required to open account. Glass bin included where available. All plans include 240L waste, 240L recycling, 140L compost, 140L glass.",
+      "plans": [
+        {
+          "name": "AES Lite",
+          "type": "monthly",
+          "price": 24.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.30,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€24/month. 30kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+        },
+        {
+          "name": "AES Smart",
+          "type": "monthly",
+          "price": 27.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.30,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€27/month. 40kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+        },
+        {
+          "name": "AES Plus",
+          "type": "monthly",
+          "price": 32.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.30,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€32/month. 60kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+        },
+        {
+          "name": "Pay by Lift",
+          "type": "pay_by_lift",
+          "price": 15.20,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.30,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€15.20/mo service charge + €15.60/lift waste (up to 60kg, €0.30/kg over limit) + €8/lift recycling + €6.60/lift compost + €5.50/lift glass (quarterly service). Best for light use or small households."
+        }
+      ]
+    },
+    {
+      "name": "Clean Ireland Recycling",
+      "phone": "1890 361 803",
+      "website": "https://www.cleanireland.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland explicitly serves Limerick, Clare, and North Kerry (same pricing across service area)."
+      },
+      "address_used": null,
+      "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months. Glass collection included in certain areas (every 2 months).",
+      "plans": [
+        {
+          "name": "Household Pay-by-Weight",
+          "type": "pay_by_weight",
+          "price": 25.80,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste, and glass collection (where available)."
+        }
+      ]
+    },
+    {
+      "name": "Country Clean Recycling Unlimited Company",
+      "phone": "022 468 51",
+      "website": "https://www.countryclean.ie",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "WIS portal (countryclean.wis.ie) returned 'Location not served' for Limerick city address (V94 CD78)."
+      },
+      "address_used": null,
+      "service_notes": "Does not appear to serve Limerick county.",
+      "plans": []
+    },
+    {
+      "name": "Higgins Waste & Recycling Services Ltd",
+      "phone": "066 7123 059",
+      "website": "https://www.higginswaste.com",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Website unreachable (ERR_CONNECTION_TIMED_OUT) for both higginswaste.com and higginswaste.com/domestic. No pricing could be retrieved."
+      },
+      "address_used": null,
+      "service_notes": "Limerick-based waste collector. Website has been persistently unreachable — may be temporarily down or no longer active.",
+      "plans": []
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "county": "Clare",
+  "scraped_date": "2026-03-21",
+  "source": "mywaste.ie + individual company websites",
+  "companies": [
+    {
+      "name": "Mr Binman",
+      "phone": "061 351 127",
+      "website": "https://www.mrbinman.com",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Clare (Mid West region). 'City' vs 'country' rates apply — Clare is likely country rates."
+      },
+      "address_used": null,
+      "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City and country organic rates differ. Glass caddy free. Text reminders provided.",
+      "plans": [
+        {
+          "name": "Household Standard",
+          "type": "monthly",
+          "price": 27.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 50,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.20,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. €30 discount if paying by direct debit."
+        },
+        {
+          "name": "Pay Per Lift (Xtralite)",
+          "type": "pay_by_lift",
+          "price": 6.05,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 20,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.20,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": 0.10,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Min account credit €12."
+        },
+        {
+          "name": "Lite",
+          "type": "pay_by_lift",
+          "price": 9.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 25,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null
+        },
+        {
+          "name": "TerraUrban",
+          "type": "monthly",
+          "price": 27.25,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€30 discount if paying by direct debit."
+        }
+      ]
+    },
+    {
+      "name": "Barna Recycling",
+      "phone": "091 771 621",
+      "website": "https://www.barnarecycling.com",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "No public pricing on website. Pricing managed through customer portal (cportal.barnarecycling.com) — requires account login."
+      },
+      "address_used": null,
+      "service_notes": "Primarily serves Connacht counties and parts of Munster. Online account management via customer portal.",
+      "plans": []
+    },
+    {
+      "name": "AES Recycling",
+      "phone": "045 580 060",
+      "website": "https://www.aesrecycling.ie/",
+      "pricing_available": true,
+      "confidence": {
+        "level": "medium",
+        "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Clare."
+      },
+      "address_used": null,
+      "service_notes": "Multi-county operator. Plans based on weight allowance.",
+      "plans": [
+        {
+          "name": "Lite",
+          "type": "monthly",
+          "price": 23.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate."
+        },
+        {
+          "name": "Smart",
+          "type": "monthly",
+          "price": 26.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate."
+        },
+        {
+          "name": "Plus",
+          "type": "monthly",
+          "price": 33.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate."
+        },
+        {
+          "name": "Pay by Lift",
+          "type": "pay_by_lift",
+          "price": 15.20,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Exact per-lift rates not confirmed for Clare."
+        }
+      ]
+    },
+    {
+      "name": "Clean Ireland Recycling",
+      "phone": "1890 361 800",
+      "website": "https://www.cleanireland.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland serves Limerick, Clare, and North Kerry."
+      },
+      "address_used": null,
+      "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months.",
+      "plans": [
+        {
+          "name": "Household Pay-by-Weight",
+          "type": "pay_by_weight",
+          "price": 154.82,
+          "price_frequency": "6_monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
