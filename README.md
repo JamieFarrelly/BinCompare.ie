@@ -18,7 +18,7 @@ README.md                       ← This file
 
 ## Why waste_data.js exists
 
-The browser can't read local JSON files without a web server. `waste_data.js` bundles all 26 JSONs into a single `const COUNTY_DATA = {...}` variable loaded via `<script>` tag. This means the site works when opened directly from the filesystem (double-click `index.html`).
+The browser can't reliably read local JSON files without a web server. `waste_data.js` bundles all 26 JSONs into a single `const COUNTY_DATA = {...}` variable loaded via `<script>` tag. This means the site works when opened directly from the filesystem (double-click `index.html`).
 
 **Rebuild command** (run after ANY JSON change):
 
