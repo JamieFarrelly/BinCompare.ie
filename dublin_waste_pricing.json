@@ -334,7 +334,7 @@
         "reason": "Pricing confirmed via WIS portal for Dublin 22 (Clondalkin area)."
       },
       "address_used": "Clondalkin, Dublin 22",
-      "service_notes": "Based in Saggart, Co. Dublin (D24). Confirmed serving D22 area. Coverage may not extend across all Dublin postcodes.",
+      "service_notes": "Based in Saggart, Co. Dublin (D24). Confirmed serving D22 area. Coverage may not extend across all Dublin Eircodes.",
       "plans": [
         {
           "name": "2025 Light Plan",
