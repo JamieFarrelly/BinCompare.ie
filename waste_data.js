@@ -1,5 +1,5 @@
 const COUNTY_DATA = {
-"Carlow": {
+"carlow": {
   "county": "Carlow",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites/signup portals",
@@ -196,7 +196,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Cavan": {
+"cavan": {
   "county": "Cavan",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -521,7 +521,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Clare": {
+"clare": {
   "county": "Clare",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
@@ -728,7 +728,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Cork": {
+"cork": {
   "county": "Cork",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -997,7 +997,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Donegal": {
+"donegal": {
   "county": "Donegal",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and Panda signup flow",
@@ -1246,7 +1246,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Dublin": {
+"dublin": {
   "county": "Dublin",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites + Panda API",
@@ -1687,7 +1687,7 @@ const COUNTY_DATA = {
           "type": "monthly",
           "price": 23.00,
           "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -1698,7 +1698,7 @@ const COUNTY_DATA = {
           "type": "monthly",
           "price": 26.00,
           "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -1709,7 +1709,7 @@ const COUNTY_DATA = {
           "type": "monthly",
           "price": 32.00,
           "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
           "waste_allowance_kg": 90,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -1720,7 +1720,7 @@ const COUNTY_DATA = {
           "type": "pay_by_lift",
           "price": 15.20,
           "price_frequency": "per_lift",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": ["general_waste", "recycling", "compost", "glass"],
           "waste_allowance_kg": null,
           "excess_charge_per_kg": null,
           "notes": "Per-lift charge. No monthly commitment."
@@ -1769,7 +1769,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Galway": {
+"galway": {
   "county": "Galway",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
@@ -2135,7 +2135,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Kerry": {
+"kerry": {
   "county": "Kerry",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
@@ -2306,7 +2306,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Kildare": {
+"kildare": {
   "county": "Kildare",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
@@ -2708,7 +2708,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Kilkenny": {
+"kilkenny": {
   "county": "Kilkenny",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
@@ -3007,7 +3007,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Laois": {
+"laois": {
   "county": "Laois",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
@@ -3370,7 +3370,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Leitrim": {
+"leitrim": {
   "county": "Leitrim",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
@@ -3570,7 +3570,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Limerick": {
+"limerick": {
   "county": "Limerick",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
@@ -3833,7 +3833,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Longford": {
+"longford": {
   "county": "Longford",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
@@ -4004,7 +4004,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Louth": {
+"louth": {
   "county": "Louth",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
@@ -4207,7 +4207,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Mayo": {
+"mayo": {
   "county": "Mayo",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
@@ -4449,7 +4449,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Meath": {
+"meath": {
   "county": "Meath",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
@@ -4856,7 +4856,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Monaghan": {
+"monaghan": {
   "county": "Monaghan",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
@@ -5037,7 +5037,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Offaly": {
+"offaly": {
   "county": "Offaly",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
@@ -5309,7 +5309,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Roscommon": {
+"roscommon": {
   "county": "Roscommon",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
@@ -5655,7 +5655,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Sligo": {
+"sligo": {
   "county": "Sligo",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
@@ -5906,7 +5906,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Tipperary": {
+"tipperary": {
   "county": "Tipperary",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Tipperary Town), aesirl.wis.ie (Parnell St, Thurles & Kickham St, Nenagh), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
@@ -6175,7 +6175,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Waterford": {
+"waterford": {
   "county": "Waterford",
   "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
@@ -6476,7 +6476,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Westmeath": {
+"westmeath": {
   "county": "Westmeath",
   "scraped_date": "2026-03-21",
   "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
@@ -6812,7 +6812,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Wexford": {
+"wexford": {
   "county": "Wexford",
   "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
@@ -7129,7 +7129,7 @@ const COUNTY_DATA = {
   ]
 }
 ,
-"Wicklow": {
+"wicklow": {
   "county": "Wicklow",
   "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
