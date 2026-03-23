@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Compare Bin Collection Prices Ireland 2026 - Cheapest Household Waste</title>
-<meta name="description" content="Compare household bin collection prices across all 26 Irish counties. Find the cheapest waste collection service in your area from 57+ providers. Updated monthly.">
+<meta name="description" content="Compare household bin collection prices across all 26 Irish counties in 2026. Find the cheapest waste collection service in your area from 57+ providers. Updated monthly.">
 <meta name="keywords" content="bin collection Ireland, waste collection prices, cheapest bins Ireland, household waste comparison, bin charges Ireland, wheelie bin prices, waste collector comparison, bin collection cost Dublin, bin collection cost Cork, bin collection cost Galway, mywaste Ireland, pay by weight bins, bin collection per county">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://bincompare.ie/">
@@ -322,6 +322,10 @@ footer a{color:#7fdba9;text-decoration:none}
   /* Compare tray */
   .ctray-bar{padding:10px 18px}
   .pip{bottom:14px;right:14px;padding:10px 16px;font-size:13px}
+  /* Touch targets */
+  .tico{width:40px;height:40px}
+  .plan-tip{width:22px;height:22px;font-size:10px}
+  .src-link{width:28px;height:28px}
   /* Filter pills in ctrl bar */
   .cpill{font-size:12px;padding:6px 12px}
   .ssort{font-size:12px}
@@ -523,9 +527,9 @@ footer a{color:#7fdba9;text-decoration:none}
   <div class="nores" id="nr">No companies found for this county. Try <a href="https://www.mywaste.ie" target="_blank">mywaste.ie</a> for your Eircode.</div>
 </main>
 <div id="ptip"></div>
-<button class="pip" id="pip">&#9878; Compare <span class="pipcnt" id="pipcnt">0</span></button>
+<button class="pip" id="pip" aria-label="Open compare tray, 0 providers selected">&#9878; Compare <span class="pipcnt" id="pipcnt">0</span></button>
 <div class="ctray" id="ctray">
-  <div class="ctray-bar" id="ctrayBar">
+  <div class="ctray-bar" id="ctrayBar" role="button" tabindex="0" aria-expanded="false" aria-controls="trayBody" aria-label="Compare tray — click to expand">
     <div class="ctray-bar-l">
       <span class="ctray-bar-title">&#9878; Compare</span>
       <div class="ctray-avatars" id="trayAvatars"></div>
@@ -715,8 +719,12 @@ const companies = buildCompanies();
 // ── QUIZ STATE ──
 let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly' };
 let aSort = 'relevance';
-let compareList = [];
+let compareList = (function() { try { const s = localStorage.getItem('bc_compare'); return s ? JSON.parse(s) : []; } catch(e) { return []; } })();
 let trayOpen = false;
+
+function saveCompare() {
+  try { localStorage.setItem('bc_compare', JSON.stringify(compareList)); } catch(e) {}
+}
 
 // ── COST CALCULATION ──
 function normalizeAllowanceToMonthly(plan) {
@@ -1076,9 +1084,9 @@ function cardHtml(c, idx, topScore) {
     + esc(c.coverage) + ' ' + confBadge(c) + '</div>'
     + '</div></div>'
     + '<div class="chr2"><div class="pf' + (!cheapest && !noCountyPricing ? ' pf-noest' : '') + '">' + priceHtml + estHtml + (!cheapest && !noCountyPricing ? '<div class="noest-tip">' + noestTip + '</div>' : '') + '</div>'
-    + '<button class="tico"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>'
+    + '<button class="tico" id="' + cid + '-btn" aria-expanded="false" aria-controls="' + cid + '-panel" aria-label="Show details for ' + esc(c.name) + '"><svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></button>'
     + '</div></div>'
-    + '<div class="pwrap">'
+    + '<div class="pwrap" id="' + cid + '-panel">'
     + (plans.length ? '<div class="ptab-wrap"><table class="ptab"><thead><tr><th>Plan</th><th>Price</th><th>' + (allPayg ? 'Rate info' : 'Est. for you') + '</th><th>Bins</th><th>Allowance</th><th>Excess</th></tr></thead><tbody>'
       + [...plans].sort((a, b) => {
         const ea = calcPlanCost(a), eb = calcPlanCost(b);
@@ -1170,7 +1178,12 @@ function cardHtml(c, idx, topScore) {
     + '</div>';
 
   // Event listeners
-  card.querySelector('.chdr').addEventListener('click', () => card.classList.toggle('open'));
+  card.querySelector('.chdr').addEventListener('click', () => {
+    const open = card.classList.toggle('open');
+    const btn = card.querySelector('.tico');
+    btn.setAttribute('aria-expanded', open);
+    btn.setAttribute('aria-label', (open ? 'Hide' : 'Show') + ' details for ' + c.name);
+  });
   const cmpBtn = card.querySelector('.cmpbtn');
   if (cmpBtn && !cmpFull) cmpBtn.addEventListener('click', e => { e.stopPropagation(); addCmp(c.name); });
 
@@ -1277,6 +1290,7 @@ function _render() {
 function addCmp(name) {
   if (compareList.includes(name)) compareList = compareList.filter(n => n !== name);
   else if (compareList.length < 3) compareList.push(name);
+  saveCompare();
   renderTray(); render();
   if (compareList.length > 0 && !trayOpen) openTray();
   if (compareList.length === 0) closeTray();
@@ -1288,6 +1302,9 @@ function openTray() {
   document.getElementById('trayTog').textContent = '\u25bc collapse';
   document.getElementById('pip').classList.remove('show');
   document.body.style.paddingBottom = '360px';
+  const bar = document.getElementById('ctrayBar');
+  bar.setAttribute('aria-expanded', 'true');
+  bar.setAttribute('aria-label', 'Compare tray \u2014 click to collapse');
 }
 
 function closeTray() {
@@ -1295,15 +1312,23 @@ function closeTray() {
   document.getElementById('ctray').classList.remove('open');
   document.getElementById('pip').classList.toggle('show', compareList.length > 0);
   document.body.style.paddingBottom = '';
+  const bar = document.getElementById('ctrayBar');
+  bar.setAttribute('aria-expanded', 'false');
+  bar.setAttribute('aria-label', 'Compare tray \u2014 click to expand');
 }
 
 document.getElementById('ctrayBar').addEventListener('click', () => { if (trayOpen) closeTray(); else openTray(); });
-document.getElementById('trayClr').addEventListener('click', e => { e.stopPropagation(); compareList = []; renderTray(); render(); closeTray(); });
+document.getElementById('ctrayBar').addEventListener('keydown', e => {
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (trayOpen) closeTray(); else openTray(); }
+});
+document.getElementById('trayClr').addEventListener('click', e => { e.stopPropagation(); compareList = []; saveCompare(); renderTray(); render(); closeTray(); });
 document.getElementById('pip').addEventListener('click', openTray);
 
 function renderTray() {
   document.getElementById('pipcnt').textContent = compareList.length;
-  if (!trayOpen) document.getElementById('pip').classList.toggle('show', compareList.length > 0);
+  const pipBtn = document.getElementById('pip');
+  pipBtn.setAttribute('aria-label', 'Open compare tray, ' + compareList.length + ' provider' + (compareList.length !== 1 ? 's' : '') + ' selected');
+  if (!trayOpen) pipBtn.classList.toggle('show', compareList.length > 0);
 
   // Update bar avatars
   const avEl = document.getElementById('trayAvatars');
@@ -1365,7 +1390,7 @@ function renderTray() {
       + '<div class="tcol-hdr">'
       + '<div class="tcol-icon" style="background:' + col + '">' + c.name[0] + '</div>'
       + '<span class="tcol-name">' + esc(c.name) + '</span>'
-      + '<button class="tcol-rm" data-rm="' + esc(c.name) + '">&times;</button>'
+      + '<button class="tcol-rm" data-rm="' + esc(c.name) + '" aria-label="Remove ' + esc(c.name) + ' from comparison">&times;</button>'
       + '</div>'
       + costSection
       + binsRow
@@ -1384,6 +1409,22 @@ function renderTray() {
 // ── PLAN TIP TOOLTIP ──
 (function() {
   const tip = document.getElementById('ptip');
+  let tipSource = null;
+
+  function showTip(text, x, y) {
+    tip.textContent = text;
+    tip.classList.add('show');
+    const pad = 12;
+    const tw = tip.offsetWidth || 220;
+    const th = tip.offsetHeight || 40;
+    if (x + tw + pad > window.innerWidth) x = Math.max(pad, x - tw - pad * 2);
+    if (y < pad) y = pad;
+    if (y + th + pad > window.innerHeight) y = window.innerHeight - th - pad;
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  }
+
+  // Mouse: hover to show
   document.addEventListener('mouseover', function(e) {
     const el = e.target.closest('.plan-tip');
     if (!el) return;
@@ -1400,20 +1441,32 @@ function renderTray() {
     if (!e.target.closest('.plan-tip')) return;
     tip.classList.remove('show');
   });
-  // Touch support for mobile
-  document.addEventListener('touchstart', function(e) {
+
+  // Touch/click: tap to toggle tooltip (mobile fallback)
+  document.addEventListener('click', function(e) {
     const el = e.target.closest('.plan-tip');
-    if (!el) { tip.classList.remove('show'); return; }
-    e.preventDefault();
+    if (!el) {
+      if (tip.classList.contains('show') && tipSource) {
+        tip.classList.remove('show');
+        tipSource = null;
+      }
+      return;
+    }
+    e.stopPropagation();
+    if (tipSource === el && tip.classList.contains('show')) {
+      tip.classList.remove('show');
+      tipSource = null;
+      return;
+    }
     tip.textContent = el.dataset.tip || '';
     tip.classList.add('show');
+    tipSource = el;
     positionTipFromElement(el);
-  }, {passive: false});
+  });
   function positionTip(e) {
     const pad = 12;
     let x = e.clientX + pad;
     let y = e.clientY - tip.offsetHeight / 2;
-    // Keep within viewport
     if (x + tip.offsetWidth + pad > window.innerWidth) x = e.clientX - tip.offsetWidth - pad;
     if (y < pad) y = pad;
     if (y + tip.offsetHeight + pad > window.innerHeight) y = window.innerHeight - tip.offsetHeight - pad;
@@ -1448,6 +1501,11 @@ function renderTray() {
   quiz.kgBlack = getAvgKg(1);
   updateSlider();
   render();
+  // Restore compare tray state from localStorage
+  if (compareList.length > 0) {
+    renderTray();
+    document.getElementById('pip').classList.add('show');
+  }
 })();
 
 // ── CONTACT TOGGLE ──
