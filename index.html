@@ -1400,6 +1400,15 @@ function renderTray() {
     if (!e.target.closest('.plan-tip')) return;
     tip.classList.remove('show');
   });
+  // Touch support for mobile
+  document.addEventListener('touchstart', function(e) {
+    const el = e.target.closest('.plan-tip');
+    if (!el) { tip.classList.remove('show'); return; }
+    e.preventDefault();
+    tip.textContent = el.dataset.tip || '';
+    tip.classList.add('show');
+    positionTipFromElement(el);
+  }, {passive: false});
   function positionTip(e) {
     const pad = 12;
     let x = e.clientX + pad;
@@ -1408,6 +1417,22 @@ function renderTray() {
     if (x + tip.offsetWidth + pad > window.innerWidth) x = e.clientX - tip.offsetWidth - pad;
     if (y < pad) y = pad;
     if (y + tip.offsetHeight + pad > window.innerHeight) y = window.innerHeight - tip.offsetHeight - pad;
+    tip.style.left = x + 'px';
+    tip.style.top = y + 'px';
+  }
+  function positionTipFromElement(el) {
+    const pad = 8;
+    const rect = el.getBoundingClientRect();
+    // Measure off-screen to get actual dimensions
+    tip.style.left = '-9999px';
+    tip.style.top = '0px';
+    const tipW = tip.offsetWidth;
+    const tipH = tip.offsetHeight;
+    // Center horizontally on the icon, prefer below, fall back to above
+    let x = rect.left + rect.width / 2 - tipW / 2;
+    let y = rect.bottom + pad;
+    if (y + tipH + pad > window.innerHeight) y = rect.top - tipH - pad;
+    x = Math.max(pad, Math.min(x, window.innerWidth - tipW - pad));
     tip.style.left = x + 'px';
     tip.style.top = y + 'px';
   }
