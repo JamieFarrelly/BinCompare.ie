@@ -13,6 +13,7 @@
         "reason": "Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Naas, Co. Kildare — Kildare Urban plans confirmed."
       },
       "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Pay By Weight option suited for light waste producers. Monthly, quarterly, half-yearly and annual billing available.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Prices retrieved from Ray Whelan WIS portal (raywhelan.wis.ie) for Naas, Co. Kildare."
       },
       "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Carlow, Laois, Kildare and Kilkenny. Alternate weekly collection. Initial account credit required on signup. All plans include 240L waste, 240L recycling, and 140L compost (where available).",
       "plans": [
         {
@@ -153,6 +155,7 @@
         "reason": "Pricing retrieved directly from thorntons-recycling.ie/household/. Thorntons serves Kildare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.",
       "plans": [
         {
@@ -215,6 +218,7 @@
         "reason": "Pricing retrieved directly from greyhound.ie/bin-collection-dublin/. Greyhound serves Dublin and Kildare; Kildare-specific rates confirmed."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste €0.30/kg.",
       "plans": [
         {
@@ -277,6 +281,7 @@
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Kildare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator including Kildare. Plans based on weight allowance.",
       "plans": [
         {
@@ -355,6 +360,7 @@
         "reason": "Panda signup flow returned no available price options for Naas, Co. Kildare address. Service not available in Kildare."
       },
       "address_used": "1 North Main Street, Naas, Co. Kildare",
+      "pricing_method": null,
       "service_notes": "Panda does not appear to serve Co. Kildare.",
       "plans": []
     },
@@ -368,6 +374,7 @@
         "reason": "Serves very limited areas of Kildare. No pricing available online - contact directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves very limited areas of Kildare. Contact them directly to check if your area is covered.",
       "plans": []
     },
@@ -381,6 +388,7 @@
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Naas, Co. Kildare."
       },
       "address_used": "Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Cavan, Dublin.",
       "plans": [
         {

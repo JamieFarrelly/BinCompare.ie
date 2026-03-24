@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from mulleadys.com/household.html. Mulleadys explicitly serves Longford, Leitrim, Roscommon and Westmeath."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Payment due 1st of each month. One-time bin rental fee of €60 applies. Fair usage policy — surcharges may apply for excessive weights. WIS account portal: mulleadys.wis.ie.",
       "plans": [
         {
@@ -74,7 +75,8 @@
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Leitrim' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Leitrim (county dropdown)",
+      "pricing_method": "county_dropdown",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Leitrim. Plans include both fixed and pay-by-weight options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -153,6 +155,7 @@
         "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Carrick-on-Shannon, Co. Leitrim."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Leitrim.",
       "plans": []
     },
@@ -166,6 +169,7 @@
         "reason": "Panda signup flow returned 'no available price options' for Carrick-on-Shannon, Co. Leitrim."
       },
       "address_used": "Bridge Street, Carrick-On-Shannon, Co. Leitrim",
+      "pricing_method": null,
       "service_notes": "Does not serve Leitrim.",
       "plans": []
     },
@@ -179,6 +183,7 @@
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -192,6 +197,7 @@
         "reason": "No pricing found on website. Bin sizes listed but no costs published. Customers directed to contact directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Bi-weekly collection. Pay as You Go option available. No pricing published online.",
       "plans": []
     }

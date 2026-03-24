@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for Main Street, Wexford Town. Plans confirmed. PPL per-lift weight limits not published for Wexford (blank in modal)."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Wexford. Unlimited recycling and compost on flat plans. No glass bin (glass icon shown in UI but allowance is blank). Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wexford.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Pricing retrieved from aesirl.wis.ie for Main Street, Wexford Town (price_group_ids=1). Also confirmed for Enniscorthy, New Ross and Gorey. Serves all of Co. Wexford. Note: AES Smart is €27/month for Wexford, unlike most other counties where it is €26/month."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves all of Co. Wexford. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area. AES Smart plan is €27/month in Wexford (€26 in other counties).",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Pricing retrieved from raywhelan.wis.ie for Main Street, Wexford Town (price_group_ids=1). Also confirmed for Enniscorthy, New Ross and Gorey. Serves all of Co. Wexford. Carlow-based operator explicitly listing Wexford on their website."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "wis_portal",
       "service_notes": "Carlow-based operator serving Carlow, Laois, Kildare, Kilkenny, Wicklow and Wexford. Alternate weekly collection (effectively fortnightly). Initial account setup requires €48 (flat plan) or €50 (Pay By Weight / Pay By Lift) upfront payment which acts as account credit. Minimum €10 credit required at all times on Pay By Weight and Pay By Lift plans.",
       "plans": [
         {
@@ -231,6 +234,7 @@
         "reason": "Pricing retrieved from qrl.wis.ie for New Ross, Co. Wexford (price_group_ids=1). However Wexford Town, Enniscorthy and Gorey all returned price_group_ids=0. QRL serves South Wexford (New Ross area) which borders their core Waterford/South Tipperary service area."
       },
       "address_used": "New Ross, Co. Wexford",
+      "pricing_method": "wis_portal",
       "service_notes": "South East operator based in Carrick-on-Suir, Co. Tipperary. Serves South Wexford (New Ross area) only — does NOT serve Wexford Town, Enniscorthy or Gorey. Fortnightly collections. Free collection reminder texts. 2 months FREE introductory offer on flat plans.",
       "plans": [
         {
@@ -309,6 +313,7 @@
         "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for all Wexford addresses tried: Wexford Town, Enniscorthy, New Ross, Gorey. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Wexford.",
       "plans": []
     }

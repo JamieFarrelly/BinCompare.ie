@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/residential for Main St, Longford (N39 F0P8). Location confirmed served. Three plans available including a Longford-specific plan."
       },
       "address_used": "Main Street, Longford (N39 F0P8)",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before service commencement. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost.",
       "plans": [
         {
@@ -75,6 +76,7 @@
         "reason": "Pricing retrieved directly from mulleadys.com/household.html. Mulleadys explicitly serves Longford, Leitrim, Roscommon and Westmeath."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Payment due 1st of each month. One-time bin rental fee of €60 applies. Fair usage policy — surcharges may apply for excessive weights. WIS account portal: mulleadys.wis.ie.",
       "plans": [
         {
@@ -137,6 +139,7 @@
         "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Main St, Longford (N39 F0P8)."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Longford county.",
       "plans": []
     },
@@ -150,6 +153,7 @@
         "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Main St, Longford (N39 F0P8)."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Longford county.",
       "plans": []
     },
@@ -163,6 +167,7 @@
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "No website available for this company. Contact by phone for pricing and availability.",
       "plans": []
     }

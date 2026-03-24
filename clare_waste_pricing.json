@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Clare (Mid West region). 'City' vs 'country' rates apply — Clare is likely country rates."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City and country organic rates differ. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Clare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator. Plans based on weight allowance.",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland serves Limerick, Clare, and North Kerry."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months (€154.82). Glass collection included in certain areas (every 2 months).",
       "plans": [
         {

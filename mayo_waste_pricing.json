@@ -12,7 +12,8 @@
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup_page2.php selecting 'Co Mayo' as service area and Castlebar as locality."
       },
-      "address_used": null,
+      "address_used": "Co. Mayo, Castlebar (county dropdown)",
+      "pricing_method": "county_dropdown",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Mayo. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Castlebar, Co. Mayo. Plans are specific to Mayo (different pricing from other counties)."
       },
       "address_used": "1 Main Street, Castlebar, Co. Mayo",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Mayo. Compost rollout ongoing in rural areas — if not yet available at address, customer will be notified. Unlimited recycling on flat plans.",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Domestic page (mcgrathwaste.ie/domestic/) shows only an area search tool and 'Request a Quote' — no pricing published online."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves Mayo and Sligo. No online pricing — customers must request a quote by phone or through website.",
       "plans": []
     },
@@ -182,6 +185,7 @@
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -195,6 +199,7 @@
         "reason": "No pricing published on website. Customers directed to contact the company directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves South Mayo and parts of Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
       "plans": []
     },
@@ -208,6 +213,7 @@
         "reason": "Website at bourkewaste.ie/household-wheelie-bins/ lists plan structures (A1-A6 pay-by-weight, B1-B4 fixed price) with weight allowances but no prices — a quote is required."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Based in Westport, Co. Mayo. Offers multiple pay-by-weight and fixed-price plans (A1-A6 and B1-B4). Organic bin subject to area availability. Actual monthly prices are not published online — contact 098 26882 or info@bourkewaste.ie for a quote.",
       "plans": []
     }

@@ -13,6 +13,7 @@
         "reason": "Prices retrieved directly from mulleadys.com/household.html — county-specific plans listed."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "One-time bin setup fee of €60 (non-refundable). All bins collected fortnightly. Food service available in designated areas only. Serves Cavan, Leitrim, Longford, Roscommon, Westmeath.",
       "plans": [
         {
@@ -75,6 +76,7 @@
         "reason": "Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Main Street, Cavan — Cavan-specific plans confirmed."
       },
       "address_used": "Main Street, Cavan",
+      "pricing_method": "wis_portal",
       "service_notes": "All plans use fortnightly collection. Pay By Weight suited for very light waste producers. Bins are 240L (standard) or 140L (small).",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -182,6 +185,7 @@
         "reason": "Only 'from €21.16/month' starting price found on wiltonrecycling.ie. Full plan breakdown not publicly listed — detailed pricing requires signup or direct contact."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Offers pay-by-weight and pay-as-you-use options. 4 bins: 240L waste, 240L recycling, 25L organic, 140L glass. Waste/recycling/organics collected fortnightly, glass quarterly. Available in Co. Cavan.",
       "plans": [
         {
@@ -213,6 +217,7 @@
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Cavan, Ireland — location confirmed served."
       },
       "address_used": "Cavan, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Kildare, Dublin.",
       "plans": [
         {
@@ -291,6 +296,7 @@
         "reason": "No public pricing on website. Pricing managed through customer portal (cportal.barnarecycling.com) — requires account login."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Primarily serves Connacht counties. Online account management via customer portal.",
       "plans": []
     },
@@ -304,6 +310,7 @@
         "reason": "Pricing retrieved directly from bluedolphinrecycling.ie/wheelie-bins. Blue Dolphin is based in Smithborough, Co. Monaghan and serves both Cavan and Monaghan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Monaghan-based family business. Serves Cavan and Monaghan. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
       "plans": [
         {
@@ -350,6 +357,7 @@
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Cavan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator. Plans based on weight allowance.",
       "plans": [
         {

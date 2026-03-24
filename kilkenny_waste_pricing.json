@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste. Plans named by bin size.",
       "plans": [
         {
@@ -75,6 +76,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 High Street, Kilkenny."
       },
       "address_used": "1 High Street, Kilkenny",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Kilkenny. Compost rollout ongoing in rural areas — may not be available at all addresses. €0.25/kg excess on waste. Unlimited recycling and compost included in flat plans.",
       "plans": [
         {
@@ -153,6 +155,7 @@
         "reason": "Kilkenny County Council regulates waste collectors but does not directly provide household bin collection services. No collection pricing applicable."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Regulatory body only. Household waste collection in Kilkenny is provided by private operators.",
       "plans": []
     },
@@ -166,6 +169,7 @@
         "reason": "Pricing from oxigen.ie national pay-by-lift and pay-by-weight pages. Serves Cavan to Waterford including Kilkenny. Exact Kilkenny-specific rates may vary."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Serves Kilkenny as part of their south-east region (Cavan to Waterford, 100,000+ customers).",
       "plans": [
         {
@@ -213,6 +217,7 @@
         "reason": "Pricing retrieved directly from qrl.wis.ie/signup for Brenor, County Kilkenny — location confirmed served."
       },
       "address_used": "Brenor, County Kilkenny, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves south Kilkenny — note that not all areas of Kilkenny are covered; north and central parts of the county may not be served. Fortnightly collection. Free collection reminder texts. Introductory offer pricing.",
       "plans": [
         {
@@ -295,6 +300,7 @@
         "reason": "Ray Whelan confirms they serve Kilkenny (listed on raywhelan.ie alongside Carlow, Laois, Kildare, Wicklow, Wexford) but no pricing is published online."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves Kilkenny from Carlow base. No pricing published online - contact directly. Payment via direct debit, Payzone, online or phone.",
       "plans": []
     },
@@ -308,6 +314,7 @@
         "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Kilkenny city and Callan addresses. AES is based in Newbridge, Co. Kildare and does not appear to serve Kilkenny."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "No pricing information could be found online for this company, despite it being listed as a service provider for Kilkenny on mywaste.ie, Ireland's official government waste website. Contact them directly to confirm coverage.",
       "plans": []
     },
@@ -321,6 +328,7 @@
         "reason": "Clean Ireland serves Limerick, Clare and North Kerry. Kilkenny is outside their service area."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Service area is Limerick, Clare and North Kerry only.",
       "plans": []
     },
@@ -334,6 +342,7 @@
         "reason": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage.",
       "plans": []
     },
@@ -347,6 +356,7 @@
         "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Kilkenny-based waste collector. Website inaccessible due to SSL certificate error.",
       "plans": []
     }

@@ -2300,7 +2300,7 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Galway (county dropdown)",
       "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
       "plans": [
         {
@@ -3879,7 +3879,7 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Leitrim' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Leitrim (county dropdown)",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Leitrim. Plans include both fixed and pay-by-weight options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -4905,7 +4905,7 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup_page2.php selecting 'Co Mayo' as service area and Castlebar as locality."
       },
-      "address_used": null,
+      "address_used": "Co. Mayo, Castlebar (county dropdown)",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Mayo. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -6429,7 +6429,7 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Roscommon' as service area — plans confirmed available."
       },
-      "address_used": null,
+      "address_used": "Co. Roscommon (county dropdown)",
       "service_notes": "Serves Co. Roscommon. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -6732,7 +6732,7 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Sligo' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Sligo (county dropdown)",
       "service_notes": "Serves Co. Sligo with dedicated Sligo depot at Finisklin Road, Sligo. Plans include both pay-by-weight and fixed options. Sligo uses a 25L food caddy rather than full compost bin.",
       "plans": [
         {

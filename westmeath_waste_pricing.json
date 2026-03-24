@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved from oxigen.wis.ie. Athlone (N37 EY22) returned price_group_ids=1 and plans labelled 'Westmeath'. Mullingar (Dominick St) also returned price_group_ids=1. Full plans confirmed during Roscommon/Westmeath research."
       },
       "address_used": "Church Street, Athlone, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Co. Westmeath. Fortnightly collection. Plans named 'Westmeath' — distinct pricing zone. Weight allowances on waste bin; excess at €0.24/kg (3-bin) or €0.23/kg (Pay By Lift).",
       "plans": [
         {
@@ -107,6 +108,7 @@
         "reason": "Pricing retrieved from aesirl.wis.ie for Dominick Street, Mullingar (price_group_ids=1). Also confirmed for Athlone, Moate and Kilbeggan (all price_group_ids=1). Serves all of Co. Westmeath."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves all of Co. Westmeath. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area.",
       "plans": [
         {
@@ -185,6 +187,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for Dominick Street, Mullingar, Co. Westmeath. Unlimited recycling and compost on flat plans. PPL per-lift weight limits not published for Westmeath (blank in modal)."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Westmeath. Unlimited recycling and compost on flat plans. No glass bin (glass icon shown in UI but allowance is blank). Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Westmeath.",
       "plans": [
         {
@@ -263,6 +266,7 @@
         "reason": "Pricing retrieved from mulleadys.wis.ie for Dominick Street, Mullingar (price_group_ids=1). Also confirmed for Moate and Castlepollard. Athlone (Westmeath side) and Kilbeggan returned price_group_ids=0 — partial coverage of county."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Roscommon/Westmeath operator. Serves Mullingar, Moate, Castlepollard and surrounding areas. Does NOT serve Athlone (Westmeath side) or Kilbeggan. Weight allowances on all bins. Pay by Weight plan charges per kg with no fixed allowance. Minimum €7.50 credit required on Pay by Weight accounts.",
       "plans": [
         {

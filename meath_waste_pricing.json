@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1/2 Trimgate Street, Navan, Co. Meath. Plans are specific to Meath (different pricing from other counties)."
       },
       "address_used": "1/2 Trimgate Street, Navan, Co. Meath",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Meath. Unlimited recycling and compost on all flat-rate plans (no excess charge). Compost rollout ongoing in rural areas. Pay Per Lift service charge billed half-yearly.",
       "plans": [
         {
@@ -95,6 +96,7 @@
         "reason": "Pricing retrieved from oxigen.wis.ie for Kells, Co. Meath (A82 A272). price_group_ids=1. Navan (C15 Y8X5) returned empty — Kells was tried as an alternative address and confirmed served. Plans are labelled 'Cavan' in the system but returned for a Meath address, indicating shared pricing zone covering border areas."
       },
       "address_used": "Kells, Co. Meath (A82 A272)",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Kells area of Meath (and likely other parts). Fortnightly collection. Plans shared with Cavan pricing zone. Weight allowances on waste bin; excess charged at €0.24/kg.",
       "plans": [
         {
@@ -189,6 +191,7 @@
         "reason": "Meath is explicitly listed as a served county in thorntons-recycling.ie/household/customer-signup, with Meath-specific plan IDs (meath-24, meath-21, meath-52) and Meath-specific pricing. WIS portal (thorntons.wis.ie) remains unreachable but website confirms Meath service."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collection. No annual fee — new customers pay 2 months upfront. 1st month free for new customers.",
       "plans": [
         {
@@ -251,6 +254,7 @@
         "reason": "Pricing retrieved from alliedrecycling.wis.ie for Navan, Co. Meath. Meath-specific plans confirmed (labelled 'Standard Service' and 'Meath Value Saver')."
       },
       "address_used": "Navan, Co. Meath",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract, €50 cancellation fee. Min 3 months payment upfront. Bin delivery €30/bin.",
       "plans": [
         {
@@ -317,6 +321,7 @@
         "reason": "Pricing retrieved from aesirl.wis.ie for Kells, Co. Meath (A82 A272). price_group_ids=1. Navan (C15 Y8X5) returned empty — Kells confirmed served."
       },
       "address_used": "Kells, Co. Meath (A82 A272)",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Kells area and likely wider Meath. Fortnightly collections. 12-month contract, €50 cancellation fee. €50 prepayment to open account. Glass bin if available in area.",
       "plans": [
         {

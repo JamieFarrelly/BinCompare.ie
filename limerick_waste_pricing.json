@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from kwd.ie/page96.php. KWD explicitly states it serves Kerry, West Cork and West Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Service and weight charge model — the less you weigh, the less you pay. Payment options: 12 months, 6 months, or monthly Easy Pay direct debit. Serves West Limerick.",
       "plans": [
         {
@@ -59,6 +60,7 @@
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ selecting Co. Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Limerick is country area — organic bin is 25L (not 140L city size) for Xtralite and Lite plans. Household Standard plan includes 140L organic bin. Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -121,6 +123,7 @@
         "reason": "Panda signup flow returned 'no available price options' for Limerick address."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Limerick.",
       "plans": []
     },
@@ -134,6 +137,7 @@
         "reason": "Pricing retrieved directly from aesirl.wis.ie/residential for 1 O'Connell Street, Limerick (V94 CD78). Location confirmed served with price_group_ids=1."
       },
       "address_used": "1 O'Connell Street, Limerick",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract applies (€50 cancellation fee within 12 months). €50 prepayment required to open account. Glass bin included where available. All plans include 240L waste, 240L recycling, 140L compost, 140L glass.",
       "plans": [
         {
@@ -212,6 +216,7 @@
         "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland explicitly serves Limerick, Clare, and North Kerry (same pricing across service area)."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months. Glass collection included in certain areas (every 2 months).",
       "plans": [
         {
@@ -242,6 +247,7 @@
         "reason": "Pricing retrieved directly from higginswaste.ie/services/household-collection/."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Limerick (and Kerry). Fortnightly collection of all bins on the same day. Two plans available: Pay As You Go (weight-based) and Half-Yearly fixed billing. Bin set setup fee applies.",
       "plans": [
         {

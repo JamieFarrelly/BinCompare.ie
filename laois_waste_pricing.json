@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from oxigen.wis.ie/signup for Portlaoise, Co. Laois. Plans labelled 'Laois Offaly Urban'."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Weight allowances apply to black waste bin — excess charged at €0.24/kg. 2-bin plans include opt-out of brown bin (alternative food waste management required). Pay By Lift also available.",
       "plans": [
         {
@@ -107,6 +108,7 @@
         "reason": "Pricing retrieved directly from aesirl.wis.ie/signup for Portlaoise, Co. Laois."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. 12-month contract (€50 cancellation fee). €50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.",
       "plans": [
         {
@@ -185,6 +187,7 @@
         "reason": "Pricing retrieved directly from raywhelan.wis.ie/signup for Portlaoise, Co. Laois."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Alternate weekly collection (bins on a schedule). Compost/organic bin included where available. Initial deposit required. Bins delivered within 5-7 working days.",
       "plans": [
         {
@@ -247,6 +250,7 @@
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste.",
       "plans": [
         {
@@ -309,6 +313,7 @@
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ for Portlaoise, Co. Laois. Laois is a country (rural) area — country rates apply."
       },
       "address_used": "1 Lyster Square, Portlaoise, Co. Laois",
+      "pricing_method": "signup_flow",
       "service_notes": "Fortnightly collection. Only Pay Per Lift (Xtralite) and TerraUrban plans available in Laois — Household Standard and Lite plans are not offered. Country rates apply: 25L organic bin at €2.50/lift.",
       "plans": [
         {
@@ -355,6 +360,7 @@
         "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Website inaccessible due to SSL certificate error.",
       "plans": []
     }

@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from kwd.ie. KWD primarily serves Cork county."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Two plan options based on bin size. Fortnightly collection.",
       "plans": [
         {
@@ -59,6 +60,7 @@
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Cork (city rates apply in urban Cork)."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City rates apply in Cork city; country rates in rural areas. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -137,6 +139,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for Cork city address. Cork is an urban zone with higher pricing than rural areas."
       },
       "address_used": "37 Saint Patrick's Street, Cork",
+      "pricing_method": "signup_flow",
       "service_notes": "All plans include glass bin collection in Cork (urban zone). Pay per lift available. €0.25/kg excess charge applies to all bins.",
       "plans": [
         {
@@ -215,6 +218,7 @@
         "reason": "Pricing retrieved directly from wiserbins.wis.ie for Cork city address. Location confirmed as served."
       },
       "address_used": "St Patrick's St, Centre, Cork, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Monthly, quarterly, and half-yearly billing available. Standard bin allocation: 240L waste, 360L recycling, 240L food bin.",
       "plans": [
         {
@@ -261,6 +265,7 @@
         "reason": "Pricing retrieved directly from countryclean.ie/webclient/splashpage."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Cork county. Urban and rural plan options. Initial payment must be made directly to their office. Minimum 2 months payment required. Monthly billing thereafter via direct debit, Post Office, or online. Bins include glass bin on urban plans.",
       "plans": [
         {

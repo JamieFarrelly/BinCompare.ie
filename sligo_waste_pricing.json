@@ -216,7 +216,7 @@
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Sligo' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Sligo (county dropdown)",
       "service_notes": "Serves Co. Sligo with dedicated Sligo depot at Finisklin Road, Sligo. Plans include both pay-by-weight and fixed options. Sligo uses a 25L food caddy rather than full compost bin.",
       "plans": [
         {

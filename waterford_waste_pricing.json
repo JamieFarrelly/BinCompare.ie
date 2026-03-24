@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for Barronstrand Street, Waterford City. Plans confirmed for Co. Waterford. PPL per-lift weight limits not published by Panda for Waterford (all blank in modal)."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Waterford. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Waterford.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Pricing retrieved from oxigen.wis.ie for Barronstrand Street, Waterford City (price_group_ids=1). Plans labelled 'Waterford'. No Pay By Lift option available for Waterford (not shown in residential plans)."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Co. Waterford. Fortnightly collection. Weight allowances on waste bin; excess at €0.24/kg. No Pay By Lift plan available for Waterford. 2 months FREE signup offer.",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Pricing retrieved from qrl.wis.ie for Barronstrand Street, Waterford City (price_group_ids=1). Company website explicitly states service area includes Waterford City and County and South Tipperary."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "wis_portal",
       "service_notes": "South East operator based in Carrick-on-Suir, Co. Tipperary. Serves Waterford City and County and South Tipperary. Fortnightly collections. Free collection reminder texts. 2 months FREE introductory offer on flat plans. No weight allowances specified on flat plans.",
       "plans": [
         {
@@ -247,6 +250,7 @@
         "reason": "Pricing retrieved from wiserbins.wis.ie for Tallow, Co. Waterford (price_group_ids=1). Wiser serves West Waterford only — Waterford City, Dungarvan, Tramore, Lismore, Cappoquin all returned price_group_ids=0. Only Tallow and Ardmore (far west) confirmed served."
       },
       "address_used": "Tallow, Co. Waterford",
+      "pricing_method": "wis_portal",
       "service_notes": "Cork-based operator. Serves West Waterford only (Tallow, Ardmore area confirmed). Does NOT serve Waterford City, Dungarvan, Tramore, Lismore or Cappoquin. Fortnightly collection. Contact office on 021-4630601 for different bin sizes.",
       "plans": [
         {
@@ -293,6 +297,7 @@
         "reason": "AES WIS portal (aesirl.wis.ie) returned price_group_ids=0 for both Waterford City and Dungarvan. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Waterford.",
       "plans": []
     }

@@ -292,7 +292,7 @@
         "level": "high",
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
       },
-      "address_used": null,
+      "address_used": "Co. Galway (county dropdown)",
       "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
       "plans": [
         {

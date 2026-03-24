@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Tipperary Town. Unlimited recycling and compost allowances on flat plans."
       },
       "address_used": "1 Main Street, Tipperary Town",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Tipperary. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
       "plans": [
         {
@@ -91,6 +92,7 @@
         "reason": "Pricing retrieved from aesirl.wis.ie for Parnell St, Thurles (price_group_ids=1) and Kickham St, Nenagh (price_group_ids=1). Note: Clonmel area returned 0 — AES serves North/Mid Tipperary but not South Tipperary (Clonmel area)."
       },
       "address_used": "Parnell St, Thurles, Co. Tipperary",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves North and Mid Tipperary (including Thurles, Nenagh). Does not appear to serve South Tipperary (Clonmel area returned price_group_ids=0). Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included if available.",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers is based in Thurles, Co. Tipperary and explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Based in Thurles, Co. Tipperary. Serves Tipperary, Laois, Offaly and Kilkenny. Brown bin delivered if available in area (rollout in progress). Weight allowances apply to general waste and brown bin. Billing is half-annually with bi-monthly instalment option.",
       "plans": [
         {
@@ -231,6 +234,7 @@
         "reason": "Pricing retrieved from cleanireland.ie/residential-services/. Company website explicitly lists Tipperary as a service county alongside Clare and Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Mid-West operator based in Shannon, Co. Clare. Explicitly serves Clare, Limerick and Tipperary. Pay by weight only — no flat-rate plans. Sign-up via ciprtl.amcsgroup.com. Annual option also available at €309/year.",
       "plans": [
         {
@@ -261,6 +265,7 @@
         "reason": "WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Tipperary addresses: Tipperary Town, Clonmel, Thurles, Nenagh. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Tipperary.",
       "plans": []
     }

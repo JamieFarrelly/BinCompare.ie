@@ -12,6 +12,8 @@
         "level": "high",
         "reason": "Prices confirmed via Panda signup page using 'Tullow Street, Carlow' address. Plans displayed and address accepted."
       },
+      "address_used": "Tullow Street, Carlow",
+      "pricing_method": "signup_flow",
       "service_notes": "3 plans available for Carlow (no Flexible/PAYG plan — rural area only). Compost bins being introduced to all rural areas; may not yet be available at all addresses — Panda will notify by email if not yet active. Alternate collection schedule applies.",
       "plans": [
         {
@@ -73,6 +75,8 @@
         "level": "high",
         "reason": "Prices confirmed via Ray Whelan WIS signup portal using 'Tullow Street, Carlow' — system confirmed 'Location served!' and displayed plans with full pricing details."
       },
+      "address_used": "Tullow Street, Carlow",
+      "pricing_method": "signup_flow",
       "service_notes": "Alternate weekly collection. Bins delivered within 5-7 working days. Bin sizes: 240L waste, 240L recycling, 140L compost (where available). Payment options: direct debit, online portal, Payzone, or phone (€2 surcharge for phone payments).",
       "plans": [
         {
@@ -124,6 +128,7 @@
         "reason": "Prices confirmed via AES WIS portal (aesirl.wis.ie) using Tullow, Co. Carlow address. price_group_ids=1."
       },
       "address_used": "Tullowphelim, Tullow, Co. Carlow",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract (€50 cancellation fee). €50 prepayment to open account. Glass bin where available. No excess on recycling or compost.",
       "plans": [
         {
@@ -189,6 +194,8 @@
         "level": "none",
         "reason": "Website has SSL certificate issues blocking automated access. No pricing found on their site or via web search. Customer portal login required for existing customers."
       },
+      "address_used": null,
+      "pricing_method": null,
       "service_notes": "Based in Castleinch, Callan Rd., Kilkenny. Serves Carlow as listed on mywaste.ie. Offers Family and Midi (1/2) size wheelie bins. Pricing not publicly listed — contact directly or visit customer portal at dohenywheeliebins.com.",
       "plans": []
     }

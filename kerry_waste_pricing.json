@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from kwd.ie/page96.php — KWD is based in Killarney and primarily serves Kerry, West Cork and West Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Two plan options based on bin size. Fortnightly collection. Service and weight charge model — the less you weigh, the less you pay. Payment options: 12 months upfront, 6 months, or monthly Easy Pay direct debit.",
       "plans": [
         {
@@ -59,6 +60,7 @@
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Kerry is a country (rural) area — country rates apply."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. Kerry is country area — organic bin is 25L (not 140L city size). Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -137,6 +139,7 @@
         "reason": "Pricing retrieved directly from higginswaste.ie/services/household-collection/."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Kerry-based waste collector. Fortnightly collection of all bins on the same day. Two plans available: Pay As You Go (weight-based) and Half-Yearly fixed billing. Bin set setup fee applies.",
       "plans": [
         {
@@ -199,6 +202,7 @@
         "reason": "Kerry County Council regulates waste collectors but does not directly provide household bin collection services. No collection pricing applicable."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Regulatory body only. Household waste collection in Kerry is provided by private operators.",
       "plans": []
     }

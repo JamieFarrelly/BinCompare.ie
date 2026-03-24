@@ -13,6 +13,7 @@
         "reason": "Pricing retrieved directly from mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/. McElvaney's is listed as a Louth collector on mywaste.ie. Note: their website primarily references Monaghan and Cavan service areas — may only cover border areas of Louth."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collections. Bill Pay uses 6-monthly invoicing with options for monthly/quarterly direct debit. Pay As You Go uses E-Tag card, topped up at Payzone outlets, online or via app. Urban areas get 140L compost bin, rural areas get 25L food caddy. Free glass collection included.",
       "plans": [
         {
@@ -75,6 +76,7 @@
         "reason": "Pricing retrieved directly from oxigen.wis.ie/residential for 1 Park St, Dundalk, Co. Louth (A91 V7D6). Location confirmed served with price_group_ids=1."
       },
       "address_used": "1 Park Street, Dundalk, Co. Louth",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Plans named 'N Louth Urban'. All plans have weight allowances on waste bin; excess charged at €0.24/kg. 2-bin plans opt customers out of organic collection.",
       "plans": [
         {
@@ -169,6 +171,7 @@
         "reason": "Pricing retrieved directly from panda.ie signup flow for Drogheda, Co. Louth."
       },
       "address_used": "Drogheda, Co. Louth",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Drogheda and surrounding Louth areas. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
       "plans": [
         {
@@ -247,6 +250,7 @@
         "reason": "Pricing retrieved from aesirl.wis.ie for Drogheda, Co. Louth — location confirmed served."
       },
       "address_used": "Drogheda, Co. Louth",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Drogheda and Louth. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.",
       "plans": [
         {
@@ -325,6 +329,7 @@
         "reason": "Pricing retrieved directly from ecological.ie/service-option/. Ecological serves Louth and Monaghan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Annual billing (one free month included). Bi-weekly collections. Free glass collection available on some plans. Based in Co. Louth/Monaghan border area.",
       "plans": [
         {
