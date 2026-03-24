@@ -287,27 +287,79 @@
       "name": "Barna Recycling",
       "phone": "091 771 621",
       "website": "https://www.barnarecycling.com",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "No public pricing on website. Pricing managed through customer portal (cportal.barnarecycling.com) — requires account login."
+        "level": "high",
+        "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
       },
       "address_used": null,
-      "service_notes": "Primarily serves Connacht counties. Based in Galway. Online account management via customer portal.",
-      "plans": []
-    },
-    {
-      "name": "Walsh Waste",
-      "phone": "091 844 747",
-      "website": "https://www.walshwaste.com",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Website and service area appear focused on commercial/business waste collection. No household bin collection service or pricing found."
-      },
-      "address_used": null,
-      "service_notes": "Primarily a commercial waste contractor. No household collection service identified.",
-      "plans": []
+      "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
+      "plans": [
+        {
+          "name": "PBW Standard",
+          "type": "pay_by_weight",
+          "price": 21.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": 0.05,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.15,
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. Government Waste Recovery Levy €0.012/kg applies to waste."
+        },
+        {
+          "name": "Pay By Weight Lite",
+          "type": "pay_by_lift",
+          "price": 12.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": 0.05,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.15,
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+        },
+        {
+          "name": "ECO Standard",
+          "type": "monthly",
+          "price": 35.00,
+          "price_frequency": "monthly",
+          "household_size": "Larger households",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 350,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+        },
+        {
+          "name": "ECO Small",
+          "type": "monthly",
+          "price": 31.67,
+          "price_frequency": "monthly",
+          "household_size": "Smaller households",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 200,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost. Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
+        }
+      ]
     },
     {
       "name": "Ballinrobe Waste",
@@ -319,7 +371,7 @@
         "reason": "No pricing listed on website. Site describes service but directs customers to contact for details."
       },
       "address_used": null,
-      "service_notes": "Serves South Mayo and parts of Co. Galway. Fortnightly collection. Offers 120L and 240L bin options.",
+      "service_notes": "Serves South Mayo and parts of Co. Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
       "plans": []
     },
     {
@@ -350,15 +402,15 @@
     },
     {
       "name": "Henry Kenny",
-      "phone": null,
+      "phone": "087 9697 528",
       "website": null,
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "No website or phone number listed in source data. No online pricing available."
+        "reason": "No website found. Phone-only contact — no online pricing available."
       },
       "address_used": null,
-      "service_notes": null,
+      "service_notes": "Local Galway waste collector. Contact 087 9697 528 for pricing and availability.",
       "plans": []
     }
   ]

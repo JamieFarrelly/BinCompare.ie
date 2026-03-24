@@ -233,30 +233,66 @@
       ]
     },
     {
-      "name": "Country Clean Recycling Unlimited Company",
-      "phone": "022 468 51",
-      "website": "https://www.countryclean.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "WIS portal (countryclean.wis.ie) returned 'Location not served' for Limerick city address (V94 CD78)."
-      },
-      "address_used": null,
-      "service_notes": "Does not appear to serve Limerick county.",
-      "plans": []
-    },
-    {
       "name": "Higgins Waste & Recycling Services Ltd",
       "phone": "066 7123 059",
-      "website": "https://www.higginswaste.com",
-      "pricing_available": false,
+      "website": "https://www.higginswaste.ie",
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "Website unreachable (ERR_CONNECTION_TIMED_OUT) for both higginswaste.com and higginswaste.com/domestic. No pricing could be retrieved."
+        "level": "high",
+        "reason": "Pricing retrieved directly from higginswaste.ie/services/household-collection/."
       },
       "address_used": null,
-      "service_notes": "Limerick-based waste collector. Website has been persistently unreachable — may be temporarily down or no longer active.",
-      "plans": []
+      "service_notes": "Serves Limerick (and Kerry). Fortnightly collection of all bins on the same day. Two plans available: Pay As You Go (weight-based) and Half-Yearly fixed billing. Bin set setup fee applies.",
+      "plans": [
+        {
+          "name": "Pay As You Go",
+          "type": "pay_by_weight",
+          "price": 16.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": 0.285,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": 0.13,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.15,
+          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup)."
+        },
+        {
+          "name": "Half-Yearly 240L",
+          "type": "monthly",
+          "price": 32.33,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 300,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.285,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+        },
+        {
+          "name": "Half-Yearly 140L",
+          "type": "monthly",
+          "price": 25.83,
+          "price_frequency": "monthly",
+          "household_size": "Smaller households",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 300,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.285,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+        }
+      ]
     }
   ]
 }

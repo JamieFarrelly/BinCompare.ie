@@ -207,14 +207,79 @@
       "name": "Allied Recycling",
       "phone": "046 9433366",
       "website": "http://www.alliedrecycling.ie",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "No public pricing on their website. Serves Westmeath, Meath, Cavan, Kildare and Dublin but pricing not published online."
+        "level": "high",
+        "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Cavan, Ireland — location confirmed served."
       },
-      "address_used": null,
-      "service_notes": "Also serves Meath, Westmeath, Kildare, Dublin.",
-      "plans": []
+      "address_used": "Cavan, Ireland",
+      "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Kildare, Dublin.",
+      "plans": [
+        {
+          "name": "Pay Per Lift",
+          "type": "pay_by_lift",
+          "price": 5.63,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.20,
+          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin."
+        },
+        {
+          "name": "Cavan Super Saver",
+          "type": "monthly",
+          "price": 25.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 150,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 90,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 130,
+          "compost_excess_per_kg": 0.20,
+          "notes": "€25/month (€75/3 months, €150/6 months, €300/year). 150kg waste/6 months, 90kg recycling/6 months, 130kg compost/6 months."
+        },
+        {
+          "name": "Cavan Value Saver",
+          "type": "monthly",
+          "price": 26.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 200,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 130,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 130,
+          "compost_excess_per_kg": 0.20,
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months, €318/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months."
+        },
+        {
+          "name": "Cavan Standard",
+          "type": "monthly",
+          "price": 30.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 330,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 150,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 195,
+          "compost_excess_per_kg": 0.20,
+          "notes": "€30.50/month (€91.50/3 months, €183/6 months, €366/year). 330kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months."
+        }
+      ]
     },
     {
       "name": "Barna Recycling",
@@ -233,14 +298,47 @@
       "name": "Blue Dolphin Environmental Ltd",
       "phone": "047 577 86",
       "website": "https://www.bluedolphinrecycling.ie",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "Website uses Wix platform; pricing content not publicly accessible via WebFetch. No pricing found."
+        "level": "high",
+        "reason": "Pricing retrieved directly from bluedolphinrecycling.ie/wheelie-bins. Blue Dolphin is based in Smithborough, Co. Monaghan and serves both Cavan and Monaghan."
       },
       "address_used": null,
-      "service_notes": "Based in Monaghan. Serves Cavan and Monaghan.",
-      "plans": []
+      "service_notes": "Monaghan-based family business. Serves Cavan and Monaghan. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
+      "plans": [
+        {
+          "name": "140L Waste Plan",
+          "type": "monthly",
+          "price": 23.50,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 20,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.23,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months."
+        },
+        {
+          "name": "240L Waste Plan",
+          "type": "monthly",
+          "price": 30.00,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": 50,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.23,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months."
+        }
+      ]
     },
     {
       "name": "AES Recycling",

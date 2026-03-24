@@ -388,19 +388,6 @@
           "notes": "€15.20/month service. Waste €15.60/lift, recycling €8/lift, compost €6.60/lift, glass €5.50/lift (quarterly)."
         }
       ]
-    },
-    {
-      "name": "Advanced Waste Recycling",
-      "phone": "01 401 1930",
-      "website": "https://www.advancedwaste.ie/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Serves very limited areas of Meath. No pricing available online - contact directly."
-      },
-      "address_used": null,
-      "service_notes": "Serves very limited areas of Meath. Contact them directly to check if your area is covered.",
-      "plans": []
     }
   ]
 }

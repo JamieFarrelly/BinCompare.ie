@@ -157,19 +157,6 @@
       "plans": []
     },
     {
-      "name": "Kollect Developments Group Ltd",
-      "phone": "051 364 495",
-      "website": "https://www.kollect.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Kollect is a skip hire and junk removal service, not a regular household bin collection provider. Not applicable to this dataset."
-      },
-      "address_used": null,
-      "service_notes": "Skip hire and on-demand junk removal only. No regular bin collection service.",
-      "plans": []
-    },
-    {
       "name": "Oxigen Environmental",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie",
@@ -220,14 +207,83 @@
       "name": "Quality Recycling Ltd",
       "phone": "051 642 334",
       "website": "https://www.qrl.ie",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "WIS portal (qrl.wis.ie) returned 'Location not served' for Kilkenny city and Thomastown addresses. QRL is based in Carrick-on-Suir, Co. Tipperary and does not appear to serve Kilkenny."
+        "level": "high",
+        "reason": "Pricing retrieved directly from qrl.wis.ie/signup for Brenor, County Kilkenny — location confirmed served."
       },
-      "address_used": null,
-      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Tested Kilkenny city and south Kilkenny — neither served.",
-      "plans": []
+      "address_used": "Brenor, County Kilkenny, Ireland",
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves south Kilkenny — note that not all areas of Kilkenny are covered; north and central parts of the county may not be served. Fortnightly collection. Free collection reminder texts. Introductory offer pricing.",
+      "plans": [
+        {
+          "name": "WD 140L Waste / 240L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 23.00,
+          "price_frequency": "monthly",
+          "household_size": "Couples or singles",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 140,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€23/month (€69/3 months, €138/6 months). 140L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+        },
+        {
+          "name": "WD 240L Waste / 240L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 26.50,
+          "price_frequency": "monthly",
+          "household_size": "Most families",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 240,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+        },
+        {
+          "name": "WD 240L Waste / 360L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 26.50,
+          "price_frequency": "monthly",
+          "household_size": "Heavy recyclers",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 240,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For households with more recyclables."
+        },
+        {
+          "name": "WD 360L Waste / 360L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 40.00,
+          "price_frequency": "monthly",
+          "household_size": "Larger families",
+          "bins_included": ["general_waste", "recycling", "compost"],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 360,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€40/month (€120/3 months, €240/6 months). 360L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For larger families."
+        }
+      ]
     },
     {
       "name": "Ray Whelan Limited",
@@ -252,7 +308,7 @@
         "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Kilkenny city and Callan addresses. AES is based in Newbridge, Co. Kildare and does not appear to serve Kilkenny."
       },
       "address_used": null,
-      "service_notes": "Does not appear to serve Kilkenny county.",
+      "service_notes": "No pricing information could be found online for this company, despite it being listed as a service provider for Kilkenny on mywaste.ie, Ireland's official government waste website. Contact them directly to confirm coverage.",
       "plans": []
     },
     {
@@ -275,10 +331,10 @@
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "WIS portal (countryclean.wis.ie) returned 'Location not served' for Kilkenny city and Thomastown addresses."
+        "reason": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage."
       },
       "address_used": null,
-      "service_notes": "Does not appear to serve Kilkenny county despite being listed.",
+      "service_notes": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage.",
       "plans": []
     },
     {

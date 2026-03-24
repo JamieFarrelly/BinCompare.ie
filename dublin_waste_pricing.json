@@ -480,32 +480,6 @@
       ]
     },
     {
-      "name": "Tommy's Waste and Recycling Ltd",
-      "phone": "086 2229 426",
-      "website": "https://www.facebook.com/tommy.waste.9",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No structured pricing available online."
-      },
-      "address_used": null,
-      "service_notes": "Online presence is a Facebook page only. Contact directly by phone for rates.",
-      "plans": []
-    },
-    {
-      "name": "Clearer Waste Management",
-      "phone": "086 825 3502",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website. No pricing available online."
-      },
-      "address_used": null,
-      "service_notes": "No website listed. Contact directly by phone for pricing.",
-      "plans": []
-    },
-    {
       "name": "Ecoway Waste Management Ltd.",
       "phone": "01 874 8340",
       "website": "https://www.ecoway.ie",

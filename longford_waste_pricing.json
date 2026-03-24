@@ -163,7 +163,7 @@
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
-      "service_notes": null,
+      "service_notes": "No website available for this company. Contact by phone for pricing and availability.",
       "plans": []
     }
   ]

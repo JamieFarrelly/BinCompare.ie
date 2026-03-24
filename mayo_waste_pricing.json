@@ -160,19 +160,6 @@
       ]
     },
     {
-      "name": "Loftus Recycling",
-      "phone": "096 325 00",
-      "website": "https://www.loftusrecycling.com",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Website refused connection (ERR_CONNECTION_REFUSED). No pricing could be retrieved."
-      },
-      "address_used": null,
-      "service_notes": "Website persistently refused connection — may be temporarily down or no longer active.",
-      "plans": []
-    },
-    {
       "name": "McGrath Industrial Waste Ltd.",
       "phone": "094 9031 315",
       "website": "https://www.mcgrathwaste.ie",
@@ -183,19 +170,6 @@
       },
       "address_used": null,
       "service_notes": "Serves Mayo and Sligo. No online pricing — customers must request a quote by phone or through website.",
-      "plans": []
-    },
-    {
-      "name": "Sweeney Recycling",
-      "phone": "094 9023 525",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "service_notes": null,
       "plans": []
     },
     {
@@ -212,7 +186,7 @@
       "plans": []
     },
     {
-      "name": "Ballinrobe Waste Disposal Ltd.",
+      "name": "Ballinrobe Waste",
       "phone": "094 954 1847",
       "website": "https://www.ballinrobewaste.ie",
       "pricing_available": false,
@@ -221,7 +195,7 @@
         "reason": "No pricing published on website. Customers directed to contact the company directly."
       },
       "address_used": null,
-      "service_notes": "Serves South Mayo and parts of Galway. No online pricing available — contact by phone.",
+      "service_notes": "Serves South Mayo and parts of Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
       "plans": []
     },
     {
@@ -231,10 +205,10 @@
       "pricing_available": false,
       "confidence": {
         "level": "none",
-        "reason": "Website shows 'Get A Quote' / 'Call us on 098 26882 and get a quote today' — no pricing published online."
+        "reason": "Website at bourkewaste.ie/household-wheelie-bins/ lists plan structures (A1-A6 pay-by-weight, B1-B4 fixed price) with weight allowances but no prices — a quote is required."
       },
       "address_used": null,
-      "service_notes": "Based in Westport, Co. Mayo. No online pricing — customers directed to call for a quote.",
+      "service_notes": "Based in Westport, Co. Mayo. Offers multiple pay-by-weight and fixed-price plans (A1-A6 and B1-B4). Organic bin subject to area availability. Actual monthly prices are not published online — contact 098 26882 or info@bourkewaste.ie for a quote.",
       "plans": []
     }
   ]

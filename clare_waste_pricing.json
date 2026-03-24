@@ -82,19 +82,6 @@
       ]
     },
     {
-      "name": "Barna Recycling",
-      "phone": "091 771 621",
-      "website": "https://www.barnarecycling.com",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No public pricing on website. Pricing managed through customer portal (cportal.barnarecycling.com) — requires account login."
-      },
-      "address_used": null,
-      "service_notes": "Primarily serves Connacht counties and parts of Munster. Online account management via customer portal.",
-      "plans": []
-    },
-    {
       "name": "AES Recycling",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
@@ -182,13 +169,13 @@
         "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland serves Limerick, Clare, and North Kerry."
       },
       "address_used": null,
-      "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months.",
+      "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months (€154.82). Glass collection included in certain areas (every 2 months).",
       "plans": [
         {
           "name": "Household Pay-by-Weight",
           "type": "pay_by_weight",
-          "price": 154.82,
-          "price_frequency": "6_monthly",
+          "price": 25.80,
+          "price_frequency": "monthly",
           "household_size": null,
           "bins_included": ["general_waste", "recycling", "compost", "glass"],
           "waste_allowance_kg": null,
@@ -198,7 +185,7 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste caddy + 7L kitchen caddy, and glass collection in select areas. Customers placed into a 'lift band' after each billing period based on actual weight."
         }
       ]
     }
