@@ -1,361 +1,432 @@
 {
-  "county": "Donegal",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + individual company websites and Panda signup flow",
-  "companies": [
-    {
-      "name": "Logan Waste",
-      "phone": "074 9108 111",
-      "website": "https://www.loganwaste.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "low",
-        "reason": "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact."
+   "companies" : [
+      {
+         "service_notes" : "Customer accounts must be kept in credit. Waste, recycling, and compost collection. Auto top-up available.",
+         "website" : "https://www.loganwaste.com",
+         "pricing_method" : "public_page",
+         "phone" : "074 9108 111",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Monthly €25 Plan",
+               "excess_charge_per_kg" : null,
+               "price" : 25,
+               "household_size" : null,
+               "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Monthly €30 Plan",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
+               "household_size" : null,
+               "price" : 30,
+               "excess_charge_per_kg" : null
+            }
+         ],
+         "address_used" : null,
+         "name" : "Logan Waste",
+         "confidence" : {
+            "reason" : "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact.",
+            "level" : "low"
+         }
       },
-      "address_used": null,
-      "service_notes": "Customer accounts must be kept in credit. Waste, recycling, and compost collection. Auto top-up available.",
-      "plans": [
-        {
-          "name": "Monthly €25 Plan",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111."
-        },
-        {
-          "name": "Monthly €30 Plan",
-          "type": "monthly",
-          "price": 30.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111."
-        }
-      ]
-    },
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for Letterkenny, Co. Donegal address."
+      {
+         "website" : "https://www.panda.ie/household/",
+         "service_notes" : "No glass bin included for Donegal (rural area). Compost availability being rolled out — may not be available at all rural addresses. €0.25/kg excess on waste.",
+         "pricing_available" : true,
+         "phone" : "01 8298992",
+         "pricing_method" : "signup_flow",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for Letterkenny, Co. Donegal address."
+         },
+         "address_used" : "1 Lower Main Street, Letterkenny, Co. Donegal",
+         "plans" : [
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 50,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "Unlimited recycling and compost included. No glass bin in Donegal.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.25,
+               "price" : 28.75,
+               "household_size" : "1-3 people"
+            },
+            {
+               "waste_allowance_kg" : 75,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "Unlimited recycling and compost included.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "household_size" : "3-5 people",
+               "price" : 32,
+               "excess_charge_per_kg" : 0.25
+            },
+            {
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Unlimited recycling and compost included.",
+               "household_size" : "5+ people",
+               "price" : 39,
+               "excess_charge_per_kg" : 0.25,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Plus",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 100,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 5,
+               "price_frequency" : "monthly",
+               "notes" : "No glass bin in Donegal.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay Per Lift"
+            }
+         ],
+         "name" : "Panda Green"
       },
-      "address_used": "1 Lower Main Street, Letterkenny, Co. Donegal",
-      "service_notes": "No glass bin included for Donegal (rural area). Compost availability being rolled out — may not be available at all rural addresses. €0.25/kg excess on waste.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 28.75,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. No glass bin in Donegal."
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 32.00,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 75,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 39.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 100,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "No glass bin in Donegal."
-        }
-      ]
-    },
-    {
-      "name": "Sharkey Waste & Recycle",
-      "phone": "074 9548 229",
-      "website": "http://www.sharkeywaste.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx."
+      {
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : "074 9548 229",
+         "address_used" : null,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "annual",
+               "waste_allowance_kg" : 600,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "On Account Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 25,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "waste_allowance_period" : "annual",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "On Account Plus",
+               "waste_allowance_kg" : 900,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 30,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options."
+            },
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "On Account Premium",
+               "waste_allowance_kg" : 1200,
+               "waste_allowance_period" : "annual",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 35
+            },
+            {
+               "household_size" : null,
+               "price" : 5,
+               "excess_charge_per_kg" : 0.25,
+               "price_frequency" : "monthly",
+               "notes" : "Min top-up €20.",
+               "recycling_allowance_kg" : 30,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : 0.15,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 40,
+               "name" : "E-tag (Pay As You Go)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift"
+            }
+         ],
+         "name" : "Sharkey Waste & Recycle",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx.",
+            "level" : "high"
+         },
+         "website" : "http://www.sharkeywaste.ie/",
+         "service_notes" : "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post."
       },
-      "address_used": null,
-      "service_notes": "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post.",
-      "plans": [
-        {
-          "name": "On Account Standard",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 600,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "On Account Plus",
-          "type": "monthly",
-          "price": 30.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 900,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "On Account Premium",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 1200,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "E-tag (Pay As You Go)",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.15,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Min top-up €20."
-        }
-      ]
-    },
-    {
-      "name": "The Binman",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
+      {
+         "plans" : [],
+         "name" : "The Binman",
+         "address_used" : null,
+         "confidence" : {
+            "reason" : "No website listed. Phone-only contact. No online pricing available.",
+            "level" : "none"
+         },
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "086 3517273",
+         "website" : null,
+         "service_notes" : null
       },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
-      "name": "DM Waste",
-      "phone": "074 915 7189",
-      "website": "https://www.dmwaste.com",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No public pricing on website. Site directs customers to register or contact directly. Mentions 'various domestic bin sizes and flexible payment options' but no rates published."
+      {
+         "website" : "https://www.dmwaste.com",
+         "service_notes" : "Bin registration required. Flexible payment options available.",
+         "confidence" : {
+            "level" : "none",
+            "reason" : "No public pricing on website. Site directs customers to register or contact directly. Mentions 'various domestic bin sizes and flexible payment options' but no rates published."
+         },
+         "plans" : [],
+         "address_used" : null,
+         "name" : "DM Waste",
+         "phone" : "074 915 7189",
+         "pricing_available" : false,
+         "pricing_method" : null
       },
-      "address_used": null,
-      "service_notes": "Bin registration required. Flexible payment options available.",
-      "plans": []
-    },
-    {
-      "name": "Donegal Waste & Recycle",
-      "phone": "074 974 0130",
-      "website": "https://www.donegalwasteandrecycle.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from donegalwasterecycle.wis.ie for Firville House, Navenny, Ballybofey, Co. Donegal."
-      },
-      "address_used": "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
-      "service_notes": "Bi-weekly collection. 240L or 120L waste and recycling bins. 25L food caddy included. Pay as You Go option available for low-waste households. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans.",
-      "plans": [
-        {
-          "name": "Standard 240 + 240 + Caddy",
-          "type": "monthly",
-          "price": 34.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 240 Waste + 120 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Standard 120 + 120 + Caddy",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 120 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "2x240 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 52.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 420,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Pre Pay Top Up",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery."
-        },
-        {
-          "name": "Pre Pay Annual",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery."
-        }
-      ]
-    }
-  ]
+      {
+         "service_notes" : "Bi-weekly collection. 240L or 120L waste and recycling bins. 25L food caddy included. Pay as You Go option available for low-waste households. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans.",
+         "website" : "https://www.donegalwasteandrecycle.com",
+         "pricing_method" : "wis_portal",
+         "phone" : "074 974 0130",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 210,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 240 + 240 + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "price" : 34,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "household_size" : null,
+               "price" : 31,
+               "excess_charge_per_kg" : 0.25,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 210,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 240 Waste + 120 Recycle + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 27,
+               "waste_allowance_kg" : 105,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 120 + 120 + Caddy",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 31,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 105,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 120 Waste + 240 Recycle + Caddy"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 52,
+               "price_frequency" : "monthly",
+               "notes" : "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 420,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "2x240 Waste + 240 Recycle + Caddy"
+            },
+            {
+               "waste_allowance_kg" : 40,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pre Pay Top Up",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "price_frequency" : "monthly",
+               "notes" : "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 5
+            },
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 5,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "name" : "Pre Pay Annual",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 40,
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : null
+            }
+         ],
+         "name" : "Donegal Waste & Recycle",
+         "address_used" : "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from donegalwasterecycle.wis.ie for Firville House, Navenny, Ballybofey, Co. Donegal."
+         }
+      }
+   ],
+   "scraped_date" : "2026-03-21",
+   "source" : "mywaste.ie + individual company websites and Panda signup flow",
+   "county" : "Donegal"
 }

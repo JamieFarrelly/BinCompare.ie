@@ -1,6 +1,6 @@
-# Ireland Bin Price Comparison - Project Summary
+# Ireland Bin Price Comparison
 
-> **⚠️ Built with AI:** This project was built entirely through conversation with [Claude](https://claude.ai) (Anthropic's AI assistant). The code was generated iteratively. It works, but it is far from perfect — approach it accordingly.
+> **Built with AI:** This project was built entirely through conversation with [Claude](https://claude.ai) (Anthropic's AI assistant). The code was generated iteratively.
 
 ## What this is
 
@@ -9,11 +9,11 @@ A single-page website (`index.html`) that compares household bin collection pric
 ## File structure
 
 ```
-index.html                      ← The entire website (HTML + CSS + JS, single file)
-waste_data.js                   ← All 26 county JSONs bundled into one JS variable
-ireland_waste_collectors.csv    ← Master list of all companies from mywaste.ie
-[county]_waste_pricing.json     ← 26 individual county pricing files (source of truth)
-README.md                       ← This file
+index.html                      <- The entire website (HTML + CSS + JS, single file)
+waste_data.js                   <- All 26 county JSONs bundled into one JS variable
+ireland_waste_collectors.csv    <- Master list of all companies from mywaste.ie
+[county]_waste_pricing.json     <- 26 individual county pricing files (source of truth)
+README.md                       <- This file
 ```
 
 ## Why waste_data.js exists
@@ -37,22 +37,126 @@ echo "};" >> waste_data.js
 
 ---
 
-## How pricing data was collected
+## JSON schema
+
+Each county has a `[county]_waste_pricing.json` file. These are the source of truth for all pricing data.
+
+### County-level fields
+
+| Field | Type | Description |
+|---|---|---|
+| `county` | string | County name (e.g. "Dublin") |
+| `scraped_date` | string | Date data was last verified (YYYY-MM-DD) |
+| `source` | string | Description of data sources used |
+| `companies` | array | List of waste collection companies |
+
+### Company-level fields
+
+| Field | Type | Description |
+|---|---|---|
+| `name` | string | Company name |
+| `phone` | string/null | Contact phone number |
+| `website` | string/null | Company website URL |
+| `pricing_available` | boolean | Whether we have pricing data for this company in this county |
+| `confidence` | object | `{ level, reason }` - how confident we are in the pricing |
+| `address_used` | string/null | The address/eircode entered to retrieve pricing (null if no address was needed, or if no pricing was found) |
+| `pricing_method` | string/null | How pricing was obtained (see below) |
+| `service_notes` | string/null | Notes about the service (collection frequency, billing, etc.) |
+| `plans` | array | List of plans (empty `[]` if `pricing_available` is false) |
+
+### `pricing_method` values
+
+| Value | Meaning | How to refresh |
+|---|---|---|
+| `"public_page"` | Pricing found on a public website page, no address needed | Visit the URL in `confidence.reason` and compare prices |
+| `"wis_portal"` | Address entered into a `[company].wis.ie` portal | Go to the WIS portal URL in `confidence.reason`, enter the `address_used`, and compare plans |
+| `"signup_flow"` | Address entered into a company signup/quote flow (e.g. Panda, Greyhound) | Go to the signup URL in `confidence.reason`, enter the `address_used`, and compare plans |
+| `"county_dropdown"` | County selected from a dropdown (Barna Recycling portal) | Go to `cportal.barnarecycling.com/signup/signup.php`, select the county, and compare plans |
+| `null` | No pricing found for this company in this county | Check if the company has added online pricing since last check |
+
+### Plan-level fields
+
+| Field | Type | Description |
+|---|---|---|
+| `name` | string | Plan name as shown by the company |
+| `type` | string | `"monthly"`, `"pay_by_lift"`, or `"pay_by_weight"` |
+| `price` | number | Base monthly price in euros |
+| `price_frequency` | string | Usually `"monthly"` |
+| `household_size` | string/null | Who the plan is for (e.g. "1-3 people", "5+ people") |
+| `bins_included` | array | List of bins: `"general_waste"`, `"recycling"`, `"compost"`, `"glass"` |
+| `waste_allowance_kg` | number/null | Kg of general waste included before excess charges |
+| `waste_allowance_period` | string/null | `"monthly"`, `"6_monthly"`, `"quarterly"`, or `"per_lift"` |
+| `waste_allowance_litres` | number/null | Volume-based allowance (used by QRL instead of kg) |
+| `excess_charge_per_kg` | number/null | Cost per kg over the waste allowance |
+| `recycling_allowance_kg` | number/null | Kg of recycling included (null = unlimited) |
+| `recycling_excess_per_kg` | number/null | Cost per kg over recycling allowance |
+| `compost_allowance_kg` | number/null | Kg of compost included (null = unlimited) |
+| `compost_excess_per_kg` | number/null | Cost per kg over compost allowance |
+| `per_lift_waste` | number | (pay_by_lift only) Cost per waste bin lift |
+| `per_lift_recycling` | number | (pay_by_lift only) Cost per recycling bin lift |
+| `per_lift_compost` | number | (pay_by_lift only) Cost per compost bin lift |
+| `per_lift_glass` | number/null | (pay_by_lift only) Cost per glass bin lift |
+| `per_kg_waste` | number | (pay_by_weight only) Cost per kg of general waste |
+| `per_kg_recycling` | number | (pay_by_weight only) Cost per kg of recycling |
+| `notes` | string/null | Any additional plan details |
+
+### Confidence levels
+
+| Level | Meaning |
+|---|---|
+| `high` | Price confirmed directly from company portal/website for this specific county |
+| `medium` | Price likely correct but not county-specific (e.g. national pricing page, or nearby county used) |
+| `low` | Partial info only (e.g. website says "from" prices, or plan details incomplete) |
+| `none` | No pricing found - company exists but hasn't published prices online |
+
+---
+
+## How to refresh all prices (prompt for Claude)
+
+Copy and paste one of these prompts into Claude to refresh the pricing data. The `pricing_method`, `address_used`, and `confidence.reason` fields on each company tell Claude exactly how to re-fetch that company's prices.
+
+### Full refresh (all 26 counties)
+
+> Go through every `*_waste_pricing.json` file in `C:/Users/jamie/Desktop/Claude/`. For each company in each county:
+>
+> 1. **If `pricing_method` is `"wis_portal"`**: Go to the WIS portal URL mentioned in `confidence.reason` (e.g. `oxigen.wis.ie/signup`). Enter the address from `address_used`. Compare the plans and prices shown to what's currently in the JSON. Update any that have changed.
+>
+> 2. **If `pricing_method` is `"signup_flow"`**: Go to the signup URL mentioned in `confidence.reason` (e.g. `panda.ie/household/`). Enter the address from `address_used`. Compare and update.
+>
+> 3. **If `pricing_method` is `"county_dropdown"`**: Go to `cportal.barnarecycling.com/signup/signup.php`. Select the county mentioned in `address_used`. Compare and update.
+>
+> 4. **If `pricing_method` is `"public_page"`**: Visit the URL mentioned in `confidence.reason`. Compare the pricing shown to the JSON. Update any that have changed.
+>
+> 5. **If `pricing_method` is `null`** (no pricing): Do a quick check of the company's website to see if they've added pricing since the last check. If they have, add it and set the appropriate `pricing_method`.
+>
+> After all updates, set `scraped_date` to today's date in every modified file. Then rebuild `waste_data.js`.
+
+### Single county refresh
+
+> Refresh all waste pricing for **[COUNTY NAME]**. Read `[county]_waste_pricing.json` from `C:/Users/jamie/Desktop/Claude/`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today. Then rebuild `waste_data.js`.
+
+### Single company refresh (across all counties)
+
+> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `*_waste_pricing.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today in modified files. Then rebuild `waste_data.js`.
+
+---
+
+## How pricing data was originally collected
 
 ### Step 1: Get the company list from mywaste.ie
 
 [mywaste.ie](https://www.mywaste.ie) is the official Irish government waste directory. It lists every licensed household waste collector per county.
 
-- Go to mywaste.ie, search by county, and record every company name, phone number, and website
+- Search by county and record every company name, phone number, and website
 - This produced `ireland_waste_collectors.csv` with ~180 entries (companies appear once per county they serve)
 
 ### Step 2: Fetch pricing for each company
 
-There are 4 main ways to get pricing, in order of reliability:
+There are 4 methods, each corresponding to a `pricing_method` value:
 
-#### Method A: WIS Portal (best source - ~15 companies use this)
+#### `"wis_portal"` - WIS Portal (most common for large operators)
 
-Many Irish waste companies use the **WIS (Waste Industry Services)** platform for customer signup. Each company has a portal at `[company].wis.ie/residential`.
+Many Irish waste companies use the **WIS (Waste Industry Services)** platform for customer signup. Each company has a portal at `[company].wis.ie/signup`.
 
 **Known WIS portals:**
 | Portal URL | Company |
@@ -62,48 +166,55 @@ Many Irish waste companies use the **WIS (Waste Industry Services)** platform fo
 | `raywhelan.wis.ie` | Ray Whelan |
 | `alliedrecycling.wis.ie` | Allied Recycling |
 | `thorntons.wis.ie` | Thorntons Recycling |
-| `advancedwaste.wis.ie` | Advanced Waste Recycling |
 | `mulleadys.wis.ie` | Mulleadys |
-| `citybin.wis.ie` | City Bin Co. |
 | `qrl.wis.ie` | Quality Recycling Ltd |
 | `countryclean.wis.ie` | Country Clean Recycling |
 | `wiserbins.wis.ie` | Wiser Recycling |
 | `donegalwasterecycle.wis.ie` | Donegal Waste & Recycle |
 
 **How to use a WIS portal:**
-1. Go to `[company].wis.ie/residential` or `[company].wis.ie/signup`
+1. Go to `[company].wis.ie/signup`
 2. Enter an address or Eircode for the county you're checking
 3. If the location is served, you'll see `price_group_ids` > 0 and a list of plans with full pricing
 4. If it returns `price_group_ids=0` or "location not served", the company doesn't cover that area
-5. Record: plan name, monthly price, waste allowance (kg), excess charge per kg, bins included, per-lift charges
+5. Record: plan name, monthly price, waste allowance (kg), excess charge per kg, bins included
 
-**Important WIS notes:**
+**Important:**
 - The same company can have different prices per county/area - always test with a local address
 - Try multiple addresses if one fails (up to 10 different addresses across the county)
 - Some WIS portals go down periodically - try again later if unreachable
 
-#### Method B: Panda API / Signup Flow (Panda Green only)
+#### `"signup_flow"` - Company signup page (Panda, Greyhound, etc.)
 
-Panda has a custom signup flow at `panda.ie/household/`:
-1. Enter an address on their signup page
-2. It returns zone-specific pricing (e.g. "Dublin zone 3")
-3. If it says "no available price options in your area", Panda doesn't serve that location
-4. Panda serves: Dublin, Wicklow, Meath, Kildare, Cork, Galway, Limerick and some surrounding areas
+Some companies have their own signup systems:
+- **Panda Green** (`panda.ie/household/`): Enter an address, get zone-specific pricing. Serves ~10 counties.
+- **Greyhound** (`greyhound.ie`): Enter an eircode to check coverage and see plans.
+- **City Bin Co.** (`citybin.com/signup/`): City-specific plans for Dublin and Galway.
 
-#### Method C: Company website (direct scraping)
+#### `"county_dropdown"` - Portal with county selector (Barna only)
 
-Some companies list pricing directly on their website:
-- **Clean Ireland** (`cleanireland.ie`) - pricing page lists plans
-- **KWD Recycling** (`kwd.ie`) - plans listed on site
-- **Barna Recycling** (`barnarecycling.com`) - requires portal login, limited public info
-- **McElvaney's** (`mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/`) - plans listed
-- **Mulleadys** (`mulleadys.com/household.html`) - county-specific plans listed
-- **Mr Binman** (`mrbinman.com`) - pricing on site
-- **Logan Waste** (`loganwaste.ie`) - pricing on site
-- **Moran Refuse** (`moranrefuse.ie`) - pricing on site
-- **Ryan Brothers** (`ryanbros.ie`) - pricing on site
+**Barna Recycling** uses a custom portal at `cportal.barnarecycling.com/signup/signup.php`:
+1. Select a county from the dropdown
+2. Select a locality (if prompted)
+3. Plans are shown - same pricing across Galway, Mayo, Sligo, Leitrim, and Roscommon
+4. Note: Sligo uses a 25L food caddy while other counties use a 140L compost bin
 
-#### Method D: No pricing available
+#### `"public_page"` - Pricing on a public website page
+
+These companies list pricing directly on their website with no address entry needed:
+- **Clean Ireland** - `cleanireland.ie/residential-services/`
+- **KWD Recycling** - `kwd.ie`
+- **McElvaney's** - `mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/`
+- **Mulleadys** - `mulleadys.com/household.html`
+- **Mr Binman** - `mrbinman.com/bin-collection-quote/`
+- **Moran Refuse** - `moranrefuse.ie/services/pricing/`
+- **Ryan Brothers** - `ryanbros.ie/domestic-pricing-options/`
+- **Blue Dolphin** - `bluedolphinrecycling.ie/wheelie-bins`
+- **Higgins Waste** - `higginswaste.ie/services/household-collection/`
+- **Ecological** - `ecological.ie/service-option/`
+- **Logan Waste** - `loganwaste.com`
+
+#### No pricing available (`pricing_method: null`)
 
 Many smaller/regional companies don't publish pricing online. For these:
 - Set `pricing_available: false`
@@ -112,171 +223,64 @@ Many smaller/regional companies don't publish pricing online. For these:
 - Leave `plans: []` empty
 - Still include the company so users know it exists and can contact them
 
-### Step 3: Record the data
-
-Each county gets a JSON file with this structure:
-
-```json
-{
-  "county": "Dublin",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + individual company websites",
-  "companies": [
-    {
-      "name": "Company Name",
-      "phone": "01 234 5678",
-      "website": "https://example.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from company website"
-      },
-      "address_used": "1 Main Street, Dublin 1",
-      "service_notes": "Free first month. Fortnightly collection.",
-      "plans": [
-        {
-          "name": "Standard 3-Bin",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Any additional details"
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "per_lift_waste": 14.00,
-          "per_lift_recycling": 3.00,
-          "per_lift_compost": 5.00,
-          "per_lift_glass": null,
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.20,
-          "notes": "Base fee + per lift charges"
-        }
-      ]
-    }
-  ]
-}
-```
-
-### Confidence levels
-
-| Level | Meaning | When to use |
-|---|---|---|
-| `high` | Price confirmed directly from company portal/API/website for this county | WIS portal with valid address, direct website scrape |
-| `medium` | Price likely correct but not 100% confirmed | Website shows price but not county-specific, or secondary source |
-| `low` | Price estimated from another county or partial info | Cross-county extrapolation, "from" prices only |
-| `none` | No pricing found | Company exists but no public pricing |
-
-### Plan types
-
-| Type | Description | Key fields |
-|---|---|---|
-| `monthly` | Fixed monthly fee with weight allowance | `price`, `waste_allowance_kg`, `excess_charge_per_kg` |
-| `pay_by_lift` | Base fee + per-lift charges | `price` (base), `per_lift_waste`, `per_lift_recycling`, `per_lift_compost` |
-| `pay_by_weight` | Pure weight-based pricing | `price` (base), `excess_charge_per_kg` |
-
 ---
 
-## Monthly price refresh process
+## Current data stats (as of 2026-03-25)
 
-### Quick version (for AI assistant)
+- **155 company-county entries** across 26 counties
+- **72 with pricing** (46 public_page, 37 wis_portal, 20 signup_flow, 5 county_dropdown)
+- **43 without pricing** (`pricing_method: null`)
+- **65 high-confidence**, 6 medium, 1 low
 
-> "Update all 26 county waste pricing JSON files in C:/Users/jamie/Desktop/Claude/. For each county, check every company listed in the JSON. For companies with pricing, re-fetch current prices from their source (WIS portal, website, or Panda signup). For companies without pricing, check if they've added online pricing. Update the `scraped_date` to today. Then rebuild waste_data.js."
+### Companies with pricing
 
-### Detailed process
-
-1. **For each county JSON file**, go through every company:
-
-2. **Companies using WIS portals** (check the `confidence.reason` field for the portal URL):
-   - Visit `[company].wis.ie/residential`
-   - Enter the same address from `address_used` (or a new local address)
-   - Compare plans and prices to what's in the JSON
-   - Update any changed prices, new plans, or removed plans
-
-3. **Panda Green** (serves ~8 counties):
-   - Go to `panda.ie/household/` signup flow
-   - Enter an address for each county Panda serves
-   - Compare zone pricing to current JSON data
-
-4. **Direct website companies** (Clean Ireland, KWD, McElvaney's, etc.):
-   - Visit their website pricing page
-   - Compare to current JSON data
-
-5. **Companies without pricing**:
-   - Quick check of their website for any new pricing pages
-   - If still no pricing, leave as-is
-
-6. **After all updates**:
-   - Update `scraped_date` to today's date in each modified JSON
-   - Rebuild `waste_data.js` using the bash command above
-
-### Addresses to use per county
-
-When checking WIS portals, use a central town address. The `address_used` field in each JSON shows what was previously used. Examples:
-- Dublin: "Clondalkin, Dublin 22" or specific Dublin zones
-- Cork: "37 Saint Patrick's Street, Cork"
-- Louth: "1 Park Street, Dundalk, Co. Louth"
-- Kildare: "Naas, Co. Kildare"
-
-If a WIS portal says "location not served", try up to 10 different addresses across the county before concluding the company doesn't serve that area.
-
----
-
-## Current data stats
-
-- **57 unique companies** across all 26 counties
-- **~92 company-county entries with pricing** (high/medium/low confidence)
-- **~73 company-county entries without pricing** (confidence: none)
-- **~81 high-confidence** price entries
-- **~8 medium-confidence**, **~3 low-confidence**
-
-### Companies with pricing (and their primary source)
-
-| Company | Source method | Counties served |
+| Company | Method | Counties with pricing |
 |---|---|---|
-| Oxigen Environmental | WIS portal (`oxigen.wis.ie`) | ~15 counties |
-| AES Recycling | WIS portal (`aesirl.wis.ie`) | ~14 counties |
-| Panda Green | Panda signup flow | ~8 counties |
-| Ray Whelan | WIS portal (`raywhelan.wis.ie`) | ~4 counties |
-| Allied Recycling | WIS portal (`alliedrecycling.wis.ie`) + website | ~3 counties |
-| Thorntons Recycling | WIS portal (`thorntons.wis.ie`) + website | ~3 counties |
-| Advanced Waste Recycling | WIS portal (`advancedwaste.wis.ie`) | ~2 counties |
-| City Bin Co. | WIS portal (`citybin.wis.ie`) + website | ~2 counties |
-| Quality Recycling Ltd | WIS portal (`qrl.wis.ie`) | ~3 counties |
-| Country Clean Recycling | WIS portal (`countryclean.wis.ie`) | ~2 counties |
-| Wiser Recycling | WIS portal (`wiserbins.wis.ie`) | ~2 counties |
-| Donegal Waste & Recycle | WIS portal (`donegalwasterecycle.wis.ie`) | ~2 counties |
-| Mulleadys | WIS portal + website (`mulleadys.com`) | ~4 counties |
-| Clean Ireland Recycling | Company website | ~3 counties |
-| KWD Recycling | Company website | ~2 counties |
-| McElvaney's Waste | Company website | ~3 counties |
-| Mr Binman | Company website | ~2 counties |
-| Greyhound Household | Company website | Dublin + surrounding |
-| Barna Recycling | Portal (limited) + phone | ~3 counties |
-| Sharkey Waste | Company website | ~1 county |
-| Logan Waste | Company website | ~1 county |
-| Moran Refuse | Company website | ~1 county |
-| Ryan Brothers | Company website | ~1 county |
-| Wilton Waste | Company website (partial) | ~1 county |
-| Blue Dolphin | Company website | ~1 county |
-| Key Waste (KeyGreen) | Company website | ~1 county |
+| AES Recycling | wis_portal | ~11 counties |
+| Panda Green | signup_flow | ~10 counties |
+| Oxigen Environmental | wis_portal | ~8 counties |
+| Mr Binman | public_page | ~5 counties |
+| Allied Recycling | wis_portal | ~4 counties |
+| Mulleadys | public_page | ~4 counties |
+| Ray Whelan | wis_portal | ~4 counties |
+| Barna Recycling | county_dropdown | 5 counties (Galway, Mayo, Sligo, Leitrim, Roscommon) |
+| Clean Ireland Recycling | public_page | 3 counties (Clare, Limerick, Tipperary) |
+| KWD Recycling | public_page | ~3 counties |
+| Quality Recycling Ltd | wis_portal | ~3 counties |
+| Ryan Brothers | public_page | ~3 counties |
+| City Bin Co. | public_page | 2 counties (Dublin, Galway) |
+| Ecological Waste Management | public_page | 2 counties (Louth, Monaghan) |
+| Greyhound | signup_flow / wis_portal | ~3 counties (Dublin, Kildare, Wicklow) |
+| Higgins Waste | public_page | 2 counties (Kerry, Limerick) |
+| McElvaney's | public_page | ~2 counties |
+| Thorntons Recycling | wis_portal | ~2 counties |
+| Wiser Recycling | wis_portal | ~2 counties |
+| Blue Dolphin | public_page | ~2 counties |
+| Country Clean Recycling | public_page | 1 county (Cork) |
+| Donegal Waste & Recycle | wis_portal | 2 counties (Donegal, Sligo) |
+| Logan Waste | public_page | 1 county (Donegal) |
+| Moran Refuse | public_page | 1 county (Galway) |
+| Wilton Waste | public_page | 1 county (Waterford) |
 
 ### Companies without any online pricing
 
-These ~20 companies appear in the data but have no public pricing anywhere:
-- Athchursail Aran Teo, Ballinrobe Waste, Bourke Waste Removal, CMS Waste Disposal, Clearer Waste Management, DM Waste, Doheny Wheelie Bins, Ecological Waste Management, Ecoway Waste Management, Greyhound Recycling (separate from Greyhound Household), Henry Kenny, Higgins Waste, Kollect (skip hire only), Loftus Recycling, Mahony's Environmental, McGrath Industrial Waste, Michael Healy, Sweeney Recycling, The Binman, Tommy's Waste, Walsh Waste
+These appear in the data but have no public pricing anywhere:
+- Athchursail Aran Teo, Ballinrobe Waste, Bourke Waste Removal, CMS Waste Disposal, Doheny Wheelie Bins, Henry Kenny, McGrath Industrial Waste, The Binman (multiple counties)
+
+### Addresses to use per county
+
+When refreshing WIS portals, the `address_used` field in each JSON shows what was previously used. If that address stops working, try a central town. Some examples:
+- Dublin: "Clondalkin, Dublin 22"
+- Cork: "37 Saint Patrick's Street, Cork"
+- Galway: "1 Eyre Square, Galway"
+- Limerick: city centre address
+- Louth: "Drogheda, Co. Louth" (note: Dundalk didn't work for some companies)
+- Kildare: "S Main St, Naas, Co. Kildare"
+- Laois: "1 Main Street, Portlaoise, Co. Laois"
+- Monaghan: "Drumillard Little, Castleblayney, Co. Monaghan"
+- Cavan: "Main Street, Cavan"
+
+If a WIS portal says "location not served", try up to 10 different addresses across the county before concluding the company doesn't serve that area.
 
 ---
 
@@ -290,10 +294,10 @@ To update: Google "[company name] Trustpilot" and check for an `ie.trustpilot.co
 
 ## Key website features
 
-- **Cost calculator**: Estimates real monthly cost based on household size and waste weight, especially important for pay-by-weight plans
+- **Cost calculator**: Estimates real monthly cost based on household size and waste weight
 - **Compare tool**: Side-by-side comparison of up to 3 providers
-- **Bin filtering**: Only shows companies that offer the bins you need (per county)
-- **Grey "no estimate" box**: When a plan's excess charge rate is unknown and user's weight exceeds the allowance, the estimate is greyed out with an explanation tooltip
+- **Bin filtering**: Only shows companies that offer the bins you need
+- **Grey "no estimate" box**: When excess charge is unknown and weight exceeds allowance, estimate is greyed out with a tooltip
 - **Contact form**: Collapsible form at bottom for pricing errors/missing companies (via Formspree)
-- **Testing mode**: Add `?testing=true` to URL to show confidence badges (verified/estimated/low confidence)
+- **Testing mode**: Add `?testing=true` to URL to show confidence badges
 - **Mobile responsive**: Full mobile layout for screens under 700px

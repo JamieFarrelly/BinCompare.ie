@@ -13,6 +13,8 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Prices confirmed via Panda signup page using 'Tullow Street, Carlow' address. Plans displayed and address accepted."
       },
+      "address_used": "Tullow Street, Carlow",
+      "pricing_method": "signup_flow",
       "service_notes": "3 plans available for Carlow (no Flexible/PAYG plan — rural area only). Compost bins being introduced to all rural areas; may not yet be available at all addresses — Panda will notify by email if not yet active. Alternate collection schedule applies.",
       "plans": [
         {
@@ -74,6 +76,8 @@ const COUNTY_DATA = {
         "level": "high",
         "reason": "Prices confirmed via Ray Whelan WIS signup portal using 'Tullow Street, Carlow' — system confirmed 'Location served!' and displayed plans with full pricing details."
       },
+      "address_used": "Tullow Street, Carlow",
+      "pricing_method": "signup_flow",
       "service_notes": "Alternate weekly collection. Bins delivered within 5-7 working days. Bin sizes: 240L waste, 240L recycling, 140L compost (where available). Payment options: direct debit, online portal, Payzone, or phone (€2 surcharge for phone payments).",
       "plans": [
         {
@@ -125,6 +129,7 @@ const COUNTY_DATA = {
         "reason": "Prices confirmed via AES WIS portal (aesirl.wis.ie) using Tullow, Co. Carlow address. price_group_ids=1."
       },
       "address_used": "Tullowphelim, Tullow, Co. Carlow",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract (€50 cancellation fee). €50 prepayment to open account. Glass bin where available. No excess on recycling or compost.",
       "plans": [
         {
@@ -190,6 +195,8 @@ const COUNTY_DATA = {
         "level": "none",
         "reason": "Website has SSL certificate issues blocking automated access. No pricing found on their site or via web search. Customer portal login required for existing customers."
       },
+      "address_used": null,
+      "pricing_method": null,
       "service_notes": "Based in Castleinch, Callan Rd., Kilkenny. Serves Carlow as listed on mywaste.ie. Offers Family and Midi (1/2) size wheelie bins. Pricing not publicly listed — contact directly or visit customer portal at dohenywheeliebins.com.",
       "plans": []
     }
@@ -211,6 +218,7 @@ const COUNTY_DATA = {
         "reason": "Prices retrieved directly from mulleadys.com/household.html — county-specific plans listed."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "One-time bin setup fee of €60 (non-refundable). All bins collected fortnightly. Food service available in designated areas only. Serves Cavan, Leitrim, Longford, Roscommon, Westmeath.",
       "plans": [
         {
@@ -273,6 +281,7 @@ const COUNTY_DATA = {
         "reason": "Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Main Street, Cavan — Cavan-specific plans confirmed."
       },
       "address_used": "Main Street, Cavan",
+      "pricing_method": "wis_portal",
       "service_notes": "All plans use fortnightly collection. Pay By Weight suited for very light waste producers. Bins are 240L (standard) or 140L (small).",
       "plans": [
         {
@@ -367,6 +376,7 @@ const COUNTY_DATA = {
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -380,6 +390,7 @@ const COUNTY_DATA = {
         "reason": "Only 'from €21.16/month' starting price found on wiltonrecycling.ie. Full plan breakdown not publicly listed — detailed pricing requires signup or direct contact."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Offers pay-by-weight and pay-as-you-use options. 4 bins: 240L waste, 240L recycling, 25L organic, 140L glass. Waste/recycling/organics collected fortnightly, glass quarterly. Available in Co. Cavan.",
       "plans": [
         {
@@ -411,6 +422,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Cavan, Ireland — location confirmed served."
       },
       "address_used": "Cavan, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Kildare, Dublin.",
       "plans": [
         {
@@ -489,6 +501,7 @@ const COUNTY_DATA = {
         "reason": "No public pricing on website. Pricing managed through customer portal (cportal.barnarecycling.com) — requires account login."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Primarily serves Connacht counties. Online account management via customer portal.",
       "plans": []
     },
@@ -502,6 +515,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from bluedolphinrecycling.ie/wheelie-bins. Blue Dolphin is based in Smithborough, Co. Monaghan and serves both Cavan and Monaghan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Monaghan-based family business. Serves Cavan and Monaghan. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
       "plans": [
         {
@@ -548,6 +562,7 @@ const COUNTY_DATA = {
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Cavan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator. Plans based on weight allowance.",
       "plans": [
         {
@@ -634,6 +649,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Clare (Mid West region). 'City' vs 'country' rates apply — Clare is likely country rates."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City and country organic rates differ. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -712,6 +728,7 @@ const COUNTY_DATA = {
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Clare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator. Plans based on weight allowance.",
       "plans": [
         {
@@ -790,6 +807,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland serves Limerick, Clare, and North Kerry."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months (€154.82). Glass collection included in certain areas (every 2 months).",
       "plans": [
         {
@@ -828,6 +846,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from kwd.ie. KWD primarily serves Cork county."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Two plan options based on bin size. Fortnightly collection.",
       "plans": [
         {
@@ -874,6 +893,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Cork (city rates apply in urban Cork)."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City rates apply in Cork city; country rates in rural areas. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -952,6 +972,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for Cork city address. Cork is an urban zone with higher pricing than rural areas."
       },
       "address_used": "37 Saint Patrick's Street, Cork",
+      "pricing_method": "signup_flow",
       "service_notes": "All plans include glass bin collection in Cork (urban zone). Pay per lift available. €0.25/kg excess charge applies to all bins.",
       "plans": [
         {
@@ -1030,6 +1051,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from wiserbins.wis.ie for Cork city address. Location confirmed as served."
       },
       "address_used": "St Patrick's St, Centre, Cork, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Monthly, quarterly, and half-yearly billing available. Standard bin allocation: 240L waste, 360L recycling, 240L food bin.",
       "plans": [
         {
@@ -1076,6 +1098,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from countryclean.ie/webclient/splashpage."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Cork county. Urban and rural plan options. Initial payment must be made directly to their office. Minimum 2 months payment required. Monthly billing thereafter via direct debit, Post Office, or online. Bins include glass bin on urban plans.",
       "plans": [
         {
@@ -1148,1280 +1171,1555 @@ const COUNTY_DATA = {
 }
 ,
 "donegal": {
-  "county": "Donegal",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + individual company websites and Panda signup flow",
-  "companies": [
-    {
-      "name": "Logan Waste",
-      "phone": "074 9108 111",
-      "website": "https://www.loganwaste.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "low",
-        "reason": "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact."
+   "companies" : [
+      {
+         "service_notes" : "Customer accounts must be kept in credit. Waste, recycling, and compost collection. Auto top-up available.",
+         "website" : "https://www.loganwaste.com",
+         "pricing_method" : "public_page",
+         "phone" : "074 9108 111",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Monthly €25 Plan",
+               "excess_charge_per_kg" : null,
+               "price" : 25,
+               "household_size" : null,
+               "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Monthly €30 Plan",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
+               "household_size" : null,
+               "price" : 30,
+               "excess_charge_per_kg" : null
+            }
+         ],
+         "address_used" : null,
+         "name" : "Logan Waste",
+         "confidence" : {
+            "reason" : "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact.",
+            "level" : "low"
+         }
       },
-      "address_used": null,
-      "service_notes": "Customer accounts must be kept in credit. Waste, recycling, and compost collection. Auto top-up available.",
-      "plans": [
-        {
-          "name": "Monthly €25 Plan",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111."
-        },
-        {
-          "name": "Monthly €30 Plan",
-          "type": "monthly",
-          "price": 30.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111."
-        }
-      ]
-    },
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for Letterkenny, Co. Donegal address."
+      {
+         "website" : "https://www.panda.ie/household/",
+         "service_notes" : "No glass bin included for Donegal (rural area). Compost availability being rolled out — may not be available at all rural addresses. €0.25/kg excess on waste.",
+         "pricing_available" : true,
+         "phone" : "01 8298992",
+         "pricing_method" : "signup_flow",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for Letterkenny, Co. Donegal address."
+         },
+         "address_used" : "1 Lower Main Street, Letterkenny, Co. Donegal",
+         "plans" : [
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 50,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "Unlimited recycling and compost included. No glass bin in Donegal.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.25,
+               "price" : 28.75,
+               "household_size" : "1-3 people"
+            },
+            {
+               "waste_allowance_kg" : 75,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "Unlimited recycling and compost included.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "household_size" : "3-5 people",
+               "price" : 32,
+               "excess_charge_per_kg" : 0.25
+            },
+            {
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Unlimited recycling and compost included.",
+               "household_size" : "5+ people",
+               "price" : 39,
+               "excess_charge_per_kg" : 0.25,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Plus",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 100,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 5,
+               "price_frequency" : "monthly",
+               "notes" : "No glass bin in Donegal.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay Per Lift"
+            }
+         ],
+         "name" : "Panda Green"
       },
-      "address_used": "1 Lower Main Street, Letterkenny, Co. Donegal",
-      "service_notes": "No glass bin included for Donegal (rural area). Compost availability being rolled out — may not be available at all rural addresses. €0.25/kg excess on waste.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 28.75,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. No glass bin in Donegal."
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 32.00,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 75,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 39.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 100,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "No glass bin in Donegal."
-        }
-      ]
-    },
-    {
-      "name": "Sharkey Waste & Recycle",
-      "phone": "074 9548 229",
-      "website": "http://www.sharkeywaste.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx."
+      {
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : "074 9548 229",
+         "address_used" : null,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "annual",
+               "waste_allowance_kg" : 600,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "On Account Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 25,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "waste_allowance_period" : "annual",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "On Account Plus",
+               "waste_allowance_kg" : 900,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 30,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options."
+            },
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "On Account Premium",
+               "waste_allowance_kg" : 1200,
+               "waste_allowance_period" : "annual",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 35
+            },
+            {
+               "household_size" : null,
+               "price" : 5,
+               "excess_charge_per_kg" : 0.25,
+               "price_frequency" : "monthly",
+               "notes" : "Min top-up €20.",
+               "recycling_allowance_kg" : 30,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : 0.15,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 40,
+               "name" : "E-tag (Pay As You Go)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift"
+            }
+         ],
+         "name" : "Sharkey Waste & Recycle",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx.",
+            "level" : "high"
+         },
+         "website" : "http://www.sharkeywaste.ie/",
+         "service_notes" : "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post."
       },
-      "address_used": null,
-      "service_notes": "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post.",
-      "plans": [
-        {
-          "name": "On Account Standard",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 600,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "On Account Plus",
-          "type": "monthly",
-          "price": 30.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 900,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "On Account Premium",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 1200,
-          "waste_allowance_period": "annual",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Billed 6-monthly. 240L or 120L bin options."
-        },
-        {
-          "name": "E-tag (Pay As You Go)",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.15,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Min top-up €20."
-        }
-      ]
-    },
-    {
-      "name": "The Binman",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
+      {
+         "plans" : [],
+         "name" : "The Binman",
+         "address_used" : null,
+         "confidence" : {
+            "reason" : "No website listed. Phone-only contact. No online pricing available.",
+            "level" : "none"
+         },
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "086 3517273",
+         "website" : null,
+         "service_notes" : null
       },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
-      "name": "DM Waste",
-      "phone": "074 915 7189",
-      "website": "https://www.dmwaste.com",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No public pricing on website. Site directs customers to register or contact directly. Mentions 'various domestic bin sizes and flexible payment options' but no rates published."
+      {
+         "website" : "https://www.dmwaste.com",
+         "service_notes" : "Bin registration required. Flexible payment options available.",
+         "confidence" : {
+            "level" : "none",
+            "reason" : "No public pricing on website. Site directs customers to register or contact directly. Mentions 'various domestic bin sizes and flexible payment options' but no rates published."
+         },
+         "plans" : [],
+         "address_used" : null,
+         "name" : "DM Waste",
+         "phone" : "074 915 7189",
+         "pricing_available" : false,
+         "pricing_method" : null
       },
-      "address_used": null,
-      "service_notes": "Bin registration required. Flexible payment options available.",
-      "plans": []
-    },
-    {
-      "name": "Donegal Waste & Recycle",
-      "phone": "074 974 0130",
-      "website": "https://www.donegalwasteandrecycle.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from donegalwasterecycle.wis.ie for Firville House, Navenny, Ballybofey, Co. Donegal."
-      },
-      "address_used": "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
-      "service_notes": "Bi-weekly collection. 240L or 120L waste and recycling bins. 25L food caddy included. Pay as You Go option available for low-waste households. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans.",
-      "plans": [
-        {
-          "name": "Standard 240 + 240 + Caddy",
-          "type": "monthly",
-          "price": 34.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 240 Waste + 120 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Standard 120 + 120 + Caddy",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 120 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "2x240 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 52.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 420,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Pre Pay Top Up",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery."
-        },
-        {
-          "name": "Pre Pay Annual",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery."
-        }
-      ]
-    }
-  ]
+      {
+         "service_notes" : "Bi-weekly collection. 240L or 120L waste and recycling bins. 25L food caddy included. Pay as You Go option available for low-waste households. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans.",
+         "website" : "https://www.donegalwasteandrecycle.com",
+         "pricing_method" : "wis_portal",
+         "phone" : "074 974 0130",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 210,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 240 + 240 + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "price" : 34,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "household_size" : null,
+               "price" : 31,
+               "excess_charge_per_kg" : 0.25,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 210,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 240 Waste + 120 Recycle + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 27,
+               "waste_allowance_kg" : 105,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 120 + 120 + Caddy",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 31,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 105,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 120 Waste + 240 Recycle + Caddy"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 52,
+               "price_frequency" : "monthly",
+               "notes" : "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 420,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "2x240 Waste + 240 Recycle + Caddy"
+            },
+            {
+               "waste_allowance_kg" : 40,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pre Pay Top Up",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "price_frequency" : "monthly",
+               "notes" : "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 5
+            },
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 5,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "name" : "Pre Pay Annual",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 40,
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : null
+            }
+         ],
+         "name" : "Donegal Waste & Recycle",
+         "address_used" : "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from donegalwasterecycle.wis.ie for Firville House, Navenny, Ballybofey, Co. Donegal."
+         }
+      }
+   ],
+   "scraped_date" : "2026-03-21",
+   "source" : "mywaste.ie + individual company websites and Panda signup flow",
+   "county" : "Donegal"
 }
 ,
 "dublin": {
-  "county": "Dublin",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + individual company websites + Panda API",
-  "companies": [
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from Panda API for Dublin zone 3."
+   "county" : "Dublin",
+   "source" : "mywaste.ie + individual company websites + Panda API",
+   "scraped_date" : "2026-03-21",
+   "companies" : [
+      {
+         "pricing_method" : "signup_flow",
+         "phone" : "01 8298992",
+         "pricing_available" : true,
+         "name" : "Panda Green",
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 42,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "1-3 people",
+               "price" : 24.5,
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 65,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.3,
+               "price" : 28.5,
+               "household_size" : "3-5 people"
+            },
+            {
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "5+ people",
+               "price" : 32.5,
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 85,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Plus"
+            },
+            {
+               "per_lift_waste" : 14.75,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Flexible (Pay Per Lift)",
+               "per_lift_compost" : 3.8,
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : 0.085,
+               "per_lift_glass" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€75 service charge per 6 months (~€12.50/month) + per lift: Waste €14.75/lift, Recycling €1.63/lift, Compost €3.80/lift.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : null,
+               "price" : 12.5,
+               "per_lift_recycling" : 1.63,
+               "household_size" : null
+            }
+         ],
+         "address_used" : "Dublin zone 3",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from Panda API for Dublin zone 3.",
+            "level" : "high"
+         },
+         "service_notes" : "1 month free when signing up online. Glass collection not available in most Dublin regions. Unlimited recycling and compost on all flat-rate plans.",
+         "website" : "https://www.panda.ie/household/"
       },
-      "address_used": "Dublin zone 3",
-      "service_notes": "1 month free when signing up online. Glass collection not available in most Dublin regions. Unlimited recycling and compost on all flat-rate plans.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 24.50,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 28.50,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 32.50,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 85,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "Flexible (Pay Per Lift)",
-          "type": "pay_by_lift",
-          "price": 12.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.085,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "per_lift_waste": 14.75,
-          "per_lift_recycling": 1.63,
-          "per_lift_compost": 3.80,
-          "per_lift_glass": null,
-          "notes": "€75 service charge per 6 months (~€12.50/month) + per lift: Waste €14.75/lift, Recycling €1.63/lift, Compost €3.80/lift."
-        }
-      ]
-    },
-    {
-      "name": "The City Bin Co.",
-      "phone": "1800 248 925",
-      "website": "https://www.citybin.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from citybin.com for Dublin."
+      {
+         "service_notes" : "Annual plans include 1 month free. Free SMS reminders and recycling reports on all plans. Recycling included at no extra charge.",
+         "website" : "https://www.citybin.com",
+         "pricing_method" : "public_page",
+         "phone" : "1800 248 925",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "price" : 24,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 30,
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "City Lite",
+               "type" : "monthly"
+            },
+            {
+               "excess_charge_per_kg" : 0.3,
+               "price" : 26.49,
+               "household_size" : null,
+               "waste_allowance_period" : "monthly",
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_kg" : 42,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "City Essential"
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_kg" : 65,
+               "type" : "monthly",
+               "name" : "City Extra",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : null,
+               "price" : 30.49,
+               "waste_allowance_period" : "monthly"
+            }
+         ],
+         "address_used" : null,
+         "name" : "The City Bin Co.",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from citybin.com for Dublin."
+         }
       },
-      "address_used": null,
-      "service_notes": "Annual plans include 1 month free. Free SMS reminders and recycling reports on all plans. Recycling included at no extra charge.",
-      "plans": [
-        {
-          "name": "City Lite",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "City Essential",
-          "type": "monthly",
-          "price": 26.49,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "City Extra",
-          "type": "monthly",
-          "price": 30.49,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "name": "Thorntons Recycling",
-      "phone": "01 6235 133",
-      "website": "https://www.thorntons-recycling.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from thorntons-recycling.ie for Dublin."
+      {
+         "confidence" : {
+            "reason" : "Pricing retrieved from thorntons-recycling.ie for Dublin.",
+            "level" : "high"
+         },
+         "plans" : [
+            {
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.28,
+               "price" : 24,
+               "household_size" : "1-3 people",
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "Eco Band Lite",
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_kg" : 30
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_kg" : 40,
+               "type" : "monthly",
+               "name" : "Eco Band",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "excess_charge_per_kg" : 0.28,
+               "household_size" : "4 people",
+               "price" : 26.49,
+               "waste_allowance_period" : "monthly"
+            }
+         ],
+         "name" : "Thorntons Recycling",
+         "address_used" : null,
+         "pricing_available" : true,
+         "phone" : "01 6235 133",
+         "pricing_method" : "public_page",
+         "website" : "https://www.thorntons-recycling.ie",
+         "service_notes" : "No annual fee. Award-winning mobile app. Refer a friend scheme (€25 credit)."
       },
-      "address_used": null,
-      "service_notes": "No annual fee. Award-winning mobile app. Refer a friend scheme (€25 credit).",
-      "plans": [
-        {
-          "name": "Eco Band Lite",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.28,
-          "notes": null
-        },
-        {
-          "name": "Eco Band",
-          "type": "monthly",
-          "price": 26.49,
-          "price_frequency": "monthly",
-          "household_size": "4 people",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.28,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "name": "Greyhound Household",
-      "phone": "01 4577777",
-      "website": "https://www.greyhound.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from greyhound.ie for Dublin council areas."
+      {
+         "service_notes" : "Pricing varies by Dublin council area (DCC, DLR, SDCC, Fingal). Green and brown bin lifts complimentary on monthly plans. No annual upfront fees. Direct debit processes 28th–1st monthly. Bins delivered in 2–3 working days. Promo code 'Bin10' for 1 month free.",
+         "website" : "https://www.greyhound.ie",
+         "confidence" : {
+            "reason" : "Pricing retrieved from greyhound.ie for Dublin council areas.",
+            "level" : "high"
+         },
+         "address_used" : null,
+         "plans" : [
+            {
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.3,
+               "price" : 24.5,
+               "household_size" : "1-3 people",
+               "type" : "monthly",
+               "name" : "Standard (DCC)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_kg" : 32
+            },
+            {
+               "type" : "monthly",
+               "name" : "Family (DCC)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_kg" : 42,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "3-5 people",
+               "price" : 27
+            },
+            {
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "5+ people",
+               "price" : 31,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "Extra bins available.",
+               "waste_allowance_kg" : 65,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Family Plus (DCC)"
+            },
+            {
+               "type" : "monthly",
+               "name" : "Standard (DLR)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_kg" : 32,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "1-3 people",
+               "price" : 25
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Family (DLR)",
+               "type" : "monthly",
+               "waste_allowance_kg" : 42,
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_period" : "monthly",
+               "household_size" : "3-5 people",
+               "price" : 27.5,
+               "excess_charge_per_kg" : 0.3
+            },
+            {
+               "price" : 31,
+               "household_size" : "5+ people",
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 65,
+               "notes" : "Extra bins available.",
+               "price_frequency" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Family Plus (DLR)",
+               "type" : "monthly"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "price" : 5,
+               "per_lift_recycling" : 4.5,
+               "household_size" : null,
+               "notes" : "€59.95/year service charge (~€5/month) + per lift: Waste €5.50/lift, Recycling €4.50/lift, Compost €4.00/lift.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : null,
+               "per_lift_compost" : 4,
+               "waste_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "per_lift_waste" : 5.5,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay As You Go"
+            }
+         ],
+         "name" : "Greyhound Household",
+         "phone" : "01 4577777",
+         "pricing_available" : true,
+         "pricing_method" : "public_page"
       },
-      "address_used": null,
-      "service_notes": "Pricing varies by Dublin council area (DCC, DLR, SDCC, Fingal). Green and brown bin lifts complimentary on monthly plans. No annual upfront fees. Direct debit processes 28th–1st monthly. Bins delivered in 2–3 working days. Promo code 'Bin10' for 1 month free.",
-      "plans": [
-        {
-          "name": "Standard (DCC)",
-          "type": "monthly",
-          "price": 24.50,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 32,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "Family (DCC)",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "Family Plus (DCC)",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": "Extra bins available."
-        },
-        {
-          "name": "Standard (DLR)",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 32,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "Family (DLR)",
-          "type": "monthly",
-          "price": 27.50,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": null
-        },
-        {
-          "name": "Family Plus (DLR)",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "notes": "Extra bins available."
-        },
-        {
-          "name": "Pay As You Go",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "per_lift_waste": 5.50,
-          "per_lift_recycling": 4.50,
-          "per_lift_compost": 4.00,
-          "notes": "€59.95/year service charge (~€5/month) + per lift: Waste €5.50/lift, Recycling €4.50/lift, Compost €4.00/lift."
-        }
-      ]
-    },
-    {
-      "name": "Key Waste Management Ltd. (KeyGreen)",
-      "phone": "01 4299 846",
-      "website": "https://www.keygreen.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from keygreen.ie for Dublin."
+      {
+         "address_used" : null,
+         "plans" : [
+            {
+               "excess_charge_per_kg" : 0.33,
+               "price" : 23.95,
+               "household_size" : "1-3 people",
+               "waste_allowance_period" : "monthly",
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_kg" : 40,
+               "type" : "monthly",
+               "name" : "KeyLite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ]
+            },
+            {
+               "excess_charge_per_kg" : 0.33,
+               "household_size" : "3-5 people",
+               "price" : 26.95,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "waste_allowance_kg" : 50,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "KeyStandard"
+            },
+            {
+               "excess_charge_per_kg" : 0.33,
+               "price" : 31.95,
+               "household_size" : "5+ people",
+               "waste_allowance_period" : "monthly",
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_kg" : 70,
+               "type" : "monthly",
+               "name" : "KeyPlus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ]
+            }
+         ],
+         "name" : "Key Waste Management Ltd. (KeyGreen)",
+         "confidence" : {
+            "reason" : "Pricing retrieved from keygreen.ie for Dublin.",
+            "level" : "high"
+         },
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : "01 4299 846",
+         "website" : "https://www.keygreen.ie/",
+         "service_notes" : "Service available in Dublin 4 and Dublin 6 only. Bi-weekly collections. Recycling and organic bins included free."
       },
-      "address_used": null,
-      "service_notes": "Service available in Dublin 4 and Dublin 6 only. Bi-weekly collections. Recycling and organic bins included free.",
-      "plans": [
-        {
-          "name": "KeyLite",
-          "type": "monthly",
-          "price": 23.95,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.33,
-          "notes": null
-        },
-        {
-          "name": "KeyStandard",
-          "type": "monthly",
-          "price": 26.95,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.33,
-          "notes": null
-        },
-        {
-          "name": "KeyPlus",
-          "type": "monthly",
-          "price": 31.95,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 70,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.33,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "name": "Advanced Waste Recycling",
-      "phone": "01 401 1928",
-      "website": "https://www.advancedwaste.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing confirmed via WIS portal for Dublin 22 (Clondalkin area)."
+      {
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing confirmed via WIS portal for Dublin 22 (Clondalkin area)."
+         },
+         "name" : "Advanced Waste Recycling",
+         "plans" : [
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "2025 Light Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 25,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "No weight charge for recycling or compost bins.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.28,
+               "price" : 20.5,
+               "household_size" : null
+            },
+            {
+               "waste_allowance_kg" : 65,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "2025 Standard Plan",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "notes" : "No weight charge for recycling or compost bins.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.28,
+               "price" : 24.5,
+               "household_size" : null
+            },
+            {
+               "excess_charge_per_kg" : 0.28,
+               "household_size" : null,
+               "price" : 27.5,
+               "price_frequency" : "monthly",
+               "notes" : "No weight charge for recycling or compost bins.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 95,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "2025 Family Plus Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ]
+            }
+         ],
+         "address_used" : "Clondalkin, Dublin 22",
+         "pricing_available" : true,
+         "phone" : "01 401 1928",
+         "pricing_method" : "signup_flow",
+         "website" : "https://www.advancedwaste.ie/",
+         "service_notes" : "Based in Saggart, Co. Dublin (D24). Confirmed serving D22 area. Coverage may not extend across all Dublin Eircodes."
       },
-      "address_used": "Clondalkin, Dublin 22",
-      "service_notes": "Based in Saggart, Co. Dublin (D24). Confirmed serving D22 area. Coverage may not extend across all Dublin Eircodes.",
-      "plans": [
-        {
-          "name": "2025 Light Plan",
-          "type": "monthly",
-          "price": 20.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 25,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.28,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "No weight charge for recycling or compost bins."
-        },
-        {
-          "name": "2025 Standard Plan",
-          "type": "monthly",
-          "price": 24.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.28,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "No weight charge for recycling or compost bins."
-        },
-        {
-          "name": "2025 Family Plus Plan",
-          "type": "monthly",
-          "price": 27.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 95,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.28,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "No weight charge for recycling or compost bins."
-        }
-      ]
-    },
-    {
-      "name": "Allied Recycling",
-      "phone": "01 278 7080",
-      "website": "https://www.alliedrecycling.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "medium",
-        "reason": "Pricing sourced from alliedrecycling.ie. Dublin coverage limited to border areas near Meath/Kildare."
+      {
+         "name" : "Allied Recycling",
+         "plans" : [
+            {
+               "type" : "monthly",
+               "name" : "Standard Three Bin",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "price_frequency" : "monthly",
+               "notes" : "Each bin emptied fortnightly. Allowance is 350kg waste / 195kg recycling / 195kg compost per 6 months. Excess charged in January and July — rate not published.",
+               "waste_allowance_kg" : 58,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : null,
+               "price" : 25
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "Pay Per Lift",
+               "type" : "pay_by_lift",
+               "waste_allowance_kg" : null,
+               "price_frequency" : "per_lift",
+               "notes" : "Waste €13.50/lift, Recycling €6.50/lift. Compost not available on Pay Per Lift. Setup fee €75 for a bin set.",
+               "price" : 13.5,
+               "per_lift_recycling" : 6.5,
+               "excess_charge_per_kg" : null
+            }
+         ],
+         "address_used" : null,
+         "confidence" : {
+            "level" : "medium",
+            "reason" : "Pricing sourced from alliedrecycling.ie. Dublin coverage limited to border areas near Meath/Kildare."
+         },
+         "pricing_method" : "public_page",
+         "phone" : "01 278 7080",
+         "pricing_available" : true,
+         "website" : "https://www.alliedrecycling.ie",
+         "service_notes" : "Serves Dublin border areas near Meath and Kildare. €30 delivery charge per bin for new customers. First month free."
       },
-      "address_used": null,
-      "service_notes": "Serves Dublin border areas near Meath and Kildare. €30 delivery charge per bin for new customers. First month free.",
-      "plans": [
-        {
-          "name": "Standard Three Bin",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 58,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": null,
-          "notes": "Each bin emptied fortnightly. Allowance is 350kg waste / 195kg recycling / 195kg compost per 6 months. Excess charged in January and July — rate not published."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 13.50,
-          "price_frequency": "per_lift",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": null,
-          "excess_charge_per_kg": null,
-          "per_lift_recycling": 6.50,
-          "notes": "Waste €13.50/lift, Recycling €6.50/lift. Compost not available on Pay Per Lift. Setup fee €75 for a bin set."
-        }
-      ]
-    },
-    {
-      "name": "AES Recycling",
-      "phone": "045 580 060",
-      "website": "https://www.aesrecycling.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "low",
-        "reason": "Plan prices sourced from other counties — confirm directly with AES for Dublin-specific rates."
+      {
+         "website" : "https://www.aesrecycling.ie/",
+         "service_notes" : "Prices shown are based on AES rates in other counties. Excess weight charges are not published — if you exceed your monthly allowance, contact AES for the exact cost.",
+         "phone" : "045 580 060",
+         "pricing_available" : true,
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "reason" : "Plan prices sourced from other counties — confirm directly with AES for Dublin-specific rates.",
+            "level" : "low"
+         },
+         "plans" : [
+            {
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Lite",
+               "price_frequency" : "monthly",
+               "notes" : "Excess weight charge not published — contact AES for rate.",
+               "waste_allowance_kg" : 30,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : null,
+               "price" : 23
+            },
+            {
+               "price" : 26,
+               "excess_charge_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 60,
+               "notes" : "Excess weight charge not published — contact AES for rate.",
+               "price_frequency" : "monthly",
+               "name" : "Smart",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "monthly"
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : "Excess weight charge not published — contact AES for rate.",
+               "waste_allowance_kg" : 90,
+               "type" : "monthly",
+               "name" : "Plus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "excess_charge_per_kg" : null,
+               "price" : 32,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "notes" : "Per-lift charge. No monthly commitment.",
+               "price_frequency" : "per_lift",
+               "waste_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "name" : "Pay by Lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "excess_charge_per_kg" : null,
+               "price" : 15.2
+            }
+         ],
+         "address_used" : null,
+         "name" : "AES Recycling"
       },
-      "address_used": null,
-      "service_notes": "Prices shown are based on AES rates in other counties. Excess weight charges are not published — if you exceed your monthly allowance, contact AES for the exact cost.",
-      "plans": [
-        {
-          "name": "Lite",
-          "type": "monthly",
-          "price": 23.00,
-          "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": null,
-          "notes": "Excess weight charge not published — contact AES for rate."
-        },
-        {
-          "name": "Smart",
-          "type": "monthly",
-          "price": 26.00,
-          "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": null,
-          "notes": "Excess weight charge not published — contact AES for rate."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 32.00,
-          "price_frequency": "monthly",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 90,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": null,
-          "notes": "Excess weight charge not published — contact AES for rate."
-        },
-        {
-          "name": "Pay by Lift",
-          "type": "pay_by_lift",
-          "price": 15.20,
-          "price_frequency": "per_lift",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "excess_charge_per_kg": null,
-          "notes": "Per-lift charge. No monthly commitment."
-        }
-      ]
-    },
-    {
-      "name": "Ecoway Waste Management Ltd.",
-      "phone": "01 874 8340",
-      "website": "https://www.ecoway.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Pricing shown as 'Coming soon' on their website."
-      },
-      "address_used": null,
-      "service_notes": "Service available in Dublin 1, 2, 3 and 7 only. Expanding coverage. Pricing 'Coming soon' on website.",
-      "plans": []
-    }
-  ]
+      {
+         "confidence" : {
+            "level" : "none",
+            "reason" : "Pricing shown as 'Coming soon' on their website."
+         },
+         "plans" : [],
+         "address_used" : null,
+         "name" : "Ecoway Waste Management Ltd.",
+         "pricing_available" : false,
+         "phone" : "01 874 8340",
+         "pricing_method" : null,
+         "website" : "https://www.ecoway.ie",
+         "service_notes" : "Service available in Dublin 1, 2, 3 and 7 only. Expanding coverage. Pricing 'Coming soon' on website."
+      }
+   ]
 }
 ,
 "galway": {
-  "county": "Galway",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
-  "companies": [
-    {
-      "name": "Moran Refuse & Recycling Service",
-      "phone": "091 794 400",
-      "website": "https://www.moranrefuse.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from moranrefuse.ie/services/pricing/."
+   "source" : "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
+   "county" : "Galway",
+   "scraped_date" : "2026-03-21",
+   "companies" : [
+      {
+         "service_notes" : "Billed every 6 months. Weight-based allowances. Excess charged at €0.25/kg. Bins: 120L, 240L, or 360L waste options.",
+         "website" : "https://www.moranrefuse.ie",
+         "phone" : "091 794 400",
+         "pricing_available" : true,
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from moranrefuse.ie/services/pricing/."
+         },
+         "address_used" : null,
+         "plans" : [
+            {
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "120L Plan",
+               "waste_allowance_kg" : 200,
+               "excess_charge_per_kg" : 0.25,
+               "price" : 28.33,
+               "household_size" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : null,
+               "price_frequency" : "monthly"
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "6_monthly",
+               "waste_allowance_kg" : 450,
+               "name" : "240L Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "household_size" : null,
+               "price" : 33.33,
+               "excess_charge_per_kg" : 0.25,
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 46.67,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "waste_allowance_kg" : 675,
+               "name" : "360L Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "6_monthly"
+            }
+         ],
+         "name" : "Moran Refuse & Recycling Service"
       },
-      "address_used": null,
-      "service_notes": "Billed every 6 months. Weight-based allowances. Excess charged at €0.25/kg. Bins: 120L, 240L, or 360L waste options.",
-      "plans": [
-        {
-          "name": "120L Plan",
-          "type": "monthly",
-          "price": 28.33,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 200,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "240L Plan",
-          "type": "monthly",
-          "price": 33.33,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 450,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "360L Plan",
-          "type": "monthly",
-          "price": 46.67,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 675,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "name": "The City Bin Co.",
-      "phone": "091 787800",
-      "website": "https://www.citybin.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from citybin.com/signup/ — Galway-specific plans confirmed as of 16.01.26."
+      {
+         "pricing_available" : true,
+         "phone" : "091 787800",
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from citybin.com/signup/ — Galway-specific plans confirmed as of 16.01.26.",
+            "level" : "high"
+         },
+         "address_used" : null,
+         "plans" : [
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "City Lite – Galway",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 33,
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "Light waste producers",
+               "price" : 21,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Annual option: €233.50/year (1 month free). Best for households that recycle most waste."
+            },
+            {
+               "waste_allowance_kg" : 42,
+               "name" : "City Essential – Galway",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "notes" : "Annual option: €259.90/year (1 month free).",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 23.4,
+               "household_size" : "Most households",
+               "excess_charge_per_kg" : 0.3
+            },
+            {
+               "name" : "City Extra – Galway",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 65,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "Annual option: €304.89/year (1 month free).",
+               "price_frequency" : "monthly",
+               "price" : 27.49,
+               "household_size" : "Larger households",
+               "excess_charge_per_kg" : 0.3
+            }
+         ],
+         "name" : "The City Bin Co.",
+         "service_notes" : "Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. €0.30/kg excess on waste for all plans.",
+         "website" : "https://www.citybin.com"
       },
-      "address_used": null,
-      "service_notes": "Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. €0.30/kg excess on waste for all plans.",
-      "plans": [
-        {
-          "name": "City Lite – Galway",
-          "type": "monthly",
-          "price": 21.00,
-          "price_frequency": "monthly",
-          "household_size": "Light waste producers",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 33,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Annual option: €233.50/year (1 month free). Best for households that recycle most waste."
-        },
-        {
-          "name": "City Essential – Galway",
-          "type": "monthly",
-          "price": 23.40,
-          "price_frequency": "monthly",
-          "household_size": "Most households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Annual option: €259.90/year (1 month free)."
-        },
-        {
-          "name": "City Extra – Galway",
-          "type": "monthly",
-          "price": 27.49,
-          "price_frequency": "monthly",
-          "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Annual option: €304.89/year (1 month free)."
-        }
-      ]
-    },
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for Galway city address."
+      {
+         "service_notes" : "Glass bin included for Galway (urban zone). Pay by weight option available. €0.25/kg excess on waste; €0.19/kg excess on recycling and compost.",
+         "website" : "https://www.panda.ie/household/",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for Galway city address."
+         },
+         "plans" : [
+            {
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : 40,
+               "waste_allowance_kg" : 35,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : 0.19,
+               "recycling_allowance_kg" : 30,
+               "compost_excess_per_kg" : 0.19,
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "price" : 19,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "price" : 20,
+               "household_size" : null,
+               "compost_excess_per_kg" : 0.19,
+               "recycling_allowance_kg" : null,
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : 0.19,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Standard",
+               "waste_allowance_kg" : 45
+            },
+            {
+               "waste_allowance_kg" : 60,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Plus",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : 0.19,
+               "waste_allowance_period" : "monthly",
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : 0.19,
+               "price" : 24,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25
+            },
+            {
+               "waste_allowance_kg" : null,
+               "type" : "pay_by_weight",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Pay By Weight",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "notes" : null,
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : 0.14,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.28,
+               "price" : 12.5,
+               "household_size" : null
+            }
+         ],
+         "name" : "Panda Green",
+         "address_used" : "1 Eyre Square, Galway",
+         "pricing_available" : true,
+         "phone" : "01 8298992",
+         "pricing_method" : "signup_flow"
       },
-      "address_used": "1 Eyre Square, Galway",
-      "service_notes": "Glass bin included for Galway (urban zone). Pay by weight option available. €0.25/kg excess on waste; €0.19/kg excess on recycling and compost.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 19.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 35,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": 40,
-          "compost_excess_per_kg": 0.19,
-          "notes": null
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 20.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 45,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.19,
-          "notes": null
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.19,
-          "notes": null
-        },
-        {
-          "name": "Pay By Weight",
-          "type": "pay_by_weight",
-          "price": 12.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.28,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.14,
-          "notes": null
-        }
-      ]
-    },
-    {
-      "name": "Mr Binman",
-      "phone": "061 351 128",
-      "website": "https://www.mrbinman.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Galway. City vs country rates apply — Galway city areas use city rates, rural Galway uses country rates."
+      {
+         "pricing_available" : true,
+         "phone" : "061 351 128",
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Galway. City vs country rates apply — Galway city areas use city rates, rural Galway uses country rates."
+         },
+         "address_used" : null,
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 50,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Household Standard",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "price" : 27,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.2,
+               "notes" : "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "recycling_excess_per_kg" : 0.1,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 20,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "name" : "Pay Per Lift (Xtralite)",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "excess_charge_per_kg" : 0.2,
+               "price" : 6.05,
+               "household_size" : null,
+               "notes" : "Min account credit €12.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : 15
+            },
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : 15,
+               "price_frequency" : "monthly",
+               "notes" : null,
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 9.5,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "name" : "Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 25,
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "name" : "TerraUrban",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€30 discount if paying by direct debit.",
+               "household_size" : null,
+               "price" : 27.25,
+               "excess_charge_per_kg" : null
+            }
+         ],
+         "name" : "Mr Binman",
+         "website" : "https://www.mrbinman.com",
+         "service_notes" : "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided."
       },
-      "address_used": null,
-      "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided.",
-      "plans": [
-        {
-          "name": "Household Standard",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo."
-        },
-        {
-          "name": "Pay Per Lift (Xtralite)",
-          "type": "pay_by_lift",
-          "price": 6.05,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 20,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.10,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
-        },
-        {
-          "name": "Lite",
-          "type": "pay_by_lift",
-          "price": 9.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 25,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": null
-        },
-        {
-          "name": "TerraUrban",
-          "type": "monthly",
-          "price": 27.25,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
-        }
-      ]
-    },
-    {
-      "name": "Barna Recycling",
-      "phone": "091 771 621",
-      "website": "https://www.barnarecycling.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
+      {
+         "phone" : "091 771 621",
+         "pricing_available" : true,
+         "pricing_method" : "county_dropdown",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
+         },
+         "plans" : [
+            {
+               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. Government Waste Recovery Levy €0.012/kg applies to waste.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : 0.15,
+               "price" : 21,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "waste_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "PBW Standard",
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_weight",
+               "recycling_excess_per_kg" : 0.05,
+               "waste_allowance_period" : null
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+               "compost_excess_per_kg" : 0.15,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 12,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "name" : "Pay By Weight Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : 0.05,
+               "waste_allowance_period" : null
+            },
+            {
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "ECO Standard",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 350,
+               "household_size" : "Larger households",
+               "price" : 35,
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : "Smaller households",
+               "price" : 31.67,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost. Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "ECO Small",
+               "waste_allowance_kg" : 200
+            }
+         ],
+         "address_used" : "Co. Galway (county dropdown)",
+         "name" : "Barna Recycling",
+         "service_notes" : "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
+         "website" : "https://www.barnarecycling.com"
       },
-      "address_used": "Co. Galway (county dropdown)",
-      "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
-      "plans": [
-        {
-          "name": "PBW Standard",
-          "type": "pay_by_weight",
-          "price": 21.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. Government Waste Recovery Levy €0.012/kg applies to waste."
-        },
-        {
-          "name": "Pay By Weight Lite",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
-        },
-        {
-          "name": "ECO Standard",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 350,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
-        },
-        {
-          "name": "ECO Small",
-          "type": "monthly",
-          "price": 31.67,
-          "price_frequency": "monthly",
-          "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 200,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost. Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
-        }
-      ]
-    },
-    {
-      "name": "Ballinrobe Waste",
-      "phone": "094 954 1360",
-      "website": "https://www.ballinrobewaste.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No pricing listed on website. Site describes service but directs customers to contact for details."
+      {
+         "service_notes" : "Serves South Mayo and parts of Co. Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
+         "website" : "https://www.ballinrobewaste.ie",
+         "confidence" : {
+            "reason" : "No pricing listed on website. Site describes service but directs customers to contact for details.",
+            "level" : "none"
+         },
+         "address_used" : null,
+         "plans" : [],
+         "name" : "Ballinrobe Waste",
+         "pricing_available" : false,
+         "phone" : "094 954 1360",
+         "pricing_method" : null
       },
-      "address_used": null,
-      "service_notes": "Serves South Mayo and parts of Co. Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
-      "plans": []
-    },
-    {
-      "name": "The Binman",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
+      {
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "086 3517273",
+         "address_used" : null,
+         "plans" : [],
+         "name" : "The Binman",
+         "confidence" : {
+            "reason" : "No website listed. Phone-only contact. No online pricing available.",
+            "level" : "none"
+         },
+         "service_notes" : null,
+         "website" : null
       },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
-      "name": "Athchursail Aran Teo",
-      "phone": null,
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website or phone number listed in source data. No online pricing available."
+      {
+         "plans" : [],
+         "address_used" : null,
+         "name" : "Athchursail Aran Teo",
+         "confidence" : {
+            "level" : "none",
+            "reason" : "No website or phone number listed in source data. No online pricing available."
+         },
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : null,
+         "website" : null,
+         "service_notes" : "Serves the Aran Islands (Inis Mór, Inis Meáin, Inis Oírr)."
       },
-      "address_used": null,
-      "service_notes": "Serves the Aran Islands (Inis Mór, Inis Meáin, Inis Oírr).",
-      "plans": []
-    },
-    {
-      "name": "Henry Kenny",
-      "phone": "087 9697 528",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website found. Phone-only contact — no online pricing available."
-      },
-      "address_used": null,
-      "service_notes": "Local Galway waste collector. Contact 087 9697 528 for pricing and availability.",
-      "plans": []
-    }
-  ]
+      {
+         "service_notes" : "Local Galway waste collector. Contact 087 9697 528 for pricing and availability.",
+         "website" : null,
+         "pricing_available" : false,
+         "phone" : "087 9697 528",
+         "pricing_method" : null,
+         "confidence" : {
+            "reason" : "No website found. Phone-only contact — no online pricing available.",
+            "level" : "none"
+         },
+         "plans" : [],
+         "name" : "Henry Kenny",
+         "address_used" : null
+      }
+   ]
 }
 ,
 "kerry": {
@@ -2439,6 +2737,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from kwd.ie/page96.php — KWD is based in Killarney and primarily serves Kerry, West Cork and West Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Two plan options based on bin size. Fortnightly collection. Service and weight charge model — the less you weigh, the less you pay. Payment options: 12 months upfront, 6 months, or monthly Easy Pay direct debit.",
       "plans": [
         {
@@ -2485,6 +2784,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Kerry is a country (rural) area — country rates apply."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. Kerry is country area — organic bin is 25L (not 140L city size). Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -2563,6 +2863,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from higginswaste.ie/services/household-collection/."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Kerry-based waste collector. Fortnightly collection of all bins on the same day. Two plans available: Pay As You Go (weight-based) and Half-Yearly fixed billing. Bin set setup fee applies.",
       "plans": [
         {
@@ -2625,6 +2926,7 @@ const COUNTY_DATA = {
         "reason": "Kerry County Council regulates waste collectors but does not directly provide household bin collection services. No collection pricing applicable."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Regulatory body only. Household waste collection in Kerry is provided by private operators.",
       "plans": []
     }
@@ -2646,6 +2948,7 @@ const COUNTY_DATA = {
         "reason": "Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Naas, Co. Kildare — Kildare Urban plans confirmed."
       },
       "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Pay By Weight option suited for light waste producers. Monthly, quarterly, half-yearly and annual billing available.",
       "plans": [
         {
@@ -2724,6 +3027,7 @@ const COUNTY_DATA = {
         "reason": "Prices retrieved from Ray Whelan WIS portal (raywhelan.wis.ie) for Naas, Co. Kildare."
       },
       "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Carlow, Laois, Kildare and Kilkenny. Alternate weekly collection. Initial account credit required on signup. All plans include 240L waste, 240L recycling, and 140L compost (where available).",
       "plans": [
         {
@@ -2786,6 +3090,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from thorntons-recycling.ie/household/. Thorntons serves Kildare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.",
       "plans": [
         {
@@ -2848,6 +3153,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from greyhound.ie/bin-collection-dublin/. Greyhound serves Dublin and Kildare; Kildare-specific rates confirmed."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste €0.30/kg.",
       "plans": [
         {
@@ -2910,6 +3216,7 @@ const COUNTY_DATA = {
         "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Kildare."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Multi-county operator including Kildare. Plans based on weight allowance.",
       "plans": [
         {
@@ -2988,6 +3295,7 @@ const COUNTY_DATA = {
         "reason": "Panda signup flow returned no available price options for Naas, Co. Kildare address. Service not available in Kildare."
       },
       "address_used": "1 North Main Street, Naas, Co. Kildare",
+      "pricing_method": null,
       "service_notes": "Panda does not appear to serve Co. Kildare.",
       "plans": []
     },
@@ -3001,6 +3309,7 @@ const COUNTY_DATA = {
         "reason": "Serves very limited areas of Kildare. No pricing available online - contact directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves very limited areas of Kildare. Contact them directly to check if your area is covered.",
       "plans": []
     },
@@ -3014,6 +3323,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Naas, Co. Kildare."
       },
       "address_used": "Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Cavan, Dublin.",
       "plans": [
         {
@@ -3100,6 +3410,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste. Plans named by bin size.",
       "plans": [
         {
@@ -3162,6 +3473,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 High Street, Kilkenny."
       },
       "address_used": "1 High Street, Kilkenny",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Kilkenny. Compost rollout ongoing in rural areas — may not be available at all addresses. €0.25/kg excess on waste. Unlimited recycling and compost included in flat plans.",
       "plans": [
         {
@@ -3240,6 +3552,7 @@ const COUNTY_DATA = {
         "reason": "Kilkenny County Council regulates waste collectors but does not directly provide household bin collection services. No collection pricing applicable."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Regulatory body only. Household waste collection in Kilkenny is provided by private operators.",
       "plans": []
     },
@@ -3253,6 +3566,7 @@ const COUNTY_DATA = {
         "reason": "Pricing from oxigen.ie national pay-by-lift and pay-by-weight pages. Serves Cavan to Waterford including Kilkenny. Exact Kilkenny-specific rates may vary."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Serves Kilkenny as part of their south-east region (Cavan to Waterford, 100,000+ customers).",
       "plans": [
         {
@@ -3300,6 +3614,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from qrl.wis.ie/signup for Brenor, County Kilkenny — location confirmed served."
       },
       "address_used": "Brenor, County Kilkenny, Ireland",
+      "pricing_method": "wis_portal",
       "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves south Kilkenny — note that not all areas of Kilkenny are covered; north and central parts of the county may not be served. Fortnightly collection. Free collection reminder texts. Introductory offer pricing.",
       "plans": [
         {
@@ -3382,6 +3697,7 @@ const COUNTY_DATA = {
         "reason": "Ray Whelan confirms they serve Kilkenny (listed on raywhelan.ie alongside Carlow, Laois, Kildare, Wicklow, Wexford) but no pricing is published online."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves Kilkenny from Carlow base. No pricing published online - contact directly. Payment via direct debit, Payzone, online or phone.",
       "plans": []
     },
@@ -3395,6 +3711,7 @@ const COUNTY_DATA = {
         "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Kilkenny city and Callan addresses. AES is based in Newbridge, Co. Kildare and does not appear to serve Kilkenny."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "No pricing information could be found online for this company, despite it being listed as a service provider for Kilkenny on mywaste.ie, Ireland's official government waste website. Contact them directly to confirm coverage.",
       "plans": []
     },
@@ -3408,6 +3725,7 @@ const COUNTY_DATA = {
         "reason": "Clean Ireland serves Limerick, Clare and North Kerry. Kilkenny is outside their service area."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Service area is Limerick, Clare and North Kerry only.",
       "plans": []
     },
@@ -3421,6 +3739,7 @@ const COUNTY_DATA = {
         "reason": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Listed as serving Kilkenny on mywaste.ie, however their own website does not mention Kilkenny as a service area. No pricing information could be found online for this county. Contact them directly to confirm coverage.",
       "plans": []
     },
@@ -3434,6 +3753,7 @@ const COUNTY_DATA = {
         "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Kilkenny-based waste collector. Website inaccessible due to SSL certificate error.",
       "plans": []
     }
@@ -3455,6 +3775,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from oxigen.wis.ie/signup for Portlaoise, Co. Laois. Plans labelled 'Laois Offaly Urban'."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Weight allowances apply to black waste bin — excess charged at €0.24/kg. 2-bin plans include opt-out of brown bin (alternative food waste management required). Pay By Lift also available.",
       "plans": [
         {
@@ -3549,6 +3870,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from aesirl.wis.ie/signup for Portlaoise, Co. Laois."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. 12-month contract (€50 cancellation fee). €50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.",
       "plans": [
         {
@@ -3627,6 +3949,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from raywhelan.wis.ie/signup for Portlaoise, Co. Laois."
       },
       "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
       "service_notes": "Alternate weekly collection (bins on a schedule). Compost/organic bin included where available. Initial deposit required. Bins delivered within 5-7 working days.",
       "plans": [
         {
@@ -3689,6 +4012,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste.",
       "plans": [
         {
@@ -3751,6 +4075,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ for Portlaoise, Co. Laois. Laois is a country (rural) area — country rates apply."
       },
       "address_used": "1 Lyster Square, Portlaoise, Co. Laois",
+      "pricing_method": "signup_flow",
       "service_notes": "Fortnightly collection. Only Pay Per Lift (Xtralite) and TerraUrban plans available in Laois — Household Standard and Lite plans are not offered. Country rates apply: 25L organic bin at €2.50/lift.",
       "plans": [
         {
@@ -3797,6 +4122,7 @@ const COUNTY_DATA = {
         "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Website inaccessible due to SSL certificate error.",
       "plans": []
     }
@@ -3818,6 +4144,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mulleadys.com/household.html. Mulleadys explicitly serves Longford, Leitrim, Roscommon and Westmeath."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Payment due 1st of each month. One-time bin rental fee of €60 applies. Fair usage policy — surcharges may apply for excessive weights. WIS account portal: mulleadys.wis.ie.",
       "plans": [
         {
@@ -3880,6 +4207,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Leitrim' as service area."
       },
       "address_used": "Co. Leitrim (county dropdown)",
+      "pricing_method": "county_dropdown",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Leitrim. Plans include both fixed and pay-by-weight options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -3958,6 +4286,7 @@ const COUNTY_DATA = {
         "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Carrick-on-Shannon, Co. Leitrim."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Leitrim.",
       "plans": []
     },
@@ -3971,6 +4300,7 @@ const COUNTY_DATA = {
         "reason": "Panda signup flow returned 'no available price options' for Carrick-on-Shannon, Co. Leitrim."
       },
       "address_used": "Bridge Street, Carrick-On-Shannon, Co. Leitrim",
+      "pricing_method": null,
       "service_notes": "Does not serve Leitrim.",
       "plans": []
     },
@@ -3984,6 +4314,7 @@ const COUNTY_DATA = {
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -3997,6 +4328,7 @@ const COUNTY_DATA = {
         "reason": "No pricing found on website. Bin sizes listed but no costs published. Customers directed to contact directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Bi-weekly collection. Pay as You Go option available. No pricing published online.",
       "plans": []
     }
@@ -4018,6 +4350,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from kwd.ie/page96.php. KWD explicitly states it serves Kerry, West Cork and West Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Service and weight charge model — the less you weigh, the less you pay. Payment options: 12 months, 6 months, or monthly Easy Pay direct debit. Serves West Limerick.",
       "plans": [
         {
@@ -4064,6 +4397,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ selecting Co. Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Limerick is country area — organic bin is 25L (not 140L city size) for Xtralite and Lite plans. Household Standard plan includes 140L organic bin. Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. Glass caddy free. Text reminders provided.",
       "plans": [
         {
@@ -4126,6 +4460,7 @@ const COUNTY_DATA = {
         "reason": "Panda signup flow returned 'no available price options' for Limerick address."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Limerick.",
       "plans": []
     },
@@ -4139,6 +4474,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from aesirl.wis.ie/residential for 1 O'Connell Street, Limerick (V94 CD78). Location confirmed served with price_group_ids=1."
       },
       "address_used": "1 O'Connell Street, Limerick",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract applies (€50 cancellation fee within 12 months). €50 prepayment required to open account. Glass bin included where available. All plans include 240L waste, 240L recycling, 140L compost, 140L glass.",
       "plans": [
         {
@@ -4217,6 +4553,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from cleanireland.ie. Clean Ireland explicitly serves Limerick, Clare, and North Kerry (same pricing across service area)."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Pay-by-weight model. Serves Limerick, Clare, and North Kerry. Price billed every 6 months. Glass collection included in certain areas (every 2 months).",
       "plans": [
         {
@@ -4247,6 +4584,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from higginswaste.ie/services/household-collection/."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Serves Limerick (and Kerry). Fortnightly collection of all bins on the same day. Two plans available: Pay As You Go (weight-based) and Half-Yearly fixed billing. Bin set setup fee applies.",
       "plans": [
         {
@@ -4317,6 +4655,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/residential for Main St, Longford (N39 F0P8). Location confirmed served. Three plans available including a Longford-specific plan."
       },
       "address_used": "Main Street, Longford (N39 F0P8)",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before service commencement. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost.",
       "plans": [
         {
@@ -4379,6 +4718,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mulleadys.com/household.html. Mulleadys explicitly serves Longford, Leitrim, Roscommon and Westmeath."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Fortnightly collection. Payment due 1st of each month. One-time bin rental fee of €60 applies. Fair usage policy — surcharges may apply for excessive weights. WIS account portal: mulleadys.wis.ie.",
       "plans": [
         {
@@ -4441,6 +4781,7 @@ const COUNTY_DATA = {
         "reason": "WIS portal (oxigen.wis.ie) returned 'Location not served' for Main St, Longford (N39 F0P8)."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Longford county.",
       "plans": []
     },
@@ -4454,6 +4795,7 @@ const COUNTY_DATA = {
         "reason": "WIS portal (aesirl.wis.ie) returned 'Location not served' for Main St, Longford (N39 F0P8)."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not appear to serve Longford county.",
       "plans": []
     },
@@ -4467,6 +4809,7 @@ const COUNTY_DATA = {
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "No website available for this company. Contact by phone for pricing and availability.",
       "plans": []
     }
@@ -4488,6 +4831,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/. McElvaney's is listed as a Louth collector on mywaste.ie. Note: their website primarily references Monaghan and Cavan service areas — may only cover border areas of Louth."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collections. Bill Pay uses 6-monthly invoicing with options for monthly/quarterly direct debit. Pay As You Go uses E-Tag card, topped up at Payzone outlets, online or via app. Urban areas get 140L compost bin, rural areas get 25L food caddy. Free glass collection included.",
       "plans": [
         {
@@ -4550,6 +4894,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from oxigen.wis.ie/residential for 1 Park St, Dundalk, Co. Louth (A91 V7D6). Location confirmed served with price_group_ids=1."
       },
       "address_used": "1 Park Street, Dundalk, Co. Louth",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collection. Plans named 'N Louth Urban'. All plans have weight allowances on waste bin; excess charged at €0.24/kg. 2-bin plans opt customers out of organic collection.",
       "plans": [
         {
@@ -4644,6 +4989,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for Drogheda, Co. Louth."
       },
       "address_used": "Drogheda, Co. Louth",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Drogheda and surrounding Louth areas. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
       "plans": [
         {
@@ -4722,6 +5068,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from aesirl.wis.ie for Drogheda, Co. Louth — location confirmed served."
       },
       "address_used": "Drogheda, Co. Louth",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Drogheda and Louth. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.",
       "plans": [
         {
@@ -4800,6 +5147,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from ecological.ie/service-option/. Ecological serves Louth and Monaghan."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Annual billing (one free month included). Bi-weekly collections. Free glass collection available on some plans. Based in Co. Louth/Monaghan border area.",
       "plans": [
         {
@@ -4906,6 +5254,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup_page2.php selecting 'Co Mayo' as service area and Castlebar as locality."
       },
       "address_used": "Co. Mayo, Castlebar (county dropdown)",
+      "pricing_method": "county_dropdown",
       "service_notes": "Barna Recycling serves Connacht counties including Co. Mayo. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "plans": [
         {
@@ -4984,6 +5333,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Castlebar, Co. Mayo. Plans are specific to Mayo (different pricing from other counties)."
       },
       "address_used": "1 Main Street, Castlebar, Co. Mayo",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Mayo. Compost rollout ongoing in rural areas — if not yet available at address, customer will be notified. Unlimited recycling on flat plans.",
       "plans": [
         {
@@ -5062,6 +5412,7 @@ const COUNTY_DATA = {
         "reason": "Domestic page (mcgrathwaste.ie/domestic/) shows only an area search tool and 'Request a Quote' — no pricing published online."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves Mayo and Sligo. No online pricing — customers must request a quote by phone or through website.",
       "plans": []
     },
@@ -5075,6 +5426,7 @@ const COUNTY_DATA = {
         "reason": "No website listed. Phone-only contact. No online pricing available."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": null,
       "plans": []
     },
@@ -5088,6 +5440,7 @@ const COUNTY_DATA = {
         "reason": "No pricing published on website. Customers directed to contact the company directly."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Serves South Mayo and parts of Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
       "plans": []
     },
@@ -5101,6 +5454,7 @@ const COUNTY_DATA = {
         "reason": "Website at bourkewaste.ie/household-wheelie-bins/ lists plan structures (A1-A6 pay-by-weight, B1-B4 fixed price) with weight allowances but no prices — a quote is required."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Based in Westport, Co. Mayo. Offers multiple pay-by-weight and fixed-price plans (A1-A6 and B1-B4). Organic bin subject to area availability. Actual monthly prices are not published online — contact 098 26882 or info@bourkewaste.ie for a quote.",
       "plans": []
     }
@@ -5122,6 +5476,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1/2 Trimgate Street, Navan, Co. Meath. Plans are specific to Meath (different pricing from other counties)."
       },
       "address_used": "1/2 Trimgate Street, Navan, Co. Meath",
+      "pricing_method": "signup_flow",
       "service_notes": "Glass bin included for Meath. Unlimited recycling and compost on all flat-rate plans (no excess charge). Compost rollout ongoing in rural areas. Pay Per Lift service charge billed half-yearly.",
       "plans": [
         {
@@ -5204,6 +5559,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from oxigen.wis.ie for Kells, Co. Meath (A82 A272). price_group_ids=1. Navan (C15 Y8X5) returned empty — Kells was tried as an alternative address and confirmed served. Plans are labelled 'Cavan' in the system but returned for a Meath address, indicating shared pricing zone covering border areas."
       },
       "address_used": "Kells, Co. Meath (A82 A272)",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Kells area of Meath (and likely other parts). Fortnightly collection. Plans shared with Cavan pricing zone. Weight allowances on waste bin; excess charged at €0.24/kg.",
       "plans": [
         {
@@ -5298,6 +5654,7 @@ const COUNTY_DATA = {
         "reason": "Meath is explicitly listed as a served county in thorntons-recycling.ie/household/customer-signup, with Meath-specific plan IDs (meath-24, meath-21, meath-52) and Meath-specific pricing. WIS portal (thorntons.wis.ie) remains unreachable but website confirms Meath service."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Bi-weekly collection. No annual fee — new customers pay 2 months upfront. 1st month free for new customers.",
       "plans": [
         {
@@ -5360,6 +5717,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from alliedrecycling.wis.ie for Navan, Co. Meath. Meath-specific plans confirmed (labelled 'Standard Service' and 'Meath Value Saver')."
       },
       "address_used": "Navan, Co. Meath",
+      "pricing_method": "wis_portal",
       "service_notes": "Fortnightly collections. 12-month contract, €50 cancellation fee. Min 3 months payment upfront. Bin delivery €30/bin.",
       "plans": [
         {
@@ -5426,6 +5784,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from aesirl.wis.ie for Kells, Co. Meath (A82 A272). price_group_ids=1. Navan (C15 Y8X5) returned empty — Kells confirmed served."
       },
       "address_used": "Kells, Co. Meath (A82 A272)",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Kells area and likely wider Meath. Fortnightly collections. 12-month contract, €50 cancellation fee. €50 prepayment to open account. Glass bin if available in area.",
       "plans": [
         {
@@ -5502,1332 +5861,1608 @@ const COUNTY_DATA = {
 }
 ,
 "monaghan": {
-  "county": "Monaghan",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
-  "companies": [
-    {
-      "name": "McElvaney's Waste & Recycling and Ace Environmental",
-      "phone": "047 808 92",
-      "website": "https://www.mcelvaneywaste.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/. McElvaney's primary service area is Monaghan and Cavan (also covers border areas of Louth)."
+   "source" : "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
+   "county" : "Monaghan",
+   "companies" : [
+      {
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : "047 808 92",
+         "plans" : [
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 27,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Bill Pay – 140L Waste",
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "household_size" : null,
+               "price" : 32,
+               "excess_charge_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "name" : "Bill Pay – 240L Waste",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly"
+            },
+            {
+               "household_size" : null,
+               "price" : 12.13,
+               "excess_charge_per_kg" : 0.23,
+               "price_frequency" : "monthly",
+               "notes" : "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "name" : "Pay As You Go",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift"
+            }
+         ],
+         "name" : "McElvaney's Waste & Recycling and Ace Environmental",
+         "address_used" : null,
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from mcelvaneywaste.com/household-customers/wheel-bins/choose-a-service/. McElvaney's primary service area is Monaghan and Cavan (also covers border areas of Louth)."
+         },
+         "service_notes" : "Bi-weekly collections. Bill Pay uses 6-monthly invoicing with options for monthly/quarterly direct debit. Pay As You Go uses E-Tag card, topped up at Payzone outlets, online or via app. Urban areas get 140L compost bin, rural areas get 25L food caddy. Free glass collection included.",
+         "website" : "https://www.mcelvaneywaste.com"
       },
-      "address_used": null,
-      "service_notes": "Bi-weekly collections. Bill Pay uses 6-monthly invoicing with options for monthly/quarterly direct debit. Pay As You Go uses E-Tag card, topped up at Payzone outlets, online or via app. Urban areas get 140L compost bin, rural areas get 25L food caddy. Free glass collection included.",
-      "plans": [
-        {
-          "name": "Bill Pay – 140L Waste",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
-        },
-        {
-          "name": "Bill Pay – 240L Waste",
-          "type": "monthly",
-          "price": 32.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
-        },
-        {
-          "name": "Pay As You Go",
-          "type": "pay_by_lift",
-          "price": 12.13,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.23,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system."
-        }
-      ]
-    },
-    {
-      "name": "Blue Dolphin Environmental Ltd",
-      "phone": "047 577 86",
-      "website": "https://www.bluedolphinrecycling.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from bluedolphinrecycling.ie/wheelie-bins. Blue Dolphin is a Monaghan-based operator (Smithborough, Co. Monaghan)."
+      {
+         "phone" : "047 577 86",
+         "pricing_available" : true,
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from bluedolphinrecycling.ie/wheelie-bins. Blue Dolphin is a Monaghan-based operator (Smithborough, Co. Monaghan)."
+         },
+         "address_used" : null,
+         "plans" : [
+            {
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "140L Waste Plan",
+               "waste_allowance_kg" : 20,
+               "excess_charge_per_kg" : 0.23,
+               "price" : 23.5,
+               "household_size" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months.",
+               "price_frequency" : "monthly"
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 50,
+               "name" : "240L Waste Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "price" : 30,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.23,
+               "notes" : "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months. 360L, 660L and 1100L sizes also available.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            }
+         ],
+         "name" : "Blue Dolphin Environmental Ltd",
+         "service_notes" : "Monaghan-based family business. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
+         "website" : "https://www.bluedolphinrecycling.ie"
       },
-      "address_used": null,
-      "service_notes": "Monaghan-based family business. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
-      "plans": [
-        {
-          "name": "140L Waste Plan",
-          "type": "monthly",
-          "price": 23.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 20,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.23,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months."
-        },
-        {
-          "name": "240L Waste Plan",
-          "type": "monthly",
-          "price": 30.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.23,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months. 360L, 660L and 1100L sizes also available."
-        }
-      ]
-    },
-    {
-      "name": "Oxigen Environmental Unlimited Company",
-      "phone": "0818 694 444",
-      "website": "https://www.oxigen.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "medium",
-        "reason": "Pricing retrieved from oxigen.wis.ie for Drumillard Little, Castleblayney, Co. Monaghan. Oxigen serves select areas of Monaghan — not all parts of the county may be covered."
+      {
+         "service_notes" : "Oxigen serves select areas of Co. Monaghan — not all of the county is covered. Confirmed serving Castleblayney area. Fortnightly collection. Plans labelled 'NE Rural2'.",
+         "website" : "https://www.oxigen.ie/",
+         "address_used" : "Drumillard Little, Castleblayney, Co. Monaghan, Ireland",
+         "plans" : [
+            {
+               "price" : 33,
+               "household_size" : "Most families",
+               "excess_charge_per_kg" : 0.24,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€33/month (€198/6 months, €396/year). 240L waste + 240L recycling + 140L organics. 72kg/month waste allowance, €0.24/kg excess.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "3 Bin NE Rural2",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 72
+            },
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "3 Small Bin NE Rural2",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 48,
+               "household_size" : "Single or couple",
+               "price" : 29,
+               "excess_charge_per_kg" : 0.24,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess."
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 72,
+               "name" : "2 Bin NE Rural2",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "price" : 31,
+               "household_size" : "Most families (no brown bin)",
+               "excess_charge_per_kg" : 0.24,
+               "notes" : "€31/month (€186/6 months, €372/year). 240L waste + 240L recycling only. 72kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "price" : 25,
+               "household_size" : "Single or couple (no brown bin)",
+               "excess_charge_per_kg" : 0.24,
+               "notes" : "€25/month (€150/6 months, €300/year). 140L waste + 140L recycling only. 48kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 48,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "2 Small Bin NE Rural2",
+               "compost_allowance_kg" : null,
+               "type" : "monthly"
+            },
+            {
+               "waste_allowance_kg" : 45,
+               "name" : "3-Bin Pay By Lift NE",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : 45,
+               "recycling_excess_per_kg" : 0.15,
+               "waste_allowance_period" : "per_lift",
+               "notes" : "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess).",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : 20,
+               "compost_excess_per_kg" : 0.18,
+               "price" : 12,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.24
+            }
+         ],
+         "name" : "Oxigen Environmental Unlimited Company",
+         "confidence" : {
+            "reason" : "Pricing retrieved from oxigen.wis.ie for Drumillard Little, Castleblayney, Co. Monaghan. Oxigen serves select areas of Monaghan — not all parts of the county may be covered.",
+            "level" : "medium"
+         },
+         "pricing_method" : "wis_portal",
+         "phone" : "0818 694 444",
+         "pricing_available" : true
       },
-      "address_used": "Drumillard Little, Castleblayney, Co. Monaghan, Ireland",
-      "service_notes": "Oxigen serves select areas of Co. Monaghan — not all of the county is covered. Confirmed serving Castleblayney area. Fortnightly collection. Plans labelled 'NE Rural2'.",
-      "plans": [
-        {
-          "name": "3 Bin NE Rural2",
-          "type": "monthly",
-          "price": 33.00,
-          "price_frequency": "monthly",
-          "household_size": "Most families",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€33/month (€198/6 months, €396/year). 240L waste + 240L recycling + 140L organics. 72kg/month waste allowance, €0.24/kg excess."
-        },
-        {
-          "name": "3 Small Bin NE Rural2",
-          "type": "monthly",
-          "price": 29.00,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess."
-        },
-        {
-          "name": "2 Bin NE Rural2",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": "Most families (no brown bin)",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€186/6 months, €372/year). 240L waste + 240L recycling only. 72kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management."
-        },
-        {
-          "name": "2 Small Bin NE Rural2",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple (no brown bin)",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€25/month (€150/6 months, €300/year). 140L waste + 140L recycling only. 48kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management."
-        },
-        {
-          "name": "3-Bin Pay By Lift NE",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 45,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": 20,
-          "recycling_excess_per_kg": 0.15,
-          "compost_allowance_kg": 45,
-          "compost_excess_per_kg": 0.18,
-          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess)."
-        }
-      ]
-    },
-    {
-      "name": "AES Recycling",
-      "phone": "045 580 060",
-      "website": "https://www.aesrecycling.ie/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "WIS portal (aesirl.wis.ie) returned empty price_group_ids for H18 Y2H2 (Monaghan town). Location not served."
+      {
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "045 580 060",
+         "plans" : [],
+         "address_used" : null,
+         "name" : "AES Recycling",
+         "confidence" : {
+            "reason" : "WIS portal (aesirl.wis.ie) returned empty price_group_ids for H18 Y2H2 (Monaghan town). Location not served.",
+            "level" : "none"
+         },
+         "service_notes" : "Does not appear to serve Co. Monaghan.",
+         "website" : "https://www.aesrecycling.ie/"
       },
-      "address_used": null,
-      "service_notes": "Does not appear to serve Co. Monaghan.",
-      "plans": []
-    },
-    {
-      "name": "Mahony's Environmental Cleansing Ltd",
-      "phone": "047 81 164",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
+      {
+         "website" : null,
+         "service_notes" : null,
+         "phone" : "047 81 164",
+         "pricing_available" : false,
+         "pricing_method" : null,
+         "confidence" : {
+            "level" : "none",
+            "reason" : "No website listed. Phone-only contact. No online pricing available."
+         },
+         "address_used" : null,
+         "plans" : [],
+         "name" : "Mahony's Environmental Cleansing Ltd"
       },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
-      "name": "The Binman",
-      "phone": "086 3517276",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
+      {
+         "website" : null,
+         "service_notes" : null,
+         "confidence" : {
+            "reason" : "No website listed. Phone-only contact. No online pricing available.",
+            "level" : "none"
+         },
+         "name" : "The Binman",
+         "plans" : [],
+         "address_used" : null,
+         "phone" : "086 3517276",
+         "pricing_available" : false,
+         "pricing_method" : null
       },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
-      "name": "Ecological Waste Management Ltd",
-      "phone": "042 9370152",
-      "website": "https://www.ecological.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "medium",
-        "reason": "Pricing retrieved from ecological.ie/service-option/. Ecological serves Louth and some areas of Monaghan."
-      },
-      "address_used": null,
-      "service_notes": "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
-      "plans": [
-        {
-          "name": "Option 1 - Standard Small",
-          "type": "monthly",
-          "price": 24.75,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "waste_allowance_litres": 140,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month."
-        },
-        {
-          "name": "Option 2 - Standard Large",
-          "type": "monthly",
-          "price": 29.33,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "waste_allowance_litres": 240,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month."
-        },
-        {
-          "name": "Option 6 - Large with Glass",
-          "type": "monthly",
-          "price": 31.17,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "waste_allowance_litres": 240,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter."
-        },
-        {
-          "name": "Option 4 - Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 9.25,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.23,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess). Rural compost caddy €4.20/month."
-        }
-      ]
-    }
-  ]
+      {
+         "phone" : "042 9370152",
+         "pricing_available" : true,
+         "pricing_method" : "public_page",
+         "confidence" : {
+            "reason" : "Pricing retrieved from ecological.ie/service-option/. Ecological serves Louth and some areas of Monaghan.",
+            "level" : "medium"
+         },
+         "plans" : [
+            {
+               "waste_allowance_kg" : null,
+               "waste_allowance_litres" : 140,
+               "name" : "Option 1 - Standard Small",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "household_size" : null,
+               "price" : 24.75,
+               "excess_charge_per_kg" : null
+            },
+            {
+               "waste_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Option 2 - Standard Large",
+               "waste_allowance_litres" : 240,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "notes" : "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 29.33,
+               "household_size" : null,
+               "excess_charge_per_kg" : null
+            },
+            {
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Option 6 - Large with Glass",
+               "waste_allowance_litres" : 240,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : null,
+               "price" : 31.17,
+               "household_size" : null,
+               "excess_charge_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
+               "price_frequency" : "monthly"
+            },
+            {
+               "notes" : "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess). Rural compost caddy €4.20/month.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.23,
+               "price" : 9.25,
+               "household_size" : null,
+               "waste_allowance_kg" : 30,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "name" : "Option 4 - Pay Per Lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift"
+            }
+         ],
+         "address_used" : null,
+         "name" : "Ecological Waste Management Ltd",
+         "service_notes" : "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
+         "website" : "https://www.ecological.ie"
+      }
+   ],
+   "scraped_date" : "2026-03-21"
 }
 ,
 "offaly": {
-  "county": "Offaly",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
-  "companies": [
-    {
-      "name": "Oxigen Environmental Unlimited Company",
-      "phone": "0818 694 445",
-      "website": "https://www.oxigen.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from oxigen.wis.ie for Birr, Co. Offaly (R42 K294). price_group_ids=1. Tullamore (R35 Y2H3) returned empty — Birr confirmed served. Plans are labelled 'Laois Offaly' in the WIS system."
+   "county" : "Offaly",
+   "source" : "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
+   "scraped_date" : "2026-03-21",
+   "companies" : [
+      {
+         "service_notes" : "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
+         "website" : "https://www.oxigen.ie/",
+         "phone" : "0818 694 445",
+         "pricing_available" : true,
+         "pricing_method" : "wis_portal",
+         "confidence" : {
+            "reason" : "Pricing retrieved from oxigen.wis.ie for Birr, Co. Offaly (R42 K294). price_group_ids=1. Tullamore (R35 Y2H3) returned empty — Birr confirmed served. Plans are labelled 'Laois Offaly' in the WIS system.",
+            "level" : "high"
+         },
+         "name" : "Oxigen Environmental Unlimited Company",
+         "plans" : [
+            {
+               "notes" : "€32/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 32,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.24,
+               "waste_allowance_kg" : 72,
+               "name" : "3 Bin Laois Offaly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "name" : "3 Small Bin Laois Offaly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 48,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€26.50/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+               "price_frequency" : "monthly",
+               "price" : 26.5,
+               "household_size" : "Single or couple",
+               "excess_charge_per_kg" : 0.24
+            },
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.24,
+               "price" : 27,
+               "household_size" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "2 Bin Laois Offaly",
+               "waste_allowance_kg" : 72,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "name" : "2 Small Bin Laois Offaly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "waste_allowance_kg" : 48,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€24/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+               "excess_charge_per_kg" : 0.24,
+               "household_size" : "Single or couple",
+               "price" : 24
+            },
+            {
+               "recycling_allowance_kg" : 20,
+               "compost_excess_per_kg" : 0.18,
+               "notes" : "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7/lift (up to 45kg, €0.18/kg excess). 240L waste + 240L recycling + 140L organic.",
+               "price_frequency" : "monthly",
+               "price" : 12,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.24,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay By Lift Laois Offaly",
+               "compost_allowance_kg" : 45,
+               "type" : "pay_by_lift",
+               "waste_allowance_kg" : 45,
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : 0.15
+            }
+         ],
+         "address_used" : "Birr, Co. Offaly (R42 K294)"
       },
-      "address_used": "Birr, Co. Offaly (R42 K294)",
-      "service_notes": "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
-      "plans": [
-        {
-          "name": "3 Bin Laois Offaly",
-          "type": "monthly",
-          "price": 32.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€32/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families."
-        },
-        {
-          "name": "3 Small Bin Laois Offaly",
-          "type": "monthly",
-          "price": 26.50,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€26.50/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
-        },
-        {
-          "name": "2 Bin Laois Offaly",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
-        },
-        {
-          "name": "2 Small Bin Laois Offaly",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€24/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
-        },
-        {
-          "name": "Pay By Lift Laois Offaly",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 45,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": 20,
-          "recycling_excess_per_kg": 0.15,
-          "compost_allowance_kg": 45,
-          "compost_excess_per_kg": 0.18,
-          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7/lift (up to 45kg, €0.18/kg excess). 240L waste + 240L recycling + 140L organic."
-        }
-      ]
-    },
-    {
-      "name": "AES Recycling",
-      "phone": "045 580 060",
-      "website": "https://www.aesrecycling.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from aesirl.wis.ie for Birr, Co. Offaly (R42 K294). price_group_ids=1. Tullamore (R35 Y2H3) returned empty — Birr confirmed served."
+      {
+         "confidence" : {
+            "reason" : "Pricing retrieved from aesirl.wis.ie for Birr, Co. Offaly (R42 K294). price_group_ids=1. Tullamore (R35 Y2H3) returned empty — Birr confirmed served.",
+            "level" : "high"
+         },
+         "plans" : [
+            {
+               "notes" : "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 24,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_kg" : 30,
+               "name" : "AES Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 40,
+               "name" : "AES Smart",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "price" : 26,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : null,
+               "price" : 31,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 60,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "AES Plus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ]
+            },
+            {
+               "household_size" : null,
+               "price" : 15.2,
+               "excess_charge_per_kg" : 0.3,
+               "price_frequency" : "monthly",
+               "notes" : "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 60,
+               "name" : "Pay by Lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null
+            }
+         ],
+         "name" : "AES Recycling",
+         "address_used" : "Birr, Co. Offaly (R42 K294)",
+         "phone" : "045 580 060",
+         "pricing_available" : true,
+         "pricing_method" : "wis_portal",
+         "service_notes" : "Serves Birr area and likely wider Offaly. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area.",
+         "website" : "https://www.aesrecycling.ie/"
       },
-      "address_used": "Birr, Co. Offaly (R42 K294)",
-      "service_notes": "Serves Birr area and likely wider Offaly. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area.",
-      "plans": [
-        {
-          "name": "AES Lite",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "AES Smart",
-          "type": "monthly",
-          "price": 26.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "AES Plus",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "Pay by Lift",
-          "type": "pay_by_lift",
-          "price": 15.20,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
-        }
-      ]
-    },
-    {
-      "name": "Ryan Brothers Waste Recycling Services",
-      "phone": "0504 21660",
-      "website": "https://www.ryanbros.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers website explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
+      {
+         "service_notes" : "Based in Thurles, Co. Tipperary. Serves Tipperary, Laois, Offaly and Kilkenny. Brown bin delivered if available in area (rollout in progress). Weight allowances apply to general waste and brown bin. Billing is half-annually (€186.60 etc.) with bi-monthly instalment option (1/3 of half-annual amount).",
+         "website" : "https://www.ryanbros.ie",
+         "address_used" : null,
+         "plans" : [
+            {
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "140L Waste Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 31.1
+            },
+            {
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "name" : "240L Waste Plan",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : null,
+               "price" : 34.25,
+               "household_size" : null,
+               "excess_charge_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+               "price_frequency" : "monthly"
+            },
+            {
+               "excess_charge_per_kg" : null,
+               "household_size" : null,
+               "price" : 44.21,
+               "price_frequency" : "monthly",
+               "notes" : "€265.28/half-year (~€44.21/month), or €88.42 every 2 months. 360L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "360L Waste Plan"
+            }
+         ],
+         "name" : "Ryan Brothers Waste Recycling Services",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers website explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
+         },
+         "pricing_method" : "public_page",
+         "phone" : "0504 21660",
+         "pricing_available" : true
       },
-      "address_used": null,
-      "service_notes": "Based in Thurles, Co. Tipperary. Serves Tipperary, Laois, Offaly and Kilkenny. Brown bin delivered if available in area (rollout in progress). Weight allowances apply to general waste and brown bin. Billing is half-annually (€186.60 etc.) with bi-monthly instalment option (1/3 of half-annual amount).",
-      "plans": [
-        {
-          "name": "140L Waste Plan",
-          "type": "monthly",
-          "price": 31.10,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
-        },
-        {
-          "name": "240L Waste Plan",
-          "type": "monthly",
-          "price": 34.25,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
-        },
-        {
-          "name": "360L Waste Plan",
-          "type": "monthly",
-          "price": 44.21,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€265.28/half-year (~€44.21/month), or €88.42 every 2 months. 360L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
-        }
-      ]
-    },
-    {
-      "name": "Clean Ireland Recycling",
-      "phone": "1890 361 804",
-      "website": "https://www.cleanireland.ie",
-      "pricing_available": true,
-      "confidence": {
-        "level": "medium",
-        "reason": "Pricing retrieved from cleanireland.ie/residential-services/. Company is listed for Offaly on mywaste.ie. However, their website primarily references Clare, Limerick and Tipperary as service counties, and Offaly is not explicitly mentioned. Pricing is from their public residential page."
-      },
-      "address_used": null,
-      "service_notes": "Mid-West operator based in Shannon, Co. Clare. Website explicitly mentions Clare, Limerick and Tipperary service areas. Listed for Offaly on mywaste.ie — may serve border areas. Pay by weight only — no flat-rate plans. Sign-up via ciprtl.amcsgroup.com. Annual option also available at €309/year.",
-      "plans": [
-        {
-          "name": "Pay by Weight – Half Yearly",
-          "type": "pay_by_weight",
-          "price": 25.80,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€154.82/6 months (~€25.80/month). €10 discount if on Direct Debit (€144.82/6mo ≈ €24.14/month). 240L waste + 360L recycling + 25L food caddy + 7L kitchen caddy + 50L glass container (certain areas). Fortnightly collection. All bins collected together in multi-compartment trucks. Annual option: €309/year (~€25.75/month)."
-        }
-      ]
-    }
-  ]
+      {
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : "1890 361 804",
+         "name" : "Clean Ireland Recycling",
+         "plans" : [
+            {
+               "excess_charge_per_kg" : null,
+               "price" : 25.8,
+               "household_size" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€154.82/6 months (~€25.80/month). €10 discount if on Direct Debit (€144.82/6mo ≈ €24.14/month). 240L waste + 360L recycling + 25L food caddy + 7L kitchen caddy + 50L glass container (certain areas). Fortnightly collection. All bins collected together in multi-compartment trucks. Annual option: €309/year (~€25.75/month).",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : null,
+               "type" : "pay_by_weight",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Pay by Weight – Half Yearly",
+               "waste_allowance_kg" : null
+            }
+         ],
+         "address_used" : null,
+         "confidence" : {
+            "reason" : "Pricing retrieved from cleanireland.ie/residential-services/. Company is listed for Offaly on mywaste.ie. However, their website primarily references Clare, Limerick and Tipperary as service counties, and Offaly is not explicitly mentioned. Pricing is from their public residential page.",
+            "level" : "medium"
+         },
+         "website" : "https://www.cleanireland.ie",
+         "service_notes" : "Mid-West operator based in Shannon, Co. Clare. Website explicitly mentions Clare, Limerick and Tipperary service areas. Listed for Offaly on mywaste.ie — may serve border areas. Pay by weight only — no flat-rate plans. Sign-up via ciprtl.amcsgroup.com. Annual option also available at €309/year."
+      }
+   ]
 }
 ,
 "roscommon": {
-  "county": "Roscommon",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
-  "companies": [
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Castlerea, Co. Roscommon. Plans confirmed specific to Roscommon area. No glass bin (unlike Mayo)."
+   "source" : "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
+   "county" : "Roscommon",
+   "companies" : [
+      {
+         "website" : "https://www.panda.ie/household/",
+         "service_notes" : "Serves Co. Roscommon. Compost rollout ongoing in rural areas — if not yet available at address, customer will be notified. No glass bin for Roscommon (unlike Mayo). Fortnightly collection.",
+         "phone" : "01 8298992",
+         "pricing_available" : true,
+         "pricing_method" : "signup_flow",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Castlerea, Co. Roscommon. Plans confirmed specific to Roscommon area. No glass bin (unlike Mayo).",
+            "level" : "high"
+         },
+         "plans" : [
+            {
+               "waste_allowance_kg" : 40,
+               "compost_allowance_kg" : 40,
+               "type" : "monthly",
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : 0.19,
+               "waste_allowance_period" : "monthly",
+               "notes" : "€30.42/month. 40kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 1-3 people. No glass bin.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : 0.19,
+               "recycling_allowance_kg" : 30,
+               "excess_charge_per_kg" : 0.25,
+               "price" : 30.42,
+               "household_size" : "1-3 people"
+            },
+            {
+               "compost_excess_per_kg" : 0.19,
+               "recycling_allowance_kg" : 30,
+               "price_frequency" : "monthly",
+               "notes" : "€33.25/month. Most popular plan. 60kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 3-5 people. No glass bin.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : "3-5 people",
+               "price" : 33.25,
+               "type" : "monthly",
+               "compost_allowance_kg" : 40,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard",
+               "waste_allowance_kg" : 60,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : 0.19
+            },
+            {
+               "notes" : "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 5+ people. No glass bin.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : 0.19,
+               "recycling_allowance_kg" : 30,
+               "excess_charge_per_kg" : 0.25,
+               "price" : 38.5,
+               "household_size" : "5+ people",
+               "waste_allowance_kg" : 100,
+               "compost_allowance_kg" : 40,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Plus",
+               "recycling_excess_per_kg" : 0.19,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "price" : 8,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.2,
+               "recycling_allowance_kg" : 25,
+               "compost_excess_per_kg" : 0.2,
+               "notes" : "€8.00/month service charge + per-lift: Waste €15.00/lift (up to 50kg, €0.20/kg excess), Recycling €6.75/lift (up to 25kg, €0.25/kg excess), Compost €8.00/lift (up to 50kg, €0.20/kg excess). No glass bin.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : 0.25,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay Per Lift",
+               "compost_allowance_kg" : 50,
+               "type" : "pay_by_lift",
+               "waste_allowance_kg" : 50
+            }
+         ],
+         "name" : "Panda Green",
+         "address_used" : "1 Main Street, Castlerea, Co. Roscommon"
       },
-      "address_used": "1 Main Street, Castlerea, Co. Roscommon",
-      "service_notes": "Serves Co. Roscommon. Compost rollout ongoing in rural areas — if not yet available at address, customer will be notified. No glass bin for Roscommon (unlike Mayo). Fortnightly collection.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 30.42,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": 40,
-          "compost_excess_per_kg": 0.19,
-          "notes": "€30.42/month. 40kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 1-3 people. No glass bin."
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 33.25,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": 40,
-          "compost_excess_per_kg": 0.19,
-          "notes": "€33.25/month. Most popular plan. 60kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 3-5 people. No glass bin."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 38.50,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 100,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.19,
-          "compost_allowance_kg": 40,
-          "compost_excess_per_kg": 0.19,
-          "notes": "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 5+ people. No glass bin."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 8.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": 25,
-          "recycling_excess_per_kg": 0.25,
-          "compost_allowance_kg": 50,
-          "compost_excess_per_kg": 0.20,
-          "notes": "€8.00/month service charge + per-lift: Waste €15.00/lift (up to 50kg, €0.20/kg excess), Recycling €6.75/lift (up to 25kg, €0.25/kg excess), Compost €8.00/lift (up to 50kg, €0.20/kg excess). No glass bin."
-        }
-      ]
-    },
-    {
-      "name": "Oxigen Environmental Unlimited Company",
-      "phone": "0818 694 445",
-      "website": "https://www.oxigen.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from oxigen.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1. Plans are labelled 'Westmeath' — shared pricing zone with Co. Westmeath."
+      {
+         "service_notes" : "Serves Athlone area including Roscommon side. Plans labelled 'Westmeath' — shared pricing zone. Fortnightly collection. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
+         "website" : "https://www.oxigen.ie/",
+         "plans" : [
+            {
+               "waste_allowance_kg" : 72,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "3 Bin Westmeath",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "€29.50/month (€354/year). 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.24,
+               "household_size" : null,
+               "price" : 29.5
+            },
+            {
+               "excess_charge_per_kg" : 0.24,
+               "price" : 26,
+               "household_size" : "Single or couple",
+               "notes" : "€26/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 48,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "3 Small Bin Westmeath",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ]
+            },
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "2 Bin Westmeath",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 72,
+               "household_size" : null,
+               "price" : 25,
+               "excess_charge_per_kg" : 0.24,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+            },
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling"
+               ],
+               "name" : "2 Small Bin Westmeath",
+               "waste_allowance_kg" : 48,
+               "excess_charge_per_kg" : 0.24,
+               "price" : 22,
+               "household_size" : "Single or couple",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+               "price_frequency" : "monthly"
+            },
+            {
+               "waste_allowance_kg" : 45,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay By Lift Westmeath",
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : 30,
+               "recycling_excess_per_kg" : 0.15,
+               "waste_allowance_period" : "per_lift",
+               "notes" : "€6.50/month (€78/year) service charge + per-lift: Waste €14.50/lift (up to 45kg, €0.23/kg excess), Recycling €7.50/lift (up to 20kg, €0.15/kg excess), Organic €6.50/lift (up to 30kg, €0.15/kg excess). 240L waste + 240L recycling + 240L/140L organic.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : 20,
+               "compost_excess_per_kg" : 0.15,
+               "price" : 6.5,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.23
+            }
+         ],
+         "address_used" : "Athlone, Co. Roscommon (N37 EY22)",
+         "name" : "Oxigen Environmental Unlimited Company",
+         "confidence" : {
+            "reason" : "Pricing retrieved from oxigen.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1. Plans are labelled 'Westmeath' — shared pricing zone with Co. Westmeath.",
+            "level" : "high"
+         },
+         "pricing_method" : "wis_portal",
+         "pricing_available" : true,
+         "phone" : "0818 694 445"
       },
-      "address_used": "Athlone, Co. Roscommon (N37 EY22)",
-      "service_notes": "Serves Athlone area including Roscommon side. Plans labelled 'Westmeath' — shared pricing zone. Fortnightly collection. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
-      "plans": [
-        {
-          "name": "3 Bin Westmeath",
-          "type": "monthly",
-          "price": 29.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€29.50/month (€354/year). 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families."
-        },
-        {
-          "name": "3 Small Bin Westmeath",
-          "type": "monthly",
-          "price": 26.00,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€26/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
-        },
-        {
-          "name": "2 Bin Westmeath",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 72,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
-        },
-        {
-          "name": "2 Small Bin Westmeath",
-          "type": "monthly",
-          "price": 22.00,
-          "price_frequency": "monthly",
-          "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling"],
-          "waste_allowance_kg": 48,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.24,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
-        },
-        {
-          "name": "Pay By Lift Westmeath",
-          "type": "pay_by_lift",
-          "price": 6.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 45,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.23,
-          "recycling_allowance_kg": 20,
-          "recycling_excess_per_kg": 0.15,
-          "compost_allowance_kg": 30,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€6.50/month (€78/year) service charge + per-lift: Waste €14.50/lift (up to 45kg, €0.23/kg excess), Recycling €7.50/lift (up to 20kg, €0.15/kg excess), Organic €6.50/lift (up to 30kg, €0.15/kg excess). 240L waste + 240L recycling + 240L/140L organic."
-        }
-      ]
-    },
-    {
-      "name": "AES Recycling",
-      "phone": "045 580 060",
-      "website": "https://www.aesrecycling.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from aesirl.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1."
+      {
+         "address_used" : "Athlone, Co. Roscommon (N37 EY22)",
+         "plans" : [
+            {
+               "excess_charge_per_kg" : 0.3,
+               "price" : 24,
+               "household_size" : null,
+               "notes" : "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 30,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "AES Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ]
+            },
+            {
+               "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 26,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_kg" : 40,
+               "name" : "AES Smart",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "household_size" : null,
+               "price" : 31,
+               "excess_charge_per_kg" : 0.3,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "AES Plus",
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 60,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "excess_charge_per_kg" : 0.3,
+               "price" : 15.2,
+               "household_size" : null,
+               "notes" : "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 60,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "Pay by Lift"
+            }
+         ],
+         "name" : "AES Recycling",
+         "confidence" : {
+            "reason" : "Pricing retrieved from aesirl.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1.",
+            "level" : "high"
+         },
+         "pricing_method" : "wis_portal",
+         "phone" : "045 580 060",
+         "pricing_available" : true,
+         "website" : "https://www.aesrecycling.ie/",
+         "service_notes" : "Serves Athlone area including Roscommon side. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area."
       },
-      "address_used": "Athlone, Co. Roscommon (N37 EY22)",
-      "service_notes": "Serves Athlone area including Roscommon side. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area.",
-      "plans": [
-        {
-          "name": "AES Lite",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "AES Smart",
-          "type": "monthly",
-          "price": 26.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "AES Plus",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "Pay by Lift",
-          "type": "pay_by_lift",
-          "price": 15.20,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
-        }
-      ]
-    },
-    {
-      "name": "Mulleadys Waste",
-      "phone": null,
-      "website": "https://www.mulleadys.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from mulleadys.com/household.html. Company website explicitly states service area includes Longford, Leitrim, Roscommon and Westmeath."
+      {
+         "website" : "https://www.mulleadys.com",
+         "service_notes" : "Serves Longford, Leitrim, Roscommon and Westmeath. Fortnightly collection of all bins. Food bin service in designated areas only. One-off non-refundable bin rental charge of €60. Monthly payment due 1st of each month; Direct Debit available. Min credit of €7.50 required on Pay by Weight accounts.",
+         "pricing_method" : "public_page",
+         "pricing_available" : true,
+         "phone" : null,
+         "plans" : [
+            {
+               "waste_allowance_kg" : 30,
+               "type" : "monthly",
+               "compost_allowance_kg" : 20,
+               "name" : "Monthly Plan Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : 0.2,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "€22.50/month. 240L waste + 240L recycling + 25L food bin (designated areas). 30kg waste/month allowance €0.20 excess; 15kg recycling €0.20 excess; 20kg food €0.15 excess. Fortnightly. €60 one-off bin rental.",
+               "compost_excess_per_kg" : 0.15,
+               "recycling_allowance_kg" : 15,
+               "excess_charge_per_kg" : 0.2,
+               "household_size" : null,
+               "price" : 22.5
+            },
+            {
+               "recycling_allowance_kg" : 30,
+               "compost_excess_per_kg" : 0.15,
+               "notes" : "€27.50/month. 240L waste + 240L recycling + 25L food bin (designated areas). 60kg waste/month allowance €0.20 excess; 30kg recycling €0.20 excess; 30kg food €0.15 excess. Fortnightly. €60 one-off bin rental.",
+               "price_frequency" : "monthly",
+               "price" : 27.5,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.2,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Monthly Plan Standard",
+               "compost_allowance_kg" : 30,
+               "type" : "monthly",
+               "waste_allowance_kg" : 60,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : 0.2
+            },
+            {
+               "excess_charge_per_kg" : 0.22,
+               "price" : 15,
+               "household_size" : null,
+               "notes" : "€15/month service charge + pay per kg: Waste €0.22/kg, Recycling €0.12/kg, Food €0.12/kg. No weight allowances. Min credit €7.50 on account at all times. 240L waste + 240L recycling + 25L food (designated areas). Fortnightly. €60 one-off bin rental.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : 0.12,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : 0.12,
+               "waste_allowance_period" : null,
+               "waste_allowance_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_weight",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay by Weight"
+            }
+         ],
+         "address_used" : null,
+         "name" : "Mulleadys Waste",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from mulleadys.com/household.html. Company website explicitly states service area includes Longford, Leitrim, Roscommon and Westmeath."
+         }
       },
-      "address_used": null,
-      "service_notes": "Serves Longford, Leitrim, Roscommon and Westmeath. Fortnightly collection of all bins. Food bin service in designated areas only. One-off non-refundable bin rental charge of €60. Monthly payment due 1st of each month; Direct Debit available. Min credit of €7.50 required on Pay by Weight accounts.",
-      "plans": [
-        {
-          "name": "Monthly Plan Lite",
-          "type": "monthly",
-          "price": 22.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
-          "compost_allowance_kg": 20,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 240L waste + 240L recycling + 25L food bin (designated areas). 30kg waste/month allowance €0.20 excess; 15kg recycling €0.20 excess; 20kg food €0.15 excess. Fortnightly. €60 one-off bin rental."
-        },
-        {
-          "name": "Monthly Plan Standard",
-          "type": "monthly",
-          "price": 27.50,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
-          "compost_allowance_kg": 30,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 240L waste + 240L recycling + 25L food bin (designated areas). 60kg waste/month allowance €0.20 excess; 30kg recycling €0.20 excess; 30kg food €0.15 excess. Fortnightly. €60 one-off bin rental."
-        },
-        {
-          "name": "Pay by Weight",
-          "type": "pay_by_weight",
-          "price": 15.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.22,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.12,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.12,
-          "notes": "€15/month service charge + pay per kg: Waste €0.22/kg, Recycling €0.12/kg, Food €0.12/kg. No weight allowances. Min credit €7.50 on account at all times. 240L waste + 240L recycling + 25L food (designated areas). Fortnightly. €60 one-off bin rental."
-        }
-      ]
-    },
-    {
-      "name": "Barna Recycling",
-      "phone": "091 771 624",
-      "website": "https://www.barnarecycling.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Roscommon' as service area — plans confirmed available."
+      {
+         "service_notes" : "Serves Co. Roscommon. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
+         "website" : "https://www.barnarecycling.com",
+         "name" : "Barna Recycling",
+         "plans" : [
+            {
+               "compost_excess_per_kg" : 0.15,
+               "recycling_allowance_kg" : null,
+               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 140L compost (where available).",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.25,
+               "price" : 21,
+               "household_size" : null,
+               "type" : "pay_by_weight",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "PBW Standard",
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : 0.05
+            },
+            {
+               "notes" : "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 140L compost (where available).",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : 0.15,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "price" : 12,
+               "household_size" : null,
+               "waste_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay By Weight Lite",
+               "recycling_excess_per_kg" : 0.05,
+               "waste_allowance_period" : null
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "price" : 35,
+               "household_size" : "Larger households",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost (where available). Weight limit 350kg per 6 months (450kg if no compost). Surcharge €0.25/kg over limit.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "ECO Standard",
+               "waste_allowance_kg" : 350
+            },
+            {
+               "price" : 31.67,
+               "household_size" : "Smaller households",
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost (where available). Weight limit 200kg per 6 months (300kg if no compost). Surcharge €0.25/kg over limit.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "ECO Small",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 200
+            }
+         ],
+         "address_used" : "Co. Roscommon (county dropdown)",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Roscommon' as service area — plans confirmed available."
+         },
+         "pricing_method" : "county_dropdown",
+         "phone" : "091 771 624",
+         "pricing_available" : true
       },
-      "address_used": "Co. Roscommon (county dropdown)",
-      "service_notes": "Serves Co. Roscommon. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
-      "plans": [
-        {
-          "name": "PBW Standard",
-          "type": "pay_by_weight",
-          "price": 21.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 140L compost (where available)."
-        },
-        {
-          "name": "Pay By Weight Lite",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 140L compost (where available)."
-        },
-        {
-          "name": "ECO Standard",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 350,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost (where available). Weight limit 350kg per 6 months (450kg if no compost). Surcharge €0.25/kg over limit."
-        },
-        {
-          "name": "ECO Small",
-          "type": "monthly",
-          "price": 31.67,
-          "price_frequency": "monthly",
-          "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 200,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost (where available). Weight limit 200kg per 6 months (300kg if no compost). Surcharge €0.25/kg over limit."
-        }
-      ]
-    },
-    {
-      "name": "The Binman",
-      "phone": "086 3517276",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "service_notes": null,
-      "plans": []
-    }
-  ]
+      {
+         "service_notes" : null,
+         "website" : null,
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "086 3517276",
+         "plans" : [],
+         "name" : "The Binman",
+         "address_used" : null,
+         "confidence" : {
+            "reason" : "No website listed. Phone-only contact. No online pricing available.",
+            "level" : "none"
+         }
+      }
+   ],
+   "scraped_date" : "2026-03-21"
 }
 ,
 "sligo": {
-  "county": "Sligo",
-  "scraped_date": "2026-03-21",
-  "source": "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
-  "companies": [
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Grange, Co. Sligo. Sligo-specific pricing — differs from Mayo/Roscommon. Unlimited recycling and compost allowances (unlike other counties)."
+   "source" : "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
+   "county" : "Sligo",
+   "scraped_date" : "2026-03-21",
+   "companies" : [
+      {
+         "website" : "https://www.panda.ie/household/",
+         "service_notes" : "Serves Co. Sligo. Unlimited recycling and compost on flat plans (unlike other counties). No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
+         "address_used" : "1 Main Street, Grange, Co. Sligo",
+         "plans" : [
+            {
+               "excess_charge_per_kg" : 0.25,
+               "price" : 31.5,
+               "household_size" : "1-3 people",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "Essential",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 46
+            },
+            {
+               "household_size" : "3-5 people",
+               "price" : 35,
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 59
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "waste_allowance_kg" : 85,
+               "name" : "Plus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "price" : 41,
+               "household_size" : "5+ people",
+               "excess_charge_per_kg" : 0.25,
+               "notes" : "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null
+            },
+            {
+               "price" : 12,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.2,
+               "notes" : "€12.00/month service charge + per-lift: Waste €16.00/lift (up to 50kg, €0.20/kg excess), Recycling €5.25/lift (up to 25kg, €0.25/kg excess), Compost €6.50/lift (up to 50kg, €0.20/kg excess). No glass bin.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : 25,
+               "compost_excess_per_kg" : 0.2,
+               "recycling_excess_per_kg" : 0.25,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 50,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay Per Lift",
+               "compost_allowance_kg" : 50,
+               "type" : "pay_by_lift"
+            }
+         ],
+         "name" : "Panda Green",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Grange, Co. Sligo. Sligo-specific pricing — differs from Mayo/Roscommon. Unlimited recycling and compost allowances (unlike other counties)."
+         },
+         "pricing_method" : "signup_flow",
+         "phone" : "01 8298992",
+         "pricing_available" : true
       },
-      "address_used": "1 Main Street, Grange, Co. Sligo",
-      "service_notes": "Serves Co. Sligo. Unlimited recycling and compost on flat plans (unlike other counties). No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 31.50,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 46,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 59,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 41.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 85,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 50,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.20,
-          "recycling_allowance_kg": 25,
-          "recycling_excess_per_kg": 0.25,
-          "compost_allowance_kg": 50,
-          "compost_excess_per_kg": 0.20,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift (up to 50kg, €0.20/kg excess), Recycling €5.25/lift (up to 25kg, €0.25/kg excess), Compost €6.50/lift (up to 50kg, €0.20/kg excess). No glass bin."
-        }
-      ]
-    },
-    {
-      "name": "Donegal Waste & Recycle",
-      "phone": "+353 74 974 0130",
-      "website": "https://www.donegalwasteandrecycle.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from donegalwasterecycle.wis.ie for O'Connell St, Sligo (price_group_ids=1). Company website has dedicated Sligo service page. Based in Co. Donegal; serves border counties including Sligo."
+      {
+         "website" : "https://www.donegalwasteandrecycle.com",
+         "service_notes" : "Based in Co. Donegal. Serves Sligo. Quarterly weight allowances on waste bin; excess at €0.25/kg. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans. Compost caddy (25L) included. Fortnightly collection.",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from donegalwasterecycle.wis.ie for O'Connell St, Sligo (price_group_ids=1). Company website has dedicated Sligo service page. Based in Co. Donegal; serves border counties including Sligo."
+         },
+         "plans" : [
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "quarterly",
+               "waste_allowance_kg" : 210,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 240 + 240 + Caddy",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 34,
+               "price_frequency" : "monthly",
+               "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "waste_allowance_period" : "quarterly",
+               "recycling_excess_per_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 240 Waste + 120 Recycle + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 210,
+               "household_size" : null,
+               "price" : 31,
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
+            },
+            {
+               "price" : 27,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "price_frequency" : "monthly",
+               "waste_allowance_period" : "quarterly",
+               "recycling_excess_per_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Standard 120 + 120 + Caddy",
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 105
+            },
+            {
+               "waste_allowance_period" : "quarterly",
+               "recycling_excess_per_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Mix 120 Waste + 240 Recycle + Caddy",
+               "waste_allowance_kg" : 105,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 31,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
+            },
+            {
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess.",
+               "price_frequency" : "monthly",
+               "price" : 52,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25,
+               "name" : "2x240 Waste + 240 Recycle + Caddy",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 420,
+               "waste_allowance_period" : "quarterly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "waste_allowance_kg" : 40,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "name" : "Pre Pay Top Up",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "excess_charge_per_kg" : 0.25,
+               "price" : 5,
+               "household_size" : null,
+               "notes" : "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null
+            },
+            {
+               "waste_allowance_period" : "per_lift",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "name" : "Pre Pay Annual",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 40,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 5,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy."
+            }
+         ],
+         "name" : "Donegal Waste & Recycle",
+         "address_used" : "O'Connell St, Sligo",
+         "pricing_available" : true,
+         "phone" : "+353 74 974 0130",
+         "pricing_method" : "wis_portal"
       },
-      "address_used": "O'Connell St, Sligo",
-      "service_notes": "Based in Co. Donegal. Serves Sligo. Quarterly weight allowances on waste bin; excess at €0.25/kg. Government levy of €0.01135/kg applies to waste lifts. One-off €40 bin delivery charge on Pre Pay plans. Compost caddy (25L) included. Fortnightly collection.",
-      "plans": [
-        {
-          "name": "Standard 240 + 240 + Caddy",
-          "type": "monthly",
-          "price": 34.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 240 Waste + 120 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 210,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Standard 120 + 120 + Caddy",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€27/month (€324/year). 120L waste + 120L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Mix 120 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 105,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "2x240 Waste + 240 Recycle + Caddy",
-          "type": "monthly",
-          "price": 52.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 420,
-          "waste_allowance_period": "quarterly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€52/month (€624/year). 2x 240L waste + 240L recycling + 25L compost caddy. 420kg waste allowance per quarter (~140kg/month), €0.25/kg excess."
-        },
-        {
-          "name": "Pre Pay Top Up",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy."
-        },
-        {
-          "name": "Pre Pay Annual",
-          "type": "pay_by_lift",
-          "price": 5.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy."
-        }
-      ]
-    },
-    {
-      "name": "Barna Recycling",
-      "phone": "071 9154532",
-      "website": "https://www.barnarecycling.com",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Sligo' as service area."
+      {
+         "service_notes" : "Serves Co. Sligo with dedicated Sligo depot at Finisklin Road, Sligo. Plans include both pay-by-weight and fixed options. Sligo uses a 25L food caddy rather than full compost bin.",
+         "website" : "https://www.barnarecycling.com",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Sligo' as service area.",
+            "level" : "high"
+         },
+         "plans" : [
+            {
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : 0.05,
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_weight",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "PBW Standard",
+               "waste_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : null,
+               "price" : 21,
+               "compost_excess_per_kg" : 0.15,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy."
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay By Weight Lite",
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : 0.05,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : 0.15,
+               "notes" : "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 25L food caddy.",
+               "price_frequency" : "monthly",
+               "price" : 12,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.25
+            },
+            {
+               "waste_allowance_period" : "6_monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "ECO Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "waste_allowance_kg" : 350,
+               "price" : 35,
+               "household_size" : "Larger households",
+               "excess_charge_per_kg" : 0.25,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 350kg per 6 months (450kg if no compost service in area). Surcharge €0.25/kg over limit.",
+               "price_frequency" : "monthly"
+            },
+            {
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : "Smaller households",
+               "price" : 31.67,
+               "price_frequency" : "monthly",
+               "notes" : "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 200kg per 6 months (300kg if no compost service in area). Surcharge €0.25/kg over limit.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "6_monthly",
+               "waste_allowance_kg" : 200,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "ECO Small",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ]
+            }
+         ],
+         "address_used" : "Co. Sligo (county dropdown)",
+         "name" : "Barna Recycling",
+         "phone" : "071 9154532",
+         "pricing_available" : true,
+         "pricing_method" : "county_dropdown"
       },
-      "address_used": "Co. Sligo (county dropdown)",
-      "service_notes": "Serves Co. Sligo with dedicated Sligo depot at Finisklin Road, Sligo. Plans include both pay-by-weight and fixed options. Sligo uses a 25L food caddy rather than full compost bin.",
-      "plans": [
-        {
-          "name": "PBW Standard",
-          "type": "pay_by_weight",
-          "price": 21.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy."
-        },
-        {
-          "name": "Pay By Weight Lite",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.05,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 25L food caddy."
-        },
-        {
-          "name": "ECO Standard",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 350,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 350kg per 6 months (450kg if no compost service in area). Surcharge €0.25/kg over limit."
-        },
-        {
-          "name": "ECO Small",
-          "type": "monthly",
-          "price": 31.67,
-          "price_frequency": "monthly",
-          "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 200,
-          "waste_allowance_period": "6_monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 200kg per 6 months (300kg if no compost service in area). Surcharge €0.25/kg over limit."
-        }
-      ]
-    },
-    {
-      "name": "McGrath Industrial Waste Ltd.",
-      "phone": "094 9031 315",
-      "website": "https://www.mcgrathwaste.ie",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "McGrath serves Mayo and Sligo per their website. No online pricing published — customers must request a quote."
+      {
+         "plans" : [],
+         "address_used" : null,
+         "name" : "McGrath Industrial Waste Ltd.",
+         "confidence" : {
+            "level" : "none",
+            "reason" : "McGrath serves Mayo and Sligo per their website. No online pricing published — customers must request a quote."
+         },
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : "094 9031 315",
+         "website" : "https://www.mcgrathwaste.ie",
+         "service_notes" : "Based in Castlebar, Co. Mayo. Serves Mayo and Sligo. No online pricing available — customers can request a quote at mcgrathwaste.ie/wheelie-bins/ or contact by phone."
       },
-      "address_used": null,
-      "service_notes": "Based in Castlebar, Co. Mayo. Serves Mayo and Sligo. No online pricing available — customers can request a quote at mcgrathwaste.ie/wheelie-bins/ or contact by phone.",
-      "plans": []
-    },
-    {
-      "name": "Oxigen Environmental Unlimited Company",
-      "phone": "0818 694 445",
-      "website": "https://www.oxigen.ie/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Oxigen WIS portal (oxigen.wis.ie) session was loaded with a Westmeath area search from prior county. Oxigen primarily serves Leinster and Midlands — Co. Sligo in northwest Connacht is outside their typical service area. Not verified via eircode check."
-      },
-      "address_used": null,
-      "service_notes": "Does not appear to serve Co. Sligo.",
-      "plans": []
-    }
-  ]
+      {
+         "website" : "https://www.oxigen.ie/",
+         "service_notes" : "Does not appear to serve Co. Sligo.",
+         "confidence" : {
+            "reason" : "Oxigen WIS portal (oxigen.wis.ie) session was loaded with a Westmeath area search from prior county. Oxigen primarily serves Leinster and Midlands — Co. Sligo in northwest Connacht is outside their typical service area. Not verified via eircode check.",
+            "level" : "none"
+         },
+         "name" : "Oxigen Environmental Unlimited Company",
+         "plans" : [],
+         "address_used" : null,
+         "pricing_available" : false,
+         "phone" : "0818 694 445",
+         "pricing_method" : null
+      }
+   ]
 }
 ,
 "tipperary": {
@@ -6845,6 +7480,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Tipperary Town. Unlimited recycling and compost allowances on flat plans."
       },
       "address_used": "1 Main Street, Tipperary Town",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Tipperary. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection.",
       "plans": [
         {
@@ -6923,6 +7559,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from aesirl.wis.ie for Parnell St, Thurles (price_group_ids=1) and Kickham St, Nenagh (price_group_ids=1). Note: Clonmel area returned 0 — AES serves North/Mid Tipperary but not South Tipperary (Clonmel area)."
       },
       "address_used": "Parnell St, Thurles, Co. Tipperary",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves North and Mid Tipperary (including Thurles, Nenagh). Does not appear to serve South Tipperary (Clonmel area returned price_group_ids=0). Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included if available.",
       "plans": [
         {
@@ -7001,6 +7638,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers is based in Thurles, Co. Tipperary and explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Based in Thurles, Co. Tipperary. Serves Tipperary, Laois, Offaly and Kilkenny. Brown bin delivered if available in area (rollout in progress). Weight allowances apply to general waste and brown bin. Billing is half-annually with bi-monthly instalment option.",
       "plans": [
         {
@@ -7063,6 +7701,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from cleanireland.ie/residential-services/. Company website explicitly lists Tipperary as a service county alongside Clare and Limerick."
       },
       "address_used": null,
+      "pricing_method": "public_page",
       "service_notes": "Mid-West operator based in Shannon, Co. Clare. Explicitly serves Clare, Limerick and Tipperary. Pay by weight only — no flat-rate plans. Sign-up via ciprtl.amcsgroup.com. Annual option also available at €309/year.",
       "plans": [
         {
@@ -7093,6 +7732,7 @@ const COUNTY_DATA = {
         "reason": "WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Tipperary addresses: Tipperary Town, Clonmel, Thurles, Nenagh. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Tipperary.",
       "plans": []
     }
@@ -7114,6 +7754,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for Barronstrand Street, Waterford City. Plans confirmed for Co. Waterford. PPL per-lift weight limits not published by Panda for Waterford (all blank in modal)."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Waterford. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Waterford.",
       "plans": [
         {
@@ -7192,6 +7833,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from oxigen.wis.ie for Barronstrand Street, Waterford City (price_group_ids=1). Plans labelled 'Waterford'. No Pay By Lift option available for Waterford (not shown in residential plans)."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Co. Waterford. Fortnightly collection. Weight allowances on waste bin; excess at €0.24/kg. No Pay By Lift plan available for Waterford. 2 months FREE signup offer.",
       "plans": [
         {
@@ -7270,6 +7912,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from qrl.wis.ie for Barronstrand Street, Waterford City (price_group_ids=1). Company website explicitly states service area includes Waterford City and County and South Tipperary."
       },
       "address_used": "Barronstrand Street, Waterford City",
+      "pricing_method": "wis_portal",
       "service_notes": "South East operator based in Carrick-on-Suir, Co. Tipperary. Serves Waterford City and County and South Tipperary. Fortnightly collections. Free collection reminder texts. 2 months FREE introductory offer on flat plans. No weight allowances specified on flat plans.",
       "plans": [
         {
@@ -7348,6 +7991,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from wiserbins.wis.ie for Tallow, Co. Waterford (price_group_ids=1). Wiser serves West Waterford only — Waterford City, Dungarvan, Tramore, Lismore, Cappoquin all returned price_group_ids=0. Only Tallow and Ardmore (far west) confirmed served."
       },
       "address_used": "Tallow, Co. Waterford",
+      "pricing_method": "wis_portal",
       "service_notes": "Cork-based operator. Serves West Waterford only (Tallow, Ardmore area confirmed). Does NOT serve Waterford City, Dungarvan, Tramore, Lismore or Cappoquin. Fortnightly collection. Contact office on 021-4630601 for different bin sizes.",
       "plans": [
         {
@@ -7394,6 +8038,7 @@ const COUNTY_DATA = {
         "reason": "AES WIS portal (aesirl.wis.ie) returned price_group_ids=0 for both Waterford City and Dungarvan. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Waterford.",
       "plans": []
     }
@@ -7415,6 +8060,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from oxigen.wis.ie. Athlone (N37 EY22) returned price_group_ids=1 and plans labelled 'Westmeath'. Mullingar (Dominick St) also returned price_group_ids=1. Full plans confirmed during Roscommon/Westmeath research."
       },
       "address_used": "Church Street, Athlone, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves Co. Westmeath. Fortnightly collection. Plans named 'Westmeath' — distinct pricing zone. Weight allowances on waste bin; excess at €0.24/kg (3-bin) or €0.23/kg (Pay By Lift).",
       "plans": [
         {
@@ -7509,6 +8155,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from aesirl.wis.ie for Dominick Street, Mullingar (price_group_ids=1). Also confirmed for Athlone, Moate and Kilbeggan (all price_group_ids=1). Serves all of Co. Westmeath."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves all of Co. Westmeath. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area.",
       "plans": [
         {
@@ -7587,6 +8234,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for Dominick Street, Mullingar, Co. Westmeath. Unlimited recycling and compost on flat plans. PPL per-lift weight limits not published for Westmeath (blank in modal)."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Westmeath. Unlimited recycling and compost on flat plans. No glass bin (glass icon shown in UI but allowance is blank). Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Westmeath.",
       "plans": [
         {
@@ -7665,6 +8313,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from mulleadys.wis.ie for Dominick Street, Mullingar (price_group_ids=1). Also confirmed for Moate and Castlepollard. Athlone (Westmeath side) and Kilbeggan returned price_group_ids=0 — partial coverage of county."
       },
       "address_used": "Dominick Street, Mullingar, Co. Westmeath",
+      "pricing_method": "wis_portal",
       "service_notes": "Roscommon/Westmeath operator. Serves Mullingar, Moate, Castlepollard and surrounding areas. Does NOT serve Athlone (Westmeath side) or Kilbeggan. Weight allowances on all bins. Pay by Weight plan charges per kg with no fixed allowance. Minimum €7.50 credit required on Pay by Weight accounts.",
       "plans": [
         {
@@ -7751,6 +8400,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved directly from panda.ie signup flow for Main Street, Wexford Town. Plans confirmed. PPL per-lift weight limits not published for Wexford (blank in modal)."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "signup_flow",
       "service_notes": "Serves Co. Wexford. Unlimited recycling and compost on flat plans. No glass bin (glass icon shown in UI but allowance is blank). Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wexford.",
       "plans": [
         {
@@ -7829,6 +8479,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from aesirl.wis.ie for Main Street, Wexford Town (price_group_ids=1). Also confirmed for Enniscorthy, New Ross and Gorey. Serves all of Co. Wexford. Note: AES Smart is €27/month for Wexford, unlike most other counties where it is €26/month."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "wis_portal",
       "service_notes": "Serves all of Co. Wexford. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required to open account. Glass bin included if available in area. AES Smart plan is €27/month in Wexford (€26 in other counties).",
       "plans": [
         {
@@ -7907,6 +8558,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from raywhelan.wis.ie for Main Street, Wexford Town (price_group_ids=1). Also confirmed for Enniscorthy, New Ross and Gorey. Serves all of Co. Wexford. Carlow-based operator explicitly listing Wexford on their website."
       },
       "address_used": "Main Street, Wexford Town",
+      "pricing_method": "wis_portal",
       "service_notes": "Carlow-based operator serving Carlow, Laois, Kildare, Kilkenny, Wicklow and Wexford. Alternate weekly collection (effectively fortnightly). Initial account setup requires €48 (flat plan) or €50 (Pay By Weight / Pay By Lift) upfront payment which acts as account credit. Minimum €10 credit required at all times on Pay By Weight and Pay By Lift plans.",
       "plans": [
         {
@@ -7969,6 +8621,7 @@ const COUNTY_DATA = {
         "reason": "Pricing retrieved from qrl.wis.ie for New Ross, Co. Wexford (price_group_ids=1). However Wexford Town, Enniscorthy and Gorey all returned price_group_ids=0. QRL serves South Wexford (New Ross area) which borders their core Waterford/South Tipperary service area."
       },
       "address_used": "New Ross, Co. Wexford",
+      "pricing_method": "wis_portal",
       "service_notes": "South East operator based in Carrick-on-Suir, Co. Tipperary. Serves South Wexford (New Ross area) only — does NOT serve Wexford Town, Enniscorthy or Gorey. Fortnightly collections. Free collection reminder texts. 2 months FREE introductory offer on flat plans.",
       "plans": [
         {
@@ -8047,6 +8700,7 @@ const COUNTY_DATA = {
         "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for all Wexford addresses tried: Wexford Town, Enniscorthy, New Ross, Gorey. Location not served."
       },
       "address_used": null,
+      "pricing_method": null,
       "service_notes": "Does not serve Co. Wexford.",
       "plans": []
     }
@@ -8054,332 +8708,402 @@ const COUNTY_DATA = {
 }
 ,
 "wicklow": {
-  "county": "Wicklow",
-  "scraped_date": "2026-03-21",
-  "source": "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
-  "companies": [
-    {
-      "name": "Panda Green",
-      "phone": "01 8298992",
-      "website": "https://www.panda.ie/household/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved directly from panda.ie signup flow for Main Street, Wicklow Town. Serves all Co. Wicklow. Per-lift weight allowances not published by Panda for Wicklow (all blank in modal)."
+   "source" : "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
+   "county" : "Wicklow",
+   "scraped_date" : "2026-03-21",
+   "companies" : [
+      {
+         "service_notes" : "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
+         "website" : "https://www.panda.ie/household/",
+         "name" : "Panda Green",
+         "plans" : [
+            {
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+               "excess_charge_per_kg" : 0.25,
+               "household_size" : "1-3 people",
+               "price" : 31.5,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Essential",
+               "waste_allowance_kg" : 46,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "notes" : "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.25,
+               "price" : 35,
+               "household_size" : "3-5 people",
+               "waste_allowance_kg" : 59,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+               "price_frequency" : "monthly",
+               "price" : 41,
+               "household_size" : "5+ people",
+               "excess_charge_per_kg" : 0.25,
+               "name" : "Plus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 85,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null
+            },
+            {
+               "waste_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay Per Lift",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift",
+               "notes" : "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wicklow. No glass bin.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : null,
+               "price" : 12,
+               "household_size" : null
+            }
+         ],
+         "address_used" : "Main Street, Wicklow Town",
+         "confidence" : {
+            "reason" : "Pricing retrieved directly from panda.ie signup flow for Main Street, Wicklow Town. Serves all Co. Wicklow. Per-lift weight allowances not published by Panda for Wicklow (all blank in modal).",
+            "level" : "high"
+         },
+         "pricing_method" : "signup_flow",
+         "pricing_available" : true,
+         "phone" : "01 8298992"
       },
-      "address_used": "Main Street, Wicklow Town",
-      "service_notes": "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
-      "plans": [
-        {
-          "name": "Essential",
-          "type": "monthly",
-          "price": 31.50,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 46,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
-        },
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 59,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
-        },
-        {
-          "name": "Plus",
-          "type": "monthly",
-          "price": 41.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 85,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
-        },
-        {
-          "name": "Pay Per Lift",
-          "type": "pay_by_lift",
-          "price": 12.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": null,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wicklow. No glass bin."
-        }
-      ]
-    },
-    {
-      "name": "AES Recycling",
-      "phone": "045 580 060",
-      "website": "https://www.aesrecycling.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from aesirl.wis.ie for Wicklow Town (pgids=1). Also confirmed: Arklow, Blessington, Rathdrum, Baltinglass all pgids=1. Bray, Greystones, Enniskerry all returned pgids=0 — AES does not serve north Wicklow. AES Plus (€35/65kg) and Smart (€27/40kg) are higher than other counties (€31/60kg and €26/40kg respectively)."
+      {
+         "pricing_method" : "wis_portal",
+         "phone" : "045 580 060",
+         "pricing_available" : true,
+         "plans" : [
+            {
+               "notes" : "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 24,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_kg" : 30,
+               "name" : "AES Lite",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "waste_allowance_kg" : 40,
+               "name" : "AES Smart",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "price_frequency" : "monthly",
+               "notes" : "€27/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Smart is €27 in Wicklow vs €26 in most other counties.",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "household_size" : null,
+               "price" : 27,
+               "excess_charge_per_kg" : 0.3
+            },
+            {
+               "notes" : "€35/month. 65kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Plus is €35/65kg in Wicklow vs €31/60kg in most other counties.",
+               "price_frequency" : "monthly",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.3,
+               "price" : 35,
+               "household_size" : null,
+               "waste_allowance_kg" : 65,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "name" : "AES Plus",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "notes" : "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 15.2,
+               "household_size" : null,
+               "excess_charge_per_kg" : 0.3,
+               "waste_allowance_kg" : 60,
+               "name" : "Pay by Lift",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost",
+                  "glass"
+               ],
+               "type" : "pay_by_lift",
+               "compost_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "per_lift"
+            }
+         ],
+         "name" : "AES Recycling",
+         "address_used" : "Main Street, Wicklow Town",
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from aesirl.wis.ie for Wicklow Town (pgids=1). Also confirmed: Arklow, Blessington, Rathdrum, Baltinglass all pgids=1. Bray, Greystones, Enniskerry all returned pgids=0 — AES does not serve north Wicklow. AES Plus (€35/65kg) and Smart (€27/40kg) are higher than other counties (€31/60kg and €26/40kg respectively)."
+         },
+         "service_notes" : "Serves south and central Co. Wicklow only (Wicklow Town, Arklow, Blessington, Rathdrum, Baltinglass confirmed). Does NOT serve north Wicklow (Bray, Greystones, Enniskerry returned pgids=0). Higher pricing in Wicklow vs other counties. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included if available.",
+         "website" : "https://www.aesrecycling.ie/"
       },
-      "address_used": "Main Street, Wicklow Town",
-      "service_notes": "Serves south and central Co. Wicklow only (Wicklow Town, Arklow, Blessington, Rathdrum, Baltinglass confirmed). Does NOT serve north Wicklow (Bray, Greystones, Enniskerry returned pgids=0). Higher pricing in Wicklow vs other counties. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included if available.",
-      "plans": [
-        {
-          "name": "AES Lite",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
-        },
-        {
-          "name": "AES Smart",
-          "type": "monthly",
-          "price": 27.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 40,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€27/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Smart is €27 in Wicklow vs €26 in most other counties."
-        },
-        {
-          "name": "AES Plus",
-          "type": "monthly",
-          "price": 35.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€35/month. 65kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Plus is €35/65kg in Wicklow vs €31/60kg in most other counties."
-        },
-        {
-          "name": "Pay by Lift",
-          "type": "pay_by_lift",
-          "price": 15.20,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "waste_allowance_kg": 60,
-          "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
-        }
-      ]
-    },
-    {
-      "name": "The City Bin Co.",
-      "phone": "091 747 474",
-      "website": "https://www.citybin.com/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town — all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow."
+      {
+         "service_notes" : "Dublin-based operator. Serves all Co. Wicklow under their Dublin pricing zone (confirmed: Bray, Greystones, Wicklow Town all pgids=1). 3-bin service: 240L waste + 240L recycling + 240L compost. Free SMS collection reminders. Bins placed back neatly after collection. Annual plans include 1 month free. Fortnightly collection.",
+         "website" : "https://www.citybin.com/",
+         "pricing_method" : "wis_portal",
+         "phone" : "091 747 474",
+         "pricing_available" : true,
+         "address_used" : "Main Street, Bray, Co. Wicklow",
+         "plans" : [
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "name" : "City Lite - Dublin",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "waste_allowance_kg" : 30,
+               "household_size" : null,
+               "price" : 24,
+               "excess_charge_per_kg" : 0.3,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264."
+            },
+            {
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "City Essential - Dublin",
+               "waste_allowance_kg" : 42,
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€26.49/month (or €293.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 42kg/month waste allowance, €0.30/kg excess. Most popular plan. Free SMS reminders. Annual upfront price: €293.89.",
+               "price_frequency" : "monthly",
+               "excess_charge_per_kg" : 0.3,
+               "price" : 26.49,
+               "household_size" : null
+            },
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "type" : "monthly",
+               "compost_allowance_kg" : null,
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "City Extra - Dublin",
+               "waste_allowance_kg" : 65,
+               "excess_charge_per_kg" : 0.3,
+               "price" : 30.49,
+               "household_size" : null,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "notes" : "€30.49/month (or €337.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, €0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: €337.89.",
+               "price_frequency" : "monthly"
+            }
+         ],
+         "name" : "The City Bin Co.",
+         "confidence" : {
+            "reason" : "Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town — all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow.",
+            "level" : "high"
+         }
       },
-      "address_used": "Main Street, Bray, Co. Wicklow",
-      "service_notes": "Dublin-based operator. Serves all Co. Wicklow under their Dublin pricing zone (confirmed: Bray, Greystones, Wicklow Town all pgids=1). 3-bin service: 240L waste + 240L recycling + 240L compost. Free SMS collection reminders. Bins placed back neatly after collection. Annual plans include 1 month free. Fortnightly collection.",
-      "plans": [
-        {
-          "name": "City Lite - Dublin",
-          "type": "monthly",
-          "price": 24.00,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 30,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264."
-        },
-        {
-          "name": "City Essential - Dublin",
-          "type": "monthly",
-          "price": 26.49,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€26.49/month (or €293.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 42kg/month waste allowance, €0.30/kg excess. Most popular plan. Free SMS reminders. Annual upfront price: €293.89."
-        },
-        {
-          "name": "City Extra - Dublin",
-          "type": "monthly",
-          "price": 30.49,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "€30.49/month (or €337.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, €0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: €337.89."
-        }
-      ]
-    },
-    {
-      "name": "Oxigen Environmental Unlimited Company",
-      "phone": "0818 694 445",
-      "website": "https://www.oxigen.ie/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served."
+      {
+         "service_notes" : "Does not serve Co. Wicklow.",
+         "website" : "https://www.oxigen.ie/",
+         "address_used" : null,
+         "plans" : [],
+         "name" : "Oxigen Environmental Unlimited Company",
+         "confidence" : {
+            "reason" : "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.",
+            "level" : "none"
+         },
+         "pricing_method" : null,
+         "phone" : "0818 694 445",
+         "pricing_available" : false
       },
-      "address_used": null,
-      "service_notes": "Does not serve Co. Wicklow.",
-      "plans": []
-    },
-    {
-      "name": "Ray Whelan",
-      "phone": null,
-      "website": "https://www.raywhelan.ie/",
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served."
+      {
+         "website" : "https://www.raywhelan.ie/",
+         "service_notes" : "Does not serve Co. Wicklow.",
+         "address_used" : null,
+         "plans" : [],
+         "name" : "Ray Whelan",
+         "confidence" : {
+            "reason" : "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",
+            "level" : "none"
+         },
+         "pricing_method" : null,
+         "pricing_available" : false,
+         "phone" : null
       },
-      "address_used": null,
-      "service_notes": "Does not serve Co. Wicklow.",
-      "plans": []
-    },
-    {
-      "name": "Greyhound Recycling",
-      "phone": "01 467 0033",
-      "website": "https://www.greyhound.ie/",
-      "pricing_available": true,
-      "confidence": {
-        "level": "high",
-        "reason": "Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) — location confirmed served under Greyhound's Greater Dublin zone."
-      },
-      "address_used": "A98AT22",
-      "service_notes": "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only.",
-      "plans": [
-        {
-          "name": "Standard",
-          "type": "monthly",
-          "price": 25.00,
-          "price_frequency": "monthly",
-          "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 32,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts. €0.30/kg excess on waste only."
-        },
-        {
-          "name": "Family",
-          "type": "monthly",
-          "price": 27.50,
-          "price_frequency": "monthly",
-          "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 42,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts. €0.30/kg excess on waste only."
-        },
-        {
-          "name": "Family Plus",
-          "type": "monthly",
-          "price": 31.00,
-          "price_frequency": "monthly",
-          "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": 65,
-          "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": null,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts. €0.30/kg excess on waste only."
-        },
-        {
-          "name": "Pay As You Go",
-          "type": "pay_by_lift",
-          "price": 8.33,
-          "price_frequency": "monthly",
-          "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "waste_allowance_kg": null,
-          "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.25,
-          "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.20,
-          "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.10,
-          "notes": "€100/year service charge (~€8.33/month). Per-lift: Waste €5.50/lift + €0.25/kg, Compost €4.00/lift + €0.10/kg, Recycling €4.50/lift + €0.20/kg."
-        }
-      ]
-    }
-  ]
+      {
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) — location confirmed served under Greyhound's Greater Dublin zone."
+         },
+         "name" : "Greyhound Recycling",
+         "plans" : [
+            {
+               "waste_allowance_period" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "Standard",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "waste_allowance_kg" : 32,
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "1-3 people",
+               "price" : 25,
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "price_frequency" : "monthly",
+               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only."
+            },
+            {
+               "price_frequency" : "monthly",
+               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "compost_excess_per_kg" : null,
+               "recycling_allowance_kg" : null,
+               "excess_charge_per_kg" : 0.3,
+               "household_size" : "3-5 people",
+               "price" : 27.5,
+               "waste_allowance_kg" : 42,
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "name" : "Family",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly"
+            },
+            {
+               "waste_allowance_kg" : 65,
+               "name" : "Family Plus",
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "compost_allowance_kg" : null,
+               "type" : "monthly",
+               "recycling_excess_per_kg" : null,
+               "waste_allowance_period" : "monthly",
+               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "price_frequency" : "monthly",
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "price" : 31,
+               "household_size" : "5+ people",
+               "excess_charge_per_kg" : 0.3
+            },
+            {
+               "bins_included" : [
+                  "general_waste",
+                  "recycling",
+                  "compost"
+               ],
+               "name" : "Pay As You Go",
+               "compost_allowance_kg" : null,
+               "type" : "pay_by_lift",
+               "waste_allowance_kg" : null,
+               "waste_allowance_period" : null,
+               "recycling_excess_per_kg" : 0.2,
+               "recycling_allowance_kg" : null,
+               "compost_excess_per_kg" : 0.1,
+               "price_frequency" : "monthly",
+               "notes" : "€100/year service charge (~€8.33/month). Per-lift: Waste €5.50/lift + €0.25/kg, Compost €4.00/lift + €0.10/kg, Recycling €4.50/lift + €0.20/kg.",
+               "household_size" : null,
+               "price" : 8.33,
+               "excess_charge_per_kg" : 0.25
+            }
+         ],
+         "address_used" : "A98AT22",
+         "pricing_available" : true,
+         "phone" : "01 467 0033",
+         "pricing_method" : "signup_flow",
+         "website" : "https://www.greyhound.ie/",
+         "service_notes" : "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only."
+      }
+   ]
 }
 };
