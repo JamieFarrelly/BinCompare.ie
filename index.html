@@ -51,6 +51,16 @@ header p{margin-top:14px;font-size:15px;color:rgba(255,255,255,.75);max-width:50
 .live-badge{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--o);border:none;border-radius:20px;padding:6px 14px;font-size:12px;color:#fff;width:fit-content;font-weight:500}
 .live-dot{width:8px;height:8px;border-radius:50%;background:#fff;flex-shrink:0;animation:pulse-dot 2s ease-in-out infinite}
 @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(.7)}}
+.share-wrap{position:absolute;top:20px;right:40px;z-index:10}
+.share-btn{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:20px;padding:7px 16px;font-size:13px;font-family:'DM Sans',sans-serif;font-weight:500;cursor:pointer;transition:background .2s}
+.share-btn:hover{background:rgba(255,255,255,.25)}
+.share-btn svg{width:15px;height:15px;flex-shrink:0}
+.share-drop{display:none;position:absolute;top:calc(100% + 8px);right:0;background:#fff;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,.18);min-width:200px;overflow:hidden;z-index:100}
+.share-drop.open{display:block}
+.share-opt{display:flex;align-items:center;gap:12px;padding:13px 18px;font-size:14px;color:var(--dk);text-decoration:none;cursor:pointer;transition:background .15s;border:none;background:none;width:100%;font-family:'DM Sans',sans-serif;text-align:left}
+.share-opt:hover{background:#f5f5f0}
+.share-opt svg{width:20px;height:20px;flex-shrink:0}
+.share-opt.copied{color:var(--g);font-weight:500}
 .quiz{background:var(--w);border-bottom:2px solid var(--b);padding:36px 40px}
 .qi{max-width:1100px;margin:0 auto}
 .qt{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:6px}
@@ -278,6 +288,10 @@ footer a{color:#7fdba9;text-decoration:none}
   header h1{font-size:clamp(24px,7vw,38px)}
   header p{font-size:14px}
   .live-badge{font-size:11px;padding:5px 12px}
+  .share-wrap{top:14px;right:16px}
+  .share-btn span{display:none}
+  .share-btn{padding:7px 10px}
+  .share-drop{right:0}
   .hdr-bin:nth-child(2){display:none}
   .quiz{padding:24px 18px}
   .qt{font-size:17px}
@@ -422,6 +436,34 @@ footer a{color:#7fdba9;text-decoration:none}
 </head>
 <body>
 <header>
+  <div class="share-wrap">
+    <button class="share-btn" onclick="handleShare(event)" aria-label="Share this site">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      Share
+    </button>
+    <div class="share-drop" id="shareDrop">
+      <a class="share-opt" href="https://wa.me/?text=Compare%20bin%20collection%20prices%20across%20all%2026%20Irish%20counties%20%E2%80%94%20https%3A%2F%2Fbincompare.ie" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.557 4.122 1.528 5.855L0 24l6.335-1.505A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.891 0-3.667-.5-5.207-1.378l-.374-.217-3.876.921.978-3.773-.24-.389A9.944 9.944 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        WhatsApp
+      </a>
+      <a class="share-opt" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbincompare.ie" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.235 2.686.235v2.97h-1.514c-1.491 0-1.956.93-1.956 1.886v2.268h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+        Share on Facebook
+      </a>
+      <a class="share-opt" href="https://www.reddit.com/submit?url=https%3A%2F%2Fbincompare.ie&title=Compare%20bin%20collection%20prices%20across%20all%2026%20Irish%20counties" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#FF4500"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+        Share on Reddit
+      </a>
+      <a class="share-opt" href="https://twitter.com/intent/tweet?text=Compare%20bin%20collection%20prices%20across%20all%2026%20Irish%20counties%20%F0%9F%97%91%EF%B8%8F&url=https%3A%2F%2Fbincompare.ie" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="#000"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Post on X
+      </a>
+      <button class="share-opt" onclick="copyLink(this)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+        <span>Copy link</span>
+      </button>
+    </div>
+  </div>
   <div class="hdr-bins">
     <svg class="hdr-bin" viewBox="0 0 64 88" fill="white" xmlns="http://www.w3.org/2000/svg"><!-- lift bar on lid --><rect x="20" y="2" width="24" height="7" rx="3.5"/><!-- lid (overhangs body slightly) --><rect x="3" y="9" width="58" height="13" rx="4"/><!-- body: tapered, wider at top --><path d="M8 22 L56 22 L52 68 L12 68 Z" rx="3"/><!-- horizontal ridge line --><rect x="11" y="42" width="42" height="3" rx="1.5" fill="rgba(0,0,0,0.12)"/><!-- axle bar --><rect x="13" y="72" width="38" height="4" rx="2"/><!-- wheels --><circle cx="16" cy="80" r="7"/><circle cx="48" cy="80" r="7"/><!-- wheel hubs --><circle cx="16" cy="80" r="3" fill="rgba(0,0,0,0.15)"/><circle cx="48" cy="80" r="3" fill="rgba(0,0,0,0.15)"/></svg>
     <svg class="hdr-bin" viewBox="0 0 64 88" fill="white" xmlns="http://www.w3.org/2000/svg"><!-- lift bar on lid --><rect x="20" y="2" width="24" height="7" rx="3.5"/><!-- lid (overhangs body slightly) --><rect x="3" y="9" width="58" height="13" rx="4"/><!-- body: tapered, wider at top --><path d="M8 22 L56 22 L52 68 L12 68 Z" rx="3"/><!-- horizontal ridge line --><rect x="11" y="42" width="42" height="3" rx="1.5" fill="rgba(0,0,0,0.12)"/><!-- axle bar --><rect x="13" y="72" width="38" height="4" rx="2"/><!-- wheels --><circle cx="16" cy="80" r="7"/><circle cx="48" cy="80" r="7"/><!-- wheel hubs --><circle cx="16" cy="80" r="3" fill="rgba(0,0,0,0.15)"/><circle cx="48" cy="80" r="3" fill="rgba(0,0,0,0.15)"/></svg>
@@ -540,7 +582,7 @@ footer a{color:#7fdba9;text-decoration:none}
     </article>
   </noscript>
   <div class="ncmsg show" id="ncm"><strong>&#128070; Select your county first</strong>Results are filtered to only show companies that collect bins in your area.</div>
-  <div class="cmp-hint">&#9878; <strong>Tip:</strong> open any card and click <strong>+ Compare</strong> to compare up to 3 providers side by side.</div>
+  <div class="cmp-hint">&#9878; <strong>Tip:</strong> open any card and click <strong>+ Compare</strong> to compare up to 3 providers side by side. Note: some companies&rsquo; coverage and prices vary depending on where you are in the county.</div>
   <div class="cgrid" id="cg"></div>
   <div class="nores" id="nr">No companies found for this county. Try <a href="https://www.mywaste.ie" target="_blank">mywaste.ie</a> for your Eircode.</div>
 </main>
@@ -597,6 +639,7 @@ footer a{color:#7fdba9;text-decoration:none}
 <footer>
   <p>Companies listed are sourced from <a href="https://www.mywaste.ie" target="_blank">mywaste.ie</a> (the official government waste directory). Pricing is sourced directly from each company&#8217;s website in most cases.</p>
   <p style="margin-top:5px">Prices vary by exact location. Always confirm directly with the provider before signing up.</p>
+  <p style="margin-top:10px">Made with ♥ by <a href="https://www.jamiefarrelly.com" target="_blank">Jamie Farrelly</a></p>
 </footer>
 <script src="waste_data.js"></script>
 <script>
@@ -1540,6 +1583,38 @@ document.getElementById('contactToggle').addEventListener('click', function() {
   const section = document.getElementById('contactSection');
   const open = section.classList.toggle('open');
   this.setAttribute('aria-expanded', open);
+});
+
+// Share functionality
+function handleShare(e) {
+  e.stopPropagation();
+  const shareData = {
+    title: "Ireland's Bin Collection Price Comparison",
+    text: "Compare bin collection prices across all 26 Irish counties — find the cheapest in your area.",
+    url: 'https://bincompare.ie'
+  };
+  // Use native share sheet on mobile if available
+  if (navigator.share && /Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    navigator.share(shareData).catch(() => {});
+  } else {
+    // Desktop: toggle dropdown
+    document.getElementById('shareDrop').classList.toggle('open');
+  }
+}
+function copyLink(btn) {
+  navigator.clipboard.writeText('https://bincompare.ie').then(() => {
+    const span = btn.querySelector('span');
+    span.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { span.textContent = 'Copy link'; btn.classList.remove('copied'); }, 2000);
+  });
+  document.getElementById('shareDrop').classList.remove('open');
+}
+// Close share dropdown when clicking outside
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.share-wrap')) {
+    document.getElementById('shareDrop').classList.remove('open');
+  }
 });
 </script>
 <!-- 100% privacy-first analytics -->

@@ -6120,7 +6120,7 @@ const COUNTY_DATA = {
             "reason" : "WIS portal (aesirl.wis.ie) returned empty price_group_ids for H18 Y2H2 (Monaghan town). Location not served.",
             "level" : "none"
          },
-         "service_notes" : "Does not appear to serve Co. Monaghan.",
+         "service_notes" : null,
          "website" : "https://www.aesrecycling.ie/"
       },
       {
@@ -6972,7 +6972,7 @@ const COUNTY_DATA = {
          }
       },
       {
-         "service_notes" : "Serves Co. Roscommon. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
+         "service_notes" : "Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
          "website" : "https://www.barnarecycling.com",
          "name" : "Barna Recycling",
          "plans" : [
