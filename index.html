@@ -274,6 +274,8 @@ footer a{color:#7fdba9;text-decoration:none}
 .cmpbtn:hover{background:var(--g);color:#fff}
 .cmpbtn.added{background:var(--g);color:#fff}
 .cmpbtn:disabled{opacity:.35;cursor:not-allowed;background:transparent;color:var(--mid);border-color:var(--b)}
+.report-btn{display:inline-flex;align-items:center;gap:5px;margin-top:8px;margin-left:8px;padding:7px 14px;border:1.5px solid var(--b);border-radius:20px;background:transparent;color:var(--mid);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:500;cursor:pointer;transition:all .2s}
+.report-btn:hover{border-color:#d48a00;color:#d48a00}
 .pip{position:fixed;bottom:20px;right:20px;z-index:199;background:var(--g);color:#fff;border:none;border-radius:24px;padding:12px 20px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.2);display:none;align-items:center;gap:8px;transition:all .2s}
 .pip:hover{background:var(--gl);transform:translateY(-2px)}
 .pip.show{display:flex}
@@ -1244,7 +1246,7 @@ function cardHtml(c, idx, topScore) {
     + (c.hasPricing ? '<button class="cmpbtn' + (inCmp ? ' added' : '') + '"'
       + (cmpFull ? ' disabled' : '') + ' data-name="' + esc(c.name) + '">'
       + (inCmp ? '\u2713 Added' : cmpFull ? 'Max 3 reached' : '+ Compare') + '</button>' : '')
-    + ''
+    + '<button class="report-btn" data-company="' + esc(c.name) + '" onclick="reportIssue(this)">&#9872; Report a pricing issue</button>'
     + '</div>';
 
   // Event listeners
@@ -1584,6 +1586,20 @@ document.getElementById('contactToggle').addEventListener('click', function() {
   const open = section.classList.toggle('open');
   this.setAttribute('aria-expanded', open);
 });
+
+// Report pricing issue
+function reportIssue(btn) {
+  var company = btn.getAttribute('data-company');
+  var section = document.getElementById('contactSection');
+  if (!section.classList.contains('open')) {
+    section.classList.add('open');
+    document.getElementById('contactToggle').setAttribute('aria-expanded', true);
+  }
+  var msg = document.getElementById('contact-msg');
+  msg.value = 'Issue with pricing for ' + company + ':\n\n';
+  section.scrollIntoView({ behavior: 'smooth' });
+  setTimeout(function() { msg.focus(); }, 400);
+}
 
 // Share functionality
 function handleShare(e) {
