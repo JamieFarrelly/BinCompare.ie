@@ -46,7 +46,6 @@ Each county has a `[county]_waste_pricing.json` file. These are the source of tr
 | Field | Type | Description |
 |---|---|---|
 | `county` | string | County name (e.g. "Dublin") |
-| `scraped_date` | string | Date data was last verified (YYYY-MM-DD) |
 | `source` | string | Description of data sources used |
 | `companies` | array | List of waste collection companies |
 
@@ -99,6 +98,7 @@ Each county has a `[county]_waste_pricing.json` file. These are the source of tr
 | `per_kg_waste` | number | (pay_by_weight only) Cost per kg of general waste |
 | `per_kg_recycling` | number | (pay_by_weight only) Cost per kg of recycling |
 | `notes` | string/null | Any additional plan details |
+| `scraped_date` | string | Date this plan's pricing was last verified (YYYY-MM-DD) |
 
 ### Confidence levels
 
@@ -129,15 +129,15 @@ Copy and paste one of these prompts into Claude to refresh the pricing data. The
 >
 > 5. **If `pricing_method` is `null`** (no pricing): Do a quick check of the company's website to see if they've added pricing since the last check. If they have, add it and set the appropriate `pricing_method`.
 >
-> After all updates, set `scraped_date` to today's date in every modified file. Then rebuild `waste_data.js`.
+> After all updates, set `scraped_date` to today's date on every plan that was updated. Then rebuild `waste_data.js`.
 
 ### Single county refresh
 
-> Refresh all waste pricing for **[COUNTY NAME]**. Read `[county]_waste_pricing.json` from `C:/Users/jamie/Desktop/Claude/`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today. Then rebuild `waste_data.js`.
+> Refresh all waste pricing for **[COUNTY NAME]**. Read `[county]_waste_pricing.json` from `C:/Users/jamie/Desktop/Claude/`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today on every plan that was updated. Then rebuild `waste_data.js`.
 
 ### Single company refresh (across all counties)
 
-> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `*_waste_pricing.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today in modified files. Then rebuild `waste_data.js`.
+> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `*_waste_pricing.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today on every plan that was updated. Then rebuild `waste_data.js`.
 
 ---
 
