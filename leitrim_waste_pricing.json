@@ -1,6 +1,5 @@
 {
   "county": "Leitrim",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
     {
@@ -19,42 +18,56 @@
         {
           "name": "Monthly Plan Lite",
           "type": "monthly",
-          "price": 22.50,
+          "price": 22.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
           "type": "monthly",
-          "price": 27.50,
+          "price": 27.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
           "type": "pay_by_weight",
-          "price": 15.00,
+          "price": 15.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.22,
@@ -62,7 +75,8 @@
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50."
+          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -82,10 +96,14 @@
         {
           "name": "PBW Standard",
           "type": "pay_by_weight",
-          "price": 21.00,
+          "price": 21.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -93,15 +111,20 @@
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Lite",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -109,15 +132,20 @@
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 350,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -125,7 +153,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Small",
@@ -133,7 +162,11 @@
           "price": 31.67,
           "price_frequency": "monthly",
           "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 200,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -141,7 +174,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
+          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

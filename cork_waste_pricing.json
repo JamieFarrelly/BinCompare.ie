@@ -1,6 +1,5 @@
 {
   "county": "Cork",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
@@ -19,10 +18,14 @@
         {
           "name": "Option A (240L)",
           "type": "monthly",
-          "price": 29.50,
+          "price": 29.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -30,15 +33,20 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
           "type": "monthly",
-          "price": 25.50,
+          "price": 25.5,
           "price_frequency": "monthly",
           "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -46,7 +54,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -66,18 +75,23 @@
         {
           "name": "Household Standard",
           "type": "monthly",
-          "price": 27.00,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 50,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -85,23 +99,32 @@
           "price": 6.05,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 20,
           "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.10,
+          "recycling_excess_per_kg": 0.1,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
           "type": "pay_by_lift",
-          "price": 9.50,
+          "price": 9.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 25,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": null,
@@ -109,7 +132,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -117,7 +141,11 @@
           "price": 27.25,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -125,7 +153,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -145,10 +174,15 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 38.00,
+          "price": 38.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 35,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -156,15 +190,21 @@
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 40.00,
+          "price": 40.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 50,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -172,15 +212,21 @@
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 44.00,
+          "price": 44.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 75,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -188,15 +234,21 @@
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -204,7 +256,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -224,10 +277,14 @@
         {
           "name": "240 LITE 3Bin NEW 25",
           "type": "monthly",
-          "price": 32.50,
+          "price": 32.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -235,15 +292,20 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Contact office for different bin sizes (021-4630601)."
+          "notes": "Contact office for different bin sizes (021-4630601).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240Litre 3Bin NEW 25",
           "type": "monthly",
-          "price": 36.00,
+          "price": 36.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -251,7 +313,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Contact office for different bin sizes (021-4630601)."
+          "notes": "Contact office for different bin sizes (021-4630601).",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -274,7 +337,12 @@
           "price": 32.25,
           "price_frequency": "monthly",
           "household_size": "1-2 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 150,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.16,
@@ -282,7 +350,8 @@
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€32.25/month. Urban area. 140L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€32.25/month. Urban area. 140L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard 240L (Urban)",
@@ -290,7 +359,12 @@
           "price": 35.75,
           "price_frequency": "monthly",
           "household_size": "3-4 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 250,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.16,
@@ -298,7 +372,8 @@
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€35.75/month. Urban area. 240L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€35.75/month. Urban area. 240L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Light User 140L (Rural)",
@@ -306,7 +381,11 @@
           "price": 32.25,
           "price_frequency": "monthly",
           "household_size": "1-2 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 150,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.16,
@@ -314,7 +393,8 @@
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€32.25/month. Rural area (no glass bin). 140L waste + 240L recycling + 240L brown. Fortnightly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€32.25/month. Rural area (no glass bin). 140L waste + 240L recycling + 240L brown. Fortnightly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard 240L (Rural)",
@@ -322,7 +402,11 @@
           "price": 35.75,
           "price_frequency": "monthly",
           "household_size": "3-4 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 250,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.16,
@@ -330,7 +414,8 @@
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€35.75/month. Rural area (no glass bin). 240L waste + 240L recycling + 240L brown. Fortnightly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€35.75/month. Rural area (no glass bin). 240L waste + 240L recycling + 240L brown. Fortnightly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
