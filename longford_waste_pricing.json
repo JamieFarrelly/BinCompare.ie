@@ -1,6 +1,5 @@
 {
   "county": "Longford",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "€29.50/month (€177/6mo, €354/year). 330kg waste allowance per 6 months (€0.25/kg excess), 150kg recycling per 6 months (€0.15/kg excess), 195kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins."
+          "notes": "€29.50/month (€177/6mo, €354/year). 330kg waste allowance per 6 months (€0.25/kg excess), 150kg recycling per 6 months (€0.15/kg excess), 195kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Longford Value Saver",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€25/month (€150/6mo, €300/year). Ideal for 2-person household. 200kg waste allowance per 6 months (€0.25/kg excess), 130kg recycling per 6 months (€0.15/kg excess), 130kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins. Longford-specific plan."
+          "notes": "€25/month (€150/6mo, €300/year). Ideal for 2-person household. 200kg waste allowance per 6 months (€0.25/kg excess), 130kg recycling per 6 months (€0.15/kg excess), 130kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins. Longford-specific plan.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€5.63/month service charge (~€1.30/week) + per-lift charges: Waste €14.50/lift (up to 40kg, €0.25/kg thereafter), Recycling €7.50/lift (up to 15kg, €0.15/kg thereafter), Compost €5.00/lift + €0.20/kg. Credit must be on account before presenting bins. Bin delivery €30 per bin."
+          "notes": "€5.63/month service charge (~€1.30/week) + per-lift charges: Waste €14.50/lift (up to 40kg, €0.25/kg thereafter), Recycling €7.50/lift (up to 15kg, €0.15/kg thereafter), Compost €5.00/lift + €0.20/kg. Credit must be on account before presenting bins. Bin delivery €30 per bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50."
+          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

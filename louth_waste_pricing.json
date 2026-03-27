@@ -1,6 +1,5 @@
 {
   "county": "Louth",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
+          "notes": "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Bill Pay – 240L Waste",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
+          "notes": "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay As You Go",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system."
+          "notes": "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29/month (€87/3mo, €174/6mo, €348/year). 240L waste, 240L recycling, 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families."
+          "notes": "€29/month (€87/3mo, €174/6mo, €348/year). 240L waste, 240L recycling, 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin N Louth Urban",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 140L waste, 140L recycling, 140L organic. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
+          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 140L waste, 140L recycling, 140L organic. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin N Louth Urban",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 240L waste, 240L recycling only (no organic). 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection and must declare alternative food waste management."
+          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 240L waste, 240L recycling only (no organic). 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection and must declare alternative food waste management.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin N Louth Urban",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo, €276/year). 140L waste, 140L recycling only (no organic). 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+          "notes": "€23/month (€69/3mo, €138/6mo, €276/year). 140L waste, 140L recycling only (no organic). 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3-Bin Pay By Lift NE",
@@ -157,7 +163,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess). 240L waste, 240L recycling, 140L organic. For very light producers."
+          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess). 240L waste, 240L recycling, 140L organic. For very light producers.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost. For 1-3 people."
+          "notes": "Unlimited recycling and compost. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -204,7 +212,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Most popular plan. Unlimited recycling and compost. For 3-5 people."
+          "notes": "Most popular plan. Unlimited recycling and compost. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -220,7 +229,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost. For 5+ people."
+          "notes": "Unlimited recycling and compost. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -236,7 +246,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€65/half-year service charge (~€10.83/month) + per-lift: Waste €15.75/lift, Recycling €7.25/lift, Compost €7.25/lift."
+          "notes": "€65/half-year service charge (~€10.83/month) + per-lift: Waste €15.75/lift, Recycling €7.25/lift, Compost €7.25/lift.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -267,7 +278,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -283,7 +295,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -299,7 +312,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -315,7 +329,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 12-month contract."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 12-month contract.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -347,7 +362,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month."
+          "notes": "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 2 - Standard Large",
@@ -364,7 +380,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month."
+          "notes": "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 5 - Small with Glass",
@@ -381,7 +398,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€319/year (~€26.58/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month, 1x140L glass/quarter."
+          "notes": "€319/year (~€26.58/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 6 - Large with Glass",
@@ -398,7 +416,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter."
+          "notes": "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 4 - Pay Per Lift",
@@ -414,7 +433,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess), 140L brown bin lift €7.50, 240L green bin lift €7.00. Rural compost caddy €4.20/month."
+          "notes": "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess), 140L brown bin lift €7.50, 240L green bin lift €7.00. Rural compost caddy €4.20/month.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }

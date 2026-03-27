@@ -1,6 +1,5 @@
 {
   "county": "Wexford",
-  "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -78,7 +80,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wexford. No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wexford. No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month (Wexford-specific price — €26/month in other counties). 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€27/month (Wexford-specific price — €26/month in other counties). 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -157,7 +163,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection."
+          "notes": "€24/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -204,7 +212,8 @@
           "recycling_excess_per_kg": 0.00,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€10/month service charge + pay per kg: Waste €0.30/kg, Recycling free, Compost €0.20/kg (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account at all times. Initial €50 setup payment. Alternate weekly collection."
+          "notes": "€10/month service charge + pay per kg: Waste €0.30/kg, Recycling free, Compost €0.20/kg (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account at all times. Initial €50 setup payment. Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -220,7 +229,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.50/month service charge + per-lift: Waste €8.00/lift (up to 30kg, €0.12/kg excess), Recycling €2.00/lift, Compost €6.00/lift (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account. Initial €50 setup payment. Alternate weekly collection."
+          "notes": "€12.50/month service charge + per-lift: Waste €8.00/lift (up to 30kg, €0.12/kg excess), Recycling €2.00/lift, Compost €6.00/lift (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account. Initial €50 setup payment. Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -251,7 +261,8 @@
           "recycling_excess_per_kg": 0.18,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.18,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. South Wexford (New Ross area) only."
+          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
@@ -267,7 +278,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
@@ -283,7 +295,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
@@ -299,7 +312,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

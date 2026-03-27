@@ -1,6 +1,5 @@
 {
   "county": "Kilkenny",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Plan",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Plan",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Glass bin included."
+          "notes": "Glass bin included.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -189,7 +195,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": "No monthly service charge. Waste €12.50/lift (45kg included, then €0.23/kg). Recycling €6/lift (20kg, then €0.15/kg). Organic €7.50/lift (45kg, then €0.18/kg)."
+          "notes": "No monthly service charge. Waste €12.50/lift (45kg included, then €0.23/kg). Recycling €6/lift (20kg, then €0.15/kg). Organic €7.50/lift (45kg, then €0.18/kg).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -203,7 +210,8 @@
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
-          "notes": "Pure pay-by-weight. Waste €0.28/kg, Recycling €0.16/kg. No monthly fee."
+          "notes": "Pure pay-by-weight. Waste €0.28/kg, Recycling €0.16/kg. No monthly fee.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -235,7 +243,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3 months, €138/6 months). 140L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+          "notes": "€23/month (€69/3 months, €138/6 months). 140L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 240L Waste / 240L Recycling / 240L Brown",
@@ -252,7 +261,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 240L Waste / 360L Recycling / 240L Brown",
@@ -269,7 +279,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For households with more recyclables."
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For households with more recyclables.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 360L Waste / 360L Recycling / 240L Brown",
@@ -286,7 +297,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3 months, €240/6 months). 360L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For larger families."
+          "notes": "€40/month (€120/3 months, €240/6 months). 360L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For larger families.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

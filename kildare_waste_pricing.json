@@ -1,6 +1,5 @@
 {
   "county": "Kildare",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Kildare Urban",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Kildare Urban",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Kildare Urban",
@@ -78,7 +80,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required."
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -172,7 +178,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band",
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band Pro",
@@ -204,7 +212,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -235,7 +244,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts."
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Family",
@@ -251,7 +261,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts."
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Family Plus",
@@ -267,7 +278,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates — contact Greyhound to confirm."
+          "notes": "Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates — contact Greyhound to confirm.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -298,7 +310,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Smart",
@@ -314,7 +327,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -330,7 +344,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -346,7 +361,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Exact per-lift rates not confirmed for Kildare."
+          "notes": "Exact per-lift rates not confirmed for Kildare.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -405,7 +421,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin."
+          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Super Saver",
@@ -421,7 +438,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 150,
           "compost_excess_per_kg": 0.20,
-          "notes": "€20/month (€120/6 months, €240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste €0.25/kg, recycling €0.15/kg, compost €0.20/kg."
+          "notes": "€20/month (€120/6 months, €240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste €0.25/kg, recycling €0.15/kg, compost €0.20/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Value Saver",
@@ -437,7 +455,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€25/month (€150/6 months, €300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months."
+          "notes": "€25/month (€150/6 months, €300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Standard",
@@ -453,7 +472,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "€26.50/month (€159/6 months, €318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months."
+          "notes": "€26.50/month (€159/6 months, €318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }

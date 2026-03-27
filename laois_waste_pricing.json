@@ -1,6 +1,5 @@
 {
   "county": "Laois",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Laois Offaly Urban",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Laois Offaly Urban",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Customer must confirm alternative food waste management method."
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Laois Offaly Urban",
@@ -78,7 +80,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Customer must confirm alternative food waste management method."
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift Laois Offaly",
@@ -94,7 +97,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -157,7 +163,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -173,7 +180,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -204,7 +212,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required."
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -220,7 +229,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -236,7 +246,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -267,7 +278,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Plan",
@@ -283,7 +295,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Plan",
@@ -299,7 +312,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -330,7 +344,8 @@
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country rate, 25L). Glass free."
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country rate, 25L). Glass free.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -346,7 +361,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27.25/mo. 240L waste + 240L recycling + 140L organic. €30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, €0.20/kg excess."
+          "notes": "€27.25/mo. 240L waste + 240L recycling + 140L organic. €30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, €0.20/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

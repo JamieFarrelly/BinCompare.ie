@@ -1,6 +1,5 @@
 {
   "county": "Meath",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -82,7 +84,8 @@
           "per_lift_recycling": 5.25,
           "per_lift_compost": 6.50,
           "per_lift_glass": null,
-          "notes": "Service charge €47/6 months. Waste €16/lift, recycling €5.25/lift, compost €6.50/lift. Glass included."
+          "notes": "Service charge €47/6 months. Waste €16/lift, recycling €5.25/lift, compost €6.50/lift. Glass included.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -113,7 +116,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "240L waste, 240L recycling, 140L organic. Fortnightly."
+          "notes": "240L waste, 240L recycling, 140L organic. Fortnightly.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Cavan",
@@ -129,7 +133,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "140L waste, 140L recycling, 140L organic."
+          "notes": "140L waste, 140L recycling, 140L organic.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Cavan",
@@ -145,7 +150,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No brown bin — customer opts out of organic collection."
+          "notes": "No brown bin — customer opts out of organic collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Cavan",
@@ -161,7 +167,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No brown bin — customer opts out of organic collection."
+          "notes": "No brown bin — customer opts out of organic collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Cavan",
@@ -177,7 +184,8 @@
           "recycling_excess_per_kg": 0.16,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.18,
-          "notes": "€16/month standing charge. Waste €0.28/kg, recycling €0.16/kg, organic €0.18/kg. No weight thresholds."
+          "notes": "€16/month standing charge. Waste €0.28/kg, recycling €0.16/kg, organic €0.18/kg. No weight thresholds.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -208,7 +216,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€52.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€52.98) upfront.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band",
@@ -224,7 +233,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€62.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€62.98) upfront.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band Pro",
@@ -240,7 +250,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€70.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€70.98) upfront.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -275,7 +286,8 @@
           "per_lift_recycling": 7.50,
           "per_lift_compost": 5.00,
           "per_lift_glass": null,
-          "notes": "€5.63/month service charge. Waste €14.50/lift (40kg), recycling €7.50/lift (15kg), compost €5.00/lift."
+          "notes": "€5.63/month service charge. Waste €14.50/lift (40kg), recycling €7.50/lift (15kg), compost €5.00/lift.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Meath Value Saver",
@@ -291,7 +303,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 150,
           "compost_excess_per_kg": 0.20,
-          "notes": "150kg waste/6mo, 130kg recycling/6mo, 150kg compost/6mo. 240L waste + 240L recycling + 140L compost."
+          "notes": "150kg waste/6mo, 130kg recycling/6mo, 150kg compost/6mo. 240L waste + 240L recycling + 140L compost.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard Service",
@@ -307,7 +320,8 @@
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "330kg waste/6mo, 150kg recycling/6mo, 195kg compost/6mo. 240L waste + 240L recycling + 140L compost."
+          "notes": "330kg waste/6mo, 150kg recycling/6mo, 195kg compost/6mo. 240L waste + 240L recycling + 140L compost.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -338,7 +352,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -354,7 +369,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -370,7 +386,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -390,7 +407,8 @@
           "per_lift_recycling": 8.00,
           "per_lift_compost": 6.60,
           "per_lift_glass": 5.50,
-          "notes": "€15.20/month service. Waste €15.60/lift, recycling €8/lift, compost €6.60/lift, glass €5.50/lift (quarterly)."
+          "notes": "€15.20/month service. Waste €15.60/lift, recycling €8/lift, compost €6.60/lift, glass €5.50/lift (quarterly).",
+          "scraped_date": "2026-03-21"
         }
       ]
     }

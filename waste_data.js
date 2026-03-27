@@ -1,7 +1,6 @@
 const COUNTY_DATA = {
 "carlow": {
   "county": "Carlow",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites/signup portals",
   "companies": [
     {
@@ -31,7 +30,8 @@ const COUNTY_DATA = {
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -47,7 +47,8 @@ const COUNTY_DATA = {
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -63,7 +64,8 @@ const COUNTY_DATA = {
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -96,7 +98,8 @@ const COUNTY_DATA = {
           "compost_excess_note": "No extra charge for compost (where available)",
           "setup_payment": 48.00,
           "setup_payment_note": "Initial payment of €48 acts as credit for first two months",
-          "notes": "Ideal for customers who leave bins out on a regular basis."
+          "notes": "Ideal for customers who leave bins out on a regular basis.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight - Monthly",
@@ -115,7 +118,8 @@ const COUNTY_DATA = {
           "compost_note": "Compost charged at €0.20/kg where service is available",
           "setup_payment": 50.00,
           "setup_payment_note": "Initial payment of €50 acts as account credit. Minimum €10 credit must be maintained to ensure collections.",
-          "notes": "Best for customers who recycle more and produce less waste."
+          "notes": "Best for customers who recycle more and produce less waste.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -142,7 +146,8 @@ const COUNTY_DATA = {
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -154,7 +159,8 @@ const COUNTY_DATA = {
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -166,7 +172,8 @@ const COUNTY_DATA = {
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -182,7 +189,8 @@ const COUNTY_DATA = {
           "per_lift_compost": 6.60,
           "waste_allowance_kg": 60,
           "excess_charge_per_kg": 0.30,
-          "notes": "Ideal for small households or irregular use. Recycling/organic lifts significantly cheaper than general waste lift."
+          "notes": "Ideal for small households or irregular use. Recycling/organic lifts significantly cheaper than general waste lift.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -205,7 +213,6 @@ const COUNTY_DATA = {
 ,
 "cavan": {
   "county": "Cavan",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
@@ -235,7 +242,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -251,7 +259,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -267,7 +276,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Minimum account credit €7.50 required."
+          "notes": "Minimum account credit €7.50 required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -298,7 +308,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Cavan",
@@ -314,7 +325,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Cavan",
@@ -330,7 +342,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Cavan",
@@ -346,7 +359,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Cavan",
@@ -362,7 +376,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Best for households that don't put bins out every fortnight."
+          "notes": "Best for households that don't put bins out every fortnight.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -408,7 +423,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Pay-by-weight and pay-as-you-use (€7/mo service charge) options available. Full pricing requires signup."
+          "notes": "Pay-by-weight and pay-as-you-use (€7/mo service charge) options available. Full pricing requires signup.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -439,7 +455,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin."
+          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Super Saver",
@@ -455,7 +472,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€25/month (€75/3 months, €150/6 months, €300/year). 150kg waste/6 months, 90kg recycling/6 months, 130kg compost/6 months."
+          "notes": "€25/month (€75/3 months, €150/6 months, €300/year). 150kg waste/6 months, 90kg recycling/6 months, 130kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Value Saver",
@@ -471,7 +489,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€26.50/month (€79.50/3 months, €159/6 months, €318/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months."
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months, €318/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Standard",
@@ -487,7 +506,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "€30.50/month (€91.50/3 months, €183/6 months, €366/year). 330kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months."
+          "notes": "€30.50/month (€91.50/3 months, €183/6 months, €366/year). 330kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -532,7 +552,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months."
+          "notes": "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste Plan",
@@ -548,7 +569,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months."
+          "notes": "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -579,7 +601,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Smart",
@@ -595,7 +618,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -611,7 +635,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -627,7 +652,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Exact per-lift rates not confirmed for Cavan."
+          "notes": "Exact per-lift rates not confirmed for Cavan.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -636,7 +662,6 @@ const COUNTY_DATA = {
 ,
 "clare": {
   "county": "Clare",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
   "companies": [
     {
@@ -666,7 +691,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. €30 discount if paying by direct debit."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. €30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -682,7 +708,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -698,7 +725,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -714,7 +742,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -745,7 +774,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Smart",
@@ -761,7 +791,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -777,7 +808,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -793,7 +825,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Exact per-lift rates not confirmed for Clare."
+          "notes": "Exact per-lift rates not confirmed for Clare.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -824,7 +857,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste caddy + 7L kitchen caddy, and glass collection in select areas. Customers placed into a 'lift band' after each billing period based on actual weight."
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste caddy + 7L kitchen caddy, and glass collection in select areas. Customers placed into a 'lift band' after each billing period based on actual weight.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -833,7 +867,6 @@ const COUNTY_DATA = {
 ,
 "cork": {
   "county": "Cork",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
@@ -863,7 +896,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
@@ -879,7 +913,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -910,7 +945,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -926,7 +962,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -942,7 +979,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -958,7 +996,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -989,7 +1028,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -1005,7 +1045,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -1021,7 +1062,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.25,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -1037,7 +1079,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -1068,7 +1111,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Contact office for different bin sizes (021-4630601)."
+          "notes": "Contact office for different bin sizes (021-4630601).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240Litre 3Bin NEW 25",
@@ -1084,7 +1128,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Contact office for different bin sizes (021-4630601)."
+          "notes": "Contact office for different bin sizes (021-4630601).",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -1115,7 +1160,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€32.25/month. Urban area. 140L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€32.25/month. Urban area. 140L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard 240L (Urban)",
@@ -1131,7 +1177,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€35.75/month. Urban area. 240L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€35.75/month. Urban area. 240L waste + 240L recycling + 240L brown + 240L glass. Alternate weekly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Light User 140L (Rural)",
@@ -1147,7 +1194,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€32.25/month. Rural area (no glass bin). 140L waste + 240L recycling + 240L brown. Fortnightly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€32.25/month. Rural area (no glass bin). 140L waste + 240L recycling + 240L brown. Fortnightly collection. 150kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard 240L (Rural)",
@@ -1163,7 +1211,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.08,
           "compost_allowance_kg": 175,
           "compost_excess_per_kg": 0.12,
-          "notes": "€35.75/month. Rural area (no glass bin). 240L waste + 240L recycling + 240L brown. Fortnightly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess)."
+          "notes": "€35.75/month. Rural area (no glass bin). 240L waste + 240L recycling + 240L brown. Fortnightly collection. 250kg waste/6 months (€0.16/kg excess), 240kg recycling/6 months (€0.08/kg excess), 175kg compost/6 months (€0.12/kg excess).",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -1197,7 +1246,8 @@ const COUNTY_DATA = {
                "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
                "price_frequency" : "monthly",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -1217,7 +1267,8 @@ const COUNTY_DATA = {
                "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
                "household_size" : null,
                "price" : 30,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -1257,7 +1308,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.25,
                "price" : 28.75,
-               "household_size" : "1-3 people"
+               "household_size" : "1-3 people",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 75,
@@ -1277,7 +1329,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "household_size" : "3-5 people",
                "price" : 32,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -1297,7 +1350,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "waste_allowance_kg" : 100,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : null,
@@ -1317,7 +1371,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Pay Per Lift"
+               "name" : "Pay Per Lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green"
@@ -1345,7 +1400,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "notes" : "Billed 6-monthly. 240L or 120L bin options.",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "annual",
@@ -1364,7 +1420,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Billed 6-monthly. 240L or 120L bin options."
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -1383,7 +1440,8 @@ const COUNTY_DATA = {
                "notes" : "Billed 6-monthly. 240L or 120L bin options.",
                "excess_charge_per_kg" : 0.25,
                "household_size" : null,
-               "price" : 35
+               "price" : 35,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -1403,7 +1461,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "compost_allowance_kg" : null,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Sharkey Waste & Recycle",
@@ -1467,7 +1526,8 @@ const COUNTY_DATA = {
                "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -1487,7 +1547,8 @@ const COUNTY_DATA = {
                ],
                "name" : "Mix 240 Waste + 120 Recycle + Caddy",
                "type" : "monthly",
-               "compost_allowance_kg" : null
+               "compost_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -1507,7 +1568,8 @@ const COUNTY_DATA = {
                ],
                "name" : "Standard 120 + 120 + Caddy",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "quarterly"
+               "waste_allowance_period" : "quarterly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -1527,7 +1589,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Mix 120 Waste + 240 Recycle + Caddy"
+               "name" : "Mix 120 Waste + 240 Recycle + Caddy",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -1547,7 +1610,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "2x240 Waste + 240 Recycle + Caddy"
+               "name" : "2x240 Waste + 240 Recycle + Caddy",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 40,
@@ -1567,7 +1631,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.25,
                "household_size" : null,
-               "price" : 5
+               "price" : 5,
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : null,
@@ -1587,7 +1652,8 @@ const COUNTY_DATA = {
                ],
                "waste_allowance_kg" : 40,
                "waste_allowance_period" : "per_lift",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Donegal Waste & Recycle",
@@ -1598,7 +1664,6 @@ const COUNTY_DATA = {
          }
       }
    ],
-   "scraped_date" : "2026-03-21",
    "source" : "mywaste.ie + individual company websites and Panda signup flow",
    "county" : "Donegal"
 }
@@ -1606,7 +1671,6 @@ const COUNTY_DATA = {
 "dublin": {
    "county" : "Dublin",
    "source" : "mywaste.ie + individual company websites + Panda API",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "pricing_method" : "signup_flow",
@@ -1632,7 +1696,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "notes" : null,
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -1652,7 +1717,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.3,
                "price" : 28.5,
-               "household_size" : "3-5 people"
+               "household_size" : "3-5 people",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -1672,7 +1738,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Plus"
+               "name" : "Plus",
+               "scraped_date": "2026-03-21"
             },
             {
                "per_lift_waste" : 14.75,
@@ -1696,7 +1763,8 @@ const COUNTY_DATA = {
                "excess_charge_per_kg" : null,
                "price" : 12.5,
                "per_lift_recycling" : 1.63,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Dublin zone 3",
@@ -1727,7 +1795,8 @@ const COUNTY_DATA = {
                   "recycling"
                ],
                "name" : "City Lite",
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -1742,7 +1811,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling"
                ],
-               "name" : "City Essential"
+               "name" : "City Essential",
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -1757,7 +1827,8 @@ const COUNTY_DATA = {
                "excess_charge_per_kg" : 0.3,
                "household_size" : null,
                "price" : 30.49,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -1786,7 +1857,8 @@ const COUNTY_DATA = {
                "name" : "Eco Band Lite",
                "notes" : null,
                "price_frequency" : "monthly",
-               "waste_allowance_kg" : 30
+               "waste_allowance_kg" : 30,
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -1801,7 +1873,8 @@ const COUNTY_DATA = {
                "excess_charge_per_kg" : 0.28,
                "household_size" : "4 people",
                "price" : 26.49,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Thorntons Recycling",
@@ -1835,7 +1908,8 @@ const COUNTY_DATA = {
                ],
                "notes" : null,
                "price_frequency" : "monthly",
-               "waste_allowance_kg" : 32
+               "waste_allowance_kg" : 32,
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -1851,7 +1925,8 @@ const COUNTY_DATA = {
                "waste_allowance_period" : "monthly",
                "excess_charge_per_kg" : 0.3,
                "household_size" : "3-5 people",
-               "price" : 27
+               "price" : 27,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -1867,7 +1942,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Family Plus (DCC)"
+               "name" : "Family Plus (DCC)",
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -1883,7 +1959,8 @@ const COUNTY_DATA = {
                "waste_allowance_period" : "monthly",
                "excess_charge_per_kg" : 0.3,
                "household_size" : "1-3 people",
-               "price" : 25
+               "price" : 25,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -1899,7 +1976,8 @@ const COUNTY_DATA = {
                "waste_allowance_period" : "monthly",
                "household_size" : "3-5 people",
                "price" : 27.5,
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 31,
@@ -1915,7 +1993,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "name" : "Family Plus (DLR)",
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -1934,7 +2013,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Pay As You Go"
+               "name" : "Pay As You Go",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Greyhound Household",
@@ -1959,7 +2039,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.33,
@@ -1975,7 +2056,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "KeyStandard"
+               "name" : "KeyStandard",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.33,
@@ -1991,7 +2073,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Key Waste Management Ltd. (KeyGreen)",
@@ -2030,7 +2113,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.28,
                "price" : 20.5,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 65,
@@ -2050,7 +2134,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.28,
                "price" : 24.5,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.28,
@@ -2070,7 +2155,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Clondalkin, Dublin 22",
@@ -2096,7 +2182,8 @@ const COUNTY_DATA = {
                "waste_allowance_kg" : 58,
                "waste_allowance_period" : "monthly",
                "excess_charge_per_kg" : null,
-               "price" : 25
+               "price" : 25,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -2110,7 +2197,8 @@ const COUNTY_DATA = {
                "notes" : "Waste €13.50/lift, Recycling €6.50/lift. Compost not available on Pay Per Lift. Setup fee €75 for a bin set.",
                "price" : 13.5,
                "per_lift_recycling" : 6.5,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -2149,7 +2237,8 @@ const COUNTY_DATA = {
                "waste_allowance_kg" : 30,
                "waste_allowance_period" : "monthly",
                "excess_charge_per_kg" : null,
-               "price" : 23
+               "price" : 23,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 26,
@@ -2165,7 +2254,8 @@ const COUNTY_DATA = {
                   "compost",
                   "glass"
                ],
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -2181,7 +2271,8 @@ const COUNTY_DATA = {
                ],
                "excess_charge_per_kg" : null,
                "price" : 32,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "Per-lift charge. No monthly commitment.",
@@ -2196,7 +2287,8 @@ const COUNTY_DATA = {
                   "glass"
                ],
                "excess_charge_per_kg" : null,
-               "price" : 15.2
+               "price" : 15.2,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -2222,7 +2314,6 @@ const COUNTY_DATA = {
 "galway": {
    "source" : "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
    "county" : "Galway",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "service_notes" : "Billed every 6 months. Weight-based allowances. Excess charged at €0.25/kg. Bins: 120L, 240L, or 360L waste options.",
@@ -2254,7 +2345,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : null,
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -2274,7 +2366,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "notes" : null,
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : null,
@@ -2294,7 +2387,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "6_monthly"
+               "waste_allowance_period" : "6_monthly",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Moran Refuse & Recycling Service"
@@ -2327,7 +2421,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Annual option: €233.50/year (1 month free). Best for households that recycle most waste."
+               "notes" : "Annual option: €233.50/year (1 month free). Best for households that recycle most waste.",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 42,
@@ -2347,7 +2442,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "price" : 23.4,
                "household_size" : "Most households",
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "City Extra – Galway",
@@ -2367,7 +2463,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "price" : 27.49,
                "household_size" : "Larger households",
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "The City Bin Co.",
@@ -2401,7 +2498,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "price" : 19,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -2422,7 +2520,8 @@ const COUNTY_DATA = {
                   "glass"
                ],
                "name" : "Standard",
-               "waste_allowance_kg" : 45
+               "waste_allowance_kg" : 45,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 60,
@@ -2443,7 +2542,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : 0.19,
                "price" : 24,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : null,
@@ -2464,7 +2564,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.28,
                "price" : 12.5,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green",
@@ -2501,7 +2602,8 @@ const COUNTY_DATA = {
                "notes" : "Introductory price €27/mo for first 6 months, then €33.52/mo.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : 0.1,
@@ -2521,7 +2623,8 @@ const COUNTY_DATA = {
                "notes" : "Min account credit €12.",
                "price_frequency" : "monthly",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : 15
+               "recycling_allowance_kg" : 15,
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : null,
@@ -2541,7 +2644,8 @@ const COUNTY_DATA = {
                ],
                "waste_allowance_kg" : 25,
                "waste_allowance_period" : "per_lift",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "TerraUrban",
@@ -2561,7 +2665,8 @@ const COUNTY_DATA = {
                "notes" : "€30 discount if paying by direct debit.",
                "household_size" : null,
                "price" : 27.25,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Mr Binman",
@@ -2595,7 +2700,8 @@ const COUNTY_DATA = {
                "compost_allowance_kg" : null,
                "type" : "pay_by_weight",
                "recycling_excess_per_kg" : 0.05,
-               "waste_allowance_period" : null
+               "waste_allowance_period" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -2615,7 +2721,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "recycling_excess_per_kg" : 0.05,
-               "waste_allowance_period" : null
+               "waste_allowance_period" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "6_monthly",
@@ -2635,7 +2742,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+               "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -2655,7 +2763,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "name" : "ECO Small",
-               "waste_allowance_kg" : 200
+               "waste_allowance_kg" : 200,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Co. Galway (county dropdown)",
@@ -2724,7 +2833,6 @@ const COUNTY_DATA = {
 ,
 "kerry": {
   "county": "Kerry",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
   "companies": [
     {
@@ -2754,7 +2862,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: €175/6 months or €340/year. Weight-based charges apply."
+          "notes": "Also available: €175/6 months or €340/year. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
@@ -2770,7 +2879,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: €150/6 months or €290/year. Weight-based charges apply."
+          "notes": "Also available: €150/6 months or €290/year. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -2801,7 +2911,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -2817,7 +2928,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -2833,7 +2945,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -2849,7 +2962,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -2880,7 +2994,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.13,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup)."
+          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 240L",
@@ -2896,7 +3011,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 140L",
@@ -2912,7 +3028,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -2935,7 +3052,6 @@ const COUNTY_DATA = {
 ,
 "kildare": {
   "county": "Kildare",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
   "companies": [
     {
@@ -2965,7 +3081,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Kildare Urban",
@@ -2981,7 +3098,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Kildare Urban",
@@ -2997,7 +3115,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Kildare Urban",
@@ -3013,7 +3132,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method."
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3044,7 +3164,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required."
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -3060,7 +3181,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -3076,7 +3198,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3107,7 +3230,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band",
@@ -3123,7 +3247,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band Pro",
@@ -3139,7 +3264,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3170,7 +3296,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts."
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Family",
@@ -3186,7 +3313,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts."
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Family Plus",
@@ -3202,7 +3330,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates — contact Greyhound to confirm."
+          "notes": "Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates — contact Greyhound to confirm.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3233,7 +3362,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Smart",
@@ -3249,7 +3379,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -3265,7 +3396,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -3281,7 +3413,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Exact per-lift rates not confirmed for Kildare."
+          "notes": "Exact per-lift rates not confirmed for Kildare.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3340,7 +3473,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin."
+          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Super Saver",
@@ -3356,7 +3490,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 150,
           "compost_excess_per_kg": 0.20,
-          "notes": "€20/month (€120/6 months, €240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste €0.25/kg, recycling €0.15/kg, compost €0.20/kg."
+          "notes": "€20/month (€120/6 months, €240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste €0.25/kg, recycling €0.15/kg, compost €0.20/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Value Saver",
@@ -3372,7 +3507,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€25/month (€150/6 months, €300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months."
+          "notes": "€25/month (€150/6 months, €300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Kildare Standard",
@@ -3388,7 +3524,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "€26.50/month (€159/6 months, €318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months."
+          "notes": "€26.50/month (€159/6 months, €318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -3397,7 +3534,6 @@ const COUNTY_DATA = {
 ,
 "kilkenny": {
   "county": "Kilkenny",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
   "companies": [
     {
@@ -3427,7 +3563,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Plan",
@@ -3443,7 +3580,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Plan",
@@ -3459,7 +3597,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3490,7 +3629,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -3506,7 +3646,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -3522,7 +3663,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost included. Glass bin included."
+          "notes": "Unlimited recycling and compost included. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -3538,7 +3680,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Glass bin included."
+          "notes": "Glass bin included.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3586,7 +3729,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": "No monthly service charge. Waste €12.50/lift (45kg included, then €0.23/kg). Recycling €6/lift (20kg, then €0.15/kg). Organic €7.50/lift (45kg, then €0.18/kg)."
+          "notes": "No monthly service charge. Waste €12.50/lift (45kg included, then €0.23/kg). Recycling €6/lift (20kg, then €0.15/kg). Organic €7.50/lift (45kg, then €0.18/kg).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -3600,7 +3744,8 @@ const COUNTY_DATA = {
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
-          "notes": "Pure pay-by-weight. Waste €0.28/kg, Recycling €0.16/kg. No monthly fee."
+          "notes": "Pure pay-by-weight. Waste €0.28/kg, Recycling €0.16/kg. No monthly fee.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3632,7 +3777,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3 months, €138/6 months). 140L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+          "notes": "€23/month (€69/3 months, €138/6 months). 140L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 240L Waste / 240L Recycling / 240L Brown",
@@ -3649,7 +3795,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer."
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 240L recycling bin, 240L brown bin, 23L food caddy. Introductory offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 240L Waste / 360L Recycling / 240L Brown",
@@ -3666,7 +3813,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For households with more recyclables."
+          "notes": "€26.50/month (€79.50/3 months, €159/6 months). 240L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For households with more recyclables.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "WD 360L Waste / 360L Recycling / 240L Brown",
@@ -3683,7 +3831,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3 months, €240/6 months). 360L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For larger families."
+          "notes": "€40/month (€120/3 months, €240/6 months). 360L waste bin, 360L recycling bin, 240L brown bin, 23L food caddy. For larger families.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3762,7 +3911,6 @@ const COUNTY_DATA = {
 ,
 "laois": {
   "county": "Laois",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
@@ -3792,7 +3940,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Laois Offaly Urban",
@@ -3808,7 +3957,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Laois Offaly Urban",
@@ -3824,7 +3974,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Customer must confirm alternative food waste management method."
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Laois Offaly Urban",
@@ -3840,7 +3991,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Customer must confirm alternative food waste management method."
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift Laois Offaly",
@@ -3856,7 +4008,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3887,7 +4040,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -3903,7 +4057,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -3919,7 +4074,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -3935,7 +4091,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "12-month contract with €50 cancellation fee. €50 prepayment required."
+          "notes": "12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -3966,7 +4123,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required."
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -3982,7 +4140,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -3998,7 +4157,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Initial €50 deposit required. Minimum €10 credit required."
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4029,7 +4189,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Plan",
@@ -4045,7 +4206,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Plan",
@@ -4061,7 +4223,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply."
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4092,7 +4255,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country rate, 25L). Glass free."
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country rate, 25L). Glass free.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -4108,7 +4272,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27.25/mo. 240L waste + 240L recycling + 140L organic. €30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, €0.20/kg excess."
+          "notes": "€27.25/mo. 240L waste + 240L recycling + 140L organic. €30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, €0.20/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4131,7 +4296,6 @@ const COUNTY_DATA = {
 ,
 "leitrim": {
   "county": "Leitrim",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
     {
@@ -4161,7 +4325,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -4177,7 +4342,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -4193,7 +4359,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50."
+          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4224,7 +4391,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Lite",
@@ -4240,7 +4408,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Standard",
@@ -4256,7 +4425,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Small",
@@ -4272,7 +4442,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
+          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4337,7 +4508,6 @@ const COUNTY_DATA = {
 ,
 "limerick": {
   "county": "Limerick",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
   "companies": [
     {
@@ -4367,7 +4537,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29.50/month (Easy Pay). Also available: €175 per 6 months or €340 per year. 240L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+          "notes": "€29.50/month (Easy Pay). Also available: €175 per 6 months or €340 per year. 240L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
@@ -4383,7 +4554,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25.50/month (Easy Pay). Also available: €150 per 6 months or €290 per year. 140L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+          "notes": "€25.50/month (Easy Pay). Also available: €150 per 6 months or €290 per year. 140L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4414,7 +4586,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. 300kg allowance per 6 months (~50kg/month). 240L waste, 240L recycling, 140L organic, 25L glass. €0.20/kg excess on waste."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. 300kg allowance per 6 months (~50kg/month). 240L waste, 240L recycling, 140L organic, 25L glass. €0.20/kg excess on waste.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -4430,7 +4603,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country 25L rate). Glass free. Min account credit €12."
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country 25L rate). Glass free. Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -4446,7 +4620,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€9.50/mo service charge + €9.50/lift waste (240L, 25kg) + €4.00/lift recycling (240L, 15kg) + €3.00/lift organic (country 25L rate). Glass free. Min account credit €13."
+          "notes": "€9.50/mo service charge + €9.50/lift waste (240L, 25kg) + €4.00/lift recycling (240L, 15kg) + €3.00/lift organic (country 25L rate). Glass free. Min account credit €13.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4491,7 +4666,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€24/month. 30kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -4507,7 +4683,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month. 40kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€27/month. 40kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -4523,7 +4700,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€32/month. 60kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€32/month. 60kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -4539,7 +4717,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/mo service charge + €15.60/lift waste (up to 60kg, €0.30/kg over limit) + €8/lift recycling + €6.60/lift compost + €5.50/lift glass (quarterly service). Best for light use or small households."
+          "notes": "€15.20/mo service charge + €15.60/lift waste (up to 60kg, €0.30/kg over limit) + €8/lift recycling + €6.60/lift compost + €5.50/lift glass (quarterly service). Best for light use or small households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4570,7 +4749,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste, and glass collection (where available)."
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste, and glass collection (where available).",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4601,7 +4781,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.13,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup)."
+          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 240L",
@@ -4617,7 +4798,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 140L",
@@ -4633,7 +4815,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -4642,7 +4825,6 @@ const COUNTY_DATA = {
 ,
 "longford": {
   "county": "Longford",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
   "companies": [
     {
@@ -4672,7 +4854,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "€29.50/month (€177/6mo, €354/year). 330kg waste allowance per 6 months (€0.25/kg excess), 150kg recycling per 6 months (€0.15/kg excess), 195kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins."
+          "notes": "€29.50/month (€177/6mo, €354/year). 330kg waste allowance per 6 months (€0.25/kg excess), 150kg recycling per 6 months (€0.15/kg excess), 195kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Longford Value Saver",
@@ -4688,7 +4871,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
           "compost_excess_per_kg": 0.20,
-          "notes": "€25/month (€150/6mo, €300/year). Ideal for 2-person household. 200kg waste allowance per 6 months (€0.25/kg excess), 130kg recycling per 6 months (€0.15/kg excess), 130kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins. Longford-specific plan."
+          "notes": "€25/month (€150/6mo, €300/year). Ideal for 2-person household. 200kg waste allowance per 6 months (€0.25/kg excess), 130kg recycling per 6 months (€0.15/kg excess), 130kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins. Longford-specific plan.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -4704,7 +4888,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€5.63/month service charge (~€1.30/week) + per-lift charges: Waste €14.50/lift (up to 40kg, €0.25/kg thereafter), Recycling €7.50/lift (up to 15kg, €0.15/kg thereafter), Compost €5.00/lift + €0.20/kg. Credit must be on account before presenting bins. Bin delivery €30 per bin."
+          "notes": "€5.63/month service charge (~€1.30/week) + per-lift charges: Waste €14.50/lift (up to 40kg, €0.25/kg thereafter), Recycling €7.50/lift (up to 15kg, €0.15/kg thereafter), Compost €5.00/lift + €0.20/kg. Credit must be on account before presenting bins. Bin delivery €30 per bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4735,7 +4920,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -4751,7 +4937,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -4767,7 +4954,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50."
+          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4818,7 +5006,6 @@ const COUNTY_DATA = {
 ,
 "louth": {
   "county": "Louth",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
   "companies": [
     {
@@ -4848,7 +5035,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
+          "notes": "From €27/month. Weight limit applies. 140L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Bill Pay – 240L Waste",
@@ -4864,7 +5052,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup."
+          "notes": "From €32/month. Weight limit applies. 240L waste bin + 240L recycling bin + 140L compost (urban) or 25L food caddy (rural) + free glass collection. Bi-weekly. Rural areas: compost caddy €4.20 extra/month. First month free on 12-month signup.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay As You Go",
@@ -4880,7 +5069,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system."
+          "notes": "€2.80/week (~€12.13/month) service charge + per-lift: 140L Waste €9.50/lift (>30kg: +€0.23/kg), 240L Waste €14/lift (>50kg: +€0.23/kg), 240L Recycling €7/lift, 140L Compost €7.50/lift (urban only), 23L Compost caddy €4.20/month service charge (rural). E-Tag card top-up system.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -4911,7 +5101,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29/month (€87/3mo, €174/6mo, €348/year). 240L waste, 240L recycling, 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families."
+          "notes": "€29/month (€87/3mo, €174/6mo, €348/year). 240L waste, 240L recycling, 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin N Louth Urban",
@@ -4927,7 +5118,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 140L waste, 140L recycling, 140L organic. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
+          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 140L waste, 140L recycling, 140L organic. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin N Louth Urban",
@@ -4943,7 +5135,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 240L waste, 240L recycling only (no organic). 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection and must declare alternative food waste management."
+          "notes": "€25/month (€75/3mo, €150/6mo, €300/year). 240L waste, 240L recycling only (no organic). 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection and must declare alternative food waste management.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin N Louth Urban",
@@ -4959,7 +5152,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo, €276/year). 140L waste, 140L recycling only (no organic). 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+          "notes": "€23/month (€69/3mo, €138/6mo, €276/year). 140L waste, 140L recycling only (no organic). 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3-Bin Pay By Lift NE",
@@ -4975,7 +5169,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 45,
           "compost_excess_per_kg": 0.18,
-          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess). 240L waste, 240L recycling, 140L organic. For very light producers."
+          "notes": "€12/month service charge + per-lift: Waste €14/lift (up to 45kg, €0.24/kg excess), Recycling €7/lift (up to 20kg, €0.15/kg excess), Organic €7.50/lift (up to 45kg, €0.18/kg excess). 240L waste, 240L recycling, 140L organic. For very light producers.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5006,7 +5201,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost. For 1-3 people."
+          "notes": "Unlimited recycling and compost. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -5022,7 +5218,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Most popular plan. Unlimited recycling and compost. For 3-5 people."
+          "notes": "Most popular plan. Unlimited recycling and compost. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -5038,7 +5235,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost. For 5+ people."
+          "notes": "Unlimited recycling and compost. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -5054,7 +5252,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€65/half-year service charge (~€10.83/month) + per-lift: Waste €15.75/lift, Recycling €7.25/lift, Compost €7.25/lift."
+          "notes": "€65/half-year service charge (~€10.83/month) + per-lift: Waste €15.75/lift, Recycling €7.25/lift, Compost €7.25/lift.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5085,7 +5284,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -5101,7 +5301,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -5117,7 +5318,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -5133,7 +5335,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 12-month contract."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 12-month contract.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5165,7 +5368,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month."
+          "notes": "€297/year (~€24.75/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 2 - Standard Large",
@@ -5182,7 +5386,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month."
+          "notes": "€352/year (~€29.33/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 5 - Small with Glass",
@@ -5199,7 +5404,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€319/year (~€26.58/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month, 1x140L glass/quarter."
+          "notes": "€319/year (~€26.58/month, includes 1 free month). 2x140L waste/month, 2x140L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 6 - Large with Glass",
@@ -5216,7 +5422,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter."
+          "notes": "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option 4 - Pay Per Lift",
@@ -5232,7 +5439,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess), 140L brown bin lift €7.50, 240L green bin lift €7.00. Rural compost caddy €4.20/month."
+          "notes": "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess), 140L brown bin lift €7.50, 240L green bin lift €7.00. Rural compost caddy €4.20/month.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -5241,7 +5449,6 @@ const COUNTY_DATA = {
 ,
 "mayo": {
   "county": "Mayo",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
   "companies": [
     {
@@ -5271,7 +5478,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Lite",
@@ -5287,7 +5495,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Standard",
@@ -5303,7 +5512,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Small",
@@ -5319,7 +5529,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
+          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5350,7 +5561,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.19,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.19,
-          "notes": "€30.42/month. 40kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. For 1-3 people."
+          "notes": "€30.42/month. 40kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -5366,7 +5578,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.19,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.19,
-          "notes": "€33.25/month. 60kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. Most popular. For 3-5 people."
+          "notes": "€33.25/month. 60kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. Most popular. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -5382,7 +5595,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.19,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.19,
-          "notes": "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. For 5+ people."
+          "notes": "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. Glass bin included. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -5398,7 +5612,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.19,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.19,
-          "notes": "€8.00/mo service charge + €15.00/lift waste + €6.75/lift recycling + €8.00/lift compost. Weight allowances apply per lift with €0.25/kg excess on waste, €0.19/kg on recycling and compost. Glass bin included."
+          "notes": "€8.00/mo service charge + €15.00/lift waste + €6.75/lift recycling + €8.00/lift compost. Weight allowances apply per lift with €0.25/kg excess on waste, €0.19/kg on recycling and compost. Glass bin included.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5463,7 +5678,6 @@ const COUNTY_DATA = {
 ,
 "meath": {
   "county": "Meath",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
   "companies": [
     {
@@ -5493,7 +5707,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -5509,7 +5724,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -5525,7 +5741,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Unlimited recycling and compost — no excess. Glass bin included."
+          "notes": "Unlimited recycling and compost — no excess. Glass bin included.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -5545,7 +5762,8 @@ const COUNTY_DATA = {
           "per_lift_recycling": 5.25,
           "per_lift_compost": 6.50,
           "per_lift_glass": null,
-          "notes": "Service charge €47/6 months. Waste €16/lift, recycling €5.25/lift, compost €6.50/lift. Glass included."
+          "notes": "Service charge €47/6 months. Waste €16/lift, recycling €5.25/lift, compost €6.50/lift. Glass included.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5576,7 +5794,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "240L waste, 240L recycling, 140L organic. Fortnightly."
+          "notes": "240L waste, 240L recycling, 140L organic. Fortnightly.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Cavan",
@@ -5592,7 +5811,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "140L waste, 140L recycling, 140L organic."
+          "notes": "140L waste, 140L recycling, 140L organic.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Cavan",
@@ -5608,7 +5828,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No brown bin — customer opts out of organic collection."
+          "notes": "No brown bin — customer opts out of organic collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Cavan",
@@ -5624,7 +5845,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No brown bin — customer opts out of organic collection."
+          "notes": "No brown bin — customer opts out of organic collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Cavan",
@@ -5640,7 +5862,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.16,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.18,
-          "notes": "€16/month standing charge. Waste €0.28/kg, recycling €0.16/kg, organic €0.18/kg. No weight thresholds."
+          "notes": "€16/month standing charge. Waste €0.28/kg, recycling €0.16/kg, organic €0.18/kg. No weight thresholds.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5671,7 +5894,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€52.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€52.98) upfront.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band",
@@ -5687,7 +5911,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€62.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€62.98) upfront.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Eco Band Pro",
@@ -5703,7 +5928,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "1st month free for new customers. Pay 2 months (€70.98) upfront."
+          "notes": "1st month free for new customers. Pay 2 months (€70.98) upfront.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5738,7 +5964,8 @@ const COUNTY_DATA = {
           "per_lift_recycling": 7.50,
           "per_lift_compost": 5.00,
           "per_lift_glass": null,
-          "notes": "€5.63/month service charge. Waste €14.50/lift (40kg), recycling €7.50/lift (15kg), compost €5.00/lift."
+          "notes": "€5.63/month service charge. Waste €14.50/lift (40kg), recycling €7.50/lift (15kg), compost €5.00/lift.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Meath Value Saver",
@@ -5754,7 +5981,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 150,
           "compost_excess_per_kg": 0.20,
-          "notes": "150kg waste/6mo, 130kg recycling/6mo, 150kg compost/6mo. 240L waste + 240L recycling + 140L compost."
+          "notes": "150kg waste/6mo, 130kg recycling/6mo, 150kg compost/6mo. 240L waste + 240L recycling + 140L compost.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard Service",
@@ -5770,7 +5998,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
           "compost_excess_per_kg": 0.20,
-          "notes": "330kg waste/6mo, 150kg recycling/6mo, 195kg compost/6mo. 240L waste + 240L recycling + 140L compost."
+          "notes": "330kg waste/6mo, 150kg recycling/6mo, 195kg compost/6mo. 240L waste + 240L recycling + 140L compost.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -5801,7 +6030,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -5817,7 +6047,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -5833,7 +6064,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "No excess on recycling or compost. Glass bin if available."
+          "notes": "No excess on recycling or compost. Glass bin if available.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -5853,7 +6085,8 @@ const COUNTY_DATA = {
           "per_lift_recycling": 8.00,
           "per_lift_compost": 6.60,
           "per_lift_glass": 5.50,
-          "notes": "€15.20/month service. Waste €15.60/lift, recycling €8/lift, compost €6.60/lift, glass €5.50/lift (quarterly)."
+          "notes": "€15.20/month service. Waste €15.60/lift, recycling €8/lift, compost €6.60/lift, glass €5.50/lift (quarterly).",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -5888,7 +6121,8 @@ const COUNTY_DATA = {
                "name" : "Bill Pay – 140L Waste",
                "waste_allowance_kg" : null,
                "waste_allowance_period" : null,
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -5909,7 +6143,8 @@ const COUNTY_DATA = {
                   "glass"
                ],
                "compost_allowance_kg" : null,
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -5929,7 +6164,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "compost_allowance_kg" : null,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "McElvaney's Waste & Recycling and Ace Environmental",
@@ -5969,7 +6205,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -5989,7 +6226,8 @@ const COUNTY_DATA = {
                "notes" : "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months. 360L, 660L and 1100L sizes also available.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Blue Dolphin Environmental Ltd",
@@ -6019,7 +6257,8 @@ const COUNTY_DATA = {
                "name" : "3 Bin NE Rural2",
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 72
+               "waste_allowance_kg" : 72,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -6039,7 +6278,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess."
+               "notes" : "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -6058,7 +6298,8 @@ const COUNTY_DATA = {
                "notes" : "€31/month (€186/6 months, €372/year). 240L waste + 240L recycling only. 72kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 25,
@@ -6077,7 +6318,8 @@ const COUNTY_DATA = {
                ],
                "name" : "2 Small Bin NE Rural2",
                "compost_allowance_kg" : null,
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 45,
@@ -6097,7 +6339,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : 0.18,
                "price" : 12,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.24
+               "excess_charge_per_kg" : 0.24,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Oxigen Environmental Unlimited Company",
@@ -6179,7 +6422,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "household_size" : null,
                "price" : 24.75,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : null,
@@ -6200,7 +6444,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "price" : 29.33,
                "household_size" : null,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : null,
@@ -6222,7 +6467,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess). Rural compost caddy €4.20/month.",
@@ -6242,7 +6488,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "per_lift"
+               "waste_allowance_period" : "per_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -6250,14 +6497,12 @@ const COUNTY_DATA = {
          "service_notes" : "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
          "website" : "https://www.ecological.ie"
       }
-   ],
-   "scraped_date" : "2026-03-21"
+   ]
 }
 ,
 "offaly": {
    "county" : "Offaly",
    "source" : "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "service_notes" : "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
@@ -6289,7 +6534,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "3 Small Bin Laois Offaly",
@@ -6309,7 +6555,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "price" : 26.5,
                "household_size" : "Single or couple",
-               "excess_charge_per_kg" : 0.24
+               "excess_charge_per_kg" : 0.24,
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : null,
@@ -6328,7 +6575,8 @@ const COUNTY_DATA = {
                "name" : "2 Bin Laois Offaly",
                "waste_allowance_kg" : 72,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -6347,7 +6595,8 @@ const COUNTY_DATA = {
                "notes" : "€24/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
                "excess_charge_per_kg" : 0.24,
                "household_size" : "Single or couple",
-               "price" : 24
+               "price" : 24,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : 20,
@@ -6367,7 +6616,8 @@ const COUNTY_DATA = {
                "type" : "pay_by_lift",
                "waste_allowance_kg" : 45,
                "waste_allowance_period" : "per_lift",
-               "recycling_excess_per_kg" : 0.15
+               "recycling_excess_per_kg" : 0.15,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Birr, Co. Offaly (R42 K294)"
@@ -6397,7 +6647,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -6418,7 +6669,8 @@ const COUNTY_DATA = {
                "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -6439,7 +6691,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost",
                   "glass"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -6460,7 +6713,8 @@ const COUNTY_DATA = {
                   "glass"
                ],
                "type" : "pay_by_lift",
-               "compost_allowance_kg" : null
+               "compost_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -6494,7 +6748,8 @@ const COUNTY_DATA = {
                "notes" : "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
                "excess_charge_per_kg" : null,
                "household_size" : null,
-               "price" : 31.1
+               "price" : 31.1,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : null,
@@ -6514,7 +6769,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : null,
@@ -6534,7 +6790,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "360L Waste Plan"
+               "name" : "360L Waste Plan",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Ryan Brothers Waste Recycling Services",
@@ -6571,7 +6828,8 @@ const COUNTY_DATA = {
                   "glass"
                ],
                "name" : "Pay by Weight – Half Yearly",
-               "waste_allowance_kg" : null
+               "waste_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -6618,7 +6876,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : 30,
                "excess_charge_per_kg" : 0.25,
                "price" : 30.42,
-               "household_size" : "1-3 people"
+               "household_size" : "1-3 people",
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : 0.19,
@@ -6638,7 +6897,8 @@ const COUNTY_DATA = {
                "name" : "Standard",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : 0.19
+               "recycling_excess_per_kg" : 0.19,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 5+ people. No glass bin.",
@@ -6658,7 +6918,8 @@ const COUNTY_DATA = {
                ],
                "name" : "Plus",
                "recycling_excess_per_kg" : 0.19,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 8,
@@ -6678,7 +6939,8 @@ const COUNTY_DATA = {
                "name" : "Pay Per Lift",
                "compost_allowance_kg" : 50,
                "type" : "pay_by_lift",
-               "waste_allowance_kg" : 50
+               "waste_allowance_kg" : 50,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green",
@@ -6706,7 +6968,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.24,
                "household_size" : null,
-               "price" : 29.5
+               "price" : 29.5,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.24,
@@ -6726,7 +6989,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -6745,7 +7009,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+               "notes" : "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -6764,7 +7029,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 45,
@@ -6784,7 +7050,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : 0.15,
                "price" : 6.5,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.23
+               "excess_charge_per_kg" : 0.23,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Athlone, Co. Roscommon (N37 EY22)",
@@ -6819,7 +7086,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost",
                   "glass"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
@@ -6840,7 +7108,8 @@ const COUNTY_DATA = {
                "compost_allowance_kg" : null,
                "type" : "monthly",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -6861,7 +7130,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -6882,7 +7152,8 @@ const COUNTY_DATA = {
                   "compost",
                   "glass"
                ],
-               "name" : "Pay by Lift"
+               "name" : "Pay by Lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -6921,7 +7192,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : 15,
                "excess_charge_per_kg" : 0.2,
                "household_size" : null,
-               "price" : 22.5
+               "price" : 22.5,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : 30,
@@ -6941,7 +7213,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : 0.2
+               "recycling_excess_per_kg" : 0.2,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.22,
@@ -6961,7 +7234,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "name" : "Pay by Weight"
+               "name" : "Pay by Weight",
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -6994,7 +7268,8 @@ const COUNTY_DATA = {
                "name" : "PBW Standard",
                "waste_allowance_kg" : null,
                "waste_allowance_period" : null,
-               "recycling_excess_per_kg" : 0.05
+               "recycling_excess_per_kg" : 0.05,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 140L compost (where available).",
@@ -7014,7 +7289,8 @@ const COUNTY_DATA = {
                ],
                "name" : "Pay By Weight Lite",
                "recycling_excess_per_kg" : 0.05,
-               "waste_allowance_period" : null
+               "waste_allowance_period" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -7034,7 +7310,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "name" : "ECO Standard",
-               "waste_allowance_kg" : 350
+               "waste_allowance_kg" : 350,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 31.67,
@@ -7054,7 +7331,8 @@ const COUNTY_DATA = {
                ],
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 200
+               "waste_allowance_kg" : 200,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Co. Roscommon (county dropdown)",
@@ -7080,14 +7358,12 @@ const COUNTY_DATA = {
             "level" : "none"
          }
       }
-   ],
-   "scraped_date" : "2026-03-21"
+   ]
 }
 ,
 "sligo": {
    "source" : "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
    "county" : "Sligo",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "website" : "https://www.panda.ie/household/",
@@ -7112,7 +7388,8 @@ const COUNTY_DATA = {
                   "recycling",
                   "compost"
                ],
-               "waste_allowance_kg" : 46
+               "waste_allowance_kg" : 46,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : "3-5 people",
@@ -7132,7 +7409,8 @@ const COUNTY_DATA = {
                ],
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 59
+               "waste_allowance_kg" : 59,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -7152,7 +7430,8 @@ const COUNTY_DATA = {
                "notes" : "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 12,
@@ -7172,7 +7451,8 @@ const COUNTY_DATA = {
                ],
                "name" : "Pay Per Lift",
                "compost_allowance_kg" : 50,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green",
@@ -7210,7 +7490,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "quarterly",
@@ -7230,7 +7511,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
+               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 27,
@@ -7250,7 +7532,8 @@ const COUNTY_DATA = {
                "name" : "Standard 120 + 120 + Caddy",
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 105
+               "waste_allowance_kg" : 105,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "quarterly",
@@ -7270,7 +7553,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
+               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -7290,7 +7574,8 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "waste_allowance_kg" : 420,
                "waste_allowance_period" : "quarterly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -7310,7 +7595,8 @@ const COUNTY_DATA = {
                "notes" : "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy.",
                "price_frequency" : "monthly",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "per_lift",
@@ -7330,7 +7616,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy."
+               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy.",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Donegal Waste & Recycle",
@@ -7365,7 +7652,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : 0.15,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy."
+               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy.",
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -7385,7 +7673,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "price" : 12,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "6_monthly",
@@ -7405,7 +7694,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 350kg per 6 months (450kg if no compost service in area). Surcharge €0.25/kg over limit.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -7425,7 +7715,8 @@ const COUNTY_DATA = {
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Co. Sligo (county dropdown)",
@@ -7467,7 +7758,6 @@ const COUNTY_DATA = {
 ,
 "tipperary": {
   "county": "Tipperary",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Tipperary Town), aesirl.wis.ie (Parnell St, Thurles & Kickham St, Nenagh), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
   "companies": [
     {
@@ -7497,7 +7787,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -7513,7 +7804,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -7529,7 +7821,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -7545,7 +7838,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.25,
           "compost_allowance_kg": 50,
           "compost_excess_per_kg": 0.20,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift (up to 50kg, €0.20/kg excess), Recycling €5.25/lift (up to 25kg, €0.25/kg excess), Compost €6.50/lift (up to 50kg, €0.20/kg excess). No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift (up to 50kg, €0.20/kg excess), Recycling €5.25/lift (up to 25kg, €0.25/kg excess), Compost €6.50/lift (up to 50kg, €0.20/kg excess). No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7576,7 +7870,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -7592,7 +7887,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -7608,7 +7904,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -7624,7 +7921,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7655,7 +7953,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
+          "notes": "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste Plan",
@@ -7671,7 +7970,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
+          "notes": "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Waste Plan",
@@ -7687,7 +7987,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€265.28/half-year (~€44.21/month), or €88.42 every 2 months. 360L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply."
+          "notes": "€265.28/half-year (~€44.21/month), or €88.42 every 2 months. 360L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7718,7 +8019,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€154.82/6 months (~€25.80/month). €10 discount if on Direct Debit (€144.82/6mo ≈ €24.14/month). 240L waste + 360L recycling + 25L food caddy + 7L kitchen caddy + 50L glass container (certain areas). Fortnightly collection. All bins collected together in multi-compartment trucks. Annual option: €309/year (~€25.75/month)."
+          "notes": "€154.82/6 months (~€25.80/month). €10 discount if on Direct Debit (€144.82/6mo ≈ €24.14/month). 240L waste + 360L recycling + 25L food caddy + 7L kitchen caddy + 50L glass container (certain areas). Fortnightly collection. All bins collected together in multi-compartment trucks. Annual option: €309/year (~€25.75/month).",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7741,7 +8043,6 @@ const COUNTY_DATA = {
 ,
 "waterford": {
   "county": "Waterford",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
   "companies": [
     {
@@ -7771,7 +8072,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -7787,7 +8089,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -7803,7 +8106,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -7819,7 +8123,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Waterford. No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Waterford. No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7850,7 +8155,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families. 2 months FREE intro offer."
+          "notes": "€29/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Waterford",
@@ -7866,7 +8172,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer."
+          "notes": "€25/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Waterford",
@@ -7882,7 +8189,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection. 2 months FREE intro offer."
+          "notes": "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Waterford",
@@ -7898,7 +8206,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23.50/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer."
+          "notes": "€23.50/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -7929,7 +8238,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.18,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.18,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. Suitable for light users."
+          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. Suitable for light users.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
@@ -7945,7 +8255,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer."
+          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
@@ -7961,7 +8272,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer."
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
@@ -7977,7 +8289,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer."
+          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8008,7 +8321,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€32.50/month (€97.50/3mo, €195/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes."
+          "notes": "€32.50/month (€97.50/3mo, €195/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Standard 3-Bin",
@@ -8024,7 +8338,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€36/month (€108/3mo, €216/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes."
+          "notes": "€36/month (€108/3mo, €216/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8047,7 +8362,6 @@ const COUNTY_DATA = {
 ,
 "westmeath": {
   "county": "Westmeath",
-  "scraped_date": "2026-03-21",
   "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
   "companies": [
     {
@@ -8077,7 +8391,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29.50/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families."
+          "notes": "€29.50/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Westmeath",
@@ -8093,7 +8408,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
+          "notes": "€26/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Westmeath",
@@ -8109,7 +8425,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+          "notes": "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Westmeath",
@@ -8125,7 +8442,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings."
+          "notes": "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift Westmeath",
@@ -8141,7 +8459,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€6.50/month service charge + per-lift: Waste €14.50/lift (up to 45kg, €0.23/kg excess), Recycling €7.50/lift (up to 20kg, €0.15/kg excess), Organic €6.50/lift (up to 30kg, €0.15/kg excess). 240L waste + 240L recycling + 140L organic."
+          "notes": "€6.50/month service charge + per-lift: Waste €14.50/lift (up to 45kg, €0.23/kg excess), Recycling €7.50/lift (up to 20kg, €0.15/kg excess), Organic €6.50/lift (up to 30kg, €0.15/kg excess). 240L waste + 240L recycling + 140L organic.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8172,7 +8491,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -8188,7 +8508,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -8204,7 +8525,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -8220,7 +8542,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8251,7 +8574,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -8267,7 +8591,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -8283,7 +8608,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -8299,7 +8625,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Westmeath. No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Westmeath. No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8330,7 +8657,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 30kg/mo allowance, €0.20/kg excess. Recycling: 15kg/mo, €0.20/kg excess. Food: 20kg/mo, €0.15/kg excess. Payment on 1st of month."
+          "notes": "€22.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 30kg/mo allowance, €0.20/kg excess. Recycling: 15kg/mo, €0.20/kg excess. Food: 20kg/mo, €0.15/kg excess. Payment on 1st of month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -8346,7 +8674,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 60kg/mo allowance, €0.20/kg excess. Recycling: 30kg/mo, €0.20/kg excess. Food: 30kg/mo, €0.15/kg excess. Payment on 1st of month."
+          "notes": "€27.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 60kg/mo allowance, €0.20/kg excess. Recycling: 30kg/mo, €0.20/kg excess. Food: 30kg/mo, €0.15/kg excess. Payment on 1st of month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Extra",
@@ -8362,7 +8691,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 37,
           "compost_excess_per_kg": 0.15,
-          "notes": "€32.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 75kg/mo allowance, €0.20/kg excess. Recycling: 38kg/mo, €0.20/kg excess. Food: 37kg/mo, €0.15/kg excess. Payment on 1st of month."
+          "notes": "€32.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 75kg/mo allowance, €0.20/kg excess. Recycling: 38kg/mo, €0.20/kg excess. Food: 37kg/mo, €0.15/kg excess. Payment on 1st of month.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -8378,7 +8708,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month service charge + pay per kg: Waste €0.22/kg, Recycling €0.12/kg, Food €0.12/kg. 240L waste + 240L recycling + 30L food bin. Minimum €7.50 credit required at all times. No Direct Debit available."
+          "notes": "€15/month service charge + pay per kg: Waste €0.22/kg, Recycling €0.12/kg, Food €0.12/kg. 240L waste + 240L recycling + 30L food bin. Minimum €7.50 credit required at all times. No Direct Debit available.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }
@@ -8387,7 +8718,6 @@ const COUNTY_DATA = {
 ,
 "wexford": {
   "county": "Wexford",
-  "scraped_date": "2026-03-21",
   "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
   "companies": [
     {
@@ -8417,7 +8747,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -8433,7 +8764,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -8449,7 +8781,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -8465,7 +8798,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wexford. No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wexford. No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8496,7 +8830,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -8512,7 +8847,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month (Wexford-specific price — €26/month in other counties). 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€27/month (Wexford-specific price — €26/month in other counties). 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -8528,7 +8864,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment."
+          "notes": "€31/month. 60kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -8544,7 +8881,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass."
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8575,7 +8913,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection."
+          "notes": "€24/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight",
@@ -8591,7 +8930,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.00,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.20,
-          "notes": "€10/month service charge + pay per kg: Waste €0.30/kg, Recycling free, Compost €0.20/kg (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account at all times. Initial €50 setup payment. Alternate weekly collection."
+          "notes": "€10/month service charge + pay per kg: Waste €0.30/kg, Recycling free, Compost €0.20/kg (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account at all times. Initial €50 setup payment. Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
@@ -8607,7 +8947,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.50/month service charge + per-lift: Waste €8.00/lift (up to 30kg, €0.12/kg excess), Recycling €2.00/lift, Compost €6.00/lift (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account. Initial €50 setup payment. Alternate weekly collection."
+          "notes": "€12.50/month service charge + per-lift: Waste €8.00/lift (up to 30kg, €0.12/kg excess), Recycling €2.00/lift, Compost €6.00/lift (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account. Initial €50 setup payment. Alternate weekly collection.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8638,7 +8979,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": 0.18,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.18,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. South Wexford (New Ross area) only."
+          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
@@ -8654,7 +8996,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
@@ -8670,7 +9013,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
@@ -8686,7 +9030,8 @@ const COUNTY_DATA = {
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only."
+          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer. South Wexford (New Ross area) only.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -8710,7 +9055,6 @@ const COUNTY_DATA = {
 "wicklow": {
    "source" : "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
    "county" : "Wicklow",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "service_notes" : "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
@@ -8735,7 +9079,8 @@ const COUNTY_DATA = {
                "name" : "Essential",
                "waste_allowance_kg" : 46,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
@@ -8755,7 +9100,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -8775,7 +9121,8 @@ const COUNTY_DATA = {
                "compost_allowance_kg" : null,
                "waste_allowance_kg" : 85,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : null,
@@ -8795,7 +9142,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : null,
                "price" : 12,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Main Street, Wicklow Town",
@@ -8831,7 +9179,8 @@ const COUNTY_DATA = {
                "compost_allowance_kg" : null,
                "type" : "monthly",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 40,
@@ -8852,7 +9201,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "household_size" : null,
                "price" : 27,
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€35/month. 65kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Plus is €35/65kg in Wicklow vs €31/60kg in most other counties.",
@@ -8873,7 +9223,8 @@ const COUNTY_DATA = {
                ],
                "name" : "AES Plus",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
@@ -8894,7 +9245,8 @@ const COUNTY_DATA = {
                "type" : "pay_by_lift",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "per_lift"
+               "waste_allowance_period" : "per_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -8932,7 +9284,8 @@ const COUNTY_DATA = {
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264."
+               "notes" : "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264.",
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -8952,7 +9305,8 @@ const COUNTY_DATA = {
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.3,
                "price" : 26.49,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -8972,7 +9326,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "€30.49/month (or €337.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, €0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: €337.89.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "The City Bin Co.",
@@ -9034,7 +9389,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only."
+               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -9054,7 +9410,8 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 65,
@@ -9074,7 +9431,8 @@ const COUNTY_DATA = {
                "compost_excess_per_kg" : null,
                "price" : 31,
                "household_size" : "5+ people",
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -9094,7 +9452,8 @@ const COUNTY_DATA = {
                "notes" : "€100/year service charge (~€8.33/month). Per-lift: Waste €5.50/lift + €0.25/kg, Compost €4.00/lift + €0.10/kg, Recycling €4.50/lift + €0.20/kg.",
                "household_size" : null,
                "price" : 8.33,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "A98AT22",
@@ -9131,7 +9490,8 @@ const COUNTY_DATA = {
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "Eco Band",
@@ -9147,7 +9507,8 @@ const COUNTY_DATA = {
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "Eco Band Pro",
@@ -9163,7 +9524,8 @@ const COUNTY_DATA = {
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             }
          ]
       }

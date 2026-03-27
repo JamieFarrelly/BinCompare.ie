@@ -1,7 +1,6 @@
 {
    "county" : "Offaly",
    "source" : "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "service_notes" : "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
@@ -33,7 +32,8 @@
                "type" : "monthly",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "3 Small Bin Laois Offaly",
@@ -53,7 +53,8 @@
                "price_frequency" : "monthly",
                "price" : 26.5,
                "household_size" : "Single or couple",
-               "excess_charge_per_kg" : 0.24
+               "excess_charge_per_kg" : 0.24,
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : null,
@@ -72,7 +73,8 @@
                "name" : "2 Bin Laois Offaly",
                "waste_allowance_kg" : 72,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -91,7 +93,8 @@
                "notes" : "€24/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
                "excess_charge_per_kg" : 0.24,
                "household_size" : "Single or couple",
-               "price" : 24
+               "price" : 24,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : 20,
@@ -111,7 +114,8 @@
                "type" : "pay_by_lift",
                "waste_allowance_kg" : 45,
                "waste_allowance_period" : "per_lift",
-               "recycling_excess_per_kg" : 0.15
+               "recycling_excess_per_kg" : 0.15,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Birr, Co. Offaly (R42 K294)"
@@ -141,7 +145,8 @@
                "type" : "monthly",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -162,7 +167,8 @@
                "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -183,7 +189,8 @@
                   "recycling",
                   "compost",
                   "glass"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -204,7 +211,8 @@
                   "glass"
                ],
                "type" : "pay_by_lift",
-               "compost_allowance_kg" : null
+               "compost_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -238,7 +246,8 @@
                "notes" : "€186.60/half-year (~€31.10/month), or €62.20 every 2 months. 140L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
                "excess_charge_per_kg" : null,
                "household_size" : null,
-               "price" : 31.1
+               "price" : 31.1,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : null,
@@ -258,7 +267,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€205.50/half-year (~€34.25/month), or €68.50 every 2 months. 240L general waste bin + 240L dry recycling bin. Brown bin delivered if available in area. Weight allowances apply.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : null,
@@ -278,7 +288,8 @@
                   "recycling",
                   "compost"
                ],
-               "name" : "360L Waste Plan"
+               "name" : "360L Waste Plan",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Ryan Brothers Waste Recycling Services",
@@ -315,7 +326,8 @@
                   "glass"
                ],
                "name" : "Pay by Weight – Half Yearly",
-               "waste_allowance_kg" : null
+               "waste_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
