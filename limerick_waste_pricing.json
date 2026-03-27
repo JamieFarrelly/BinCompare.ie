@@ -1,6 +1,5 @@
 {
   "county": "Limerick",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29.50/month (Easy Pay). Also available: €175 per 6 months or €340 per year. 240L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+          "notes": "€29.50/month (Easy Pay). Also available: €175 per 6 months or €340 per year. 240L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25.50/month (Easy Pay). Also available: €150 per 6 months or €290 per year. 140L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply."
+          "notes": "€25.50/month (Easy Pay). Also available: €150 per 6 months or €290 per year. 140L waste bin, 360L recycling bin, 25L food waste bin, 7L kitchen caddy. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -77,7 +78,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. 300kg allowance per 6 months (~50kg/month). 240L waste, 240L recycling, 140L organic, 25L glass. €0.20/kg excess on waste."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. 300kg allowance per 6 months (~50kg/month). 240L waste, 240L recycling, 140L organic, 25L glass. €0.20/kg excess on waste.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country 25L rate). Glass free. Min account credit €12."
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country 25L rate). Glass free. Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€9.50/mo service charge + €9.50/lift waste (240L, 25kg) + €4.00/lift recycling (240L, 15kg) + €3.00/lift organic (country 25L rate). Glass free. Min account credit €13."
+          "notes": "€9.50/mo service charge + €9.50/lift waste (240L, 25kg) + €4.00/lift recycling (240L, 15kg) + €3.00/lift organic (country 25L rate). Glass free. Min account credit €13.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -154,7 +158,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 30kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€24/month. 30kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -170,7 +175,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month. 40kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€27/month. 40kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -186,7 +192,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€32/month. 60kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area."
+          "notes": "€32/month. 60kg monthly waste allowance. €0.30/kg excess on waste. No excess on recycling or compost. Glass bin if available in area.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -202,7 +209,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€15.20/mo service charge + €15.60/lift waste (up to 60kg, €0.30/kg over limit) + €8/lift recycling + €6.60/lift compost + €5.50/lift glass (quarterly service). Best for light use or small households."
+          "notes": "€15.20/mo service charge + €15.60/lift waste (up to 60kg, €0.30/kg over limit) + €8/lift recycling + €6.60/lift compost + €5.50/lift glass (quarterly service). Best for light use or small households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -233,7 +241,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste, and glass collection (where available)."
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste, and glass collection (where available).",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -264,7 +273,8 @@
           "recycling_excess_per_kg": 0.13,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup)."
+          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 240L",
@@ -280,7 +290,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 140L",
@@ -296,7 +307,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }

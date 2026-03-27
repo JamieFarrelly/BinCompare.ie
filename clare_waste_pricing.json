@@ -1,6 +1,5 @@
 {
   "county": "Clare",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. €30 discount if paying by direct debit."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo. €30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -78,7 +80,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Smart",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Price varies by area — confirm with AES for your specific rate."
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -157,7 +163,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Exact per-lift rates not confirmed for Clare."
+          "notes": "Exact per-lift rates not confirmed for Clare.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste caddy + 7L kitchen caddy, and glass collection in select areas. Customers placed into a 'lift band' after each billing period based on actual weight."
+          "notes": "€154.82 per 6 months (~€25.80/month). Includes 240L waste, 360L recycling, 25L food waste caddy + 7L kitchen caddy, and glass collection in select areas. Customers placed into a 'lift band' after each billing period based on actual weight.",
+          "scraped_date": "2026-03-21"
         }
       ]
     }

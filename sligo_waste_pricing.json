@@ -1,7 +1,6 @@
 {
    "source" : "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
    "county" : "Sligo",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "website" : "https://www.panda.ie/household/",
@@ -26,7 +25,8 @@
                   "recycling",
                   "compost"
                ],
-               "waste_allowance_kg" : 46
+               "waste_allowance_kg" : 46,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : "3-5 people",
@@ -46,7 +46,8 @@
                ],
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 59
+               "waste_allowance_kg" : 59,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -66,7 +67,8 @@
                "notes" : "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 12,
@@ -86,7 +88,8 @@
                ],
                "name" : "Pay Per Lift",
                "compost_allowance_kg" : 50,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green",
@@ -124,7 +127,8 @@
                "price_frequency" : "monthly",
                "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "quarterly",
@@ -144,7 +148,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess."
+               "notes" : "€31/month (€372/year). 240L waste + 120L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 27,
@@ -164,7 +169,8 @@
                "name" : "Standard 120 + 120 + Caddy",
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 105
+               "waste_allowance_kg" : 105,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "quarterly",
@@ -184,7 +190,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess."
+               "notes" : "€31/month (€372/year). 120L waste + 240L recycling + 25L compost caddy. 105kg waste allowance per quarter (~35kg/month), €0.25/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -204,7 +211,8 @@
                "type" : "monthly",
                "waste_allowance_kg" : 420,
                "waste_allowance_period" : "quarterly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -224,7 +232,8 @@
                "notes" : "€5/month service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy.",
                "price_frequency" : "monthly",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "per_lift",
@@ -244,7 +253,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy."
+               "notes" : "€60/year (~€5/month) annual service charge + per-lift: Waste €13/lift (up to 40kg, €0.25/kg excess), Recycling €8/lift, Compost €5/lift. Government levy €0.01135/kg on waste. €40 one-off bin delivery. 240L waste + 240L recycling + 25L compost caddy.",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Donegal Waste & Recycle",
@@ -279,7 +289,8 @@
                "compost_excess_per_kg" : 0.15,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy."
+               "notes" : "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. 240L waste + 240L recycling + 25L food caddy.",
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -299,7 +310,8 @@
                "price_frequency" : "monthly",
                "price" : 12,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "6_monthly",
@@ -319,7 +331,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 25L food caddy. Weight limit 350kg per 6 months (450kg if no compost service in area). Surcharge €0.25/kg over limit.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -339,7 +352,8 @@
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Co. Sligo (county dropdown)",

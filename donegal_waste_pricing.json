@@ -25,7 +25,8 @@
                "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
                "price_frequency" : "monthly",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -45,7 +46,8 @@
                "notes" : "Bin sizes, weight allowances and full plan details not published — contact info@loganwaste.com or 074 9108111.",
                "household_size" : null,
                "price" : 30,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -85,7 +87,8 @@
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.25,
                "price" : 28.75,
-               "household_size" : "1-3 people"
+               "household_size" : "1-3 people",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 75,
@@ -105,7 +108,8 @@
                "compost_excess_per_kg" : null,
                "household_size" : "3-5 people",
                "price" : 32,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -125,7 +129,8 @@
                "type" : "monthly",
                "waste_allowance_kg" : 100,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : null,
@@ -145,7 +150,8 @@
                   "recycling",
                   "compost"
                ],
-               "name" : "Pay Per Lift"
+               "name" : "Pay Per Lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green"
@@ -173,7 +179,8 @@
                "price_frequency" : "monthly",
                "notes" : "Billed 6-monthly. 240L or 120L bin options.",
                "compost_excess_per_kg" : null,
-               "recycling_allowance_kg" : null
+               "recycling_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "annual",
@@ -192,7 +199,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Billed 6-monthly. 240L or 120L bin options."
+               "notes" : "Billed 6-monthly. 240L or 120L bin options.",
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -211,7 +219,8 @@
                "notes" : "Billed 6-monthly. 240L or 120L bin options.",
                "excess_charge_per_kg" : 0.25,
                "household_size" : null,
-               "price" : 35
+               "price" : 35,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -231,7 +240,8 @@
                   "compost"
                ],
                "compost_allowance_kg" : null,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Sharkey Waste & Recycle",
@@ -295,7 +305,8 @@
                "notes" : "€34/month (€408/year). 240L waste + 240L recycling + 25L compost caddy. 210kg waste allowance per quarter (~70kg/month), €0.25/kg excess.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -315,7 +326,8 @@
                ],
                "name" : "Mix 240 Waste + 120 Recycle + Caddy",
                "type" : "monthly",
-               "compost_allowance_kg" : null
+               "compost_allowance_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -335,7 +347,8 @@
                ],
                "name" : "Standard 120 + 120 + Caddy",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "quarterly"
+               "waste_allowance_period" : "quarterly",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -355,7 +368,8 @@
                   "recycling",
                   "compost"
                ],
-               "name" : "Mix 120 Waste + 240 Recycle + Caddy"
+               "name" : "Mix 120 Waste + 240 Recycle + Caddy",
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -375,7 +389,8 @@
                   "recycling",
                   "compost"
                ],
-               "name" : "2x240 Waste + 240 Recycle + Caddy"
+               "name" : "2x240 Waste + 240 Recycle + Caddy",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 40,
@@ -395,7 +410,8 @@
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.25,
                "household_size" : null,
-               "price" : 5
+               "price" : 5,
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : null,
@@ -415,7 +431,8 @@
                ],
                "waste_allowance_kg" : 40,
                "waste_allowance_period" : "per_lift",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Donegal Waste & Recycle",
@@ -426,7 +443,6 @@
          }
       }
    ],
-   "scraped_date" : "2026-03-21",
    "source" : "mywaste.ie + individual company websites and Panda signup flow",
    "county" : "Donegal"
 }

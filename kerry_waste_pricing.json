@@ -1,6 +1,5 @@
 {
   "county": "Kerry",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: €175/6 months or €340/year. Weight-based charges apply."
+          "notes": "Also available: €175/6 months or €340/year. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Option B (140L)",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Also available: €150/6 months or €290/year. Weight-based charges apply."
+          "notes": "Also available: €150/6 months or €290/year. Weight-based charges apply.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -77,7 +78,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo."
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift (Xtralite)",
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": 0.10,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "Min account credit €12."
+          "notes": "Min account credit €12.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Lite",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "TerraUrban",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€30 discount if paying by direct debit."
+          "notes": "€30 discount if paying by direct debit.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -156,7 +161,8 @@
           "recycling_excess_per_kg": 0.13,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup)."
+          "notes": "€16/month service charge + €0.285/kg waste + €0.13/kg recycling + €0.15/kg food waste. Bin set: 240L waste + 240L recycling + 25L food bin (€60 setup), or 140L waste + 140L recycling + 25L food bin (€50 setup).",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 240L",
@@ -172,7 +178,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€194 per 6 months (~€32.33/month). 240L waste + 240L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Half-Yearly 140L",
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess."
+          "notes": "€155 per 6 months (~€25.83/month). 140L waste + 140L recycling + 25L food bin. 300kg waste allowance per 6 months, €0.285/kg excess.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

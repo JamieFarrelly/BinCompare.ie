@@ -1,6 +1,5 @@
 {
   "county": "Carlow",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites/signup portals",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -46,7 +46,8 @@
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -62,7 +63,8 @@
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
           "compost_allowance_note": "Unlimited (where available)",
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -95,7 +97,8 @@
           "compost_excess_note": "No extra charge for compost (where available)",
           "setup_payment": 48.00,
           "setup_payment_note": "Initial payment of €48 acts as credit for first two months",
-          "notes": "Ideal for customers who leave bins out on a regular basis."
+          "notes": "Ideal for customers who leave bins out on a regular basis.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight - Monthly",
@@ -114,7 +117,8 @@
           "compost_note": "Compost charged at €0.20/kg where service is available",
           "setup_payment": 50.00,
           "setup_payment_note": "Initial payment of €50 acts as account credit. Minimum €10 credit must be maintained to ensure collections.",
-          "notes": "Best for customers who recycle more and produce less waste."
+          "notes": "Best for customers who recycle more and produce less waste.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -141,7 +145,8 @@
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Smart",
@@ -153,7 +158,8 @@
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "AES Plus",
@@ -165,7 +171,8 @@
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.30,
-          "notes": null
+          "notes": null,
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
@@ -181,7 +188,8 @@
           "per_lift_compost": 6.60,
           "waste_allowance_kg": 60,
           "excess_charge_per_kg": 0.30,
-          "notes": "Ideal for small households or irregular use. Recycling/organic lifts significantly cheaper than general waste lift."
+          "notes": "Ideal for small households or irregular use. Recycling/organic lifts significantly cheaper than general waste lift.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

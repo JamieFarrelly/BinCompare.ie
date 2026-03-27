@@ -1,6 +1,5 @@
 {
   "county": "Leitrim",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
-          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Monthly Plan Standard",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": 0.20,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
-          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection."
+          "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Weight",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": 0.12,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.12,
-          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50."
+          "notes": "€15/month standing charge + €0.22/kg waste + €0.12/kg recycling + €0.12/kg food waste. Minimum account credit €7.50.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -93,7 +95,8 @@
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Weight Lite",
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": 0.05,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.15,
-          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg."
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Standard",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households."
+          "notes": "€210 per 6 months (~€35/month). Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "ECO Small",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households."
+          "notes": "€190 per 6 months (~€31.67/month). Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

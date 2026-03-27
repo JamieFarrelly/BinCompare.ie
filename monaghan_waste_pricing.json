@@ -26,7 +26,8 @@
                "name" : "Bill Pay – 140L Waste",
                "waste_allowance_kg" : null,
                "waste_allowance_period" : null,
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -47,7 +48,8 @@
                   "glass"
                ],
                "compost_allowance_kg" : null,
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "household_size" : null,
@@ -67,7 +69,8 @@
                   "compost"
                ],
                "compost_allowance_kg" : null,
-               "type" : "pay_by_lift"
+               "type" : "pay_by_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "McElvaney's Waste & Recycling and Ace Environmental",
@@ -107,7 +110,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "From €23.50/month. 140L waste bin + 240L recycling bin + food caddy. 20kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -127,7 +131,8 @@
                "notes" : "From €30.00/month. 240L waste bin + 240L recycling bin + food caddy. 50kg allowed per waste collection, €0.23/kg excess. Government Levy billed separately every 6 months. 360L, 660L and 1100L sizes also available.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Blue Dolphin Environmental Ltd",
@@ -157,7 +162,8 @@
                "name" : "3 Bin NE Rural2",
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 72
+               "waste_allowance_kg" : 72,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -177,7 +183,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess."
+               "notes" : "€29/month (€174/6 months, €348/year). 140L waste + 140L recycling + 140L organics. 48kg/month waste allowance, €0.24/kg excess.",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_excess_per_kg" : null,
@@ -196,7 +203,8 @@
                "notes" : "€31/month (€186/6 months, €372/year). 240L waste + 240L recycling only. 72kg/month waste allowance, €0.24/kg excess. Customer must confirm alternative food waste management.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
-               "compost_excess_per_kg" : null
+               "compost_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 25,
@@ -215,7 +223,8 @@
                ],
                "name" : "2 Small Bin NE Rural2",
                "compost_allowance_kg" : null,
-               "type" : "monthly"
+               "type" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 45,
@@ -235,7 +244,8 @@
                "compost_excess_per_kg" : 0.18,
                "price" : 12,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.24
+               "excess_charge_per_kg" : 0.24,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Oxigen Environmental Unlimited Company",
@@ -317,7 +327,8 @@
                "compost_excess_per_kg" : null,
                "household_size" : null,
                "price" : 24.75,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : null,
@@ -338,7 +349,8 @@
                "compost_excess_per_kg" : null,
                "price" : 29.33,
                "household_size" : null,
-               "excess_charge_per_kg" : null
+               "excess_charge_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : null,
@@ -360,7 +372,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "notes" : "€374/year (~€31.17/month, includes 1 free month). 2x240L waste/month, 2x240L recycling/month, 2x140L compost/month, 1x140L glass/quarter.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€9.25/month service fee + €50 setup deposit (applied as credit). 140L waste lift €9.50 (30kg, €0.23/kg excess), 240L waste lift €14.50 (50kg, €0.23/kg excess). Rural compost caddy €4.20/month.",
@@ -380,7 +393,8 @@
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "per_lift"
+               "waste_allowance_period" : "per_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -388,6 +402,5 @@
          "service_notes" : "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
          "website" : "https://www.ecological.ie"
       }
-   ],
-   "scraped_date" : "2026-03-21"
+   ]
 }

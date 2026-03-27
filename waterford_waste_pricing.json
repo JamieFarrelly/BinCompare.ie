@@ -1,6 +1,5 @@
 {
   "county": "Waterford",
-  "scraped_date": "2026-03-21",
   "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
   "companies": [
     {
@@ -30,7 +29,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people."
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Standard",
@@ -46,7 +46,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people."
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Plus",
@@ -62,7 +63,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people."
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay Per Lift",
@@ -78,7 +80,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Waterford. No glass bin."
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Waterford. No glass bin.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -109,7 +112,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€29/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families. 2 months FREE intro offer."
+          "notes": "€29/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "3 Small Bin Waterford",
@@ -125,7 +129,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€25/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer."
+          "notes": "€25/month. 140L waste + 140L recycling + 140L organic. Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Bin Waterford",
@@ -141,7 +146,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection. 2 months FREE intro offer."
+          "notes": "€27/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "2 Small Bin Waterford",
@@ -157,7 +163,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23.50/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer."
+          "notes": "€23.50/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Suitable for single or couple-person dwellings. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -188,7 +195,8 @@
           "recycling_excess_per_kg": 0.18,
           "compost_allowance_kg": 40,
           "compost_excess_per_kg": 0.18,
-          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. Suitable for light users."
+          "notes": "€5/month service charge + per-lift: Waste €13/lift (up to 35kg, €0.25/kg excess), Compost €8/lift (up to 40kg, €0.18/kg excess), Recycling €6.50/lift (up to 20kg, €0.18/kg excess). 240L waste + 360L recycling + 140L compost. Suitable for light users.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
@@ -204,7 +212,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer."
+          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 360L recycling + 240L compost. Suitable for single or couple-person dwellings. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
@@ -220,7 +229,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer."
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L compost. Suitable for most households. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
@@ -236,7 +246,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer."
+          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L compost. Suitable for larger households. Fortnightly. 2 months FREE intro offer.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },
@@ -267,7 +278,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€32.50/month (€97.50/3mo, €195/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes."
+          "notes": "€32.50/month (€97.50/3mo, €195/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes.",
+          "scraped_date": "2026-03-21"
         },
         {
           "name": "240L Standard 3-Bin",
@@ -283,7 +295,8 @@
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€36/month (€108/3mo, €216/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes."
+          "notes": "€36/month (€108/3mo, €216/6mo). Standard allocation: 240L waste + 240L food bin + 360L recycling. West Waterford only. Contact 021-4630601 for alternative bin sizes.",
+          "scraped_date": "2026-03-21"
         }
       ]
     },

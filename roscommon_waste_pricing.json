@@ -31,7 +31,8 @@
                "recycling_allowance_kg" : 30,
                "excess_charge_per_kg" : 0.25,
                "price" : 30.42,
-               "household_size" : "1-3 people"
+               "household_size" : "1-3 people",
+               "scraped_date": "2026-03-21"
             },
             {
                "compost_excess_per_kg" : 0.19,
@@ -51,7 +52,8 @@
                "name" : "Standard",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : 0.19
+               "recycling_excess_per_kg" : 0.19,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€38.50/month. 100kg monthly waste allowance, €0.25/kg excess. 30kg recycling allowance, €0.19/kg excess. 40kg compost allowance, €0.19/kg excess. For 5+ people. No glass bin.",
@@ -71,7 +73,8 @@
                ],
                "name" : "Plus",
                "recycling_excess_per_kg" : 0.19,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 8,
@@ -91,7 +94,8 @@
                "name" : "Pay Per Lift",
                "compost_allowance_kg" : 50,
                "type" : "pay_by_lift",
-               "waste_allowance_kg" : 50
+               "waste_allowance_kg" : 50,
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "Panda Green",
@@ -119,7 +123,8 @@
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : 0.24,
                "household_size" : null,
-               "price" : 29.5
+               "price" : 29.5,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.24,
@@ -139,7 +144,8 @@
                   "general_waste",
                   "recycling",
                   "compost"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -158,7 +164,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection."
+               "notes" : "€25/month. 240L waste + 240L recycling (no organic). Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -177,7 +184,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "€22/month. 140L waste + 140L recycling (no organic). Fortnightly. 48kg/month waste allowance, €0.24/kg excess. Customer opts out of brown bin collection.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 45,
@@ -197,7 +205,8 @@
                "compost_excess_per_kg" : 0.15,
                "price" : 6.5,
                "household_size" : null,
-               "excess_charge_per_kg" : 0.23
+               "excess_charge_per_kg" : 0.23,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Athlone, Co. Roscommon (N37 EY22)",
@@ -232,7 +241,8 @@
                   "recycling",
                   "compost",
                   "glass"
-               ]
+               ],
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€26/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
@@ -253,7 +263,8 @@
                "compost_allowance_kg" : null,
                "type" : "monthly",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -274,7 +285,8 @@
                "type" : "monthly",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.3,
@@ -295,7 +307,8 @@
                   "compost",
                   "glass"
                ],
-               "name" : "Pay by Lift"
+               "name" : "Pay by Lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -334,7 +347,8 @@
                "recycling_allowance_kg" : 15,
                "excess_charge_per_kg" : 0.2,
                "household_size" : null,
-               "price" : 22.5
+               "price" : 22.5,
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : 30,
@@ -354,7 +368,8 @@
                "type" : "monthly",
                "waste_allowance_kg" : 60,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : 0.2
+               "recycling_excess_per_kg" : 0.2,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.22,
@@ -374,7 +389,8 @@
                   "recycling",
                   "compost"
                ],
-               "name" : "Pay by Weight"
+               "name" : "Pay by Weight",
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : null,
@@ -407,7 +423,8 @@
                "name" : "PBW Standard",
                "waste_allowance_kg" : null,
                "waste_allowance_period" : null,
-               "recycling_excess_per_kg" : 0.05
+               "recycling_excess_per_kg" : 0.05,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€12/month standing charge + €3/lift per bin type + weight charges. 240L waste + 140L recycling + 140L compost (where available).",
@@ -427,7 +444,8 @@
                ],
                "name" : "Pay By Weight Lite",
                "recycling_excess_per_kg" : 0.05,
-               "waste_allowance_period" : null
+               "waste_allowance_period" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "excess_charge_per_kg" : 0.25,
@@ -447,7 +465,8 @@
                   "compost"
                ],
                "name" : "ECO Standard",
-               "waste_allowance_kg" : 350
+               "waste_allowance_kg" : 350,
+               "scraped_date": "2026-03-21"
             },
             {
                "price" : 31.67,
@@ -467,7 +486,8 @@
                ],
                "type" : "monthly",
                "compost_allowance_kg" : null,
-               "waste_allowance_kg" : 200
+               "waste_allowance_kg" : 200,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Co. Roscommon (county dropdown)",
@@ -493,6 +513,5 @@
             "level" : "none"
          }
       }
-   ],
-   "scraped_date" : "2026-03-21"
+   ]
 }

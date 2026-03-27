@@ -1,7 +1,6 @@
 {
    "source" : "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
    "county" : "Wicklow",
-   "scraped_date" : "2026-03-21",
    "companies" : [
       {
          "service_notes" : "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
@@ -26,7 +25,8 @@
                "name" : "Essential",
                "waste_allowance_kg" : 46,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
@@ -46,7 +46,8 @@
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "recycling_allowance_kg" : null,
@@ -66,7 +67,8 @@
                "compost_allowance_kg" : null,
                "waste_allowance_kg" : 85,
                "waste_allowance_period" : "monthly",
-               "recycling_excess_per_kg" : null
+               "recycling_excess_per_kg" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : null,
@@ -86,7 +88,8 @@
                "recycling_allowance_kg" : null,
                "excess_charge_per_kg" : null,
                "price" : 12,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "Main Street, Wicklow Town",
@@ -122,7 +125,8 @@
                "compost_allowance_kg" : null,
                "type" : "monthly",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 40,
@@ -143,7 +147,8 @@
                "compost_excess_per_kg" : null,
                "household_size" : null,
                "price" : 27,
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€35/month. 65kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Plus is €35/65kg in Wicklow vs €31/60kg in most other counties.",
@@ -164,7 +169,8 @@
                ],
                "name" : "AES Plus",
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "notes" : "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
@@ -185,7 +191,8 @@
                "type" : "pay_by_lift",
                "compost_allowance_kg" : null,
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "per_lift"
+               "waste_allowance_period" : "per_lift",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "AES Recycling",
@@ -223,7 +230,8 @@
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264."
+               "notes" : "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264.",
+               "scraped_date": "2026-03-21"
             },
             {
                "type" : "monthly",
@@ -243,7 +251,8 @@
                "price_frequency" : "monthly",
                "excess_charge_per_kg" : 0.3,
                "price" : 26.49,
-               "household_size" : null
+               "household_size" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_period" : "monthly",
@@ -263,7 +272,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "notes" : "€30.49/month (or €337.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, €0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: €337.89.",
-               "price_frequency" : "monthly"
+               "price_frequency" : "monthly",
+               "scraped_date": "2026-03-21"
             }
          ],
          "name" : "The City Bin Co.",
@@ -325,7 +335,8 @@
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only."
+               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
@@ -345,7 +356,8 @@
                   "compost"
                ],
                "recycling_excess_per_kg" : null,
-               "waste_allowance_period" : "monthly"
+               "waste_allowance_period" : "monthly",
+               "scraped_date": "2026-03-21"
             },
             {
                "waste_allowance_kg" : 65,
@@ -365,7 +377,8 @@
                "compost_excess_per_kg" : null,
                "price" : 31,
                "household_size" : "5+ people",
-               "excess_charge_per_kg" : 0.3
+               "excess_charge_per_kg" : 0.3,
+               "scraped_date": "2026-03-21"
             },
             {
                "bins_included" : [
@@ -385,7 +398,8 @@
                "notes" : "€100/year service charge (~€8.33/month). Per-lift: Waste €5.50/lift + €0.25/kg, Compost €4.00/lift + €0.10/kg, Recycling €4.50/lift + €0.20/kg.",
                "household_size" : null,
                "price" : 8.33,
-               "excess_charge_per_kg" : 0.25
+               "excess_charge_per_kg" : 0.25,
+               "scraped_date": "2026-03-21"
             }
          ],
          "address_used" : "A98AT22",
@@ -422,7 +436,8 @@
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "Eco Band",
@@ -438,7 +453,8 @@
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             },
             {
                "name" : "Eco Band Pro",
@@ -454,7 +470,8 @@
                "recycling_excess_per_kg" : null,
                "compost_allowance_kg" : null,
                "compost_excess_per_kg" : null,
-               "notes" : null
+               "notes" : null,
+               "scraped_date": "2026-03-21"
             }
          ]
       }
