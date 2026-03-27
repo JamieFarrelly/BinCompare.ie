@@ -394,6 +394,69 @@
          "pricing_method" : "signup_flow",
          "website" : "https://www.greyhound.ie/",
          "service_notes" : "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only."
+      },
+      {
+         "name" : "Thorntons Recycling",
+         "phone" : "01 6235 142",
+         "website" : "https://www.thorntons-recycling.ie",
+         "pricing_available" : true,
+         "confidence" : {
+            "level" : "high",
+            "reason" : "Pricing retrieved directly from thorntons-recycling.ie/household/. Wicklow is listed as a served county on their customer signup page."
+         },
+         "address_used" : null,
+         "pricing_method" : "public_page",
+         "service_notes" : "Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.",
+         "plans" : [
+            {
+               "name" : "Eco Band Lite",
+               "type" : "monthly",
+               "price" : 24.00,
+               "price_frequency" : "monthly",
+               "household_size" : null,
+               "bins_included" : ["general_waste", "recycling", "compost"],
+               "waste_allowance_kg" : 30,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.28,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : null
+            },
+            {
+               "name" : "Eco Band",
+               "type" : "monthly",
+               "price" : 26.49,
+               "price_frequency" : "monthly",
+               "household_size" : null,
+               "bins_included" : ["general_waste", "recycling", "compost"],
+               "waste_allowance_kg" : 40,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.28,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : null
+            },
+            {
+               "name" : "Eco Band Pro",
+               "type" : "monthly",
+               "price" : 35.49,
+               "price_frequency" : "monthly",
+               "household_size" : null,
+               "bins_included" : ["general_waste", "recycling", "compost"],
+               "waste_allowance_kg" : 65,
+               "waste_allowance_period" : "monthly",
+               "excess_charge_per_kg" : 0.28,
+               "recycling_allowance_kg" : null,
+               "recycling_excess_per_kg" : null,
+               "compost_allowance_kg" : null,
+               "compost_excess_per_kg" : null,
+               "notes" : null
+            }
+         ]
       }
    ]
 }
