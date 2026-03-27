@@ -3096,7 +3096,7 @@ const COUNTY_DATA = {
         {
           "name": "Eco Band Lite",
           "type": "monthly",
-          "price": 24.00,
+          "price": 26.49,
           "price_frequency": "monthly",
           "household_size": null,
           "bins_included": ["general_waste", "recycling", "compost"],
@@ -3112,7 +3112,7 @@ const COUNTY_DATA = {
         {
           "name": "Eco Band",
           "type": "monthly",
-          "price": 26.49,
+          "price": 31.49,
           "price_frequency": "monthly",
           "household_size": null,
           "bins_included": ["general_waste", "recycling", "compost"],
@@ -9120,7 +9120,7 @@ const COUNTY_DATA = {
             {
                "name" : "Eco Band Lite",
                "type" : "monthly",
-               "price" : 24.00,
+               "price" : 26.49,
                "price_frequency" : "monthly",
                "household_size" : null,
                "bins_included" : ["general_waste", "recycling", "compost"],
@@ -9136,7 +9136,7 @@ const COUNTY_DATA = {
             {
                "name" : "Eco Band",
                "type" : "monthly",
-               "price" : 26.49,
+               "price" : 31.49,
                "price_frequency" : "monthly",
                "household_size" : null,
                "bins_included" : ["general_waste", "recycling", "compost"],
