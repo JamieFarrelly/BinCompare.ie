@@ -120,6 +120,7 @@ header p{margin-top:14px;font-size:15px;color:rgba(255,255,255,.75);max-width:50
 .cpill button{background:none;border:none;cursor:pointer;font-size:14px;color:var(--g);line-height:1;padding:0 0 0 4px}
 main{max-width:1100px;margin:28px auto 60px;padding:0 40px}
 .cmp-hint{font-size:13px;color:var(--mid);background:var(--gp);border:1px solid var(--b);border-left:4px solid var(--g);border-radius:8px;padding:10px 14px;margin-bottom:14px}
+.cmp-hint-link{color:var(--g);font-weight:600;text-decoration:underline}
 .cgrid{display:grid;gap:18px}
 .ccard{background:var(--w);border:1px solid var(--b);border-radius:12px;overflow:hidden;animation:fadeUp .4s ease both;transition:box-shadow .2s,transform .2s}
 .ccard:hover{box-shadow:0 8px 32px rgba(0,0,0,.09);transform:translateY(-2px)}
@@ -584,7 +585,7 @@ footer a{color:#7fdba9;text-decoration:none}
     </article>
   </noscript>
   <div class="ncmsg show" id="ncm"><strong>&#128070; Select your county first</strong>Results are filtered to only show companies that collect bins in your area.</div>
-  <div class="cmp-hint">&#9878; <strong>Tip:</strong> open any card and click <strong>+ Compare</strong> to compare up to 3 providers side by side. Note: some companies&rsquo; coverage and prices vary depending on where you are in the county.</div>
+  <div class="cmp-hint"><p>&#9878; <strong>Tip:</strong> open any card and click <strong>+ Compare</strong> to compare up to 3 providers side by side. Note: some companies&rsquo; coverage and prices vary depending on where you are in the county.</p><p style="margin-top:7px">If a company is missing from the list or you spot a pricing issue, please <a href="#contactSection" class="cmp-hint-link">contact us</a> &mdash; it helps us keep the site accurate for everyone.</p></div>
   <div class="cgrid" id="cg"></div>
   <div class="nores" id="nr">No companies found for this county. Try <a href="https://www.mywaste.ie" target="_blank">mywaste.ie</a> for your Eircode.</div>
 </main>
@@ -1585,6 +1586,16 @@ document.getElementById('contactToggle').addEventListener('click', function() {
   const section = document.getElementById('contactSection');
   const open = section.classList.toggle('open');
   this.setAttribute('aria-expanded', open);
+});
+
+document.querySelector('.cmp-hint-link').addEventListener('click', function(e) {
+  e.preventDefault();
+  var section = document.getElementById('contactSection');
+  if (!section.classList.contains('open')) {
+    section.classList.add('open');
+    document.getElementById('contactToggle').setAttribute('aria-expanded', true);
+  }
+  section.scrollIntoView({ behavior: 'smooth' });
 });
 
 // Report pricing issue
