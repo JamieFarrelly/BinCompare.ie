@@ -128,7 +128,7 @@ main{max-width:1100px;margin:28px auto 60px;padding:0 40px}
 .ccard.nop{border-color:#e8dfd0}
 .chdr{display:flex;align-items:center;justify-content:space-between;padding:18px 22px 14px;border-bottom:1px solid var(--b);flex-wrap:wrap;gap:12px;cursor:pointer;user-select:none}
 .chl{display:flex;align-items:center;gap:14px}
-.cion{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:#fff;flex-shrink:0}
+.cion{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:#fff;flex-shrink:0;overflow:hidden}
 .cname{font-family:'Playfair Display',serif;font-size:18px;font-weight:700}
 .ccov{font-size:11.5px;color:var(--mid);margin-top:2px;display:flex;align-items:center;gap:4px}
 .ccov svg{width:10px;height:10px}
@@ -220,7 +220,7 @@ footer a{color:#7fdba9;text-decoration:none}
 .ctray-bar-l{display:flex;align-items:center;gap:12px;flex:1;min-width:0}
 .ctray-bar-title{font-family:'Playfair Display',serif;font-size:15px;font-weight:700;white-space:nowrap}
 .ctray-avatars{display:flex;gap:-4px;align-items:center}
-.ctray-av{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:11px;font-weight:700;color:#fff;border:2px solid #1c1c1a;margin-left:-4px;flex-shrink:0}
+.ctray-av{width:26px;height:26px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:11px;font-weight:700;color:#fff;border:2px solid #1c1c1a;margin-left:-4px;flex-shrink:0;overflow:hidden}
 .ctray-av:first-child{margin-left:0}
 .ctray-kg{font-size:11px;color:rgba(255,255,255,.45);white-space:nowrap;margin-left:4px}
 .ctray-bar-r{display:flex;align-items:center;gap:14px;flex-shrink:0}
@@ -237,7 +237,7 @@ footer a{color:#7fdba9;text-decoration:none}
 .tcol.tcol-winner{box-shadow:0 4px 20px rgba(26,107,60,.2);outline:2px solid var(--g)}
 .tcol-accent{height:4px}
 .tcol-hdr{padding:14px 16px 12px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #f0ede6}
-.tcol-icon{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff;flex-shrink:0}
+.tcol-icon{width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:15px;font-weight:700;color:#fff;flex-shrink:0;overflow:hidden}
 .tcol-name{font-family:'Playfair Display',serif;font-size:14px;font-weight:700;flex:1;line-height:1.2}
 .tcol-rm{background:none;border:none;cursor:pointer;color:#ccc;font-size:20px;line-height:1;padding:2px;transition:color .15s;flex-shrink:0}
 .tcol-rm:hover{color:var(--o)}
@@ -738,6 +738,37 @@ function hashColor(name) {
   return 'hsl(' + hue + ',45%,35%)';
 }
 
+function logoDomain(c) {
+  return c.website ? c.website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/.*$/, '') : '';
+}
+
+function logoErr(img) {
+  if (!img._fbTried) {
+    img._fbTried = true;
+    img.src = 'https://www.google.com/s2/favicons?domain=' + img.dataset.domain + '&sz=64';
+  } else {
+    const parent = img.parentElement;
+    if (parent) {
+      parent.style.background = img.dataset.color;
+      parent.style.padding = '';
+      parent.textContent = img.dataset.letter;
+    }
+  }
+}
+
+function logoIcon(c, sz) {
+  sz = sz || 30;
+  const domain = logoDomain(c);
+  if (!domain) return esc(c.name[0]);
+  return '<img src="https://logo.clearbit.com/' + domain + '" '
+    + 'data-domain="' + domain + '" '
+    + 'data-letter="' + esc(c.name[0]) + '" '
+    + 'data-color="' + c.color + '" '
+    + 'style="width:' + sz + 'px;height:' + sz + 'px;object-fit:contain;display:block" '
+    + 'onerror="logoErr(this)" '
+    + 'alt="">';
+}
+
 function summarizeCoverage(counties) {
   if (counties.length >= 20) return counties.length + ' of 26 counties';
   if (counties.length > 6) return counties.length + ' counties';
@@ -1147,7 +1178,7 @@ function cardHtml(c, idx, topScore) {
   card.innerHTML =
     '<div class="chdr" data-cid="' + cid + '">'
     + '<div class="chl">'
-    + '<div class="cion" style="background:' + c.color + '">' + c.name[0] + '</div>'
+    + '<div class="cion" style="background:' + (c.website ? '#f0f0ee' : c.color) + ';padding:' + (c.website ? '6px' : '0') + '">' + logoIcon(c, 30) + '</div>'
     + '<div>'
     + '<div class="cname">' + esc(c.name)
     + (isRec ? '<span class="rbadge">\u2b50 Best match</span>' : '')
@@ -1407,7 +1438,7 @@ function renderTray() {
   const avEl = document.getElementById('trayAvatars');
   avEl.innerHTML = compareList.map(name => {
     const c = companies.find(x => x.name === name);
-    return c ? '<div class="ctray-av" style="background:' + c.color + '">' + c.name[0] + '</div>' : '';
+    return c ? '<div class="ctray-av" style="background:' + (c.website ? '#f0f0ee' : c.color) + ';padding:' + (c.website ? '3px' : '0') + '">' + logoIcon(c, 18) + '</div>' : '';
   }).join('');
   const kgEl = document.getElementById('trayKgNote');
   kgEl.textContent = compareList.length && quiz.kgBlack ? '\u00b7 ' + quiz.kgBlack + 'kg/mo' : '';
@@ -1461,7 +1492,7 @@ function renderTray() {
     return '<div class="tcol' + (isCheap ? ' tcol-winner' : '') + '">'
       + '<div class="tcol-accent" style="background:' + col + '"></div>'
       + '<div class="tcol-hdr">'
-      + '<div class="tcol-icon" style="background:' + col + '">' + c.name[0] + '</div>'
+      + '<div class="tcol-icon" style="background:' + (c.website ? '#f0f0ee' : col) + ';padding:' + (c.website ? '4px' : '0') + '">' + logoIcon(c, 26) + '</div>'
       + '<span class="tcol-name">' + esc(c.name) + '</span>'
       + '<button class="tcol-rm" data-rm="' + esc(c.name) + '" aria-label="Remove ' + esc(c.name) + ' from comparison">&times;</button>'
       + '</div>'
