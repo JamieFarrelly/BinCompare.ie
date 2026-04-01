@@ -1886,7 +1886,7 @@ const COUNTY_DATA = {
          "service_notes" : "No annual fee. Award-winning mobile app. Refer a friend scheme (€25 credit)."
       },
       {
-         "service_notes" : "Pricing varies by Dublin council area (DCC, DLR, SDCC, Fingal). Green and brown bin lifts complimentary on monthly plans. No annual upfront fees. Direct debit processes 28th–1st monthly. Bins delivered in 2–3 working days. Promo code 'Bin10' for 1 month free.",
+         "service_notes" : "Pricing varies by Dublin council area (DCC, DLR, SDCC, Fingal). Green and brown bin lifts complimentary on monthly plans. No annual upfront fees. Direct debit processes 28th–1st monthly. Bins delivered in 2–3 working days. Promo code 'Bin10' for 1 month free. Note from their site: • Excess weights over your monthly allowance charged at 30c/kg • Waste is charged at an additional 6 cent per kg.",
          "website" : "https://www.greyhound.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from greyhound.ie for Dublin council areas.",
@@ -1896,7 +1896,7 @@ const COUNTY_DATA = {
          "plans" : [
             {
                "waste_allowance_period" : "monthly",
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "price" : 24.5,
                "household_size" : "1-3 people",
                "type" : "monthly",
@@ -1923,13 +1923,13 @@ const COUNTY_DATA = {
                "notes" : null,
                "waste_allowance_kg" : 42,
                "waste_allowance_period" : "monthly",
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "household_size" : "3-5 people",
                "price" : 27,
                "scraped_date": "2026-03-21"
             },
             {
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "household_size" : "5+ people",
                "price" : 31,
                "waste_allowance_period" : "monthly",
@@ -1957,7 +1957,7 @@ const COUNTY_DATA = {
                "notes" : null,
                "waste_allowance_kg" : 32,
                "waste_allowance_period" : "monthly",
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "household_size" : "1-3 people",
                "price" : 25,
                "scraped_date": "2026-03-21"
@@ -1976,13 +1976,13 @@ const COUNTY_DATA = {
                "waste_allowance_period" : "monthly",
                "household_size" : "3-5 people",
                "price" : 27.5,
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "scraped_date": "2026-03-21"
             },
             {
                "price" : 31,
                "household_size" : "5+ people",
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "waste_allowance_period" : "monthly",
                "waste_allowance_kg" : 65,
                "notes" : "Extra bins available.",
@@ -3280,7 +3280,7 @@ const COUNTY_DATA = {
       },
       "address_used": null,
       "pricing_method": "public_page",
-      "service_notes": "Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste €0.30/kg.",
+      "service_notes": "Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste €0.36/kg. Note from their site: • Excess weights over your monthly allowance charged at 30c/kg • Waste is charged at an additional 6 cent per kg.",
       "plans": [
         {
           "name": "Standard",
@@ -3291,7 +3291,7 @@ const COUNTY_DATA = {
           "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 32,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.36,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -3308,7 +3308,7 @@ const COUNTY_DATA = {
           "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 42,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.36,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -3325,7 +3325,7 @@ const COUNTY_DATA = {
           "bins_included": ["general_waste", "recycling", "compost"],
           "waste_allowance_kg": 65,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.36,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -9383,21 +9383,21 @@ const COUNTY_DATA = {
                   "compost"
                ],
                "waste_allowance_kg" : 32,
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "household_size" : "1-3 people",
                "price" : 25,
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
                "price_frequency" : "monthly",
-               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "notes" : "Free recycling and compost lifts. €0.36/kg excess on waste only.",
                "scraped_date": "2026-03-21"
             },
             {
                "price_frequency" : "monthly",
-               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "notes" : "Free recycling and compost lifts. €0.36/kg excess on waste only.",
                "compost_excess_per_kg" : null,
                "recycling_allowance_kg" : null,
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "household_size" : "3-5 people",
                "price" : 27.5,
                "waste_allowance_kg" : 42,
@@ -9425,13 +9425,13 @@ const COUNTY_DATA = {
                "type" : "monthly",
                "recycling_excess_per_kg" : null,
                "waste_allowance_period" : "monthly",
-               "notes" : "Free recycling and compost lifts. €0.30/kg excess on waste only.",
+               "notes" : "Free recycling and compost lifts. €0.36/kg excess on waste only.",
                "price_frequency" : "monthly",
                "recycling_allowance_kg" : null,
                "compost_excess_per_kg" : null,
                "price" : 31,
                "household_size" : "5+ people",
-               "excess_charge_per_kg" : 0.3,
+               "excess_charge_per_kg" : 0.36,
                "scraped_date": "2026-03-21"
             },
             {
@@ -9461,7 +9461,7 @@ const COUNTY_DATA = {
          "phone" : "01 467 0033",
          "pricing_method" : "signup_flow",
          "website" : "https://www.greyhound.ie/",
-         "service_notes" : "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only."
+         "service_notes" : "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only. Note from their site: • Excess weights over your monthly allowance charged at 30c/kg • Waste is charged at an additional 6 cent per kg."
       },
       {
          "name" : "Thorntons Recycling",
