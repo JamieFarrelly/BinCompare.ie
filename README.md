@@ -12,29 +12,37 @@ A single-page website (`index.html`) that compares household bin collection pric
 index.html                      <- Page markup, meta tags, and schema JSON-LD
 styles.css                      <- All CSS styles and responsive rules
 app.js                          <- All application logic (cost calc, rendering, UI)
-waste_data.js                   <- All 26 county JSONs bundled into one JS variable
+counties/                       <- Per-county JS files, loaded on demand when a county is selected
+  carlow.js, dublin.js, ...     <- 26 files, one per county
 ireland_waste_collectors.csv    <- Master list of all companies from mywaste.ie
 [county]_waste_pricing.json     <- 26 individual county pricing files (source of truth)
 README.md                       <- This file
 ```
 
-## Why waste_data.js exists
+## How county data loading works
 
-The browser can't reliably read local JSON files without a web server. `waste_data.js` bundles all 26 JSONs into a single `const COUNTY_DATA = {...}` variable loaded via `<script>` tag. This means the site works when opened directly from the filesystem (double-click `index.html`).
+When a user selects their county, `app.js` dynamically injects a `<script>` tag for `counties/[county].js`. Each file sets a single entry on `window.__COUNTY_CACHE__`, e.g.:
 
-**Rebuild command** (run after ANY JSON change):
+```js
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['Dublin']={...};
+```
+
+Only the selected county's data is downloaded — roughly 8–24 KB instead of the full 417 KB bundle. Subsequent selections of the same county are served from the in-memory cache with no network request.
+
+**Rebuild command** (run after ANY JSON change to regenerate the `counties/` JS files):
 
 ```bash
-cd C:/Users/jamie/Desktop/Claude
-echo "const COUNTY_DATA = {" > waste_data.js
-first=true
-for f in *_waste_pricing.json; do
-  county=$(grep '"county"' "$f" | head -1 | sed 's/.*: "//;s/".*//' | tr '[:upper:]' '[:lower:]')
-  if [ "$first" = true ]; then first=false; else echo "," >> waste_data.js; fi
-  printf '"%s": ' "$county" >> waste_data.js
-  cat "$f" >> waste_data.js
-done
-echo "};" >> waste_data.js
+python3 -c "
+import json, glob
+for f in glob.glob('*_waste_pricing.json'):
+    county_key = f.replace('_waste_pricing.json', '')
+    with open(f) as fp:
+        data = json.load(fp)
+    county_name = data['county']
+    js = \"window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['\" + county_name + \"']=\" + json.dumps(data, separators=(',', ':')) + \";\"
+    with open('counties/' + county_key + '.js', 'w') as out:
+        out.write(js + '\n')
+"
 ```
 
 ---
@@ -131,15 +139,15 @@ Copy and paste one of these prompts into Claude to refresh the pricing data. The
 >
 > 5. **If `pricing_method` is `null`** (no pricing): Do a quick check of the company's website to see if they've added pricing since the last check. If they have, add it and set the appropriate `pricing_method`.
 >
-> After all updates, set `scraped_date` to today's date on every plan that was updated. Then rebuild `waste_data.js`.
+> After all updates, set `scraped_date` to today's date on every plan that was updated. Then regenerate the `counties/` JS files using the rebuild command above.
 
 ### Single county refresh
 
-> Refresh all waste pricing for **[COUNTY NAME]**. Read `[county]_waste_pricing.json` from `C:/Users/jamie/Desktop/Claude/`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today on every plan that was updated. Then rebuild `waste_data.js`.
+> Refresh all waste pricing for **[COUNTY NAME]**. Read `[county]_waste_pricing.json` from `C:/Users/jamie/Desktop/Claude/`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today on every plan that was updated. Then regenerate the `counties/` JS files using the rebuild command above.
 
 ### Single company refresh (across all counties)
 
-> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `*_waste_pricing.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today on every plan that was updated. Then rebuild `waste_data.js`.
+> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `*_waste_pricing.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today on every plan that was updated. Then regenerate the `counties/` JS files using the rebuild command above.
 
 ---
 
