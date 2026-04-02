@@ -1,6 +1,5 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Sligo']={
-  "source": "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
   "county": "Sligo",
   "companies": [
     {
@@ -94,6 +93,7 @@ window.__COUNTY_CACHE__['Sligo']={
         }
       ],
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "high",
         "reason": "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Grange, Co. Sligo. Sligo-specific pricing — differs from Mayo/Roscommon. Unlimited recycling and compost allowances (unlike other counties)."
@@ -259,6 +259,7 @@ window.__COUNTY_CACHE__['Sligo']={
         }
       ],
       "name": "Donegal Waste & Recycle",
+      "source": "mywaste.ie",
       "address_used": "O'Connell St, Sligo",
       "pricing_available": true,
       "phone": "+353 74 974 0130",
@@ -359,6 +360,7 @@ window.__COUNTY_CACHE__['Sligo']={
       ],
       "address_used": "Co. Sligo (county dropdown)",
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "071 9154532",
       "pricing_available": true,
       "pricing_method": "county_dropdown"
@@ -367,6 +369,7 @@ window.__COUNTY_CACHE__['Sligo']={
       "plans": [],
       "address_used": null,
       "name": "McGrath Industrial Waste Ltd.",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "none",
         "reason": "McGrath serves Mayo and Sligo per their website. No online pricing published — customers must request a quote."
@@ -385,6 +388,7 @@ window.__COUNTY_CACHE__['Sligo']={
         "level": "none"
       },
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "plans": [],
       "address_used": null,
       "pricing_available": false,

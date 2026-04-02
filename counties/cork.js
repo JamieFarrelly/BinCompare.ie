@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Cork']={
   "county": "Cork",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "1850 373 737",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -62,6 +62,7 @@ window.__COUNTY_CACHE__['Cork']={
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 128",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -161,6 +162,7 @@ window.__COUNTY_CACHE__['Cork']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -264,6 +266,7 @@ window.__COUNTY_CACHE__['Cork']={
     },
     {
       "name": "Wiser Recycling (Wiser Bins)",
+      "source": "mywaste.ie",
       "phone": "021 4630 601",
       "website": "https://www.wiserbins.ie",
       "pricing_available": true,
@@ -321,6 +324,7 @@ window.__COUNTY_CACHE__['Cork']={
     },
     {
       "name": "Country Clean Recycling",
+      "source": "mywaste.ie",
       "phone": "022 468 48",
       "website": "https://www.countryclean.ie",
       "pricing_available": true,

@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Carlow']={
   "county": "Carlow",
-  "source": "mywaste.ie + individual company websites/signup portals",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -83,6 +83,7 @@ window.__COUNTY_CACHE__['Carlow']={
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -145,6 +146,7 @@ window.__COUNTY_CACHE__['Carlow']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -236,6 +238,7 @@ window.__COUNTY_CACHE__['Carlow']={
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,

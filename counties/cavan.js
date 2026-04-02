@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Cavan']={
   "county": "Cavan",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 128",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -83,6 +83,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -201,6 +202,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517273",
       "website": null,
       "pricing_available": false,
@@ -215,6 +217,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "Wilton Waste Recycling",
+      "source": "mywaste.ie",
       "phone": "049 4336 476",
       "website": "https://www.wilton-recycling.ie",
       "pricing_available": true,
@@ -253,6 +256,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 9433366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -352,6 +356,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 620",
       "website": "https://www.barnarecycling.com",
       "pricing_available": false,
@@ -366,6 +371,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "Blue Dolphin Environmental Ltd",
+      "source": "mywaste.ie",
       "phone": "047 577 86",
       "website": "https://www.bluedolphinrecycling.ie",
       "pricing_available": true,
@@ -423,6 +429,7 @@ window.__COUNTY_CACHE__['Cavan']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,

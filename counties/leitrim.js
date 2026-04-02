@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Leitrim']={
   "county": "Leitrim",
-  "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 129",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -83,6 +83,7 @@ window.__COUNTY_CACHE__['Leitrim']={
     },
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 623",
       "website": "https://www.barnarecycling.com",
       "pricing_available": true,
@@ -182,6 +183,7 @@ window.__COUNTY_CACHE__['Leitrim']={
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 440",
       "website": "https://www.oxigen.ie",
       "pricing_available": false,
@@ -196,6 +198,7 @@ window.__COUNTY_CACHE__['Leitrim']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -210,6 +213,7 @@ window.__COUNTY_CACHE__['Leitrim']={
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517273",
       "website": null,
       "pricing_available": false,
@@ -224,6 +228,7 @@ window.__COUNTY_CACHE__['Leitrim']={
     },
     {
       "name": "Donegal Waste & Recycle",
+      "source": "mywaste.ie",
       "phone": "074 974 0132",
       "website": "https://www.donegalwasteandrecycle.com",
       "pricing_available": false,

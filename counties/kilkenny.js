@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Kilkenny']={
   "county": "Kilkenny",
-  "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
   "companies": [
     {
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "phone": "0504 21658",
       "website": "https://www.ryanbros.ie",
       "pricing_available": true,
@@ -80,6 +80,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -183,6 +184,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Kilkenny County Council",
+      "source": "mywaste.ie",
       "phone": "056 7794 000",
       "website": "https://www.kilkennycoco.ie",
       "pricing_available": false,
@@ -197,6 +199,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -254,6 +257,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "051 642 334",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -357,6 +361,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",
       "pricing_available": false,
@@ -371,6 +376,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": false,
@@ -385,6 +391,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 802",
       "website": "https://www.cleanireland.ie",
       "pricing_available": false,
@@ -399,6 +406,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Country Clean Recycling",
+      "source": "mywaste.ie",
       "phone": "022 468 49",
       "website": "https://www.countryclean.ie",
       "pricing_available": false,
@@ -413,6 +421,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,

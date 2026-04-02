@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Kildare']={
   "county": "Kildare",
-  "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
   "companies": [
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 437",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -102,6 +102,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 679",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -180,6 +181,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "phone": "01 6235 134",
       "website": "https://www.thorntons-recycling.ie",
       "pricing_available": true,
@@ -258,6 +260,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Greyhound Household",
+      "source": "mywaste.ie",
       "phone": "01 4577777",
       "website": "https://www.greyhound.ie",
       "pricing_available": true,
@@ -336,6 +339,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -435,6 +439,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -449,6 +454,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Advanced Waste Recycling",
+      "source": "mywaste.ie",
       "phone": "01 401 1929",
       "website": "https://www.advancedwaste.ie/",
       "pricing_available": false,
@@ -463,6 +469,7 @@ window.__COUNTY_CACHE__['Kildare']={
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 943 3366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,

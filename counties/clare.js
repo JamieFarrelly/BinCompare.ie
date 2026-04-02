@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Clare']={
   "county": "Clare",
-  "source": "mywaste.ie + individual company websites",
   "companies": [
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 127",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -104,6 +104,7 @@ window.__COUNTY_CACHE__['Clare']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -203,6 +204,7 @@ window.__COUNTY_CACHE__['Clare']={
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 800",
       "website": "https://www.cleanireland.ie",
       "pricing_available": true,

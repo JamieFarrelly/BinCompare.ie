@@ -1,6 +1,5 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Galway']={
-  "source": "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
   "county": "Galway",
   "companies": [
     {
@@ -80,6 +79,7 @@ window.__COUNTY_CACHE__['Galway']={
         }
       ],
       "name": "Moran Refuse & Recycling Service"
+      "source": "mywaste.ie",
     },
     {
       "pricing_available": true,
@@ -156,6 +156,7 @@ window.__COUNTY_CACHE__['Galway']={
         }
       ],
       "name": "The City Bin Co.",
+      "source": "mywaste.ie",
       "service_notes": "Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. €0.30/kg excess on waste for all plans.",
       "website": "https://www.citybin.com"
     },
@@ -257,6 +258,7 @@ window.__COUNTY_CACHE__['Galway']={
         }
       ],
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "address_used": "1 Eyre Square, Galway",
       "pricing_available": true,
       "phone": "01 8298992",
@@ -358,6 +360,7 @@ window.__COUNTY_CACHE__['Galway']={
         }
       ],
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "website": "https://www.mrbinman.com",
       "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided."
     },
@@ -457,6 +460,7 @@ window.__COUNTY_CACHE__['Galway']={
       ],
       "address_used": "Co. Galway (county dropdown)",
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
       "website": "https://www.barnarecycling.com"
     },
@@ -470,6 +474,7 @@ window.__COUNTY_CACHE__['Galway']={
       "address_used": null,
       "plans": [],
       "name": "Ballinrobe Waste",
+      "source": "mywaste.ie",
       "pricing_available": false,
       "phone": "094 954 1360",
       "pricing_method": null
@@ -481,6 +486,7 @@ window.__COUNTY_CACHE__['Galway']={
       "address_used": null,
       "plans": [],
       "name": "The Binman",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "No website listed. Phone-only contact. No online pricing available.",
         "level": "none"
@@ -492,6 +498,7 @@ window.__COUNTY_CACHE__['Galway']={
       "plans": [],
       "address_used": null,
       "name": "Athchursail Aran Teo",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "none",
         "reason": "No website or phone number listed in source data. No online pricing available."
@@ -514,6 +521,7 @@ window.__COUNTY_CACHE__['Galway']={
       },
       "plans": [],
       "name": "Henry Kenny",
+      "source": "mywaste.ie",
       "address_used": null
     }
   ]

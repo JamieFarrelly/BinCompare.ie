@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Mayo']={
   "county": "Mayo",
-  "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
   "companies": [
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 624",
       "website": "https://www.barnarecycling.com",
       "pricing_available": true,
@@ -104,6 +104,7 @@ window.__COUNTY_CACHE__['Mayo']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -207,6 +208,7 @@ window.__COUNTY_CACHE__['Mayo']={
     },
     {
       "name": "McGrath Industrial Waste Ltd.",
+      "source": "mywaste.ie",
       "phone": "094 9031 315",
       "website": "https://www.mcgrathwaste.ie",
       "pricing_available": false,
@@ -221,6 +223,7 @@ window.__COUNTY_CACHE__['Mayo']={
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517275",
       "website": null,
       "pricing_available": false,
@@ -235,6 +238,7 @@ window.__COUNTY_CACHE__['Mayo']={
     },
     {
       "name": "Ballinrobe Waste",
+      "source": "mywaste.ie",
       "phone": "094 954 1847",
       "website": "https://www.ballinrobewaste.ie",
       "pricing_available": false,
@@ -249,6 +253,7 @@ window.__COUNTY_CACHE__['Mayo']={
     },
     {
       "name": "Bourke Waste Removal Limited",
+      "source": "mywaste.ie",
       "phone": "098 268 82",
       "website": "https://www.bourkewaste.ie",
       "pricing_available": false,

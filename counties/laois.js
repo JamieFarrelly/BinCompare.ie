@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Laois']={
   "county": "Laois",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 438",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -123,6 +123,7 @@ window.__COUNTY_CACHE__['Laois']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -226,6 +227,7 @@ window.__COUNTY_CACHE__['Laois']={
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 680",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -304,6 +306,7 @@ window.__COUNTY_CACHE__['Laois']={
     },
     {
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "phone": "0504 21658",
       "website": "https://www.ryanbros.ie",
       "pricing_available": true,
@@ -379,6 +382,7 @@ window.__COUNTY_CACHE__['Laois']={
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 131",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -436,6 +440,7 @@ window.__COUNTY_CACHE__['Laois']={
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,

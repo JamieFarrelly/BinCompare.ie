@@ -1,7 +1,6 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Offaly']={
   "county": "Offaly",
-  "source": "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
   "companies": [
     {
       "service_notes": "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
@@ -14,6 +13,7 @@ window.__COUNTY_CACHE__['Offaly']={
         "level": "high"
       },
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "plans": [
         {
           "notes": "€32/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
@@ -217,6 +217,7 @@ window.__COUNTY_CACHE__['Offaly']={
         }
       ],
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "address_used": "Birr, Co. Offaly (R42 K294)",
       "phone": "045 580 060",
       "pricing_available": true,
@@ -294,6 +295,7 @@ window.__COUNTY_CACHE__['Offaly']={
         }
       ],
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "high",
         "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers website explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
@@ -307,6 +309,7 @@ window.__COUNTY_CACHE__['Offaly']={
       "pricing_available": true,
       "phone": "1890 361 804",
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "plans": [
         {
           "excess_charge_per_kg": null,

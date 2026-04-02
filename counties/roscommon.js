@@ -1,6 +1,5 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Roscommon']={
-  "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
   "county": "Roscommon",
   "companies": [
     {
@@ -100,6 +99,7 @@ window.__COUNTY_CACHE__['Roscommon']={
         }
       ],
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "address_used": "1 Main Street, Castlerea, Co. Roscommon"
     },
     {
@@ -212,6 +212,7 @@ window.__COUNTY_CACHE__['Roscommon']={
       ],
       "address_used": "Athlone, Co. Roscommon (N37 EY22)",
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from oxigen.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1. Plans are labelled 'Westmeath' — shared pricing zone with Co. Westmeath.",
         "level": "high"
@@ -313,6 +314,7 @@ window.__COUNTY_CACHE__['Roscommon']={
         }
       ],
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from aesirl.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1.",
         "level": "high"
@@ -396,6 +398,7 @@ window.__COUNTY_CACHE__['Roscommon']={
       ],
       "address_used": null,
       "name": "Mulleadys Waste",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "high",
         "reason": "Pricing retrieved directly from mulleadys.com/household.html. Company website explicitly states service area includes Longford, Leitrim, Roscommon and Westmeath."
@@ -405,6 +408,7 @@ window.__COUNTY_CACHE__['Roscommon']={
       "service_notes": "Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
       "website": "https://www.barnarecycling.com",
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "plans": [
         {
           "compost_excess_per_kg": 0.15,
@@ -508,6 +512,7 @@ window.__COUNTY_CACHE__['Roscommon']={
       "phone": "086 3517276",
       "plans": [],
       "name": "The Binman",
+      "source": "mywaste.ie",
       "address_used": null,
       "confidence": {
         "reason": "No website listed. Phone-only contact. No online pricing available.",

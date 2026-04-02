@@ -1,6 +1,5 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Monaghan']={
-  "source": "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
   "county": "Monaghan",
   "companies": [
     {
@@ -75,6 +74,7 @@ window.__COUNTY_CACHE__['Monaghan']={
         }
       ],
       "name": "McElvaney's Waste & Recycling and Ace Environmental",
+      "source": "mywaste.ie",
       "address_used": null,
       "confidence": {
         "level": "high",
@@ -137,6 +137,7 @@ window.__COUNTY_CACHE__['Monaghan']={
         }
       ],
       "name": "Blue Dolphin Environmental Ltd",
+      "source": "mywaste.ie",
       "service_notes": "Monaghan-based family business. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
       "website": "https://www.bluedolphinrecycling.ie"
     },
@@ -250,6 +251,7 @@ window.__COUNTY_CACHE__['Monaghan']={
         }
       ],
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from oxigen.wis.ie for Drumillard Little, Castleblayney, Co. Monaghan. Oxigen serves select areas of Monaghan — not all parts of the county may be covered.",
         "level": "medium"
@@ -265,6 +267,7 @@ window.__COUNTY_CACHE__['Monaghan']={
       "plans": [],
       "address_used": null,
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "WIS portal (aesirl.wis.ie) returned empty price_group_ids for H18 Y2H2 (Monaghan town). Location not served.",
         "level": "none"
@@ -285,6 +288,7 @@ window.__COUNTY_CACHE__['Monaghan']={
       "address_used": null,
       "plans": [],
       "name": "Mahony's Environmental Cleansing Ltd"
+      "source": "mywaste.ie",
     },
     {
       "website": null,
@@ -294,6 +298,7 @@ window.__COUNTY_CACHE__['Monaghan']={
         "level": "none"
       },
       "name": "The Binman",
+      "source": "mywaste.ie",
       "plans": [],
       "address_used": null,
       "phone": "086 3517276",
@@ -400,6 +405,7 @@ window.__COUNTY_CACHE__['Monaghan']={
       ],
       "address_used": null,
       "name": "Ecological Waste Management Ltd",
+      "source": "mywaste.ie",
       "service_notes": "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
       "website": "https://www.ecological.ie"
     }

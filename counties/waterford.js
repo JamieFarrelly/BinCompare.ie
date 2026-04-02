@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Waterford']={
   "county": "Waterford",
-  "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -104,6 +104,7 @@ window.__COUNTY_CACHE__['Waterford']={
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -201,6 +202,7 @@ window.__COUNTY_CACHE__['Waterford']={
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "1890 929241",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -300,6 +302,7 @@ window.__COUNTY_CACHE__['Waterford']={
     },
     {
       "name": "Wiser Recycling",
+      "source": "mywaste.ie",
       "phone": "021 4630601",
       "website": "https://www.wiserbins.ie",
       "pricing_available": true,
@@ -357,6 +360,7 @@ window.__COUNTY_CACHE__['Waterford']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": false,
