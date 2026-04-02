@@ -346,8 +346,17 @@ footer a{color:#7fdba9;text-decoration:none}
   .pc .per{font-size:10px}
   .pc{font-size:14px}
   /* Compare tray */
-  .ctray-bar{padding:10px 18px}
-  .pip{bottom:14px;right:14px;padding:10px 16px;font-size:13px}
+  .ctray-bar{padding:20px 16px 12px;position:relative}
+  .ctray-bar::before{content:'';position:absolute;top:8px;left:50%;transform:translateX(-50%);width:36px;height:3px;background:rgba(255,255,255,.25);border-radius:2px}
+  .ctray-bar-l{gap:8px;min-width:0}
+  .ctray-bar-r{gap:10px;flex-shrink:0}
+  .ctray-clr{font-size:13px;color:rgba(255,255,255,.65);padding:8px 4px;margin:-8px -4px}
+  .ctray-tog{font-size:12px;color:rgba(255,255,255,.55);padding:8px 4px;margin:-8px -4px}
+  .ctray-kg{display:none}
+  .ctray-body{max-height:52vh}
+  .tcol{flex:0 0 min(260px,88vw)}
+  .tcost{font-size:26px}
+  .pip{bottom:16px;right:16px;padding:12px 18px;font-size:14px}
   /* Touch targets */
   .tico{width:40px;height:40px}
   .plan-tip{width:22px;height:22px;font-size:10px}
@@ -1405,10 +1414,20 @@ function openTray() {
   document.getElementById('ctray').classList.add('open');
   document.getElementById('trayTog').textContent = '\u25bc collapse';
   document.getElementById('pip').classList.remove('show');
-  document.body.style.paddingBottom = '360px';
   const bar = document.getElementById('ctrayBar');
   bar.setAttribute('aria-expanded', 'true');
   bar.setAttribute('aria-label', 'Compare tray \u2014 click to collapse');
+  requestAnimationFrame(function() {
+    var h = document.getElementById('ctray').offsetHeight;
+    document.body.style.paddingBottom = (h + 16) + 'px';
+  });
+}
+
+function updateTrayPadding() {
+  if (trayOpen) {
+    var h = document.getElementById('ctray').offsetHeight;
+    document.body.style.paddingBottom = (h + 16) + 'px';
+  }
 }
 
 function closeTray() {
@@ -1508,6 +1527,7 @@ function renderTray() {
   body.querySelectorAll('.tcol-rm').forEach(btn => {
     btn.addEventListener('click', e => { e.stopPropagation(); addCmp(btn.dataset.rm); });
   });
+  requestAnimationFrame(updateTrayPadding);
 }
 
 // ── PLAN TIP TOOLTIP ──
