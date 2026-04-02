@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Wexford']={
   "county": "Wexford",
   "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
   "companies": [
@@ -18,10 +19,14 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 31.50,
+          "price": 31.5,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 46,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -35,10 +40,14 @@
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 59,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -52,10 +61,14 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 41.00,
+          "price": 41.0,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -69,10 +82,14 @@
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": null,
@@ -101,13 +118,18 @@
         {
           "name": "AES Lite",
           "type": "monthly",
-          "price": 24.00,
+          "price": 24.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -118,13 +140,18 @@
         {
           "name": "AES Smart",
           "type": "monthly",
-          "price": 27.00,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -135,13 +162,18 @@
         {
           "name": "AES Plus",
           "type": "monthly",
-          "price": 31.00,
+          "price": 31.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -152,13 +184,18 @@
         {
           "name": "Pay by Lift",
           "type": "pay_by_lift",
-          "price": 15.20,
+          "price": 15.2,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -184,13 +221,17 @@
         {
           "name": "Monthly Flat Rate",
           "type": "monthly",
-          "price": 24.00,
+          "price": 24.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 71,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.10,
+          "excess_charge_per_kg": 0.1,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -201,27 +242,35 @@
         {
           "name": "Pay By Weight",
           "type": "pay_by_weight",
-          "price": 10.00,
+          "price": 10.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
-          "recycling_excess_per_kg": 0.00,
+          "recycling_excess_per_kg": 0.0,
           "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€10/month service charge + pay per kg: Waste €0.30/kg, Recycling free, Compost €0.20/kg (where available). 240L waste + 240L recycling + 140L organic. Min €10 credit on account at all times. Initial €50 setup payment. Alternate weekly collection.",
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay By Lift",
           "type": "pay_by_lift",
-          "price": 12.50,
+          "price": 12.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.12,
@@ -250,10 +299,14 @@
         {
           "name": "Pay As You Go",
           "type": "pay_by_lift",
-          "price": 5.00,
+          "price": 5.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 35,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.25,
@@ -267,10 +320,14 @@
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 23.00,
+          "price": 23.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -284,10 +341,14 @@
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -301,10 +362,14 @@
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 40.00,
+          "price": 40.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -332,4 +397,4 @@
       "plans": []
     }
   ]
-}
+};

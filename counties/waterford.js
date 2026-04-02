@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Waterford']={
   "county": "Waterford",
   "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
   "companies": [
@@ -18,10 +19,14 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 31.50,
+          "price": 31.5,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 46,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -35,10 +40,14 @@
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 59,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -52,10 +61,14 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 41.00,
+          "price": 41.0,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -69,10 +82,14 @@
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": null,
@@ -101,10 +118,14 @@
         {
           "name": "3 Bin Waterford",
           "type": "monthly",
-          "price": 29.00,
+          "price": 29.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 72,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -118,10 +139,14 @@
         {
           "name": "3 Small Bin Waterford",
           "type": "monthly",
-          "price": 25.00,
+          "price": 25.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 48,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -135,10 +160,13 @@
         {
           "name": "2 Bin Waterford",
           "type": "monthly",
-          "price": 27.00,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": 72,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -152,10 +180,13 @@
         {
           "name": "2 Small Bin Waterford",
           "type": "monthly",
-          "price": 23.50,
+          "price": 23.5,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": 48,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -184,10 +215,14 @@
         {
           "name": "Pay As You Go",
           "type": "pay_by_lift",
-          "price": 5.00,
+          "price": 5.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 35,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.25,
@@ -201,10 +236,14 @@
         {
           "name": "140L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 23.00,
+          "price": 23.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -218,10 +257,14 @@
         {
           "name": "240L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -235,10 +278,14 @@
         {
           "name": "360L Waste + 360L Recycling + 240L Compost",
           "type": "monthly",
-          "price": 40.00,
+          "price": 40.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -267,10 +314,14 @@
         {
           "name": "240L Lite 3-Bin",
           "type": "monthly",
-          "price": 32.50,
+          "price": 32.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -284,10 +335,14 @@
         {
           "name": "240L Standard 3-Bin",
           "type": "monthly",
-          "price": 36.00,
+          "price": 36.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -315,4 +370,4 @@
       "plans": []
     }
   ]
-}
+};

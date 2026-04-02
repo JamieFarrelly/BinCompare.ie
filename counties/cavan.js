@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Cavan']={
   "county": "Cavan",
   "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
@@ -18,15 +19,19 @@
         {
           "name": "Monthly Plan Lite",
           "type": "monthly",
-          "price": 22.50,
+          "price": 22.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
           "notes": null,
@@ -35,15 +40,19 @@
         {
           "name": "Monthly Plan Standard",
           "type": "monthly",
-          "price": 27.50,
+          "price": 27.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
           "notes": null,
@@ -52,10 +61,14 @@
         {
           "name": "Pay by Weight",
           "type": "pay_by_weight",
-          "price": 15.00,
+          "price": 15.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -84,10 +97,14 @@
         {
           "name": "3 Bin Cavan",
           "type": "monthly",
-          "price": 32.00,
+          "price": 32.0,
           "price_frequency": "monthly",
           "household_size": "Most families",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -101,10 +118,14 @@
         {
           "name": "3 Small Bin Cavan",
           "type": "monthly",
-          "price": 26.00,
+          "price": 26.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple-person dwellings",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -118,10 +139,13 @@
         {
           "name": "2 Bin Cavan",
           "type": "monthly",
-          "price": 32.00,
+          "price": 32.0,
           "price_frequency": "monthly",
           "household_size": "Most families",
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -135,10 +159,13 @@
         {
           "name": "2 Small Bin Cavan",
           "type": "monthly",
-          "price": 26.00,
+          "price": 26.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple-person dwellings",
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -152,10 +179,14 @@
         {
           "name": "Pay By Weight Cavan",
           "type": "pay_by_weight",
-          "price": 16.00,
+          "price": 16.0,
           "price_frequency": "monthly",
           "household_size": "Light waste producers",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.28,
@@ -201,7 +232,12 @@
           "price": 21.16,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_litres": 240,
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
@@ -234,65 +270,81 @@
           "price": 5.63,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 15,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin.",
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Super Saver",
           "type": "monthly",
-          "price": 25.00,
+          "price": 25.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 150,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 90,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€25/month (€75/3 months, €150/6 months, €300/year). 150kg waste/6 months, 90kg recycling/6 months, 130kg compost/6 months.",
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Value Saver",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 200,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 130,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€26.50/month (€79.50/3 months, €159/6 months, €318/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.",
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Cavan Standard",
           "type": "monthly",
-          "price": 30.50,
+          "price": 30.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 330,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 150,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€30.50/month (€91.50/3 months, €183/6 months, €366/year). 330kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.",
           "scraped_date": "2026-03-21"
         }
@@ -328,10 +380,14 @@
         {
           "name": "140L Waste Plan",
           "type": "monthly",
-          "price": 23.50,
+          "price": 23.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 20,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.23,
@@ -345,10 +401,14 @@
         {
           "name": "240L Waste Plan",
           "type": "monthly",
-          "price": 30.00,
+          "price": 30.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 50,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.23,
@@ -377,10 +437,14 @@
         {
           "name": "Lite",
           "type": "monthly",
-          "price": 23.50,
+          "price": 23.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -394,10 +458,14 @@
         {
           "name": "Smart",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -411,10 +479,14 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 33.00,
+          "price": 33.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": null,
@@ -428,10 +500,14 @@
         {
           "name": "Pay by Lift",
           "type": "pay_by_lift",
-          "price": 15.20,
+          "price": 15.2,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -445,4 +521,4 @@
       ]
     }
   ]
-}
+};

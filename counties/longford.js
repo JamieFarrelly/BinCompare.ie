@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Longford']={
   "county": "Longford",
   "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
   "companies": [
@@ -18,34 +19,42 @@
         {
           "name": "Standard Service",
           "type": "monthly",
-          "price": 29.50,
+          "price": 29.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 330,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 150,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 195,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€29.50/month (€177/6mo, €354/year). 330kg waste allowance per 6 months (€0.25/kg excess), 150kg recycling per 6 months (€0.15/kg excess), 195kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins.",
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Longford Value Saver",
           "type": "monthly",
-          "price": 25.00,
+          "price": 25.0,
           "price_frequency": "monthly",
           "household_size": "2-person household",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 200,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 130,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": 130,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€25/month (€150/6mo, €300/year). Ideal for 2-person household. 200kg waste allowance per 6 months (€0.25/kg excess), 130kg recycling per 6 months (€0.15/kg excess), 130kg compost per 6 months (€0.20/kg excess). 240L waste, 240L recycling, 140L compost bins. Longford-specific plan.",
           "scraped_date": "2026-03-21"
         },
@@ -55,14 +64,18 @@
           "price": 5.63,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.25,
           "recycling_allowance_kg": 15,
           "recycling_excess_per_kg": 0.15,
           "compost_allowance_kg": null,
-          "compost_excess_per_kg": 0.20,
+          "compost_excess_per_kg": 0.2,
           "notes": "€5.63/month service charge (~€1.30/week) + per-lift charges: Waste €14.50/lift (up to 40kg, €0.25/kg thereafter), Recycling €7.50/lift (up to 15kg, €0.15/kg thereafter), Compost €5.00/lift + €0.20/kg. Credit must be on account before presenting bins. Bin delivery €30 per bin.",
           "scraped_date": "2026-03-21"
         }
@@ -84,15 +97,19 @@
         {
           "name": "Monthly Plan Lite",
           "type": "monthly",
-          "price": 22.50,
+          "price": 22.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
           "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
@@ -101,15 +118,19 @@
         {
           "name": "Monthly Plan Standard",
           "type": "monthly",
-          "price": 27.50,
+          "price": 27.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
           "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
@@ -118,10 +139,14 @@
         {
           "name": "Pay by Weight",
           "type": "pay_by_weight",
-          "price": 15.00,
+          "price": 15.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.22,
@@ -177,4 +202,4 @@
       "plans": []
     }
   ]
-}
+};

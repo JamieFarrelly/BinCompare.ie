@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Westmeath']={
   "county": "Westmeath",
   "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
   "companies": [
@@ -18,10 +19,14 @@
         {
           "name": "3 Bin Westmeath",
           "type": "monthly",
-          "price": 29.50,
+          "price": 29.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 72,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -35,10 +40,14 @@
         {
           "name": "3 Small Bin Westmeath",
           "type": "monthly",
-          "price": 26.00,
+          "price": 26.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 48,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -52,10 +61,13 @@
         {
           "name": "2 Bin Westmeath",
           "type": "monthly",
-          "price": 25.00,
+          "price": 25.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": 72,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -69,10 +81,13 @@
         {
           "name": "2 Small Bin Westmeath",
           "type": "monthly",
-          "price": 22.00,
+          "price": 22.0,
           "price_frequency": "monthly",
           "household_size": "Single or couple",
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": 48,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.24,
@@ -86,10 +101,14 @@
         {
           "name": "Pay By Lift Westmeath",
           "type": "pay_by_lift",
-          "price": 6.50,
+          "price": 6.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 45,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.23,
@@ -118,13 +137,18 @@
         {
           "name": "AES Lite",
           "type": "monthly",
-          "price": 24.00,
+          "price": 24.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -135,13 +159,18 @@
         {
           "name": "AES Smart",
           "type": "monthly",
-          "price": 26.00,
+          "price": 26.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -152,13 +181,18 @@
         {
           "name": "AES Plus",
           "type": "monthly",
-          "price": 31.00,
+          "price": 31.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -169,13 +203,18 @@
         {
           "name": "Pay by Lift",
           "type": "pay_by_lift",
-          "price": 15.20,
+          "price": 15.2,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "per_lift",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
@@ -201,10 +240,14 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 31.50,
+          "price": 31.5,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 46,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -218,10 +261,14 @@
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 59,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -235,10 +282,14 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 41.00,
+          "price": 41.0,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -252,10 +303,14 @@
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": null,
@@ -284,15 +339,19 @@
         {
           "name": "Monthly Plan Lite",
           "type": "monthly",
-          "price": 22.50,
+          "price": 22.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
           "notes": "€22.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 30kg/mo allowance, €0.20/kg excess. Recycling: 15kg/mo, €0.20/kg excess. Food: 20kg/mo, €0.15/kg excess. Payment on 1st of month.",
@@ -301,15 +360,19 @@
         {
           "name": "Monthly Plan Standard",
           "type": "monthly",
-          "price": 27.50,
+          "price": 27.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
           "notes": "€27.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 60kg/mo allowance, €0.20/kg excess. Recycling: 30kg/mo, €0.20/kg excess. Food: 30kg/mo, €0.15/kg excess. Payment on 1st of month.",
@@ -318,15 +381,19 @@
         {
           "name": "Monthly Plan Extra",
           "type": "monthly",
-          "price": 32.50,
+          "price": 32.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 75,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 38,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 37,
           "compost_excess_per_kg": 0.15,
           "notes": "€32.50/month. 240L waste + 240L recycling + 30L food bin. Waste: 75kg/mo allowance, €0.20/kg excess. Recycling: 38kg/mo, €0.20/kg excess. Food: 37kg/mo, €0.15/kg excess. Payment on 1st of month.",
@@ -335,10 +402,14 @@
         {
           "name": "Pay by Weight",
           "type": "pay_by_weight",
-          "price": 15.00,
+          "price": 15.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.22,
@@ -352,4 +423,4 @@
       ]
     }
   ]
-}
+};

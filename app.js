@@ -30,11 +30,13 @@ const TRUSTPILOT = {
 };
 
 // ── PROCESS COUNTY_DATA INTO COMPANY LIST ──
-function buildCompanies() {
+function buildCompanies(data) {
   const map = {};
-  for (const [countyKey, data] of Object.entries(COUNTY_DATA)) {
-    const county = data.county;
-    for (const co of data.companies) {
+  for (const [countyKey, countyEntry] of Object.entries(data)) {
+    const county = countyEntry.county;
+    const coList = countyEntry.companies || [];
+    // Inline the loop with a local alias to avoid shadowing
+    for (const co of coList) {
       const key = co.name;
       if (!map[key]) {
         map[key] = {
@@ -56,7 +58,6 @@ function buildCompanies() {
         service_notes: co.service_notes,
         address_used: co.address_used,
       };
-      // Update phone/website if we have better data
       if (co.phone && !entry.phone) entry.phone = co.phone;
       if (co.website && !entry.website) entry.website = co.website;
       if (co.pricing_available) {
@@ -67,8 +68,6 @@ function buildCompanies() {
       }
     }
   }
-
-  // Sort counties alphabetically and compute derived fields
   const companies = Object.values(map);
   for (const c of companies) {
     c.counties.sort();
@@ -169,8 +168,18 @@ function getFrequency(c) {
   return 'Fortnightly';
 }
 
-// ── BUILD COMPANY LIST ──
-const companies = buildCompanies();
+// ── LAZY COUNTY LOADER ──
+let companies = [];
+
+function loadCounty(countyName, cb) {
+  const cache = window.__COUNTY_CACHE__ || {};
+  if (cache[countyName]) { cb(cache[countyName]); return; }
+  const script = document.createElement('script');
+  script.src = 'counties/' + countyName.toLowerCase() + '.js';
+  script.onload = function() { cb((window.__COUNTY_CACHE__ || {})[countyName] || null); };
+  script.onerror = function() { cb(null); };
+  document.head.appendChild(script);
+}
 
 // ── QUIZ STATE ──
 let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly' };
@@ -355,22 +364,44 @@ function updateSlider() {
 }
 
 document.getElementById('csel').addEventListener('change', function() {
-  quiz.county = this.value;
-  this.classList.toggle('chosen', !!this.value);
+  const countyName = this.value;
+  this.classList.toggle('chosen', !!countyName);
   const hint = document.getElementById('chint');
-  if (quiz.county) {
-    hint.className = 'chint found';
-    document.getElementById('ncm').classList.remove('show');
-  } else {
+  if (!countyName) {
     hint.textContent = 'Select your county to filter available providers.';
     hint.className = 'chint';
     document.getElementById('ncm').classList.add('show');
+    quiz.county = '';
+    companies = [];
+    compareList = [];
+    saveCompare();
+    render();
+    return;
   }
-  render();
+  hint.textContent = 'Loading\u2026';
+  hint.className = 'chint';
+  document.getElementById('ncm').classList.remove('show');
+  loadCounty(countyName, function(countyData) {
+    if (!countyData) {
+      hint.textContent = 'Could not load data for ' + countyName + '. Please try again.';
+      hint.className = 'chint';
+      return;
+    }
+    const dataObj = {};
+    dataObj[countyName.toLowerCase()] = countyData;
+    companies = buildCompanies(dataObj);
+    quiz.county = countyName;
+    compareList = [];
+    saveCompare();
+    render();
+  });
 });
 
 function clearCounty() {
   quiz.county = '';
+  companies = [];
+  compareList = [];
+  saveCompare();
   document.getElementById('csel').value = '';
   document.getElementById('csel').classList.remove('chosen');
   document.getElementById('chint').textContent = 'Select your county to filter available providers.';
@@ -962,11 +993,9 @@ function renderTray() {
 
 // ── INIT ──
 (function init() {
-  const uniqueNames = new Set(companies.map(c => c.name));
-  const totalPlans = companies.reduce((sum, c) => sum + c.allPlans.length, 0);
-  document.getElementById('hdrPlans').textContent = totalPlans;
-  document.getElementById('hdrCos').textContent = uniqueNames.size;
-  const footCnt = document.getElementById('footCnt'); if (footCnt) footCnt.textContent = uniqueNames.size;
+  document.getElementById('hdrPlans').textContent = '388+';
+  document.getElementById('hdrCos').textContent = '47+';
+  const footCnt = document.getElementById('footCnt'); if (footCnt) footCnt.textContent = '47+';
   quiz.kgBlack = getAvgKg(1);
   updateSlider();
   render();

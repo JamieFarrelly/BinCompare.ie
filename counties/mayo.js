@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Mayo']={
   "county": "Mayo",
   "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
   "companies": [
@@ -18,10 +19,14 @@
         {
           "name": "PBW Standard",
           "type": "pay_by_weight",
-          "price": 21.00,
+          "price": 21.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -35,10 +40,14 @@
         {
           "name": "Pay By Weight Lite",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -52,10 +61,14 @@
         {
           "name": "ECO Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 350,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -72,7 +85,11 @@
           "price": 31.67,
           "price_frequency": "monthly",
           "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 200,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -104,7 +121,12 @@
           "price": 30.42,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -121,7 +143,12 @@
           "price": 33.25,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -135,10 +162,15 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 38.50,
+          "price": 38.5,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 100,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -152,10 +184,15 @@
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 8.00,
+          "price": 8.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -225,4 +262,4 @@
       "plans": []
     }
   ]
-}
+};

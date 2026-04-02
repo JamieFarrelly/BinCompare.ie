@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Carlow']={
   "county": "Carlow",
   "source": "mywaste.ie + individual company websites/signup portals",
   "companies": [
@@ -18,13 +19,17 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 24.50,
+          "price": 24.5,
           "price_frequency": "monthly",
           "household_size": "1-3 persons",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 42,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
@@ -35,13 +40,17 @@
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 28.50,
+          "price": 28.5,
           "price_frequency": "monthly",
           "household_size": "3-5 persons",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 65,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
@@ -52,13 +61,17 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 32.50,
+          "price": 32.5,
           "price_frequency": "monthly",
           "household_size": "5+ persons",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "recycling_allowance_kg": null,
           "recycling_allowance_note": "Unlimited",
           "compost_allowance_kg": null,
@@ -84,18 +97,22 @@
         {
           "name": "SS 1 Waste 1 Recycle - Monthly",
           "type": "monthly",
-          "price": 24.00,
+          "price": 24.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 71,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.10,
+          "excess_charge_per_kg": 0.1,
           "recycling_excess_per_kg": null,
           "recycling_excess_note": "No extra charge for recycling",
           "compost_excess_per_kg": null,
           "compost_excess_note": "No extra charge for compost (where available)",
-          "setup_payment": 48.00,
+          "setup_payment": 48.0,
           "setup_payment_note": "Initial payment of €48 acts as credit for first two months",
           "notes": "Ideal for customers who leave bins out on a regular basis.",
           "scraped_date": "2026-03-21"
@@ -103,19 +120,23 @@
         {
           "name": "Pay By Weight - Monthly",
           "type": "payg",
-          "price": 10.00,
+          "price": 10.0,
           "price_frequency": "monthly_service_charge",
-          "service_charge": 10.00,
+          "service_charge": 10.0,
           "service_charge_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
-          "per_kg_waste": 0.30,
+          "per_kg_waste": 0.3,
           "per_kg_recycling": null,
           "recycling_note": "No extra charge for recycling",
-          "per_kg_compost": 0.20,
+          "per_kg_compost": 0.2,
           "compost_note": "Compost charged at €0.20/kg where service is available",
-          "setup_payment": 50.00,
+          "setup_payment": 50.0,
           "setup_payment_note": "Initial payment of €50 acts as account credit. Minimum €10 credit must be maintained to ensure collections.",
           "notes": "Best for customers who recycle more and produce less waste.",
           "scraped_date": "2026-03-21"
@@ -141,10 +162,15 @@
           "price": 23,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "notes": null,
           "scraped_date": "2026-03-21"
         },
@@ -154,10 +180,15 @@
           "price": 26,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 40,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "notes": null,
           "scraped_date": "2026-03-21"
         },
@@ -167,27 +198,37 @@
           "price": 32,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "notes": null,
           "scraped_date": "2026-03-21"
         },
         {
           "name": "Pay by Lift",
           "type": "payg",
-          "price": 15.20,
+          "price": 15.2,
           "price_frequency": "monthly_service_charge",
-          "service_charge": 15.20,
+          "service_charge": 15.2,
           "service_charge_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
-          "per_lift_waste": 15.60,
-          "per_lift_recycling": 8.00,
-          "per_lift_compost": 6.60,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "per_lift_waste": 15.6,
+          "per_lift_recycling": 8.0,
+          "per_lift_compost": 6.6,
           "waste_allowance_kg": 60,
-          "excess_charge_per_kg": 0.30,
+          "excess_charge_per_kg": 0.3,
           "notes": "Ideal for small households or irregular use. Recycling/organic lifts significantly cheaper than general waste lift.",
           "scraped_date": "2026-03-21"
         }
@@ -208,4 +249,4 @@
       "plans": []
     }
   ]
-}
+};

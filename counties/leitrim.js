@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Leitrim']={
   "county": "Leitrim",
   "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
@@ -18,15 +19,19 @@
         {
           "name": "Monthly Plan Lite",
           "type": "monthly",
-          "price": 22.50,
+          "price": 22.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 30,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 15,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 20,
           "compost_excess_per_kg": 0.15,
           "notes": "€22.50/month. 30kg waste allowance (€0.20/kg excess), 15kg recycling allowance (€0.20/kg excess), 20kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
@@ -35,15 +40,19 @@
         {
           "name": "Monthly Plan Standard",
           "type": "monthly",
-          "price": 27.50,
+          "price": 27.5,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 60,
           "waste_allowance_period": "monthly",
-          "excess_charge_per_kg": 0.20,
+          "excess_charge_per_kg": 0.2,
           "recycling_allowance_kg": 30,
-          "recycling_excess_per_kg": 0.20,
+          "recycling_excess_per_kg": 0.2,
           "compost_allowance_kg": 30,
           "compost_excess_per_kg": 0.15,
           "notes": "€27.50/month. 60kg waste allowance (€0.20/kg excess), 30kg recycling allowance (€0.20/kg excess), 30kg food bin allowance (€0.15/kg excess). Fortnightly collection.",
@@ -52,10 +61,14 @@
         {
           "name": "Pay by Weight",
           "type": "pay_by_weight",
-          "price": 15.00,
+          "price": 15.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.22,
@@ -84,10 +97,14 @@
         {
           "name": "PBW Standard",
           "type": "pay_by_weight",
-          "price": 21.00,
+          "price": 21.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -101,10 +118,14 @@
         {
           "name": "Pay By Weight Lite",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": 0.25,
@@ -118,10 +139,14 @@
         {
           "name": "ECO Standard",
           "type": "monthly",
-          "price": 35.00,
+          "price": 35.0,
           "price_frequency": "monthly",
           "household_size": "Larger households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 350,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -138,7 +163,11 @@
           "price": 31.67,
           "price_frequency": "monthly",
           "household_size": "Smaller households",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": 200,
           "waste_allowance_period": "6_monthly",
           "excess_charge_per_kg": 0.25,
@@ -208,4 +237,4 @@
       "plans": []
     }
   ]
-}
+};

@@ -1,4 +1,5 @@
-{
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Kilkenny']={
   "county": "Kilkenny",
   "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
   "companies": [
@@ -18,10 +19,13 @@
         {
           "name": "140L Plan",
           "type": "monthly",
-          "price": 31.10,
+          "price": 31.1,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -38,7 +42,10 @@
           "price": 34.25,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -55,7 +62,10 @@
           "price": 44.21,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -84,10 +94,15 @@
         {
           "name": "Essential",
           "type": "monthly",
-          "price": 32.00,
+          "price": 32.0,
           "price_frequency": "monthly",
           "household_size": "1-3 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 46,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -101,10 +116,15 @@
         {
           "name": "Standard",
           "type": "monthly",
-          "price": 36.00,
+          "price": 36.0,
           "price_frequency": "monthly",
           "household_size": "3-5 people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 59,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -118,10 +138,15 @@
         {
           "name": "Plus",
           "type": "monthly",
-          "price": 39.00,
+          "price": 39.0,
           "price_frequency": "monthly",
           "household_size": "5+ people",
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": 85,
           "waste_allowance_period": "monthly",
           "excess_charge_per_kg": 0.25,
@@ -135,10 +160,15 @@
         {
           "name": "Pay Per Lift",
           "type": "pay_by_lift",
-          "price": 12.00,
+          "price": 12.0,
           "price_frequency": "monthly",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost", "glass"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -184,10 +214,14 @@
           "price": 0,
           "price_frequency": "per_lift",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling", "compost"],
-          "per_lift_waste": 12.50,
-          "per_lift_recycling": 6.00,
-          "per_lift_compost": 7.50,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "per_lift_waste": 12.5,
+          "per_lift_recycling": 6.0,
+          "per_lift_compost": 7.5,
           "waste_allowance_kg": 45,
           "waste_allowance_period": "per_lift",
           "excess_charge_per_kg": 0.23,
@@ -204,7 +238,10 @@
           "price": 0,
           "price_frequency": "per_collection",
           "household_size": null,
-          "bins_included": ["general_waste", "recycling"],
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
           "per_kg_waste": 0.28,
           "per_kg_recycling": 0.16,
           "waste_allowance_kg": null,
@@ -231,10 +268,14 @@
         {
           "name": "WD 140L Waste / 240L Recycling / 240L Brown",
           "type": "monthly",
-          "price": 23.00,
+          "price": 23.0,
           "price_frequency": "monthly",
           "household_size": "Couples or singles",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -249,10 +290,14 @@
         {
           "name": "WD 240L Waste / 240L Recycling / 240L Brown",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": "Most families",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -267,10 +312,14 @@
         {
           "name": "WD 240L Waste / 360L Recycling / 240L Brown",
           "type": "monthly",
-          "price": 26.50,
+          "price": 26.5,
           "price_frequency": "monthly",
           "household_size": "Heavy recyclers",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -285,10 +334,14 @@
         {
           "name": "WD 360L Waste / 360L Recycling / 240L Brown",
           "type": "monthly",
-          "price": 40.00,
+          "price": 40.0,
           "price_frequency": "monthly",
           "household_size": "Larger families",
-          "bins_included": ["general_waste", "recycling", "compost"],
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
           "waste_allowance_kg": null,
           "waste_allowance_period": null,
           "excess_charge_per_kg": null,
@@ -373,4 +426,4 @@
       "plans": []
     }
   ]
-}
+};
