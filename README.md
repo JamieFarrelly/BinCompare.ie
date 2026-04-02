@@ -9,7 +9,9 @@ A single-page website (`index.html`) that compares household bin collection pric
 ## File structure
 
 ```
-index.html                      <- The entire website (HTML + CSS + JS, single file)
+index.html                      <- Page markup, meta tags, and schema JSON-LD
+styles.css                      <- All CSS styles and responsive rules
+app.js                          <- All application logic (cost calc, rendering, UI)
 waste_data.js                   <- All 26 county JSONs bundled into one JS variable
 ireland_waste_collectors.csv    <- Master list of all companies from mywaste.ie
 [county]_waste_pricing.json     <- 26 individual county pricing files (source of truth)
@@ -286,7 +288,7 @@ If a WIS portal says "location not served", try up to 10 different addresses acr
 
 ## Trustpilot scores
 
-Stored in the `TRUSTPILOT` object in `index.html`. Only companies with actual Trustpilot profiles are included. Most smaller Irish waste companies don't have Trustpilot pages.
+Stored in the `TRUSTPILOT` object in `app.js`. Only companies with actual Trustpilot profiles are included. Most smaller Irish waste companies don't have Trustpilot pages.
 
 To update: Google "[company name] Trustpilot" and check for an `ie.trustpilot.com/review/[domain]` page.
 
