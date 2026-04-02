@@ -1,1 +1,492 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['Wicklow']={"source":"panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town \u2014 south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)","county":"Wicklow","companies":[{"service_notes":"Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.","website":"https://www.panda.ie/household/","name":"Panda Green","plans":[{"compost_excess_per_kg":null,"recycling_allowance_kg":null,"price_frequency":"monthly","notes":"\u20ac31.50/month. 46kg monthly waste allowance, \u20ac0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.","excess_charge_per_kg":0.25,"household_size":"1-3 people","price":31.5,"compost_allowance_kg":null,"type":"monthly","bins_included":["general_waste","recycling","compost"],"name":"Essential","waste_allowance_kg":46,"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"scraped_date":"2026-03-21"},{"notes":"\u20ac35.00/month. Most popular plan. 59kg monthly waste allowance, \u20ac0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.","price_frequency":"monthly","compost_excess_per_kg":null,"recycling_allowance_kg":null,"excess_charge_per_kg":0.25,"price":35,"household_size":"3-5 people","waste_allowance_kg":59,"compost_allowance_kg":null,"type":"monthly","name":"Standard","bins_included":["general_waste","recycling","compost"],"recycling_excess_per_kg":null,"waste_allowance_period":"monthly","scraped_date":"2026-03-21"},{"recycling_allowance_kg":null,"compost_excess_per_kg":null,"notes":"\u20ac41.00/month. 85kg monthly waste allowance, \u20ac0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.","price_frequency":"monthly","price":41,"household_size":"5+ people","excess_charge_per_kg":0.25,"name":"Plus","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"waste_allowance_kg":85,"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"scraped_date":"2026-03-21"},{"waste_allowance_kg":null,"type":"pay_by_lift","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"Pay Per Lift","recycling_excess_per_kg":null,"waste_allowance_period":"per_lift","notes":"\u20ac12.00/month service charge + per-lift: Waste \u20ac16.00/lift, Recycling \u20ac5.25/lift, Compost \u20ac6.50/lift. Per-lift weight allowances not published by Panda for Wicklow. No glass bin.","price_frequency":"monthly","compost_excess_per_kg":null,"recycling_allowance_kg":null,"excess_charge_per_kg":null,"price":12,"household_size":null,"scraped_date":"2026-03-21"}],"address_used":"Main Street, Wicklow Town","confidence":{"reason":"Pricing retrieved directly from panda.ie signup flow for Main Street, Wicklow Town. Serves all Co. Wicklow. Per-lift weight allowances not published by Panda for Wicklow (all blank in modal).","level":"high"},"pricing_method":"signup_flow","pricing_available":true,"phone":"01 8298992"},{"pricing_method":"wis_portal","phone":"045 580 060","pricing_available":true,"plans":[{"notes":"\u20ac24/month. 30kg/month waste allowance, \u20ac0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, \u20ac50 cancellation fee, \u20ac50 prepayment.","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"price":24,"household_size":null,"excess_charge_per_kg":0.3,"waste_allowance_kg":30,"name":"AES Lite","bins_included":["general_waste","recycling","compost","glass"],"compost_allowance_kg":null,"type":"monthly","recycling_excess_per_kg":null,"waste_allowance_period":"monthly","scraped_date":"2026-03-21"},{"waste_allowance_kg":40,"name":"AES Smart","bins_included":["general_waste","recycling","compost","glass"],"type":"monthly","compost_allowance_kg":null,"recycling_excess_per_kg":null,"waste_allowance_period":"monthly","price_frequency":"monthly","notes":"\u20ac27/month. 40kg/month waste allowance, \u20ac0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, \u20ac50 cancellation fee, \u20ac50 prepayment. Note: AES Smart is \u20ac27 in Wicklow vs \u20ac26 in most other counties.","recycling_allowance_kg":null,"compost_excess_per_kg":null,"household_size":null,"price":27,"excess_charge_per_kg":0.3,"scraped_date":"2026-03-21"},{"notes":"\u20ac35/month. 65kg/month waste allowance, \u20ac0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, \u20ac50 cancellation fee, \u20ac50 prepayment. Note: AES Plus is \u20ac35/65kg in Wicklow vs \u20ac31/60kg in most other counties.","price_frequency":"monthly","compost_excess_per_kg":null,"recycling_allowance_kg":null,"excess_charge_per_kg":0.3,"price":35,"household_size":null,"waste_allowance_kg":65,"type":"monthly","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost","glass"],"name":"AES Plus","recycling_excess_per_kg":null,"waste_allowance_period":"monthly","scraped_date":"2026-03-21"},{"notes":"\u20ac15.20/month service charge + per-lift: Waste \u20ac15.60/lift (up to 60kg, \u20ac0.30/kg excess), Recycling \u20ac8/lift, Compost \u20ac6.60/lift, Glass \u20ac5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"price":15.2,"household_size":null,"excess_charge_per_kg":0.3,"waste_allowance_kg":60,"name":"Pay by Lift","bins_included":["general_waste","recycling","compost","glass"],"type":"pay_by_lift","compost_allowance_kg":null,"recycling_excess_per_kg":null,"waste_allowance_period":"per_lift","scraped_date":"2026-03-21"}],"name":"AES Recycling","address_used":"Main Street, Wicklow Town","confidence":{"level":"high","reason":"Pricing retrieved from aesirl.wis.ie for Wicklow Town (pgids=1). Also confirmed: Arklow, Blessington, Rathdrum, Baltinglass all pgids=1. Bray, Greystones, Enniskerry all returned pgids=0 \u2014 AES does not serve north Wicklow. AES Plus (\u20ac35/65kg) and Smart (\u20ac27/40kg) are higher than other counties (\u20ac31/60kg and \u20ac26/40kg respectively)."},"service_notes":"Serves south and central Co. Wicklow only (Wicklow Town, Arklow, Blessington, Rathdrum, Baltinglass confirmed). Does NOT serve north Wicklow (Bray, Greystones, Enniskerry returned pgids=0). Higher pricing in Wicklow vs other counties. Fortnightly collections. 12-month contract with \u20ac50 cancellation fee. \u20ac50 prepayment required. Glass bin included if available.","website":"https://www.aesrecycling.ie/"},{"service_notes":"Dublin-based operator. Serves all Co. Wicklow under their Dublin pricing zone (confirmed: Bray, Greystones, Wicklow Town all pgids=1). 3-bin service: 240L waste + 240L recycling + 240L compost. Free SMS collection reminders. Bins placed back neatly after collection. Annual plans include 1 month free. Fortnightly collection.","website":"https://www.citybin.com/","pricing_method":"wis_portal","phone":"091 747 474","pricing_available":true,"address_used":"Main Street, Bray, Co. Wicklow","plans":[{"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"name":"City Lite - Dublin","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"waste_allowance_kg":30,"household_size":null,"price":24,"excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"compost_excess_per_kg":null,"price_frequency":"monthly","notes":"\u20ac24/month (or \u20ac264/year \u2014 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, \u20ac0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: \u20ac264.","scraped_date":"2026-03-21"},{"type":"monthly","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"City Essential - Dublin","waste_allowance_kg":42,"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"notes":"\u20ac26.49/month (or \u20ac293.89/year \u2014 1 month free). 240L waste + 240L recycling + 240L compost. 42kg/month waste allowance, \u20ac0.30/kg excess. Most popular plan. Free SMS reminders. Annual upfront price: \u20ac293.89.","price_frequency":"monthly","excess_charge_per_kg":0.3,"price":26.49,"household_size":null,"scraped_date":"2026-03-21"},{"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"type":"monthly","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"City Extra - Dublin","waste_allowance_kg":65,"excess_charge_per_kg":0.3,"price":30.49,"household_size":null,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"notes":"\u20ac30.49/month (or \u20ac337.89/year \u2014 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, \u20ac0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: \u20ac337.89.","price_frequency":"monthly","scraped_date":"2026-03-21"}],"name":"The City Bin Co.","confidence":{"reason":"Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town \u2014 all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow.","level":"high"}},{"service_notes":"Does not serve Co. Wicklow.","website":"https://www.oxigen.ie/","address_used":null,"plans":[],"name":"Oxigen Environmental Unlimited Company","confidence":{"reason":"Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.","level":"none"},"pricing_method":null,"phone":"0818 694 445","pricing_available":false},{"website":"https://www.raywhelan.ie/","service_notes":"Does not serve Co. Wicklow.","address_used":null,"plans":[],"name":"Ray Whelan","confidence":{"reason":"Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.","level":"none"},"pricing_method":null,"pricing_available":false,"phone":null},{"confidence":{"level":"high","reason":"Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) \u2014 location confirmed served under Greyhound's Greater Dublin zone."},"name":"Greyhound Recycling","plans":[{"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"compost_allowance_kg":null,"type":"monthly","name":"Standard","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":32,"excess_charge_per_kg":0.36,"household_size":"1-3 people","price":25,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"price_frequency":"monthly","notes":"Free recycling and compost lifts. \u20ac0.36/kg excess on waste only.","scraped_date":"2026-03-21"},{"price_frequency":"monthly","notes":"Free recycling and compost lifts. \u20ac0.36/kg excess on waste only.","compost_excess_per_kg":null,"recycling_allowance_kg":null,"excess_charge_per_kg":0.36,"household_size":"3-5 people","price":27.5,"waste_allowance_kg":42,"compost_allowance_kg":null,"type":"monthly","name":"Family","bins_included":["general_waste","recycling","compost"],"recycling_excess_per_kg":null,"waste_allowance_period":"monthly","scraped_date":"2026-03-21"},{"waste_allowance_kg":65,"name":"Family Plus","bins_included":["general_waste","recycling","compost"],"compost_allowance_kg":null,"type":"monthly","recycling_excess_per_kg":null,"waste_allowance_period":"monthly","notes":"Free recycling and compost lifts. \u20ac0.36/kg excess on waste only.","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"price":31,"household_size":"5+ people","excess_charge_per_kg":0.36,"scraped_date":"2026-03-21"},{"bins_included":["general_waste","recycling","compost"],"name":"Pay As You Go","compost_allowance_kg":null,"type":"pay_by_lift","waste_allowance_kg":null,"waste_allowance_period":null,"recycling_excess_per_kg":0.2,"recycling_allowance_kg":null,"compost_excess_per_kg":0.1,"price_frequency":"monthly","notes":"\u20ac100/year service charge (~\u20ac8.33/month). Per-lift: Waste \u20ac5.50/lift + \u20ac0.25/kg, Compost \u20ac4.00/lift + \u20ac0.10/kg, Recycling \u20ac4.50/lift + \u20ac0.20/kg.","household_size":null,"price":8.33,"excess_charge_per_kg":0.25,"scraped_date":"2026-03-21"}],"address_used":"A98AT22","pricing_available":true,"phone":"01 467 0033","pricing_method":"signup_flow","website":"https://www.greyhound.ie/","service_notes":"Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only. Note from their site: \u2022 Excess weights over your monthly allowance charged at 30c/kg \u2022 Waste is charged at an additional 6 cent per kg."},{"name":"Thorntons Recycling","phone":"01 6235 142","website":"https://www.thorntons-recycling.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from thorntons-recycling.ie/household/. Wicklow is listed as a served county on their customer signup page."},"address_used":null,"pricing_method":"public_page","service_notes":"Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.","plans":[{"name":"Eco Band Lite","type":"monthly","price":26.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"Eco Band","type":"monthly","price":31.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":40,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"Eco Band Pro","type":"monthly","price":35.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":65,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"}]}]};
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Wicklow']={
+  "source": "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
+  "county": "Wicklow",
+  "companies": [
+    {
+      "service_notes": "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
+      "website": "https://www.panda.ie/household/",
+      "name": "Panda Green",
+      "plans": [
+        {
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "price_frequency": "monthly",
+          "notes": "€31.50/month. 46kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 1-3 people.",
+          "excess_charge_per_kg": 0.25,
+          "household_size": "1-3 people",
+          "price": 31.5,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "Essential",
+          "waste_allowance_kg": 46,
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "notes": "€35.00/month. Most popular plan. 59kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 3-5 people.",
+          "price_frequency": "monthly",
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": 0.25,
+          "price": 35,
+          "household_size": "3-5 people",
+          "waste_allowance_kg": 59,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "name": "Standard",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€41.00/month. 85kg monthly waste allowance, €0.25/kg excess. Unlimited recycling and compost. No glass bin. For 5+ people.",
+          "price_frequency": "monthly",
+          "price": 41,
+          "household_size": "5+ people",
+          "excess_charge_per_kg": 0.25,
+          "name": "Plus",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "waste_allowance_kg": 85,
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": null,
+          "type": "pay_by_lift",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "Pay Per Lift",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "per_lift",
+          "notes": "€12.00/month service charge + per-lift: Waste €16.00/lift, Recycling €5.25/lift, Compost €6.50/lift. Per-lift weight allowances not published by Panda for Wicklow. No glass bin.",
+          "price_frequency": "monthly",
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": null,
+          "price": 12,
+          "household_size": null,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "address_used": "Main Street, Wicklow Town",
+      "confidence": {
+        "reason": "Pricing retrieved directly from panda.ie signup flow for Main Street, Wicklow Town. Serves all Co. Wicklow. Per-lift weight allowances not published by Panda for Wicklow (all blank in modal).",
+        "level": "high"
+      },
+      "pricing_method": "signup_flow",
+      "pricing_available": true,
+      "phone": "01 8298992"
+    },
+    {
+      "pricing_method": "wis_portal",
+      "phone": "045 580 060",
+      "pricing_available": true,
+      "plans": [
+        {
+          "notes": "€24/month. 30kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment.",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price": 24,
+          "household_size": null,
+          "excess_charge_per_kg": 0.3,
+          "waste_allowance_kg": 30,
+          "name": "AES Lite",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": 40,
+          "name": "AES Smart",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "price_frequency": "monthly",
+          "notes": "€27/month. 40kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Smart is €27 in Wicklow vs €26 in most other counties.",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "household_size": null,
+          "price": 27,
+          "excess_charge_per_kg": 0.3,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "notes": "€35/month. 65kg/month waste allowance, €0.30/kg excess. No excess on recycling or compost. 240L waste + 240L recycling + 140L compost + 140L glass (if available). 12-month contract, €50 cancellation fee, €50 prepayment. Note: AES Plus is €35/65kg in Wicklow vs €31/60kg in most other counties.",
+          "price_frequency": "monthly",
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": 0.3,
+          "price": 35,
+          "household_size": null,
+          "waste_allowance_kg": 65,
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "name": "AES Plus",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "notes": "€15.20/month service charge + per-lift: Waste €15.60/lift (up to 60kg, €0.30/kg excess), Recycling €8/lift, Compost €6.60/lift, Glass €5.50/lift (quarterly). 240L waste + 240L recycling + 140L compost + 140L glass.",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price": 15.2,
+          "household_size": null,
+          "excess_charge_per_kg": 0.3,
+          "waste_allowance_kg": 60,
+          "name": "Pay by Lift",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "type": "pay_by_lift",
+          "compost_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "per_lift",
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "AES Recycling",
+      "address_used": "Main Street, Wicklow Town",
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved from aesirl.wis.ie for Wicklow Town (pgids=1). Also confirmed: Arklow, Blessington, Rathdrum, Baltinglass all pgids=1. Bray, Greystones, Enniskerry all returned pgids=0 — AES does not serve north Wicklow. AES Plus (€35/65kg) and Smart (€27/40kg) are higher than other counties (€31/60kg and €26/40kg respectively)."
+      },
+      "service_notes": "Serves south and central Co. Wicklow only (Wicklow Town, Arklow, Blessington, Rathdrum, Baltinglass confirmed). Does NOT serve north Wicklow (Bray, Greystones, Enniskerry returned pgids=0). Higher pricing in Wicklow vs other counties. Fortnightly collections. 12-month contract with €50 cancellation fee. €50 prepayment required. Glass bin included if available.",
+      "website": "https://www.aesrecycling.ie/"
+    },
+    {
+      "service_notes": "Dublin-based operator. Serves all Co. Wicklow under their Dublin pricing zone (confirmed: Bray, Greystones, Wicklow Town all pgids=1). 3-bin service: 240L waste + 240L recycling + 240L compost. Free SMS collection reminders. Bins placed back neatly after collection. Annual plans include 1 month free. Fortnightly collection.",
+      "website": "https://www.citybin.com/",
+      "pricing_method": "wis_portal",
+      "phone": "091 747 474",
+      "pricing_available": true,
+      "address_used": "Main Street, Bray, Co. Wicklow",
+      "plans": [
+        {
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "name": "City Lite - Dublin",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "waste_allowance_kg": 30,
+          "household_size": null,
+          "price": 24,
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price_frequency": "monthly",
+          "notes": "€24/month (or €264/year — 1 month free). 240L waste + 240L recycling + 240L compost. 30kg/month waste allowance, €0.30/kg excess. Lightest plan, rewards heavy recyclers. Free SMS reminders. Annual upfront price: €264.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "City Essential - Dublin",
+          "waste_allowance_kg": 42,
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "notes": "€26.49/month (or €293.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 42kg/month waste allowance, €0.30/kg excess. Most popular plan. Free SMS reminders. Annual upfront price: €293.89.",
+          "price_frequency": "monthly",
+          "excess_charge_per_kg": 0.3,
+          "price": 26.49,
+          "household_size": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "City Extra - Dublin",
+          "waste_allowance_kg": 65,
+          "excess_charge_per_kg": 0.3,
+          "price": 30.49,
+          "household_size": null,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "notes": "€30.49/month (or €337.89/year — 1 month free). 240L waste + 240L recycling + 240L compost. 65kg/month waste allowance, €0.30/kg excess. For larger households. Free SMS reminders. Annual upfront price: €337.89.",
+          "price_frequency": "monthly",
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "The City Bin Co.",
+      "confidence": {
+        "reason": "Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town — all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow.",
+        "level": "high"
+      }
+    },
+    {
+      "service_notes": "Does not serve Co. Wicklow.",
+      "website": "https://www.oxigen.ie/",
+      "address_used": null,
+      "plans": [],
+      "name": "Oxigen Environmental Unlimited Company",
+      "confidence": {
+        "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.",
+        "level": "none"
+      },
+      "pricing_method": null,
+      "phone": "0818 694 445",
+      "pricing_available": false
+    },
+    {
+      "website": "https://www.raywhelan.ie/",
+      "service_notes": "Does not serve Co. Wicklow.",
+      "address_used": null,
+      "plans": [],
+      "name": "Ray Whelan",
+      "confidence": {
+        "reason": "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",
+        "level": "none"
+      },
+      "pricing_method": null,
+      "pricing_available": false,
+      "phone": null
+    },
+    {
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) — location confirmed served under Greyhound's Greater Dublin zone."
+      },
+      "name": "Greyhound Recycling",
+      "plans": [
+        {
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "name": "Standard",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 32,
+          "excess_charge_per_kg": 0.36,
+          "household_size": "1-3 people",
+          "price": 25,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "price_frequency": "monthly",
+          "notes": "Free recycling and compost lifts. €0.36/kg excess on waste only.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "price_frequency": "monthly",
+          "notes": "Free recycling and compost lifts. €0.36/kg excess on waste only.",
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": 0.36,
+          "household_size": "3-5 people",
+          "price": 27.5,
+          "waste_allowance_kg": 42,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "name": "Family",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": 65,
+          "name": "Family Plus",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "notes": "Free recycling and compost lifts. €0.36/kg excess on waste only.",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price": 31,
+          "household_size": "5+ people",
+          "excess_charge_per_kg": 0.36,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "Pay As You Go",
+          "compost_allowance_kg": null,
+          "type": "pay_by_lift",
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "recycling_excess_per_kg": 0.2,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": 0.1,
+          "price_frequency": "monthly",
+          "notes": "€100/year service charge (~€8.33/month). Per-lift: Waste €5.50/lift + €0.25/kg, Compost €4.00/lift + €0.10/kg, Recycling €4.50/lift + €0.20/kg.",
+          "household_size": null,
+          "price": 8.33,
+          "excess_charge_per_kg": 0.25,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "address_used": "A98AT22",
+      "pricing_available": true,
+      "phone": "01 467 0033",
+      "pricing_method": "signup_flow",
+      "website": "https://www.greyhound.ie/",
+      "service_notes": "Greyhound serves Co. Wicklow under their Greater Dublin service area. Green and brown bin lifts included on monthly plans. Excess charge on black (waste) bin only. Note from their site: • Excess weights over your monthly allowance charged at 30c/kg • Waste is charged at an additional 6 cent per kg."
+    },
+    {
+      "name": "Thorntons Recycling",
+      "phone": "01 6235 142",
+      "website": "https://www.thorntons-recycling.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from thorntons-recycling.ie/household/. Wicklow is listed as a served county on their customer signup page."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.",
+      "plans": [
+        {
+          "name": "Eco Band Lite",
+          "type": "monthly",
+          "price": 26.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Eco Band",
+          "type": "monthly",
+          "price": 31.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Eco Band Pro",
+          "type": "monthly",
+          "price": 35.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 65,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    }
+  ]
+};

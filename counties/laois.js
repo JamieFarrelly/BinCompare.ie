@@ -1,1 +1,452 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['Laois']={"county":"Laois","source":"mywaste.ie + individual company websites and WIS portals","companies":[{"name":"Oxigen Environmental","phone":"0818 694 438","website":"https://www.oxigen.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from oxigen.wis.ie/signup for Portlaoise, Co. Laois. Plans labelled 'Laois Offaly Urban'."},"address_used":"1 Main Street, Portlaoise, Co. Laois","pricing_method":"wis_portal","service_notes":"Fortnightly collection. Weight allowances apply to black waste bin \u2014 excess charged at \u20ac0.24/kg. 2-bin plans include opt-out of brown bin (alternative food waste management required). Pay By Lift also available.","plans":[{"name":"3 Bin Laois Offaly Urban","type":"monthly","price":32.0,"price_frequency":"monthly","household_size":"Most families","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":72,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"3 Small Bin Laois Offaly Urban","type":"monthly","price":26.5,"price_frequency":"monthly","household_size":"Single or couple-person dwellings","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":48,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"2 Bin Laois Offaly Urban","type":"monthly","price":27.0,"price_frequency":"monthly","household_size":"Most families (no organics)","bins_included":["general_waste","recycling"],"waste_allowance_kg":72,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Customer must confirm alternative food waste management method.","scraped_date":"2026-03-21"},{"name":"2 Small Bin Laois Offaly Urban","type":"monthly","price":24.0,"price_frequency":"monthly","household_size":"Single or couple-person dwellings (no organics)","bins_included":["general_waste","recycling"],"waste_allowance_kg":48,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Customer must confirm alternative food waste management method.","scraped_date":"2026-03-21"},{"name":"Pay By Lift Laois Offaly","type":"pay_by_lift","price":12.0,"price_frequency":"monthly","household_size":"Very light producers","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":45,"waste_allowance_period":"per_lift","excess_charge_per_kg":0.24,"recycling_allowance_kg":20,"recycling_excess_per_kg":0.15,"compost_allowance_kg":45,"compost_excess_per_kg":0.18,"notes":null,"scraped_date":"2026-03-21"}]},{"name":"AES Recycling","phone":"045 580 060","website":"https://www.aesrecycling.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from aesirl.wis.ie/signup for Portlaoise, Co. Laois."},"address_used":"1 Main Street, Portlaoise, Co. Laois","pricing_method":"wis_portal","service_notes":"Fortnightly collection. 12-month contract (\u20ac50 cancellation fee). \u20ac50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.","plans":[{"name":"AES Lite","type":"monthly","price":24.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost","glass"],"waste_allowance_kg":30,"waste_allowance_period":"monthly","excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"No excess charge on recycling or compost. 12-month contract with \u20ac50 cancellation fee. \u20ac50 prepayment required.","scraped_date":"2026-03-21"},{"name":"AES Smart","type":"monthly","price":26.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost","glass"],"waste_allowance_kg":40,"waste_allowance_period":"monthly","excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"No excess charge on recycling or compost. 12-month contract with \u20ac50 cancellation fee. \u20ac50 prepayment required.","scraped_date":"2026-03-21"},{"name":"AES Plus","type":"monthly","price":31.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost","glass"],"waste_allowance_kg":60,"waste_allowance_period":"monthly","excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"No excess charge on recycling or compost. 12-month contract with \u20ac50 cancellation fee. \u20ac50 prepayment required.","scraped_date":"2026-03-21"},{"name":"Pay by Lift","type":"pay_by_lift","price":15.2,"price_frequency":"monthly","household_size":"Light use or small households","bins_included":["general_waste","recycling","compost","glass"],"waste_allowance_kg":60,"waste_allowance_period":"monthly","excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"12-month contract with \u20ac50 cancellation fee. \u20ac50 prepayment required.","scraped_date":"2026-03-21"}]},{"name":"Ray Whelan Limited","phone":"059 9147 680","website":"https://www.raywhelan.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from raywhelan.wis.ie/signup for Portlaoise, Co. Laois."},"address_used":"1 Main Street, Portlaoise, Co. Laois","pricing_method":"wis_portal","service_notes":"Alternate weekly collection (bins on a schedule). Compost/organic bin included where available. Initial deposit required. Bins delivered within 5-7 working days.","plans":[{"name":"Standard Monthly","type":"monthly","price":24.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":71,"waste_allowance_period":"monthly","excess_charge_per_kg":0.1,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"No extra charge for recycling or compost. Initial \u20ac48 deposit (2 months credit) required.","scraped_date":"2026-03-21"},{"name":"Pay By Weight","type":"pay_by_weight","price":10.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":0.2,"notes":"Initial \u20ac50 deposit required. Minimum \u20ac10 credit required.","scraped_date":"2026-03-21"},{"name":"Pay By Lift","type":"pay_by_lift","price":12.5,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"per_lift","excess_charge_per_kg":0.12,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Initial \u20ac50 deposit required. Minimum \u20ac10 credit required.","scraped_date":"2026-03-21"}]},{"name":"Ryan Brothers Waste Recycling Services","phone":"0504 21658","website":"https://www.ryanbros.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."},"address_used":null,"pricing_method":"public_page","service_notes":"Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste.","plans":[{"name":"140L Plan","type":"monthly","price":31.1,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Billed every 6 months. Brown bin included where available. Weight allowances apply.","scraped_date":"2026-03-21"},{"name":"240L Plan","type":"monthly","price":34.25,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Billed every 6 months. Brown bin included where available. Weight allowances apply.","scraped_date":"2026-03-21"},{"name":"360L Plan","type":"monthly","price":44.21,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Billed every 6 months. Brown bin included where available. Weight allowances apply.","scraped_date":"2026-03-21"}]},{"name":"Mr Binman","phone":"061 351 131","website":"https://www.mrbinman.com","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from mrbinman.com/bin-collection-quote/ for Portlaoise, Co. Laois. Laois is a country (rural) area \u2014 country rates apply."},"address_used":"1 Lyster Square, Portlaoise, Co. Laois","pricing_method":"signup_flow","service_notes":"Fortnightly collection. Only Pay Per Lift (Xtralite) and TerraUrban plans available in Laois \u2014 Household Standard and Lite plans are not offered. Country rates apply: 25L organic bin at \u20ac2.50/lift.","plans":[{"name":"Pay Per Lift (Xtralite)","type":"pay_by_lift","price":6.05,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":20,"waste_allowance_period":"per_lift","excess_charge_per_kg":0.2,"recycling_allowance_kg":15,"recycling_excess_per_kg":0.1,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"\u20ac6.05/mo service charge + \u20ac6.24/lift waste (140L, 20kg, \u20ac0.20/kg excess) + \u20ac3.13/lift recycling (140L, 15kg, \u20ac0.10/kg excess) + \u20ac2.50/lift organic (country rate, 25L). Glass free.","scraped_date":"2026-03-21"},{"name":"TerraUrban","type":"monthly","price":27.25,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"\u20ac27.25/mo. 240L waste + 240L recycling + 140L organic. \u20ac30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, \u20ac0.20/kg excess.","scraped_date":"2026-03-21"}]},{"name":"Doheny Wheelie Bins & Recycling Limited","phone":"056 772 9838","website":"https://www.dohenywheeliebins.com","pricing_available":false,"confidence":{"level":"none","reason":"Website uses a self-signed SSL certificate \u2014 both WebFetch and browser access failed. No pricing could be retrieved."},"address_used":null,"pricing_method":null,"service_notes":"Website inaccessible due to SSL certificate error.","plans":[]}]};
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Laois']={
+  "county": "Laois",
+  "source": "mywaste.ie + individual company websites and WIS portals",
+  "companies": [
+    {
+      "name": "Oxigen Environmental",
+      "phone": "0818 694 438",
+      "website": "https://www.oxigen.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from oxigen.wis.ie/signup for Portlaoise, Co. Laois. Plans labelled 'Laois Offaly Urban'."
+      },
+      "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
+      "service_notes": "Fortnightly collection. Weight allowances apply to black waste bin — excess charged at €0.24/kg. 2-bin plans include opt-out of brown bin (alternative food waste management required). Pay By Lift also available.",
+      "plans": [
+        {
+          "name": "3 Bin Laois Offaly Urban",
+          "type": "monthly",
+          "price": 32.0,
+          "price_frequency": "monthly",
+          "household_size": "Most families",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 72,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "3 Small Bin Laois Offaly Urban",
+          "type": "monthly",
+          "price": 26.5,
+          "price_frequency": "monthly",
+          "household_size": "Single or couple-person dwellings",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 48,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "2 Bin Laois Offaly Urban",
+          "type": "monthly",
+          "price": 27.0,
+          "price_frequency": "monthly",
+          "household_size": "Most families (no organics)",
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": 72,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "2 Small Bin Laois Offaly Urban",
+          "type": "monthly",
+          "price": 24.0,
+          "price_frequency": "monthly",
+          "household_size": "Single or couple-person dwellings (no organics)",
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": 48,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Customer must confirm alternative food waste management method.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay By Lift Laois Offaly",
+          "type": "pay_by_lift",
+          "price": 12.0,
+          "price_frequency": "monthly",
+          "household_size": "Very light producers",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 45,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": 20,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 45,
+          "compost_excess_per_kg": 0.18,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "AES Recycling",
+      "phone": "045 580 060",
+      "website": "https://www.aesrecycling.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from aesirl.wis.ie/signup for Portlaoise, Co. Laois."
+      },
+      "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
+      "service_notes": "Fortnightly collection. 12-month contract (€50 cancellation fee). €50 prepayment required. Glass bin included where available. No excess charge on recycling or compost bins.",
+      "plans": [
+        {
+          "name": "AES Lite",
+          "type": "monthly",
+          "price": 24.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "AES Smart",
+          "type": "monthly",
+          "price": 26.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "AES Plus",
+          "type": "monthly",
+          "price": 31.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "No excess charge on recycling or compost. 12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay by Lift",
+          "type": "pay_by_lift",
+          "price": 15.2,
+          "price_frequency": "monthly",
+          "household_size": "Light use or small households",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "12-month contract with €50 cancellation fee. €50 prepayment required.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Ray Whelan Limited",
+      "phone": "059 9147 680",
+      "website": "https://www.raywhelan.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from raywhelan.wis.ie/signup for Portlaoise, Co. Laois."
+      },
+      "address_used": "1 Main Street, Portlaoise, Co. Laois",
+      "pricing_method": "wis_portal",
+      "service_notes": "Alternate weekly collection (bins on a schedule). Compost/organic bin included where available. Initial deposit required. Bins delivered within 5-7 working days.",
+      "plans": [
+        {
+          "name": "Standard Monthly",
+          "type": "monthly",
+          "price": 24.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 71,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.1,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay By Weight",
+          "type": "pay_by_weight",
+          "price": 10.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.2,
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay By Lift",
+          "type": "pay_by_lift",
+          "price": 12.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.12,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Ryan Brothers Waste Recycling Services",
+      "phone": "0504 21658",
+      "website": "https://www.ryanbros.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers serves Tipperary, Laois, Offaly, and Kilkenny."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Billed every 6 months. Brown bin delivered where available (rollout ongoing). Weight allowances apply to general waste and brown bin waste.",
+      "plans": [
+        {
+          "name": "140L Plan",
+          "type": "monthly",
+          "price": 31.1,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "240L Plan",
+          "type": "monthly",
+          "price": 34.25,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "360L Plan",
+          "type": "monthly",
+          "price": 44.21,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Billed every 6 months. Brown bin included where available. Weight allowances apply.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Mr Binman",
+      "phone": "061 351 131",
+      "website": "https://www.mrbinman.com",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/ for Portlaoise, Co. Laois. Laois is a country (rural) area — country rates apply."
+      },
+      "address_used": "1 Lyster Square, Portlaoise, Co. Laois",
+      "pricing_method": "signup_flow",
+      "service_notes": "Fortnightly collection. Only Pay Per Lift (Xtralite) and TerraUrban plans available in Laois — Household Standard and Lite plans are not offered. Country rates apply: 25L organic bin at €2.50/lift.",
+      "plans": [
+        {
+          "name": "Pay Per Lift (Xtralite)",
+          "type": "pay_by_lift",
+          "price": 6.05,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 20,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.2,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": 0.1,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€6.05/mo service charge + €6.24/lift waste (140L, 20kg, €0.20/kg excess) + €3.13/lift recycling (140L, 15kg, €0.10/kg excess) + €2.50/lift organic (country rate, 25L). Glass free.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "TerraUrban",
+          "type": "monthly",
+          "price": 27.25,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€27.25/mo. 240L waste + 240L recycling + 140L organic. €30 discount if paying by direct debit. Weight limit 300kg per 6 months on waste, €0.20/kg excess.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Doheny Wheelie Bins & Recycling Limited",
+      "phone": "056 772 9838",
+      "website": "https://www.dohenywheeliebins.com",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Website uses a self-signed SSL certificate — both WebFetch and browser access failed. No pricing could be retrieved."
+      },
+      "address_used": null,
+      "pricing_method": null,
+      "service_notes": "Website inaccessible due to SSL certificate error.",
+      "plans": []
+    }
+  ]
+};

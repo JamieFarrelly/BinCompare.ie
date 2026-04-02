@@ -1,1 +1,564 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['Kildare']={"county":"Kildare","source":"mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow","companies":[{"name":"Oxigen Environmental","phone":"0818 694 437","website":"https://www.oxigen.ie/","pricing_available":true,"confidence":{"level":"high","reason":"Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Naas, Co. Kildare \u2014 Kildare Urban plans confirmed."},"address_used":"S Main St, Naas West, Naas, Co. Kildare, Ireland","pricing_method":"wis_portal","service_notes":"Fortnightly collection. Pay By Weight option suited for light waste producers. Monthly, quarterly, half-yearly and annual billing available.","plans":[{"name":"3 Bin Kildare Urban","type":"monthly","price":29.0,"price_frequency":"monthly","household_size":"Most families","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":40,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Also available: quarterly, 6-monthly, and annual billing.","scraped_date":"2026-03-21"},{"name":"3 Small Bin Kildare Urban","type":"monthly","price":24.5,"price_frequency":"monthly","household_size":"Single or couple-person dwellings","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Also available: quarterly, 6-monthly, and annual billing.","scraped_date":"2026-03-21"},{"name":"2 Bin Kildare Urban","type":"monthly","price":27.0,"price_frequency":"monthly","household_size":"Most families","bins_included":["general_waste","recycling"],"waste_allowance_kg":72,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.","scraped_date":"2026-03-21"},{"name":"2 Small Bin Kildare Urban","type":"monthly","price":24.0,"price_frequency":"monthly","household_size":"Single or couple-person dwellings","bins_included":["general_waste","recycling"],"waste_allowance_kg":48,"waste_allowance_period":"monthly","excess_charge_per_kg":0.24,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.","scraped_date":"2026-03-21"}]},{"name":"Ray Whelan Limited","phone":"059 9147 679","website":"https://www.raywhelan.ie","pricing_available":true,"confidence":{"level":"high","reason":"Prices retrieved from Ray Whelan WIS portal (raywhelan.wis.ie) for Naas, Co. Kildare."},"address_used":"S Main St, Naas West, Naas, Co. Kildare, Ireland","pricing_method":"wis_portal","service_notes":"Serves Carlow, Laois, Kildare and Kilkenny. Alternate weekly collection. Initial account credit required on signup. All plans include 240L waste, 240L recycling, and 140L compost (where available).","plans":[{"name":"Standard Monthly","type":"monthly","price":24.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":71,"waste_allowance_period":"monthly","excess_charge_per_kg":0.1,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"No extra charge for recycling or compost. Initial \u20ac48 deposit (2 months credit) required.","scraped_date":"2026-03-21"},{"name":"Pay By Weight","type":"pay_by_weight","price":10.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":0.3,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":0.2,"notes":"Initial \u20ac50 deposit required. Minimum \u20ac10 credit required.","scraped_date":"2026-03-21"},{"name":"Pay By Lift","type":"pay_by_lift","price":12.5,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"per_lift","excess_charge_per_kg":0.12,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Initial \u20ac50 deposit required. Minimum \u20ac10 credit required.","scraped_date":"2026-03-21"}]},{"name":"Thorntons Recycling","phone":"01 6235 134","website":"https://www.thorntons-recycling.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from thorntons-recycling.ie/household/. Thorntons serves Kildare."},"address_used":null,"pricing_method":"public_page","service_notes":"Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.","plans":[{"name":"Eco Band Lite","type":"monthly","price":26.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"Eco Band","type":"monthly","price":31.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":40,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"},{"name":"Eco Band Pro","type":"monthly","price":35.49,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":65,"waste_allowance_period":"monthly","excess_charge_per_kg":0.28,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":null,"scraped_date":"2026-03-21"}]},{"name":"Greyhound Household","phone":"01 4577777","website":"https://www.greyhound.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from greyhound.ie/bin-collection-dublin/. Greyhound serves Dublin and Kildare; Kildare-specific rates confirmed."},"address_used":null,"pricing_method":"public_page","service_notes":"Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste \u20ac0.36/kg. Note from their site: \u2022 Excess weights over your monthly allowance charged at 30c/kg \u2022 Waste is charged at an additional 6 cent per kg.","plans":[{"name":"Standard","type":"monthly","price":27.5,"price_frequency":"monthly","household_size":"1-3 people","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":32,"waste_allowance_period":"monthly","excess_charge_per_kg":0.36,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Free recycling and compost lifts.","scraped_date":"2026-03-21"},{"name":"Family","type":"monthly","price":31.0,"price_frequency":"monthly","household_size":"3-5 people","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":42,"waste_allowance_period":"monthly","excess_charge_per_kg":0.36,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Free recycling and compost lifts.","scraped_date":"2026-03-21"},{"name":"Family Plus","type":"monthly","price":34.0,"price_frequency":"monthly","household_size":"5+ people","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":65,"waste_allowance_period":"monthly","excess_charge_per_kg":0.36,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates \u2014 contact Greyhound to confirm.","scraped_date":"2026-03-21"}]},{"name":"AES Recycling","phone":"045 580 060","website":"https://www.aesrecycling.ie/","pricing_available":true,"confidence":{"level":"medium","reason":"Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Kildare."},"address_used":null,"pricing_method":"public_page","service_notes":"Multi-county operator including Kildare. Plans based on weight allowance.","plans":[{"name":"Lite","type":"monthly","price":23.5,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":30,"waste_allowance_period":"monthly","excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Price varies by area \u2014 confirm with AES for your specific rate.","scraped_date":"2026-03-21"},{"name":"Smart","type":"monthly","price":26.5,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":40,"waste_allowance_period":"monthly","excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Price varies by area \u2014 confirm with AES for your specific rate.","scraped_date":"2026-03-21"},{"name":"Plus","type":"monthly","price":33.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":60,"waste_allowance_period":"monthly","excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Price varies by area \u2014 confirm with AES for your specific rate.","scraped_date":"2026-03-21"},{"name":"Pay by Lift","type":"pay_by_lift","price":15.2,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":null,"waste_allowance_period":null,"excess_charge_per_kg":null,"recycling_allowance_kg":null,"recycling_excess_per_kg":null,"compost_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Exact per-lift rates not confirmed for Kildare.","scraped_date":"2026-03-21"}]},{"name":"Panda Green","phone":"01 8298992","website":"https://www.panda.ie/household/","pricing_available":false,"confidence":{"level":"none","reason":"Panda signup flow returned no available price options for Naas, Co. Kildare address. Service not available in Kildare."},"address_used":"1 North Main Street, Naas, Co. Kildare","pricing_method":null,"service_notes":"Panda does not appear to serve Co. Kildare.","plans":[]},{"name":"Advanced Waste Recycling","phone":"01 401 1929","website":"https://www.advancedwaste.ie/","pricing_available":false,"confidence":{"level":"none","reason":"Serves very limited areas of Kildare. No pricing available online - contact directly."},"address_used":null,"pricing_method":null,"service_notes":"Serves very limited areas of Kildare. Contact them directly to check if your area is covered.","plans":[]},{"name":"Allied Recycling","phone":"046 943 3366","website":"http://www.alliedrecycling.ie","pricing_available":true,"confidence":{"level":"high","reason":"Pricing retrieved directly from alliedrecycling.wis.ie/signup for Naas, Co. Kildare."},"address_used":"Naas, Co. Kildare, Ireland","pricing_method":"wis_portal","service_notes":"Fortnightly collections. 12-month contract with \u20ac50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge \u20ac30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Cavan, Dublin.","plans":[{"name":"Pay Per Lift","type":"pay_by_lift","price":5.63,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":40,"waste_allowance_period":"per_lift","excess_charge_per_kg":0.25,"recycling_allowance_kg":15,"recycling_excess_per_kg":0.15,"compost_allowance_kg":null,"compost_excess_per_kg":0.2,"notes":"\u20ac5.63/month service charge. Waste \u20ac14.50/lift (up to 40kg, \u20ac0.25/kg excess), recycling \u20ac7.50/lift (up to 15kg, \u20ac0.15/kg excess), compost \u20ac5.00/lift + \u20ac0.20/kg. Bin delivery \u20ac30/bin.","scraped_date":"2026-03-21"},{"name":"Kildare Super Saver","type":"monthly","price":20.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":150,"waste_allowance_period":"6_monthly","excess_charge_per_kg":0.25,"recycling_allowance_kg":90,"recycling_excess_per_kg":0.15,"compost_allowance_kg":150,"compost_excess_per_kg":0.2,"notes":"\u20ac20/month (\u20ac120/6 months, \u20ac240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste \u20ac0.25/kg, recycling \u20ac0.15/kg, compost \u20ac0.20/kg.","scraped_date":"2026-03-21"},{"name":"Kildare Value Saver","type":"monthly","price":25.0,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":200,"waste_allowance_period":"6_monthly","excess_charge_per_kg":0.25,"recycling_allowance_kg":130,"recycling_excess_per_kg":0.15,"compost_allowance_kg":130,"compost_excess_per_kg":0.2,"notes":"\u20ac25/month (\u20ac150/6 months, \u20ac300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.","scraped_date":"2026-03-21"},{"name":"Kildare Standard","type":"monthly","price":26.5,"price_frequency":"monthly","household_size":null,"bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":270,"waste_allowance_period":"6_monthly","excess_charge_per_kg":0.25,"recycling_allowance_kg":150,"recycling_excess_per_kg":0.15,"compost_allowance_kg":195,"compost_excess_per_kg":0.2,"notes":"\u20ac26.50/month (\u20ac159/6 months, \u20ac318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.","scraped_date":"2026-03-21"}]}]};
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Kildare']={
+  "county": "Kildare",
+  "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
+  "companies": [
+    {
+      "name": "Oxigen Environmental",
+      "phone": "0818 694 437",
+      "website": "https://www.oxigen.ie/",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Prices retrieved from Oxigen WIS portal (oxigen.wis.ie) for Naas, Co. Kildare — Kildare Urban plans confirmed."
+      },
+      "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
+      "service_notes": "Fortnightly collection. Pay By Weight option suited for light waste producers. Monthly, quarterly, half-yearly and annual billing available.",
+      "plans": [
+        {
+          "name": "3 Bin Kildare Urban",
+          "type": "monthly",
+          "price": 29.0,
+          "price_frequency": "monthly",
+          "household_size": "Most families",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "3 Small Bin Kildare Urban",
+          "type": "monthly",
+          "price": 24.5,
+          "price_frequency": "monthly",
+          "household_size": "Single or couple-person dwellings",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Also available: quarterly, 6-monthly, and annual billing.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "2 Bin Kildare Urban",
+          "type": "monthly",
+          "price": 27.0,
+          "price_frequency": "monthly",
+          "household_size": "Most families",
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": 72,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "2 Small Bin Kildare Urban",
+          "type": "monthly",
+          "price": 24.0,
+          "price_frequency": "monthly",
+          "household_size": "Single or couple-person dwellings",
+          "bins_included": [
+            "general_waste",
+            "recycling"
+          ],
+          "waste_allowance_kg": 48,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.24,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Also available: quarterly, 6-monthly, and annual billing. Customer must declare alternative food waste management method.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Ray Whelan Limited",
+      "phone": "059 9147 679",
+      "website": "https://www.raywhelan.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Prices retrieved from Ray Whelan WIS portal (raywhelan.wis.ie) for Naas, Co. Kildare."
+      },
+      "address_used": "S Main St, Naas West, Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
+      "service_notes": "Serves Carlow, Laois, Kildare and Kilkenny. Alternate weekly collection. Initial account credit required on signup. All plans include 240L waste, 240L recycling, and 140L compost (where available).",
+      "plans": [
+        {
+          "name": "Standard Monthly",
+          "type": "monthly",
+          "price": 24.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 71,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.1,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay By Weight",
+          "type": "pay_by_weight",
+          "price": 10.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": 0.3,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.2,
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay By Lift",
+          "type": "pay_by_lift",
+          "price": 12.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.12,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Initial €50 deposit required. Minimum €10 credit required.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Thorntons Recycling",
+      "phone": "01 6235 134",
+      "website": "https://www.thorntons-recycling.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from thorntons-recycling.ie/household/. Thorntons serves Kildare."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Bi-weekly collection of waste, recycling, and compost bins. No annual fee. New customers may receive first month free.",
+      "plans": [
+        {
+          "name": "Eco Band Lite",
+          "type": "monthly",
+          "price": 26.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Eco Band",
+          "type": "monthly",
+          "price": 31.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Eco Band Pro",
+          "type": "monthly",
+          "price": 35.49,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 65,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.28,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": null,
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Greyhound Household",
+      "phone": "01 4577777",
+      "website": "https://www.greyhound.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from greyhound.ie/bin-collection-dublin/. Greyhound serves Dublin and Kildare; Kildare-specific rates confirmed."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Serves Dublin and Kildare. Rates vary by area within Kildare (Maynooth vs other towns). All plans include waste, recycling (green bin), and food waste (brown bin). Free green and brown bin lifts with no excess charges on recycling/compost. Excess on waste €0.36/kg. Note from their site: • Excess weights over your monthly allowance charged at 30c/kg • Waste is charged at an additional 6 cent per kg.",
+      "plans": [
+        {
+          "name": "Standard",
+          "type": "monthly",
+          "price": 27.5,
+          "price_frequency": "monthly",
+          "household_size": "1-3 people",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 32,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.36,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Family",
+          "type": "monthly",
+          "price": 31.0,
+          "price_frequency": "monthly",
+          "household_size": "3-5 people",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 42,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.36,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Free recycling and compost lifts.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Family Plus",
+          "type": "monthly",
+          "price": 34.0,
+          "price_frequency": "monthly",
+          "household_size": "5+ people",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 65,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": 0.36,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Free recycling and compost lifts. Maynooth and some Kildare towns may have lower rates — contact Greyhound to confirm.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "AES Recycling",
+      "phone": "045 580 060",
+      "website": "https://www.aesrecycling.ie/",
+      "pricing_available": true,
+      "confidence": {
+        "level": "medium",
+        "reason": "Pricing sourced from Selectra comparison site (selectra.ie). County-specific pricing not independently verified for Kildare."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Multi-county operator including Kildare. Plans based on weight allowance.",
+      "plans": [
+        {
+          "name": "Lite",
+          "type": "monthly",
+          "price": 23.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 30,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Smart",
+          "type": "monthly",
+          "price": 26.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Plus",
+          "type": "monthly",
+          "price": 33.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 60,
+          "waste_allowance_period": "monthly",
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Price varies by area — confirm with AES for your specific rate.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Pay by Lift",
+          "type": "pay_by_lift",
+          "price": 15.2,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Exact per-lift rates not confirmed for Kildare.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    },
+    {
+      "name": "Panda Green",
+      "phone": "01 8298992",
+      "website": "https://www.panda.ie/household/",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Panda signup flow returned no available price options for Naas, Co. Kildare address. Service not available in Kildare."
+      },
+      "address_used": "1 North Main Street, Naas, Co. Kildare",
+      "pricing_method": null,
+      "service_notes": "Panda does not appear to serve Co. Kildare.",
+      "plans": []
+    },
+    {
+      "name": "Advanced Waste Recycling",
+      "phone": "01 401 1929",
+      "website": "https://www.advancedwaste.ie/",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Serves very limited areas of Kildare. No pricing available online - contact directly."
+      },
+      "address_used": null,
+      "pricing_method": null,
+      "service_notes": "Serves very limited areas of Kildare. Contact them directly to check if your area is covered.",
+      "plans": []
+    },
+    {
+      "name": "Allied Recycling",
+      "phone": "046 943 3366",
+      "website": "http://www.alliedrecycling.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from alliedrecycling.wis.ie/signup for Naas, Co. Kildare."
+      },
+      "address_used": "Naas, Co. Kildare, Ireland",
+      "pricing_method": "wis_portal",
+      "service_notes": "Fortnightly collections. 12-month contract with €50 cancellation fee. Minimum 3 months payment required before bin delivery. Bin delivery charge €30 per bin. All plans include 240L waste, 240L recycling, 140L compost. Also serves Meath, Westmeath, Cavan, Dublin.",
+      "plans": [
+        {
+          "name": "Pay Per Lift",
+          "type": "pay_by_lift",
+          "price": 5.63,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 40,
+          "waste_allowance_period": "per_lift",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 15,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": 0.2,
+          "notes": "€5.63/month service charge. Waste €14.50/lift (up to 40kg, €0.25/kg excess), recycling €7.50/lift (up to 15kg, €0.15/kg excess), compost €5.00/lift + €0.20/kg. Bin delivery €30/bin.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Kildare Super Saver",
+          "type": "monthly",
+          "price": 20.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 150,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 90,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 150,
+          "compost_excess_per_kg": 0.2,
+          "notes": "€20/month (€120/6 months, €240/year). 150kg waste/6 months, 90kg recycling/6 months, 150kg compost/6 months. Excess: waste €0.25/kg, recycling €0.15/kg, compost €0.20/kg.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Kildare Value Saver",
+          "type": "monthly",
+          "price": 25.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 200,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 130,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 130,
+          "compost_excess_per_kg": 0.2,
+          "notes": "€25/month (€150/6 months, €300/year). 200kg waste/6 months, 130kg recycling/6 months, 130kg compost/6 months.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "Kildare Standard",
+          "type": "monthly",
+          "price": 26.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 270,
+          "waste_allowance_period": "6_monthly",
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": 150,
+          "recycling_excess_per_kg": 0.15,
+          "compost_allowance_kg": 195,
+          "compost_excess_per_kg": 0.2,
+          "notes": "€26.50/month (€159/6 months, €318/year). 270kg waste/6 months, 150kg recycling/6 months, 195kg compost/6 months.",
+          "scraped_date": "2026-03-21"
+        }
+      ]
+    }
+  ]
+};

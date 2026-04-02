@@ -1,1 +1,520 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};window.__COUNTY_CACHE__['Galway']={"source":"mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows","county":"Galway","companies":[{"service_notes":"Billed every 6 months. Weight-based allowances. Excess charged at \u20ac0.25/kg. Bins: 120L, 240L, or 360L waste options.","website":"https://www.moranrefuse.ie","phone":"091 794 400","pricing_available":true,"pricing_method":"public_page","confidence":{"level":"high","reason":"Pricing retrieved directly from moranrefuse.ie/services/pricing/."},"address_used":null,"plans":[{"waste_allowance_period":"6_monthly","recycling_excess_per_kg":null,"compost_allowance_kg":null,"type":"monthly","bins_included":["general_waste","recycling","compost"],"name":"120L Plan","waste_allowance_kg":200,"excess_charge_per_kg":0.25,"price":28.33,"household_size":null,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"notes":null,"price_frequency":"monthly","scraped_date":"2026-03-21"},{"recycling_excess_per_kg":null,"waste_allowance_period":"6_monthly","waste_allowance_kg":450,"name":"240L Plan","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"household_size":null,"price":33.33,"excess_charge_per_kg":0.25,"price_frequency":"monthly","notes":null,"recycling_allowance_kg":null,"compost_excess_per_kg":null,"scraped_date":"2026-03-21"},{"notes":null,"price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"price":46.67,"household_size":null,"excess_charge_per_kg":0.25,"waste_allowance_kg":675,"name":"360L Plan","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"recycling_excess_per_kg":null,"waste_allowance_period":"6_monthly","scraped_date":"2026-03-21"}],"name":"Moran Refuse & Recycling Service"},{"pricing_available":true,"phone":"091 787800","pricing_method":"public_page","confidence":{"reason":"Pricing retrieved directly from citybin.com/signup/ \u2014 Galway-specific plans confirmed as of 16.01.26.","level":"high"},"address_used":null,"plans":[{"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"compost_allowance_kg":null,"type":"monthly","name":"City Lite \u2013 Galway","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":33,"excess_charge_per_kg":0.3,"household_size":"Light waste producers","price":21,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"price_frequency":"monthly","notes":"Annual option: \u20ac233.50/year (1 month free). Best for households that recycle most waste.","scraped_date":"2026-03-21"},{"waste_allowance_kg":42,"name":"City Essential \u2013 Galway","bins_included":["general_waste","recycling","compost"],"compost_allowance_kg":null,"type":"monthly","recycling_excess_per_kg":null,"waste_allowance_period":"monthly","notes":"Annual option: \u20ac259.90/year (1 month free).","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"price":23.4,"household_size":"Most households","excess_charge_per_kg":0.3,"scraped_date":"2026-03-21"},{"name":"City Extra \u2013 Galway","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"waste_allowance_kg":65,"waste_allowance_period":"monthly","recycling_excess_per_kg":null,"recycling_allowance_kg":null,"compost_excess_per_kg":null,"notes":"Annual option: \u20ac304.89/year (1 month free).","price_frequency":"monthly","price":27.49,"household_size":"Larger households","excess_charge_per_kg":0.3,"scraped_date":"2026-03-21"}],"name":"The City Bin Co.","service_notes":"Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. \u20ac0.30/kg excess on waste for all plans.","website":"https://www.citybin.com"},{"service_notes":"Glass bin included for Galway (urban zone). Pay by weight option available. \u20ac0.25/kg excess on waste; \u20ac0.19/kg excess on recycling and compost.","website":"https://www.panda.ie/household/","confidence":{"level":"high","reason":"Pricing retrieved directly from panda.ie signup flow for Galway city address."},"plans":[{"name":"Essential","bins_included":["general_waste","recycling","compost","glass"],"type":"monthly","compost_allowance_kg":40,"waste_allowance_kg":35,"waste_allowance_period":"monthly","recycling_excess_per_kg":0.19,"recycling_allowance_kg":30,"compost_excess_per_kg":0.19,"notes":null,"price_frequency":"monthly","price":19,"household_size":null,"excess_charge_per_kg":0.25,"scraped_date":"2026-03-21"},{"excess_charge_per_kg":0.25,"price":20,"household_size":null,"compost_excess_per_kg":0.19,"recycling_allowance_kg":null,"notes":null,"price_frequency":"monthly","waste_allowance_period":"monthly","recycling_excess_per_kg":0.19,"type":"monthly","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost","glass"],"name":"Standard","waste_allowance_kg":45,"scraped_date":"2026-03-21"},{"waste_allowance_kg":60,"bins_included":["general_waste","recycling","compost","glass"],"name":"Plus","compost_allowance_kg":null,"type":"monthly","recycling_excess_per_kg":0.19,"waste_allowance_period":"monthly","notes":null,"price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":0.19,"price":24,"household_size":null,"excess_charge_per_kg":0.25,"scraped_date":"2026-03-21"},{"waste_allowance_kg":null,"type":"pay_by_weight","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost","glass"],"name":"Pay By Weight","recycling_excess_per_kg":null,"waste_allowance_period":null,"notes":null,"price_frequency":"monthly","compost_excess_per_kg":0.14,"recycling_allowance_kg":null,"excess_charge_per_kg":0.28,"price":12.5,"household_size":null,"scraped_date":"2026-03-21"}],"name":"Panda Green","address_used":"1 Eyre Square, Galway","pricing_available":true,"phone":"01 8298992","pricing_method":"signup_flow"},{"pricing_available":true,"phone":"061 351 128","pricing_method":"public_page","confidence":{"level":"high","reason":"Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Galway. City vs country rates apply \u2014 Galway city areas use city rates, rural Galway uses country rates."},"address_used":null,"plans":[{"recycling_excess_per_kg":null,"waste_allowance_period":"monthly","waste_allowance_kg":50,"bins_included":["general_waste","recycling","compost"],"name":"Household Standard","type":"monthly","compost_allowance_kg":null,"price":27,"household_size":null,"excess_charge_per_kg":0.2,"notes":"Introductory price \u20ac27/mo for first 6 months, then \u20ac33.52/mo.","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":null,"scraped_date":"2026-03-21"},{"recycling_excess_per_kg":0.1,"waste_allowance_period":"per_lift","waste_allowance_kg":20,"compost_allowance_kg":null,"type":"pay_by_lift","name":"Pay Per Lift (Xtralite)","bins_included":["general_waste","recycling","compost"],"excess_charge_per_kg":0.2,"price":6.05,"household_size":null,"notes":"Min account credit \u20ac12.","price_frequency":"monthly","compost_excess_per_kg":null,"recycling_allowance_kg":15,"scraped_date":"2026-03-21"},{"compost_excess_per_kg":null,"recycling_allowance_kg":15,"price_frequency":"monthly","notes":null,"excess_charge_per_kg":null,"household_size":null,"price":9.5,"type":"pay_by_lift","compost_allowance_kg":null,"name":"Lite","bins_included":["general_waste","recycling","compost"],"waste_allowance_kg":25,"waste_allowance_period":"per_lift","recycling_excess_per_kg":null,"scraped_date":"2026-03-21"},{"name":"TerraUrban","bins_included":["general_waste","recycling","compost"],"type":"monthly","compost_allowance_kg":null,"waste_allowance_kg":null,"waste_allowance_period":null,"recycling_excess_per_kg":null,"recycling_allowance_kg":null,"compost_excess_per_kg":null,"price_frequency":"monthly","notes":"\u20ac30 discount if paying by direct debit.","household_size":null,"price":27.25,"excess_charge_per_kg":null,"scraped_date":"2026-03-21"}],"name":"Mr Binman","website":"https://www.mrbinman.com","service_notes":"Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided."},{"phone":"091 771 621","pricing_available":true,"pricing_method":"county_dropdown","confidence":{"level":"high","reason":"Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."},"plans":[{"notes":"\u20ac21/month standing charge + pay by weight: Waste \u20ac0.25/kg, Recycling \u20ac0.05/kg, Compost \u20ac0.15/kg. Government Waste Recovery Levy \u20ac0.012/kg applies to waste.","price_frequency":"monthly","recycling_allowance_kg":null,"compost_excess_per_kg":0.15,"price":21,"household_size":null,"excess_charge_per_kg":0.25,"waste_allowance_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"PBW Standard","compost_allowance_kg":null,"type":"pay_by_weight","recycling_excess_per_kg":0.05,"waste_allowance_period":null,"scraped_date":"2026-03-21"},{"price_frequency":"monthly","notes":"\u20ac12/month standing charge + \u20ac3/lift per bin type + weight charges: Waste \u20ac0.25/kg, Recycling \u20ac0.05/kg, Compost \u20ac0.15/kg.","compost_excess_per_kg":0.15,"recycling_allowance_kg":null,"excess_charge_per_kg":0.25,"household_size":null,"price":12,"waste_allowance_kg":null,"compost_allowance_kg":null,"type":"pay_by_lift","name":"Pay By Weight Lite","bins_included":["general_waste","recycling","compost"],"recycling_excess_per_kg":0.05,"waste_allowance_period":null,"scraped_date":"2026-03-21"},{"waste_allowance_period":"6_monthly","recycling_excess_per_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"ECO Standard","type":"monthly","compost_allowance_kg":null,"waste_allowance_kg":350,"household_size":"Larger households","price":35,"excess_charge_per_kg":0.25,"recycling_allowance_kg":null,"compost_excess_per_kg":null,"price_frequency":"monthly","notes":"\u20ac210 per 6 months (~\u20ac35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge \u20ac0.25/kg over limit. Suited to larger households.","scraped_date":"2026-03-21"},{"excess_charge_per_kg":0.25,"household_size":"Smaller households","price":31.67,"compost_excess_per_kg":null,"recycling_allowance_kg":null,"price_frequency":"monthly","notes":"\u20ac190 per 6 months (~\u20ac31.67/month). 240L waste + 240L recycling + 140L compost. Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge \u20ac0.25/kg over limit. Suited to smaller households.","waste_allowance_period":"6_monthly","recycling_excess_per_kg":null,"type":"monthly","compost_allowance_kg":null,"bins_included":["general_waste","recycling","compost"],"name":"ECO Small","waste_allowance_kg":200,"scraped_date":"2026-03-21"}],"address_used":"Co. Galway (county dropdown)","name":"Barna Recycling","service_notes":"Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out \u2014 weight limits differ depending on whether compost is available. Online account management via customer portal.","website":"https://www.barnarecycling.com"},{"service_notes":"Serves South Mayo and parts of Co. Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online \u2014 contact the company directly by phone to get a quote.","website":"https://www.ballinrobewaste.ie","confidence":{"reason":"No pricing listed on website. Site describes service but directs customers to contact for details.","level":"none"},"address_used":null,"plans":[],"name":"Ballinrobe Waste","pricing_available":false,"phone":"094 954 1360","pricing_method":null},{"pricing_method":null,"pricing_available":false,"phone":"086 3517273","address_used":null,"plans":[],"name":"The Binman","confidence":{"reason":"No website listed. Phone-only contact. No online pricing available.","level":"none"},"service_notes":null,"website":null},{"plans":[],"address_used":null,"name":"Athchursail Aran Teo","confidence":{"level":"none","reason":"No website or phone number listed in source data. No online pricing available."},"pricing_method":null,"pricing_available":false,"phone":null,"website":null,"service_notes":"Serves the Aran Islands (Inis M\u00f3r, Inis Me\u00e1in, Inis O\u00edrr)."},{"service_notes":"Local Galway waste collector. Contact 087 9697 528 for pricing and availability.","website":null,"pricing_available":false,"phone":"087 9697 528","pricing_method":null,"confidence":{"reason":"No website found. Phone-only contact \u2014 no online pricing available.","level":"none"},"plans":[],"name":"Henry Kenny","address_used":null}]};
+window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
+window.__COUNTY_CACHE__['Galway']={
+  "source": "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
+  "county": "Galway",
+  "companies": [
+    {
+      "service_notes": "Billed every 6 months. Weight-based allowances. Excess charged at €0.25/kg. Bins: 120L, 240L, or 360L waste options.",
+      "website": "https://www.moranrefuse.ie",
+      "phone": "091 794 400",
+      "pricing_available": true,
+      "pricing_method": "public_page",
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from moranrefuse.ie/services/pricing/."
+      },
+      "address_used": null,
+      "plans": [
+        {
+          "waste_allowance_period": "6_monthly",
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "120L Plan",
+          "waste_allowance_kg": 200,
+          "excess_charge_per_kg": 0.25,
+          "price": 28.33,
+          "household_size": null,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "notes": null,
+          "price_frequency": "monthly",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "6_monthly",
+          "waste_allowance_kg": 450,
+          "name": "240L Plan",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "household_size": null,
+          "price": 33.33,
+          "excess_charge_per_kg": 0.25,
+          "price_frequency": "monthly",
+          "notes": null,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "notes": null,
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price": 46.67,
+          "household_size": null,
+          "excess_charge_per_kg": 0.25,
+          "waste_allowance_kg": 675,
+          "name": "360L Plan",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "6_monthly",
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "Moran Refuse & Recycling Service"
+    },
+    {
+      "pricing_available": true,
+      "phone": "091 787800",
+      "pricing_method": "public_page",
+      "confidence": {
+        "reason": "Pricing retrieved directly from citybin.com/signup/ — Galway-specific plans confirmed as of 16.01.26.",
+        "level": "high"
+      },
+      "address_used": null,
+      "plans": [
+        {
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "name": "City Lite – Galway",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 33,
+          "excess_charge_per_kg": 0.3,
+          "household_size": "Light waste producers",
+          "price": 21,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "price_frequency": "monthly",
+          "notes": "Annual option: €233.50/year (1 month free). Best for households that recycle most waste.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": 42,
+          "name": "City Essential – Galway",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "notes": "Annual option: €259.90/year (1 month free).",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price": 23.4,
+          "household_size": "Most households",
+          "excess_charge_per_kg": 0.3,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "City Extra – Galway",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "waste_allowance_kg": 65,
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "Annual option: €304.89/year (1 month free).",
+          "price_frequency": "monthly",
+          "price": 27.49,
+          "household_size": "Larger households",
+          "excess_charge_per_kg": 0.3,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "The City Bin Co.",
+      "service_notes": "Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. €0.30/kg excess on waste for all plans.",
+      "website": "https://www.citybin.com"
+    },
+    {
+      "service_notes": "Glass bin included for Galway (urban zone). Pay by weight option available. €0.25/kg excess on waste; €0.19/kg excess on recycling and compost.",
+      "website": "https://www.panda.ie/household/",
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from panda.ie signup flow for Galway city address."
+      },
+      "plans": [
+        {
+          "name": "Essential",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": 40,
+          "waste_allowance_kg": 35,
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": 0.19,
+          "recycling_allowance_kg": 30,
+          "compost_excess_per_kg": 0.19,
+          "notes": null,
+          "price_frequency": "monthly",
+          "price": 19,
+          "household_size": null,
+          "excess_charge_per_kg": 0.25,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "excess_charge_per_kg": 0.25,
+          "price": 20,
+          "household_size": null,
+          "compost_excess_per_kg": 0.19,
+          "recycling_allowance_kg": null,
+          "notes": null,
+          "price_frequency": "monthly",
+          "waste_allowance_period": "monthly",
+          "recycling_excess_per_kg": 0.19,
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "name": "Standard",
+          "waste_allowance_kg": 45,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": 60,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "name": "Plus",
+          "compost_allowance_kg": null,
+          "type": "monthly",
+          "recycling_excess_per_kg": 0.19,
+          "waste_allowance_period": "monthly",
+          "notes": null,
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": 0.19,
+          "price": 24,
+          "household_size": null,
+          "excess_charge_per_kg": 0.25,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_kg": null,
+          "type": "pay_by_weight",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost",
+            "glass"
+          ],
+          "name": "Pay By Weight",
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": null,
+          "notes": null,
+          "price_frequency": "monthly",
+          "compost_excess_per_kg": 0.14,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": 0.28,
+          "price": 12.5,
+          "household_size": null,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "Panda Green",
+      "address_used": "1 Eyre Square, Galway",
+      "pricing_available": true,
+      "phone": "01 8298992",
+      "pricing_method": "signup_flow"
+    },
+    {
+      "pricing_available": true,
+      "phone": "061 351 128",
+      "pricing_method": "public_page",
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from mrbinman.com/bin-collection-quote/. Mr Binman serves Galway. City vs country rates apply — Galway city areas use city rates, rural Galway uses country rates."
+      },
+      "address_used": null,
+      "plans": [
+        {
+          "recycling_excess_per_kg": null,
+          "waste_allowance_period": "monthly",
+          "waste_allowance_kg": 50,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "Household Standard",
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "price": 27,
+          "household_size": null,
+          "excess_charge_per_kg": 0.2,
+          "notes": "Introductory price €27/mo for first 6 months, then €33.52/mo.",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "recycling_excess_per_kg": 0.1,
+          "waste_allowance_period": "per_lift",
+          "waste_allowance_kg": 20,
+          "compost_allowance_kg": null,
+          "type": "pay_by_lift",
+          "name": "Pay Per Lift (Xtralite)",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "excess_charge_per_kg": 0.2,
+          "price": 6.05,
+          "household_size": null,
+          "notes": "Min account credit €12.",
+          "price_frequency": "monthly",
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": 15,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": 15,
+          "price_frequency": "monthly",
+          "notes": null,
+          "excess_charge_per_kg": null,
+          "household_size": null,
+          "price": 9.5,
+          "type": "pay_by_lift",
+          "compost_allowance_kg": null,
+          "name": "Lite",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": 25,
+          "waste_allowance_period": "per_lift",
+          "recycling_excess_per_kg": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "name": "TerraUrban",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "recycling_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price_frequency": "monthly",
+          "notes": "€30 discount if paying by direct debit.",
+          "household_size": null,
+          "price": 27.25,
+          "excess_charge_per_kg": null,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "name": "Mr Binman",
+      "website": "https://www.mrbinman.com",
+      "service_notes": "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided."
+    },
+    {
+      "phone": "091 771 621",
+      "pricing_available": true,
+      "pricing_method": "county_dropdown",
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from cportal.barnarecycling.com/signup/signup.php selecting 'Co Galway' as service area."
+      },
+      "plans": [
+        {
+          "notes": "€21/month standing charge + pay by weight: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg. Government Waste Recovery Levy €0.012/kg applies to waste.",
+          "price_frequency": "monthly",
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": 0.15,
+          "price": 21,
+          "household_size": null,
+          "excess_charge_per_kg": 0.25,
+          "waste_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "PBW Standard",
+          "compost_allowance_kg": null,
+          "type": "pay_by_weight",
+          "recycling_excess_per_kg": 0.05,
+          "waste_allowance_period": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "price_frequency": "monthly",
+          "notes": "€12/month standing charge + €3/lift per bin type + weight charges: Waste €0.25/kg, Recycling €0.05/kg, Compost €0.15/kg.",
+          "compost_excess_per_kg": 0.15,
+          "recycling_allowance_kg": null,
+          "excess_charge_per_kg": 0.25,
+          "household_size": null,
+          "price": 12,
+          "waste_allowance_kg": null,
+          "compost_allowance_kg": null,
+          "type": "pay_by_lift",
+          "name": "Pay By Weight Lite",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "recycling_excess_per_kg": 0.05,
+          "waste_allowance_period": null,
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "waste_allowance_period": "6_monthly",
+          "recycling_excess_per_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "ECO Standard",
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "waste_allowance_kg": 350,
+          "household_size": "Larger households",
+          "price": 35,
+          "excess_charge_per_kg": 0.25,
+          "recycling_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "price_frequency": "monthly",
+          "notes": "€210 per 6 months (~€35/month). 240L waste + 240L recycling + 140L compost. Weight limit 350kg per 6 months for waste (450kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to larger households.",
+          "scraped_date": "2026-03-21"
+        },
+        {
+          "excess_charge_per_kg": 0.25,
+          "household_size": "Smaller households",
+          "price": 31.67,
+          "compost_excess_per_kg": null,
+          "recycling_allowance_kg": null,
+          "price_frequency": "monthly",
+          "notes": "€190 per 6 months (~€31.67/month). 240L waste + 240L recycling + 140L compost. Weight limit 200kg per 6 months for waste (300kg if compost not yet available in area). Surcharge €0.25/kg over limit. Suited to smaller households.",
+          "waste_allowance_period": "6_monthly",
+          "recycling_excess_per_kg": null,
+          "type": "monthly",
+          "compost_allowance_kg": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "name": "ECO Small",
+          "waste_allowance_kg": 200,
+          "scraped_date": "2026-03-21"
+        }
+      ],
+      "address_used": "Co. Galway (county dropdown)",
+      "name": "Barna Recycling",
+      "service_notes": "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
+      "website": "https://www.barnarecycling.com"
+    },
+    {
+      "service_notes": "Serves South Mayo and parts of Co. Galway. Offers 120L and 240L bin options. Fortnightly collection. Prices are not published online — contact the company directly by phone to get a quote.",
+      "website": "https://www.ballinrobewaste.ie",
+      "confidence": {
+        "reason": "No pricing listed on website. Site describes service but directs customers to contact for details.",
+        "level": "none"
+      },
+      "address_used": null,
+      "plans": [],
+      "name": "Ballinrobe Waste",
+      "pricing_available": false,
+      "phone": "094 954 1360",
+      "pricing_method": null
+    },
+    {
+      "pricing_method": null,
+      "pricing_available": false,
+      "phone": "086 3517273",
+      "address_used": null,
+      "plans": [],
+      "name": "The Binman",
+      "confidence": {
+        "reason": "No website listed. Phone-only contact. No online pricing available.",
+        "level": "none"
+      },
+      "service_notes": null,
+      "website": null
+    },
+    {
+      "plans": [],
+      "address_used": null,
+      "name": "Athchursail Aran Teo",
+      "confidence": {
+        "level": "none",
+        "reason": "No website or phone number listed in source data. No online pricing available."
+      },
+      "pricing_method": null,
+      "pricing_available": false,
+      "phone": null,
+      "website": null,
+      "service_notes": "Serves the Aran Islands (Inis Mór, Inis Meáin, Inis Oírr)."
+    },
+    {
+      "service_notes": "Local Galway waste collector. Contact 087 9697 528 for pricing and availability.",
+      "website": null,
+      "pricing_available": false,
+      "phone": "087 9697 528",
+      "pricing_method": null,
+      "confidence": {
+        "reason": "No website found. Phone-only contact — no online pricing available.",
+        "level": "none"
+      },
+      "plans": [],
+      "name": "Henry Kenny",
+      "address_used": null
+    }
+  ]
+};
