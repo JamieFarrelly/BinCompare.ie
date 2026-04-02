@@ -201,21 +201,6 @@ window.__COUNTY_CACHE__['Cavan']={
       ]
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Wilton Waste Recycling",
       "source": "mywaste.ie",
       "phone": "049 4336 476",

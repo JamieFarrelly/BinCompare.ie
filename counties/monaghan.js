@@ -291,21 +291,6 @@ window.__COUNTY_CACHE__['Monaghan']={
       "source": "mywaste.ie",
     },
     {
-      "website": null,
-      "service_notes": null,
-      "confidence": {
-        "reason": "No website listed. Phone-only contact. No online pricing available.",
-        "level": "none"
-      },
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "plans": [],
-      "address_used": null,
-      "phone": "086 3517276",
-      "pricing_available": false,
-      "pricing_method": null
-    },
-    {
       "phone": "042 9370152",
       "pricing_available": true,
       "pricing_method": "public_page",

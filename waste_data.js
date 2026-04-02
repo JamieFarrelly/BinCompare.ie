@@ -386,21 +386,6 @@ const COUNTY_DATA = {
       ]
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Wilton Waste Recycling",
       "source": "mywaste.ie",
       "phone": "049 4336 476",
@@ -1491,21 +1476,6 @@ const COUNTY_DATA = {
          },
          "website" : "http://www.sharkeywaste.ie/",
          "service_notes" : "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post."
-      },
-      {
-         "plans" : [],
-         "name" : "The Binman",
-         "source": "mywaste.ie",
-         "address_used" : null,
-         "confidence" : {
-            "reason" : "No website listed. Phone-only contact. No online pricing available.",
-            "level" : "none"
-         },
-         "pricing_method" : null,
-         "pricing_available" : false,
-         "phone" : "086 3517273",
-         "website" : null,
-         "service_notes" : null
       },
       {
          "website" : "https://www.dmwaste.com",
@@ -2819,21 +2789,6 @@ const COUNTY_DATA = {
          "pricing_available" : false,
          "phone" : "094 954 1360",
          "pricing_method" : null
-      },
-      {
-         "pricing_method" : null,
-         "pricing_available" : false,
-         "phone" : "086 3517273",
-         "address_used" : null,
-         "plans" : [],
-         "name" : "The Binman",
-         "source": "mywaste.ie",
-         "confidence" : {
-            "reason" : "No website listed. Phone-only contact. No online pricing available.",
-            "level" : "none"
-         },
-         "service_notes" : null,
-         "website" : null
       },
       {
          "plans" : [],
@@ -4540,21 +4495,6 @@ const COUNTY_DATA = {
       "plans": []
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Donegal Waste & Recycle",
       "source": "mywaste.ie",
       "phone": "074 974 0132",
@@ -5713,21 +5653,6 @@ const COUNTY_DATA = {
       "plans": []
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517275",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Ballinrobe Waste",
       "source": "mywaste.ie",
       "phone": "094 954 1847",
@@ -6471,21 +6396,6 @@ const COUNTY_DATA = {
          "plans" : [],
          "name" : "Mahony's Environmental Cleansing Ltd"
          "source": "mywaste.ie",
-      },
-      {
-         "website" : null,
-         "service_notes" : null,
-         "confidence" : {
-            "reason" : "No website listed. Phone-only contact. No online pricing available.",
-            "level" : "none"
-         },
-         "name" : "The Binman",
-         "source": "mywaste.ie",
-         "plans" : [],
-         "address_used" : null,
-         "phone" : "086 3517276",
-         "pricing_available" : false,
-         "pricing_method" : null
       },
       {
          "phone" : "042 9370152",
@@ -7444,21 +7354,6 @@ const COUNTY_DATA = {
          "pricing_method" : "county_dropdown",
          "phone" : "091 771 624",
          "pricing_available" : true
-      },
-      {
-         "service_notes" : null,
-         "website" : null,
-         "pricing_method" : null,
-         "pricing_available" : false,
-         "phone" : "086 3517276",
-         "plans" : [],
-         "name" : "The Binman",
-         "source": "mywaste.ie",
-         "address_used" : null,
-         "confidence" : {
-            "reason" : "No website listed. Phone-only contact. No online pricing available.",
-            "level" : "none"
-         }
       }
    ]
 }

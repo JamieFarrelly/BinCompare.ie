@@ -480,21 +480,6 @@ window.__COUNTY_CACHE__['Galway']={
       "pricing_method": null
     },
     {
-      "pricing_method": null,
-      "pricing_available": false,
-      "phone": "086 3517273",
-      "address_used": null,
-      "plans": [],
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "confidence": {
-        "reason": "No website listed. Phone-only contact. No online pricing available.",
-        "level": "none"
-      },
-      "service_notes": null,
-      "website": null
-    },
-    {
       "plans": [],
       "address_used": null,
       "name": "Athchursail Aran Teo",
