@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Louth']={
   "county": "Louth",
-  "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
   "companies": [
     {
       "name": "McElvaney's Waste & Recycling and Ace Environmental",
+      "source": "mywaste.ie",
       "phone": "047 808 90",
       "website": "https://www.mcelvaneywaste.com",
       "pricing_available": true,
@@ -85,6 +85,7 @@ window.__COUNTY_CACHE__['Louth']={
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 442",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -203,6 +204,7 @@ window.__COUNTY_CACHE__['Louth']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -302,6 +304,7 @@ window.__COUNTY_CACHE__['Louth']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -405,6 +408,7 @@ window.__COUNTY_CACHE__['Louth']={
     },
     {
       "name": "Ecological Waste Management Ltd",
+      "source": "mywaste.ie",
       "phone": "042 9370152",
       "website": "https://www.ecological.ie",
       "pricing_available": true,

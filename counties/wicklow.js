@@ -1,12 +1,12 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Wicklow']={
-  "source": "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
   "county": "Wicklow",
   "companies": [
     {
       "service_notes": "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
       "website": "https://www.panda.ie/household/",
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "plans": [
         {
           "compost_excess_per_kg": null,
@@ -197,6 +197,7 @@ window.__COUNTY_CACHE__['Wicklow']={
         }
       ],
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "address_used": "Main Street, Wicklow Town",
       "confidence": {
         "level": "high",
@@ -278,6 +279,7 @@ window.__COUNTY_CACHE__['Wicklow']={
         }
       ],
       "name": "The City Bin Co.",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town — all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow.",
         "level": "high"
@@ -289,6 +291,7 @@ window.__COUNTY_CACHE__['Wicklow']={
       "address_used": null,
       "plans": [],
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.",
         "level": "none"
@@ -303,6 +306,7 @@ window.__COUNTY_CACHE__['Wicklow']={
       "address_used": null,
       "plans": [],
       "name": "Ray Whelan",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",
         "level": "none"
@@ -317,6 +321,7 @@ window.__COUNTY_CACHE__['Wicklow']={
         "reason": "Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) — location confirmed served under Greyhound's Greater Dublin zone."
       },
       "name": "Greyhound Recycling",
+      "source": "mywaste.ie",
       "plans": [
         {
           "waste_allowance_period": "monthly",
@@ -412,6 +417,7 @@ window.__COUNTY_CACHE__['Wicklow']={
     },
     {
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "phone": "01 6235 142",
       "website": "https://www.thorntons-recycling.ie",
       "pricing_available": true,

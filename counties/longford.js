@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Longford']={
   "county": "Longford",
-  "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
   "companies": [
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 9433366",
       "website": "https://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -83,6 +83,7 @@ window.__COUNTY_CACHE__['Longford']={
     },
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 130",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -161,6 +162,7 @@ window.__COUNTY_CACHE__['Longford']={
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 441",
       "website": "https://www.oxigen.ie",
       "pricing_available": false,
@@ -175,6 +177,7 @@ window.__COUNTY_CACHE__['Longford']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": false,
@@ -189,6 +192,7 @@ window.__COUNTY_CACHE__['Longford']={
     },
     {
       "name": "CMS Waste Disposal Ltd",
+      "source": "mywaste.ie",
       "phone": "087 835 5181",
       "website": null,
       "pricing_available": false,

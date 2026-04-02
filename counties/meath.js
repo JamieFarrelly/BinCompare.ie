@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Meath']={
   "county": "Meath",
-  "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -112,6 +112,7 @@ window.__COUNTY_CACHE__['Meath']={
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 443",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -230,6 +231,7 @@ window.__COUNTY_CACHE__['Meath']={
     },
     {
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "phone": "01 6235 139",
       "website": "https://www.thorntons-recycling.ie",
       "pricing_available": true,
@@ -308,6 +310,7 @@ window.__COUNTY_CACHE__['Meath']={
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 943 3366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -390,6 +393,7 @@ window.__COUNTY_CACHE__['Meath']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,

@@ -53,6 +53,7 @@ window.__COUNTY_CACHE__['Donegal']={
       ],
       "address_used": null,
       "name": "Logan Waste",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact.",
         "level": "low"
@@ -156,6 +157,7 @@ window.__COUNTY_CACHE__['Donegal']={
         }
       ],
       "name": "Panda Green"
+      "source": "mywaste.ie",
     },
     {
       "pricing_method": "public_page",
@@ -246,6 +248,7 @@ window.__COUNTY_CACHE__['Donegal']={
         }
       ],
       "name": "Sharkey Waste & Recycle",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx.",
         "level": "high"
@@ -256,6 +259,7 @@ window.__COUNTY_CACHE__['Donegal']={
     {
       "plans": [],
       "name": "The Binman",
+      "source": "mywaste.ie",
       "address_used": null,
       "confidence": {
         "reason": "No website listed. Phone-only contact. No online pricing available.",
@@ -277,6 +281,7 @@ window.__COUNTY_CACHE__['Donegal']={
       "plans": [],
       "address_used": null,
       "name": "DM Waste",
+      "source": "mywaste.ie",
       "phone": "074 915 7189",
       "pricing_available": false,
       "pricing_method": null
@@ -437,6 +442,7 @@ window.__COUNTY_CACHE__['Donegal']={
         }
       ],
       "name": "Donegal Waste & Recycle",
+      "source": "mywaste.ie",
       "address_used": "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
       "confidence": {
         "level": "high",
@@ -444,6 +450,5 @@ window.__COUNTY_CACHE__['Donegal']={
       }
     }
   ],
-  "source": "mywaste.ie + individual company websites and Panda signup flow",
   "county": "Donegal"
 };

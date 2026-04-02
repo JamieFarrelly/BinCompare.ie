@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Wexford']={
   "county": "Wexford",
-  "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -104,6 +104,7 @@ window.__COUNTY_CACHE__['Wexford']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -207,6 +208,7 @@ window.__COUNTY_CACHE__['Wexford']={
     },
     {
       "name": "Ray Whelan",
+      "source": "mywaste.ie",
       "phone": "059 9140340",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -285,6 +287,7 @@ window.__COUNTY_CACHE__['Wexford']={
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "1890 929241",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -384,6 +387,7 @@ window.__COUNTY_CACHE__['Wexford']={
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": false,

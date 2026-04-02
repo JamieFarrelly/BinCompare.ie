@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Westmeath']={
   "county": "Westmeath",
-  "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
   "companies": [
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -123,6 +123,7 @@ window.__COUNTY_CACHE__['Westmeath']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -226,6 +227,7 @@ window.__COUNTY_CACHE__['Westmeath']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -325,6 +327,7 @@ window.__COUNTY_CACHE__['Westmeath']={
     },
     {
       "name": "Mulleadys Recycling",
+      "source": "mywaste.ie",
       "phone": "090 6490400",
       "website": "https://www.mulleadys.ie",
       "pricing_available": true,

@@ -1,10 +1,10 @@
 const COUNTY_DATA = {
 "carlow": {
   "county": "Carlow",
-  "source": "mywaste.ie + individual company websites/signup portals",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -71,6 +71,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -125,6 +126,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -196,6 +198,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,
@@ -213,10 +216,10 @@ const COUNTY_DATA = {
 ,
 "cavan": {
   "county": "Cavan",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 128",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -283,6 +286,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -383,6 +387,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517273",
       "website": null,
       "pricing_available": false,
@@ -397,6 +402,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Wilton Waste Recycling",
+      "source": "mywaste.ie",
       "phone": "049 4336 476",
       "website": "https://www.wilton-recycling.ie",
       "pricing_available": true,
@@ -430,6 +436,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 9433366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -513,6 +520,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 620",
       "website": "https://www.barnarecycling.com",
       "pricing_available": false,
@@ -527,6 +535,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Blue Dolphin Environmental Ltd",
+      "source": "mywaste.ie",
       "phone": "047 577 86",
       "website": "https://www.bluedolphinrecycling.ie",
       "pricing_available": true,
@@ -576,6 +585,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -662,10 +672,10 @@ const COUNTY_DATA = {
 ,
 "clare": {
   "county": "Clare",
-  "source": "mywaste.ie + individual company websites",
   "companies": [
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 127",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -749,6 +759,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -832,6 +843,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 800",
       "website": "https://www.cleanireland.ie",
       "pricing_available": true,
@@ -867,10 +879,10 @@ const COUNTY_DATA = {
 ,
 "cork": {
   "county": "Cork",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "1850 373 737",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -920,6 +932,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 128",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -1003,6 +1016,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -1086,6 +1100,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Wiser Recycling (Wiser Bins)",
+      "source": "mywaste.ie",
       "phone": "021 4630 601",
       "website": "https://www.wiserbins.ie",
       "pricing_available": true,
@@ -1135,6 +1150,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Country Clean Recycling",
+      "source": "mywaste.ie",
       "phone": "022 468 48",
       "website": "https://www.countryclean.ie",
       "pricing_available": true,
@@ -1273,6 +1289,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : null,
          "name" : "Logan Waste",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Website references €25 and €30 monthly plans but provides no details on bin sizes, weight allowances, or plan features. Full pricing requires direct contact.",
             "level" : "low"
@@ -1376,6 +1393,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Panda Green"
+         "source": "mywaste.ie",
       },
       {
          "pricing_method" : "public_page",
@@ -1466,6 +1484,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Sharkey Waste & Recycle",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved directly from sharkeywaste.ie/domestic-waste-collection.aspx.",
             "level" : "high"
@@ -1476,6 +1495,7 @@ const COUNTY_DATA = {
       {
          "plans" : [],
          "name" : "The Binman",
+         "source": "mywaste.ie",
          "address_used" : null,
          "confidence" : {
             "reason" : "No website listed. Phone-only contact. No online pricing available.",
@@ -1497,6 +1517,7 @@ const COUNTY_DATA = {
          "plans" : [],
          "address_used" : null,
          "name" : "DM Waste",
+         "source": "mywaste.ie",
          "phone" : "074 915 7189",
          "pricing_available" : false,
          "pricing_method" : null
@@ -1657,6 +1678,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Donegal Waste & Recycle",
+         "source": "mywaste.ie",
          "address_used" : "Firville House, Navenny, Ballybofey, Co. Donegal, Ireland",
          "confidence" : {
             "level" : "high",
@@ -1664,19 +1686,18 @@ const COUNTY_DATA = {
          }
       }
    ],
-   "source" : "mywaste.ie + individual company websites and Panda signup flow",
    "county" : "Donegal"
 }
 ,
 "dublin": {
    "county" : "Dublin",
-   "source" : "mywaste.ie + individual company websites + Panda API",
    "companies" : [
       {
          "pricing_method" : "signup_flow",
          "phone" : "01 8298992",
          "pricing_available" : true,
          "name" : "Panda Green",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "recycling_excess_per_kg" : null,
@@ -1833,6 +1854,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : null,
          "name" : "The City Bin Co.",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "high",
             "reason" : "Pricing retrieved from citybin.com for Dublin."
@@ -1878,6 +1900,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Thorntons Recycling",
+         "source": "mywaste.ie",
          "address_used" : null,
          "pricing_available" : true,
          "phone" : "01 6235 133",
@@ -2018,6 +2041,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Greyhound Household",
+         "source": "mywaste.ie",
          "phone" : "01 4577777",
          "pricing_available" : true,
          "pricing_method" : "public_page"
@@ -2078,6 +2102,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Key Waste Management Ltd. (KeyGreen)",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from keygreen.ie for Dublin.",
             "level" : "high"
@@ -2094,6 +2119,7 @@ const COUNTY_DATA = {
             "reason" : "Pricing confirmed via WIS portal for Dublin 22 (Clondalkin area)."
          },
          "name" : "Advanced Waste Recycling",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "type" : "monthly",
@@ -2168,6 +2194,7 @@ const COUNTY_DATA = {
       },
       {
          "name" : "Allied Recycling",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "type" : "monthly",
@@ -2293,6 +2320,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : null,
          "name" : "AES Recycling"
+         "source": "mywaste.ie",
       },
       {
          "confidence" : {
@@ -2302,6 +2330,7 @@ const COUNTY_DATA = {
          "plans" : [],
          "address_used" : null,
          "name" : "Ecoway Waste Management Ltd.",
+         "source": "mywaste.ie",
          "pricing_available" : false,
          "phone" : "01 874 8340",
          "pricing_method" : null,
@@ -2312,7 +2341,6 @@ const COUNTY_DATA = {
 }
 ,
 "galway": {
-   "source" : "mywaste.ie + individual company websites, WIS portals, and Panda/City Bin signup flows",
    "county" : "Galway",
    "companies" : [
       {
@@ -2392,6 +2420,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Moran Refuse & Recycling Service"
+         "source": "mywaste.ie",
       },
       {
          "pricing_available" : true,
@@ -2468,6 +2497,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "The City Bin Co.",
+         "source": "mywaste.ie",
          "service_notes" : "Monthly and annual billing available. Annual plan gives 1 month free. Serves Galway city area. Bins placed back neatly; free SMS reminders and recycling reports included. €0.30/kg excess on waste for all plans.",
          "website" : "https://www.citybin.com"
       },
@@ -2569,6 +2599,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Panda Green",
+         "source": "mywaste.ie",
          "address_used" : "1 Eyre Square, Galway",
          "pricing_available" : true,
          "phone" : "01 8298992",
@@ -2670,6 +2701,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Mr Binman",
+         "source": "mywaste.ie",
          "website" : "https://www.mrbinman.com",
          "service_notes" : "Bins collected on alternate weeks: Week 1 = Waste & Organic, Week 2 = Recycling & Glass. City organic bin is 140L; country organic bin is 25L. Glass caddy free. Text reminders provided."
       },
@@ -2769,6 +2801,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : "Co. Galway (county dropdown)",
          "name" : "Barna Recycling",
+         "source": "mywaste.ie",
          "service_notes" : "Primarily serves Connacht counties. Based in Galway. Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available. Online account management via customer portal.",
          "website" : "https://www.barnarecycling.com"
       },
@@ -2782,6 +2815,7 @@ const COUNTY_DATA = {
          "address_used" : null,
          "plans" : [],
          "name" : "Ballinrobe Waste",
+         "source": "mywaste.ie",
          "pricing_available" : false,
          "phone" : "094 954 1360",
          "pricing_method" : null
@@ -2793,6 +2827,7 @@ const COUNTY_DATA = {
          "address_used" : null,
          "plans" : [],
          "name" : "The Binman",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "No website listed. Phone-only contact. No online pricing available.",
             "level" : "none"
@@ -2804,6 +2839,7 @@ const COUNTY_DATA = {
          "plans" : [],
          "address_used" : null,
          "name" : "Athchursail Aran Teo",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "none",
             "reason" : "No website or phone number listed in source data. No online pricing available."
@@ -2826,6 +2862,7 @@ const COUNTY_DATA = {
          },
          "plans" : [],
          "name" : "Henry Kenny",
+         "source": "mywaste.ie",
          "address_used" : null
       }
    ]
@@ -2833,10 +2870,10 @@ const COUNTY_DATA = {
 ,
 "kerry": {
   "county": "Kerry",
-  "source": "mywaste.ie + individual company websites",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "064 663 5666",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -2886,6 +2923,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 130",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -2969,6 +3007,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Higgins Waste & Recycling Services Ltd",
+      "source": "mywaste.ie",
       "phone": "066 7123 059",
       "website": "https://www.higginswaste.ie",
       "pricing_available": true,
@@ -3035,6 +3074,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Kerry County Council",
+      "source": "mywaste.ie",
       "phone": null,
       "website": "https://www.kerrycoco.ie",
       "pricing_available": false,
@@ -3052,10 +3092,10 @@ const COUNTY_DATA = {
 ,
 "kildare": {
   "county": "Kildare",
-  "source": "mywaste.ie + individual company websites, WIS portals (Oxigen, Ray Whelan), and Panda signup flow",
   "companies": [
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 437",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -3139,6 +3179,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 679",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -3205,6 +3246,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "phone": "01 6235 134",
       "website": "https://www.thorntons-recycling.ie",
       "pricing_available": true,
@@ -3271,6 +3313,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Greyhound Household",
+      "source": "mywaste.ie",
       "phone": "01 4577777",
       "website": "https://www.greyhound.ie",
       "pricing_available": true,
@@ -3337,6 +3380,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -3420,6 +3464,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -3434,6 +3479,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Advanced Waste Recycling",
+      "source": "mywaste.ie",
       "phone": "01 401 1929",
       "website": "https://www.advancedwaste.ie/",
       "pricing_available": false,
@@ -3448,6 +3494,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 943 3366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -3534,10 +3581,10 @@ const COUNTY_DATA = {
 ,
 "kilkenny": {
   "county": "Kilkenny",
-  "source": "mywaste.ie + individual company websites, WIS portals, and Panda signup flow",
   "companies": [
     {
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "phone": "0504 21658",
       "website": "https://www.ryanbros.ie",
       "pricing_available": true,
@@ -3604,6 +3651,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -3687,6 +3735,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Kilkenny County Council",
+      "source": "mywaste.ie",
       "phone": "056 7794 000",
       "website": "https://www.kilkennycoco.ie",
       "pricing_available": false,
@@ -3701,6 +3750,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -3751,6 +3801,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "051 642 334",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -3838,6 +3889,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",
       "pricing_available": false,
@@ -3852,6 +3904,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": false,
@@ -3866,6 +3919,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 802",
       "website": "https://www.cleanireland.ie",
       "pricing_available": false,
@@ -3880,6 +3934,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Country Clean Recycling",
+      "source": "mywaste.ie",
       "phone": "022 468 49",
       "website": "https://www.countryclean.ie",
       "pricing_available": false,
@@ -3894,6 +3949,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,
@@ -3911,10 +3967,10 @@ const COUNTY_DATA = {
 ,
 "laois": {
   "county": "Laois",
-  "source": "mywaste.ie + individual company websites and WIS portals",
   "companies": [
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 438",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -4015,6 +4071,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -4098,6 +4155,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan Limited",
+      "source": "mywaste.ie",
       "phone": "059 9147 680",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -4164,6 +4222,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "phone": "0504 21658",
       "website": "https://www.ryanbros.ie",
       "pricing_available": true,
@@ -4230,6 +4289,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 131",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -4279,6 +4339,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Doheny Wheelie Bins & Recycling Limited",
+      "source": "mywaste.ie",
       "phone": "056 772 9838",
       "website": "https://www.dohenywheeliebins.com",
       "pricing_available": false,
@@ -4296,10 +4357,10 @@ const COUNTY_DATA = {
 ,
 "leitrim": {
   "county": "Leitrim",
-  "source": "mywaste.ie + individual company websites (mulleadys.com/household.html, barnarecycling.com signup portal)",
   "companies": [
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 129",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -4366,6 +4427,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 623",
       "website": "https://www.barnarecycling.com",
       "pricing_available": true,
@@ -4449,6 +4511,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental",
+      "source": "mywaste.ie",
       "phone": "0818 694 440",
       "website": "https://www.oxigen.ie",
       "pricing_available": false,
@@ -4463,6 +4526,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -4477,6 +4541,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517273",
       "website": null,
       "pricing_available": false,
@@ -4491,6 +4556,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Donegal Waste & Recycle",
+      "source": "mywaste.ie",
       "phone": "074 974 0132",
       "website": "https://www.donegalwasteandrecycle.com",
       "pricing_available": false,
@@ -4508,10 +4574,10 @@ const COUNTY_DATA = {
 ,
 "limerick": {
   "county": "Limerick",
-  "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "1850 373 737",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -4561,6 +4627,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 132",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -4627,6 +4694,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -4641,6 +4709,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -4724,6 +4793,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 803",
       "website": "https://www.cleanireland.ie",
       "pricing_available": true,
@@ -4756,6 +4826,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Higgins Waste & Recycling Services Ltd",
+      "source": "mywaste.ie",
       "phone": "066 7123 059",
       "website": "https://www.higginswaste.ie",
       "pricing_available": true,
@@ -4825,10 +4896,10 @@ const COUNTY_DATA = {
 ,
 "longford": {
   "county": "Longford",
-  "source": "mywaste.ie + alliedrecycling.wis.ie, mulleadys.com/household.html, oxigen.wis.ie, aesirl.wis.ie",
   "companies": [
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 9433366",
       "website": "https://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -4895,6 +4966,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mulleadys Ltd",
+      "source": "mywaste.ie",
       "phone": "043 3324 130",
       "website": "https://www.mulleadys.com",
       "pricing_available": true,
@@ -4961,6 +5033,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 441",
       "website": "https://www.oxigen.ie",
       "pricing_available": false,
@@ -4975,6 +5048,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": false,
@@ -4989,6 +5063,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "CMS Waste Disposal Ltd",
+      "source": "mywaste.ie",
       "phone": "087 835 5181",
       "website": null,
       "pricing_available": false,
@@ -5006,10 +5081,10 @@ const COUNTY_DATA = {
 ,
 "louth": {
   "county": "Louth",
-  "source": "mywaste.ie + mcelvaneywaste.com, oxigen.wis.ie, panda.ie signup flow, aesirl.wis.ie",
   "companies": [
     {
       "name": "McElvaney's Waste & Recycling and Ace Environmental",
+      "source": "mywaste.ie",
       "phone": "047 808 90",
       "website": "https://www.mcelvaneywaste.com",
       "pricing_available": true,
@@ -5076,6 +5151,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 442",
       "website": "https://www.oxigen.ie",
       "pricing_available": true,
@@ -5176,6 +5252,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -5259,6 +5336,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -5342,6 +5420,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ecological Waste Management Ltd",
+      "source": "mywaste.ie",
       "phone": "042 9370152",
       "website": "https://www.ecological.ie",
       "pricing_available": true,
@@ -5449,10 +5528,10 @@ const COUNTY_DATA = {
 ,
 "mayo": {
   "county": "Mayo",
-  "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Castlebar), cportal.barnarecycling.com (Co Mayo/Castlebar), individual company websites",
   "companies": [
     {
       "name": "Barna Recycling",
+      "source": "mywaste.ie",
       "phone": "091 771 624",
       "website": "https://www.barnarecycling.com",
       "pricing_available": true,
@@ -5536,6 +5615,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -5619,6 +5699,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "McGrath Industrial Waste Ltd.",
+      "source": "mywaste.ie",
       "phone": "094 9031 315",
       "website": "https://www.mcgrathwaste.ie",
       "pricing_available": false,
@@ -5633,6 +5714,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "The Binman",
+      "source": "mywaste.ie",
       "phone": "086 3517275",
       "website": null,
       "pricing_available": false,
@@ -5647,6 +5729,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ballinrobe Waste",
+      "source": "mywaste.ie",
       "phone": "094 954 1847",
       "website": "https://www.ballinrobewaste.ie",
       "pricing_available": false,
@@ -5661,6 +5744,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Bourke Waste Removal Limited",
+      "source": "mywaste.ie",
       "phone": "098 268 82",
       "website": "https://www.bourkewaste.ie",
       "pricing_available": false,
@@ -5678,10 +5762,10 @@ const COUNTY_DATA = {
 ,
 "meath": {
   "county": "Meath",
-  "source": "mywaste.ie + panda.ie signup flow (1/2 Trimgate Street, Navan), WIS portals (oxigen.wis.ie, aesirl.wis.ie, alliedrecycling.wis.ie, advancedwaste.wis.ie — Kells A82 A272 used where Navan C15 Y8X5 returned empty), thorntons-recycling.ie/household/customer-signup (Meath-specific plans), mulleadys.wis.ie",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -5769,6 +5853,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 443",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -5869,6 +5954,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "phone": "01 6235 139",
       "website": "https://www.thorntons-recycling.ie",
       "pricing_available": true,
@@ -5935,6 +6021,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "phone": "046 943 3366",
       "website": "http://www.alliedrecycling.ie",
       "pricing_available": true,
@@ -6005,6 +6092,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -6094,7 +6182,6 @@ const COUNTY_DATA = {
 }
 ,
 "monaghan": {
-   "source" : "mywaste.ie + mcelvaneywaste.com (Bill Pay/PAYG), bluedolphinrecycling.ie/wheelie-bins, oxigen.wis.ie, aesirl.wis.ie",
    "county" : "Monaghan",
    "companies" : [
       {
@@ -6169,6 +6256,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "McElvaney's Waste & Recycling and Ace Environmental",
+         "source": "mywaste.ie",
          "address_used" : null,
          "confidence" : {
             "level" : "high",
@@ -6231,6 +6319,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Blue Dolphin Environmental Ltd",
+         "source": "mywaste.ie",
          "service_notes" : "Monaghan-based family business. All customers entitled to food bin from January 2024. Government Levy charged every 6 months. Weight allowances are per collection (per lift).",
          "website" : "https://www.bluedolphinrecycling.ie"
       },
@@ -6344,6 +6433,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Oxigen Environmental Unlimited Company",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from oxigen.wis.ie for Drumillard Little, Castleblayney, Co. Monaghan. Oxigen serves select areas of Monaghan — not all parts of the county may be covered.",
             "level" : "medium"
@@ -6359,6 +6449,7 @@ const COUNTY_DATA = {
          "plans" : [],
          "address_used" : null,
          "name" : "AES Recycling",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "WIS portal (aesirl.wis.ie) returned empty price_group_ids for H18 Y2H2 (Monaghan town). Location not served.",
             "level" : "none"
@@ -6379,6 +6470,7 @@ const COUNTY_DATA = {
          "address_used" : null,
          "plans" : [],
          "name" : "Mahony's Environmental Cleansing Ltd"
+         "source": "mywaste.ie",
       },
       {
          "website" : null,
@@ -6388,6 +6480,7 @@ const COUNTY_DATA = {
             "level" : "none"
          },
          "name" : "The Binman",
+         "source": "mywaste.ie",
          "plans" : [],
          "address_used" : null,
          "phone" : "086 3517276",
@@ -6494,6 +6587,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : null,
          "name" : "Ecological Waste Management Ltd",
+         "source": "mywaste.ie",
          "service_notes" : "Primarily serves Co. Louth with coverage extending into some areas of Monaghan. Not all of Monaghan is covered — contact 042 9370152 to confirm availability at your address. Annual billing with one free month included.",
          "website" : "https://www.ecological.ie"
       }
@@ -6502,7 +6596,6 @@ const COUNTY_DATA = {
 ,
 "offaly": {
    "county" : "Offaly",
-   "source" : "mywaste.ie + oxigen.wis.ie (Birr R42 K294), aesirl.wis.ie (Birr R42 K294), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
    "companies" : [
       {
          "service_notes" : "Serves Birr area and likely wider Offaly. Fortnightly collection. Plans named 'Laois Offaly' — shared pricing zone with Laois. Weight allowances on waste bin; excess at €0.24/kg. 2-bin plans opt customers out of organic collection.",
@@ -6515,6 +6608,7 @@ const COUNTY_DATA = {
             "level" : "high"
          },
          "name" : "Oxigen Environmental Unlimited Company",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "notes" : "€32/month. 240L waste + 240L recycling + 140L organic. Fortnightly. 72kg/month waste allowance, €0.24/kg excess. Suits most families.",
@@ -6718,6 +6812,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "AES Recycling",
+         "source": "mywaste.ie",
          "address_used" : "Birr, Co. Offaly (R42 K294)",
          "phone" : "045 580 060",
          "pricing_available" : true,
@@ -6795,6 +6890,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Ryan Brothers Waste Recycling Services",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "high",
             "reason" : "Pricing retrieved directly from ryanbros.ie/domestic-pricing-options/. Ryan Brothers website explicitly states service area includes Tipperary, Laois, Offaly and Kilkenny."
@@ -6808,6 +6904,7 @@ const COUNTY_DATA = {
          "pricing_available" : true,
          "phone" : "1890 361 804",
          "name" : "Clean Ireland Recycling",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "excess_charge_per_kg" : null,
@@ -6844,7 +6941,6 @@ const COUNTY_DATA = {
 }
 ,
 "roscommon": {
-   "source" : "mywaste.ie + panda.ie signup flow (1 Main Street, Castlerea), oxigen.wis.ie (Athlone N37 EY22), aesirl.wis.ie (Athlone N37 EY22), mulleadys.com/household.html",
    "county" : "Roscommon",
    "companies" : [
       {
@@ -6944,6 +7040,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Panda Green",
+         "source": "mywaste.ie",
          "address_used" : "1 Main Street, Castlerea, Co. Roscommon"
       },
       {
@@ -7056,6 +7153,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : "Athlone, Co. Roscommon (N37 EY22)",
          "name" : "Oxigen Environmental Unlimited Company",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from oxigen.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1. Plans are labelled 'Westmeath' — shared pricing zone with Co. Westmeath.",
             "level" : "high"
@@ -7157,6 +7255,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "AES Recycling",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from aesirl.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1.",
             "level" : "high"
@@ -7240,6 +7339,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : null,
          "name" : "Mulleadys Waste",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "high",
             "reason" : "Pricing retrieved directly from mulleadys.com/household.html. Company website explicitly states service area includes Longford, Leitrim, Roscommon and Westmeath."
@@ -7249,6 +7349,7 @@ const COUNTY_DATA = {
          "service_notes" : "Plans include both pay-by-weight and fixed options. Compost bin availability being rolled out — weight limits differ depending on whether compost is available.",
          "website" : "https://www.barnarecycling.com",
          "name" : "Barna Recycling",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "compost_excess_per_kg" : 0.15,
@@ -7352,6 +7453,7 @@ const COUNTY_DATA = {
          "phone" : "086 3517276",
          "plans" : [],
          "name" : "The Binman",
+         "source": "mywaste.ie",
          "address_used" : null,
          "confidence" : {
             "reason" : "No website listed. Phone-only contact. No online pricing available.",
@@ -7362,7 +7464,6 @@ const COUNTY_DATA = {
 }
 ,
 "sligo": {
-   "source" : "mywaste.ie + panda.ie signup flow (Grange, Co. Sligo), donegalwasterecycle.wis.ie (O'Connell St, Sligo), barnarecycling.com (areas page + signup portal)",
    "county" : "Sligo",
    "companies" : [
       {
@@ -7456,6 +7557,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Panda Green",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "high",
             "reason" : "Pricing retrieved directly from panda.ie signup flow for 1 Main Street, Grange, Co. Sligo. Sligo-specific pricing — differs from Mayo/Roscommon. Unlimited recycling and compost allowances (unlike other counties)."
@@ -7621,6 +7723,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "Donegal Waste & Recycle",
+         "source": "mywaste.ie",
          "address_used" : "O'Connell St, Sligo",
          "pricing_available" : true,
          "phone" : "+353 74 974 0130",
@@ -7721,6 +7824,7 @@ const COUNTY_DATA = {
          ],
          "address_used" : "Co. Sligo (county dropdown)",
          "name" : "Barna Recycling",
+         "source": "mywaste.ie",
          "phone" : "071 9154532",
          "pricing_available" : true,
          "pricing_method" : "county_dropdown"
@@ -7729,6 +7833,7 @@ const COUNTY_DATA = {
          "plans" : [],
          "address_used" : null,
          "name" : "McGrath Industrial Waste Ltd.",
+         "source": "mywaste.ie",
          "confidence" : {
             "level" : "none",
             "reason" : "McGrath serves Mayo and Sligo per their website. No online pricing published — customers must request a quote."
@@ -7747,6 +7852,7 @@ const COUNTY_DATA = {
             "level" : "none"
          },
          "name" : "Oxigen Environmental Unlimited Company",
+         "source": "mywaste.ie",
          "plans" : [],
          "address_used" : null,
          "pricing_available" : false,
@@ -7758,10 +7864,10 @@ const COUNTY_DATA = {
 ,
 "tipperary": {
   "county": "Tipperary",
-  "source": "mywaste.ie + panda.ie signup flow (1 Main Street, Tipperary Town), aesirl.wis.ie (Parnell St, Thurles & Kickham St, Nenagh), ryanbros.ie/domestic-pricing-options/, cleanireland.ie/residential-services/",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -7845,6 +7951,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -7928,6 +8035,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ryan Brothers Waste Recycling Services",
+      "source": "mywaste.ie",
       "phone": "0504 21660",
       "website": "https://www.ryanbros.ie",
       "pricing_available": true,
@@ -7994,6 +8102,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 804",
       "website": "https://www.cleanireland.ie",
       "pricing_available": true,
@@ -8026,6 +8135,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": false,
@@ -8043,10 +8153,10 @@ const COUNTY_DATA = {
 ,
 "waterford": {
   "county": "Waterford",
-  "source": "mywaste.ie + panda.ie signup flow (Barronstrand Street, Waterford City), oxigen.wis.ie (Barronstrand Street, Waterford City), qrl.wis.ie (Barronstrand Street, Waterford City), wiserbins.wis.ie (Tallow, Co. Waterford)",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -8130,6 +8240,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -8213,6 +8324,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "1890 929241",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -8296,6 +8408,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Wiser Recycling",
+      "source": "mywaste.ie",
       "phone": "021 4630601",
       "website": "https://www.wiserbins.ie",
       "pricing_available": true,
@@ -8345,6 +8458,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": false,
@@ -8362,10 +8476,10 @@ const COUNTY_DATA = {
 ,
 "westmeath": {
   "county": "Westmeath",
-  "source": "oxigen.wis.ie (Athlone — confirmed 'Westmeath' zone during Roscommon research), aesirl.wis.ie (Dominick Street, Mullingar), panda.ie signup flow (Dominick Street, Mullingar), mulleadys.wis.ie (Dominick Street, Mullingar)",
   "companies": [
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": true,
@@ -8466,6 +8580,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -8549,6 +8664,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -8632,6 +8748,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Mulleadys Recycling",
+      "source": "mywaste.ie",
       "phone": "090 6490400",
       "website": "https://www.mulleadys.ie",
       "pricing_available": true,
@@ -8718,10 +8835,10 @@ const COUNTY_DATA = {
 ,
 "wexford": {
   "county": "Wexford",
-  "source": "panda.ie signup flow (Main Street, Wexford Town), aesirl.wis.ie (Main Street, Wexford Town), qrl.wis.ie (New Ross, Co. Wexford), raywhelan.wis.ie (Main Street, Wexford Town)",
   "companies": [
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": true,
@@ -8805,6 +8922,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie/",
       "pricing_available": true,
@@ -8888,6 +9006,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Ray Whelan",
+      "source": "mywaste.ie",
       "phone": "059 9140340",
       "website": "https://www.raywhelan.ie",
       "pricing_available": true,
@@ -8954,6 +9073,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
       "phone": "1890 929241",
       "website": "https://www.qrl.ie",
       "pricing_available": true,
@@ -9037,6 +9157,7 @@ const COUNTY_DATA = {
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
+      "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",
       "pricing_available": false,
@@ -9053,13 +9174,13 @@ const COUNTY_DATA = {
 }
 ,
 "wicklow": {
-   "source" : "panda.ie signup flow (Main Street, Wicklow Town), aesirl.wis.ie (Wicklow Town — south/central Wicklow; Bray/Greystones/Enniskerry returned pgids=0), citybin.wis.ie (Bray + Greystones + Wicklow Town all pgids=1, Dublin pricing zone)",
    "county" : "Wicklow",
    "companies" : [
       {
          "service_notes" : "Serves all Co. Wicklow. Unlimited recycling and compost on flat plans. No glass bin. Compost rollout ongoing in rural areas. Fortnightly collection. Pay Per Lift weight allowances per lift not published for Wicklow.",
          "website" : "https://www.panda.ie/household/",
          "name" : "Panda Green",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "compost_excess_per_kg" : null,
@@ -9250,6 +9371,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "AES Recycling",
+         "source": "mywaste.ie",
          "address_used" : "Main Street, Wicklow Town",
          "confidence" : {
             "level" : "high",
@@ -9331,6 +9453,7 @@ const COUNTY_DATA = {
             }
          ],
          "name" : "The City Bin Co.",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Pricing retrieved from citybin.wis.ie for Bray, Greystones, and Wicklow Town — all returned pgids=1 under the Dublin pricing zone. Plans labelled 'Dublin' apply to all Co. Wicklow.",
             "level" : "high"
@@ -9342,6 +9465,7 @@ const COUNTY_DATA = {
          "address_used" : null,
          "plans" : [],
          "name" : "Oxigen Environmental Unlimited Company",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.",
             "level" : "none"
@@ -9356,6 +9480,7 @@ const COUNTY_DATA = {
          "address_used" : null,
          "plans" : [],
          "name" : "Ray Whelan",
+         "source": "mywaste.ie",
          "confidence" : {
             "reason" : "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",
             "level" : "none"
@@ -9370,6 +9495,7 @@ const COUNTY_DATA = {
             "reason" : "Pricing retrieved from greyhound.ie/bin-collection-dublin/ for eircode A98AT22 (Co. Wicklow) — location confirmed served under Greyhound's Greater Dublin zone."
          },
          "name" : "Greyhound Recycling",
+         "source": "mywaste.ie",
          "plans" : [
             {
                "waste_allowance_period" : "monthly",
@@ -9465,6 +9591,7 @@ const COUNTY_DATA = {
       },
       {
          "name" : "Thorntons Recycling",
+         "source": "mywaste.ie",
          "phone" : "01 6235 142",
          "website" : "https://www.thorntons-recycling.ie",
          "pricing_available" : true,

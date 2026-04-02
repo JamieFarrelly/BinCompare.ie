@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Kerry']={
   "county": "Kerry",
-  "source": "mywaste.ie + individual company websites",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "064 663 5666",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -62,6 +62,7 @@ window.__COUNTY_CACHE__['Kerry']={
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 130",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -161,6 +162,7 @@ window.__COUNTY_CACHE__['Kerry']={
     },
     {
       "name": "Higgins Waste & Recycling Services Ltd",
+      "source": "mywaste.ie",
       "phone": "066 7123 059",
       "website": "https://www.higginswaste.ie",
       "pricing_available": true,
@@ -239,6 +241,7 @@ window.__COUNTY_CACHE__['Kerry']={
     },
     {
       "name": "Kerry County Council",
+      "source": "mywaste.ie",
       "phone": null,
       "website": "https://www.kerrycoco.ie",
       "pricing_available": false,

@@ -1,13 +1,13 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Dublin']={
   "county": "Dublin",
-  "source": "mywaste.ie + individual company websites + Panda API",
   "companies": [
     {
       "pricing_method": "signup_flow",
       "phone": "01 8298992",
       "pricing_available": true,
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "plans": [
         {
           "recycling_excess_per_kg": null,
@@ -164,6 +164,7 @@ window.__COUNTY_CACHE__['Dublin']={
       ],
       "address_used": null,
       "name": "The City Bin Co.",
+      "source": "mywaste.ie",
       "confidence": {
         "level": "high",
         "reason": "Pricing retrieved from citybin.com for Dublin."
@@ -209,6 +210,7 @@ window.__COUNTY_CACHE__['Dublin']={
         }
       ],
       "name": "Thorntons Recycling",
+      "source": "mywaste.ie",
       "address_used": null,
       "pricing_available": true,
       "phone": "01 6235 133",
@@ -349,6 +351,7 @@ window.__COUNTY_CACHE__['Dublin']={
         }
       ],
       "name": "Greyhound Household",
+      "source": "mywaste.ie",
       "phone": "01 4577777",
       "pricing_available": true,
       "pricing_method": "public_page"
@@ -409,6 +412,7 @@ window.__COUNTY_CACHE__['Dublin']={
         }
       ],
       "name": "Key Waste Management Ltd. (KeyGreen)",
+      "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from keygreen.ie for Dublin.",
         "level": "high"
@@ -425,6 +429,7 @@ window.__COUNTY_CACHE__['Dublin']={
         "reason": "Pricing confirmed via WIS portal for Dublin 22 (Clondalkin area)."
       },
       "name": "Advanced Waste Recycling",
+      "source": "mywaste.ie",
       "plans": [
         {
           "type": "monthly",
@@ -499,6 +504,7 @@ window.__COUNTY_CACHE__['Dublin']={
     },
     {
       "name": "Allied Recycling",
+      "source": "mywaste.ie",
       "plans": [
         {
           "type": "monthly",
@@ -624,6 +630,7 @@ window.__COUNTY_CACHE__['Dublin']={
       ],
       "address_used": null,
       "name": "AES Recycling"
+      "source": "mywaste.ie",
     },
     {
       "confidence": {
@@ -633,6 +640,7 @@ window.__COUNTY_CACHE__['Dublin']={
       "plans": [],
       "address_used": null,
       "name": "Ecoway Waste Management Ltd.",
+      "source": "mywaste.ie",
       "pricing_available": false,
       "phone": "01 874 8340",
       "pricing_method": null,

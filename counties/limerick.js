@@ -1,10 +1,10 @@
 window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
 window.__COUNTY_CACHE__['Limerick']={
   "county": "Limerick",
-  "source": "mywaste.ie + individual company websites, WIS portals, AES WIS portal, Mr Binman quote page, Clare county data (Clean Ireland)",
   "companies": [
     {
       "name": "KWD Recycling",
+      "source": "mywaste.ie",
       "phone": "1850 373 737",
       "website": "https://www.kwd.ie",
       "pricing_available": true,
@@ -62,6 +62,7 @@ window.__COUNTY_CACHE__['Limerick']={
     },
     {
       "name": "Mr Binman",
+      "source": "mywaste.ie",
       "phone": "061 351 132",
       "website": "https://www.mrbinman.com",
       "pricing_available": true,
@@ -140,6 +141,7 @@ window.__COUNTY_CACHE__['Limerick']={
     },
     {
       "name": "Panda Green",
+      "source": "mywaste.ie",
       "phone": "01 8298992",
       "website": "https://www.panda.ie/household/",
       "pricing_available": false,
@@ -154,6 +156,7 @@ window.__COUNTY_CACHE__['Limerick']={
     },
     {
       "name": "AES Recycling",
+      "source": "mywaste.ie",
       "phone": "045 580 060",
       "website": "https://www.aesrecycling.ie",
       "pricing_available": true,
@@ -257,6 +260,7 @@ window.__COUNTY_CACHE__['Limerick']={
     },
     {
       "name": "Clean Ireland Recycling",
+      "source": "mywaste.ie",
       "phone": "1890 361 803",
       "website": "https://www.cleanireland.ie",
       "pricing_available": true,
@@ -294,6 +298,7 @@ window.__COUNTY_CACHE__['Limerick']={
     },
     {
       "name": "Higgins Waste & Recycling Services Ltd",
+      "source": "mywaste.ie",
       "phone": "066 7123 059",
       "website": "https://www.higginswaste.ie",
       "pricing_available": true,
