@@ -324,6 +324,168 @@ window.__COUNTY_CACHE__['Tipperary']={
       ]
     },
     {
+      "name": "Quality Recycling Ltd",
+      "source": "mywaste.ie",
+      "phone": "1890 929241",
+      "website": "https://www.qrl.ie",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved from qrl.wis.ie for Carrick-on-Suir, Co. Tipperary, Ireland (price_group_ids confirmed served). QRL is based in Carrick-on-Suir, Co. Tipperary."
+      },
+      "address_used": "Carrick-on-Suir, Co. Tipperary, Ireland",
+      "pricing_method": "wis_portal",
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves South Tipperary. Fortnightly collection. Free collection reminder texts. Introductory offer pricing.",
+      "plans": [
+        {
+          "name": "TS 140L Waste / 240L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 23.0,
+          "price_frequency": "monthly",
+          "household_size": "Couples or singles",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 140,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€23/month (€69/3mo, €138/6mo). 140L waste + 240L recycling + 240L brown bin. Suitable for couples or single person households. Introductory offer.",
+          "scraped_date": "2026-04-03"
+        },
+        {
+          "name": "TS 240L Waste / 240L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 26.5,
+          "price_frequency": "monthly",
+          "household_size": "Most families",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 240,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 240L recycling + 240L brown bin. Suitable for most families. Introductory offer.",
+          "scraped_date": "2026-04-03"
+        },
+        {
+          "name": "TS 240L Waste / 360L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 26.5,
+          "price_frequency": "monthly",
+          "household_size": "Heavy recyclers",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 240,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€26.50/month (€79.50/3mo, €159/6mo). 240L waste + 360L recycling + 240L brown bin. Larger recycle bin suitable for families with more recyclables. Introductory offer.",
+          "scraped_date": "2026-04-03"
+        },
+        {
+          "name": "TS 360L Waste / 360L Recycling / 240L Brown",
+          "type": "monthly",
+          "price": 40.0,
+          "price_frequency": "monthly",
+          "household_size": "Larger families",
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "waste_allowance_litres": 360,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€40/month (€120/3mo, €240/6mo). 360L waste + 360L recycling + 240L brown bin. Suitable for larger families. Introductory offer.",
+          "scraped_date": "2026-04-03"
+        }
+      ]
+    },
+    {
+      "name": "Clonmel Waste",
+      "source": "manual",
+      "phone": "052 6124509",
+      "website": "https://clonmelwaste.ie/household-collection/",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing retrieved directly from clonmelwaste.ie/household-collection/. Two plans at €32.50/month — one for Clonmel area, one for wider South Tipperary. Bin sizes confirmed from page image: 240L general waste, 240L recycling, 140L brown bin."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Serves Clonmel and South Tipperary. Bin sizes: 240L general waste, 240L recycling, 140L brown bin. Two collection schedules depending on area.",
+      "plans": [
+        {
+          "name": "3 Bin Collection (Clonmel)",
+          "type": "monthly",
+          "price": 32.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€32.50/month. 240L recycling collected weekly. 240L general waste and 140L brown bin collected fortnightly. Available in Clonmel and immediate surrounds.",
+          "scraped_date": "2026-04-03"
+        },
+        {
+          "name": "3 Bin Collection (South Tipperary)",
+          "type": "monthly",
+          "price": 32.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€32.50/month. 140L brown bin collected weekly. 240L general waste and 240L recycling collected fortnightly. Available in: Ardfinnan, Ballingarry, Ballybacon, Ballybrada, Ballylooby, Ballymacarbry, Ballyneale, Ballypatrick, Bansha, Cashel, Cahir, Carrick-On-Suir, Clerihan, Cloneen, Clogheen, Drangan, Faugheen, Fethard, Golden, Goatenbridge, Grange, Grangemockler, Kilbeheny, Kilcommon, Kilsheelan, Killenaule, Kilmanahan, Lisronagh, Marlfield, Moyglass, Mullinahone, New Inn, Newcastle, Ninemilehouse, Rosegreen, Skeheenarinky.",
+          "scraped_date": "2026-04-03"
+        }
+      ]
+    },
+    {
       "name": "Oxigen Environmental Unlimited Company",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
