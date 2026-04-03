@@ -993,9 +993,9 @@ function renderTray() {
 
 // ── INIT ──
 (function init() {
-  document.getElementById('hdrPlans').textContent = '388+';
-  document.getElementById('hdrCos').textContent = '47+';
-  const footCnt = document.getElementById('footCnt'); if (footCnt) footCnt.textContent = '47+';
+  document.getElementById('hdrPlans').textContent = '400+';
+  document.getElementById('hdrCos').textContent = '50+';
+  const footCnt = document.getElementById('footCnt'); if (footCnt) footCnt.textContent = '50+';
   quiz.kgBlack = getAvgKg(1);
   updateSlider();
   render();
