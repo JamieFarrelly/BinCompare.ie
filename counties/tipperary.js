@@ -324,6 +324,21 @@ window.__COUNTY_CACHE__['Tipperary']={
       ]
     },
     {
+      "name": "Clonmel Waste",
+      "source": "manual",
+      "phone": null,
+      "website": "https://clonmelwaste.ie/household-collection/",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "No pricing information available online. Bin sizes confirmed from image on clonmelwaste.ie/household-collection/: 240L general waste, 240L recycling, 140L brown bin."
+      },
+      "address_used": null,
+      "pricing_method": null,
+      "service_notes": "Serves Clonmel and surrounding area. Bin sizes: 240L general waste, 240L recycling, 140L brown bin.",
+      "plans": []
+    },
+    {
       "name": "Oxigen Environmental Unlimited Company",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
