@@ -34,6 +34,10 @@ Only the selected county's file is downloaded — roughly 8–24 KB instead of a
 
 **No rebuild step needed.** To update pricing, edit `counties/[county].js` directly.
 
+**Why `.js` files and not `.json`?** `<script>` tags work on the `file://` protocol, so the
+site opens correctly when you double-click `index.html` locally without needing a dev server.
+`fetch()` requests to local JSON files would be blocked by the browser's CORS policy.
+
 ---
 
 ## JSON schema
