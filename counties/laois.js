@@ -3,7 +3,7 @@ window.__COUNTY_CACHE__['Laois']={
   "county": "Laois",
   "companies": [
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 438",
       "website": "https://www.oxigen.ie",
@@ -226,7 +226,7 @@ window.__COUNTY_CACHE__['Laois']={
       ]
     },
     {
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "phone": "059 9147 680",
       "website": "https://www.raywhelan.ie",

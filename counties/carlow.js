@@ -82,7 +82,7 @@ window.__COUNTY_CACHE__['Carlow']={
       ]
     },
     {
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",

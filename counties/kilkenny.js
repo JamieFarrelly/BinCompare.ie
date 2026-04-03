@@ -198,7 +198,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
       "plans": []
     },
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie",
@@ -360,7 +360,7 @@ window.__COUNTY_CACHE__['Kilkenny']={
       ]
     },
     {
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "phone": "059 9147 678",
       "website": "https://www.raywhelan.ie",

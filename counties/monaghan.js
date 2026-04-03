@@ -250,7 +250,7 @@ window.__COUNTY_CACHE__['Monaghan']={
           "scraped_date": "2026-03-21"
         }
       ],
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from oxigen.wis.ie for Drumillard Little, Castleblayney, Co. Monaghan. Oxigen serves select areas of Monaghan — not all parts of the county may be covered.",

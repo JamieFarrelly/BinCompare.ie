@@ -3,7 +3,7 @@ window.__COUNTY_CACHE__['Kildare']={
   "county": "Kildare",
   "companies": [
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 437",
       "website": "https://www.oxigen.ie/",
@@ -101,7 +101,7 @@ window.__COUNTY_CACHE__['Kildare']={
       ]
     },
     {
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "phone": "059 9147 679",
       "website": "https://www.raywhelan.ie",

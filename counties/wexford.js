@@ -207,7 +207,7 @@ window.__COUNTY_CACHE__['Wexford']={
       ]
     },
     {
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "phone": "059 9140340",
       "website": "https://www.raywhelan.ie",
@@ -386,7 +386,7 @@ window.__COUNTY_CACHE__['Wexford']={
       ]
     },
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",

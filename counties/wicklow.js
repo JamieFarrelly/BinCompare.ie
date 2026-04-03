@@ -290,7 +290,7 @@ window.__COUNTY_CACHE__['Wicklow']={
       "website": "https://www.oxigen.ie/",
       "address_used": null,
       "plans": [],
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Oxigen WIS portal (oxigen.wis.ie) returned price_group_ids=0 for multiple Wicklow addresses. Location not served.",
@@ -305,7 +305,7 @@ window.__COUNTY_CACHE__['Wicklow']={
       "service_notes": "Does not serve Co. Wicklow.",
       "address_used": null,
       "plans": [],
-      "name": "Ray Whelan Limited",
+      "name": "Ray Whelan",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",

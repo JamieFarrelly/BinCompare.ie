@@ -211,7 +211,7 @@ window.__COUNTY_CACHE__['Roscommon']={
         }
       ],
       "address_used": "Athlone, Co. Roscommon (N37 EY22)",
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from oxigen.wis.ie for Athlone, Co. Roscommon (N37 EY22 — Roscommon side of Athlone). price_group_ids=1. Plans are labelled 'Westmeath' — shared pricing zone with Co. Westmeath.",
@@ -397,7 +397,7 @@ window.__COUNTY_CACHE__['Roscommon']={
         }
       ],
       "address_used": null,
-      "name": "Mulleadys Ltd",
+      "name": "Mulleadys",
       "source": "mywaste.ie",
       "confidence": {
         "level": "high",

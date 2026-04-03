@@ -3,7 +3,7 @@ window.__COUNTY_CACHE__['Leitrim']={
   "county": "Leitrim",
   "companies": [
     {
-      "name": "Mulleadys Ltd",
+      "name": "Mulleadys",
       "source": "mywaste.ie",
       "phone": "043 3324 129",
       "website": "https://www.mulleadys.com",
@@ -182,7 +182,7 @@ window.__COUNTY_CACHE__['Leitrim']={
       ]
     },
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 440",
       "website": "https://www.oxigen.ie",

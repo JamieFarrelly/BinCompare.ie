@@ -82,7 +82,7 @@ window.__COUNTY_CACHE__['Longford']={
       ]
     },
     {
-      "name": "Mulleadys Ltd",
+      "name": "Mulleadys",
       "source": "mywaste.ie",
       "phone": "043 3324 130",
       "website": "https://www.mulleadys.com",
@@ -161,7 +161,7 @@ window.__COUNTY_CACHE__['Longford']={
       ]
     },
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 441",
       "website": "https://www.oxigen.ie",
