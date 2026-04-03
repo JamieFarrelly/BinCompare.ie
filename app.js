@@ -200,6 +200,7 @@ function normalizeAllowanceToMonthly(plan) {
   if (period === 'per_lift') return kg * 2; // bi-weekly = ~2 lifts/month
   if (period === '6_monthly') return kg / 6;
   if (period === 'half_yearly') return kg / 6;
+  if (period === 'annual' || period === 'yearly') return kg / 12;
   return kg;
 }
 
@@ -498,6 +499,7 @@ function formatAllowance(plan) {
   const period = plan.waste_allowance_period || 'monthly';
   if (period === 'per_lift') return kg + 'kg/lift';
   if (period === '6_monthly' || period === 'half_yearly') return kg + 'kg/6mo';
+  if (period === 'annual' || period === 'yearly') return Math.round(kg / 12) + 'kg/mo';
   return kg + 'kg/mo';
 }
 
