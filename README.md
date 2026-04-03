@@ -264,7 +264,7 @@ Many smaller/regional companies don't publish pricing online. For these:
 ### Companies without any online pricing
 
 These appear in the data but have no public pricing anywhere:
-- Athchursail Aran Teo, Ballinrobe Waste, Bourke Waste Removal, CMS Waste Disposal, Doheny Wheelie Bins, Henry Kenny, McGrath Industrial Waste, The Binman (multiple counties)
+- Athchursail Aran Teo, Ballinrobe Waste, Bourke Waste Removal, CMS Waste Disposal, Doheny Wheelie Bins, Henry Kenny, McGrath Industrial Waste
 
 ### Addresses to use per county
 

@@ -212,21 +212,6 @@ window.__COUNTY_CACHE__['Leitrim']={
       "plans": []
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517273",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Donegal Waste & Recycle",
       "source": "mywaste.ie",
       "phone": "074 974 0132",

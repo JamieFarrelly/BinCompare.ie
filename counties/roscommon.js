@@ -503,21 +503,6 @@ window.__COUNTY_CACHE__['Roscommon']={
       "pricing_method": "county_dropdown",
       "phone": "091 771 624",
       "pricing_available": true
-    },
-    {
-      "service_notes": null,
-      "website": null,
-      "pricing_method": null,
-      "pricing_available": false,
-      "phone": "086 3517276",
-      "plans": [],
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "address_used": null,
-      "confidence": {
-        "reason": "No website listed. Phone-only contact. No online pricing available.",
-        "level": "none"
-      }
     }
   ]
 };

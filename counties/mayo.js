@@ -222,21 +222,6 @@ window.__COUNTY_CACHE__['Mayo']={
       "plans": []
     },
     {
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "phone": "086 3517275",
-      "website": null,
-      "pricing_available": false,
-      "confidence": {
-        "level": "none",
-        "reason": "No website listed. Phone-only contact. No online pricing available."
-      },
-      "address_used": null,
-      "pricing_method": null,
-      "service_notes": null,
-      "plans": []
-    },
-    {
       "name": "Ballinrobe Waste",
       "source": "mywaste.ie",
       "phone": "094 954 1847",

@@ -257,21 +257,6 @@ window.__COUNTY_CACHE__['Donegal']={
       "service_notes": "Invoiced every 6 months. Bins: 240L or 120L waste & recycling, plus food caddy. E-tag (pay as you go) option available. Minimum €20 top-up for E-tag via app or Payzone/An Post."
     },
     {
-      "plans": [],
-      "name": "The Binman",
-      "source": "mywaste.ie",
-      "address_used": null,
-      "confidence": {
-        "reason": "No website listed. Phone-only contact. No online pricing available.",
-        "level": "none"
-      },
-      "pricing_method": null,
-      "pricing_available": false,
-      "phone": "086 3517273",
-      "website": null,
-      "service_notes": null
-    },
-    {
       "website": "https://www.dmwaste.com",
       "service_notes": "Bin registration required. Flexible payment options available.",
       "confidence": {
