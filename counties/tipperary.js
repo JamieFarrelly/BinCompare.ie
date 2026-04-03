@@ -328,15 +328,58 @@ window.__COUNTY_CACHE__['Tipperary']={
       "source": "manual",
       "phone": null,
       "website": "https://clonmelwaste.ie/household-collection/",
-      "pricing_available": false,
+      "pricing_available": true,
       "confidence": {
-        "level": "none",
-        "reason": "No pricing information available online. Bin sizes confirmed from image on clonmelwaste.ie/household-collection/: 240L general waste, 240L recycling, 140L brown bin."
+        "level": "high",
+        "reason": "Pricing retrieved directly from clonmelwaste.ie/household-collection/. Two plans at €32.50/month — one for Clonmel area, one for wider South Tipperary. Bin sizes confirmed from page image: 240L general waste, 240L recycling, 140L brown bin."
       },
       "address_used": null,
-      "pricing_method": null,
-      "service_notes": "Serves Clonmel and surrounding area. Bin sizes: 240L general waste, 240L recycling, 140L brown bin.",
-      "plans": []
+      "pricing_method": "public_page",
+      "service_notes": "Serves Clonmel and South Tipperary. Bin sizes: 240L general waste, 240L recycling, 140L brown bin. Two collection schedules depending on area.",
+      "plans": [
+        {
+          "name": "3 Bin Collection (Clonmel)",
+          "type": "monthly",
+          "price": 32.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€32.50/month. 240L recycling collected weekly. 240L general waste and 140L brown bin collected fortnightly. Available in Clonmel and immediate surrounds.",
+          "scraped_date": "2026-04-03"
+        },
+        {
+          "name": "3 Bin Collection (South Tipperary)",
+          "type": "monthly",
+          "price": 32.5,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "notes": "€32.50/month. 140L brown bin collected weekly. 240L general waste and 240L recycling collected fortnightly. Available in: Ardfinnan, Ballingarry, Ballybacon, Ballybrada, Ballylooby, Ballymacarbry, Ballyneale, Ballypatrick, Bansha, Cashel, Cahir, Carrick-On-Suir, Clerihan, Cloneen, Clogheen, Drangan, Faugheen, Fethard, Golden, Goatenbridge, Grange, Grangemockler, Kilbeheny, Kilcommon, Kilsheelan, Killenaule, Kilmanahan, Lisronagh, Marlfield, Moyglass, Mullinahone, New Inn, Newcastle, Ninemilehouse, Rosegreen, Skeheenarinky.",
+          "scraped_date": "2026-04-03"
+        }
+      ]
     },
     {
       "name": "Oxigen Environmental Unlimited Company",
