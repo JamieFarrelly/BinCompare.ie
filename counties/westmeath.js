@@ -326,7 +326,7 @@ window.__COUNTY_CACHE__['Westmeath']={
       ]
     },
     {
-      "name": "Mulleadys Recycling",
+      "name": "Mulleadys Ltd",
       "source": "mywaste.ie",
       "phone": "090 6490400",
       "website": "https://www.mulleadys.ie",

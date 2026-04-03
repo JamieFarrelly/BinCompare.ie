@@ -397,7 +397,7 @@ window.__COUNTY_CACHE__['Roscommon']={
         }
       ],
       "address_used": null,
-      "name": "Mulleadys Waste",
+      "name": "Mulleadys Ltd",
       "source": "mywaste.ie",
       "confidence": {
         "level": "high",

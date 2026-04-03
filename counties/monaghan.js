@@ -287,7 +287,7 @@ window.__COUNTY_CACHE__['Monaghan']={
       },
       "address_used": null,
       "plans": [],
-      "name": "Mahony's Environmental Cleansing Ltd"
+      "name": "Mahony's Environmental Cleansing Ltd",
       "source": "mywaste.ie",
     },
     {

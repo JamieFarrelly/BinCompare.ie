@@ -629,7 +629,7 @@ window.__COUNTY_CACHE__['Dublin']={
         }
       ],
       "address_used": null,
-      "name": "AES Recycling"
+      "name": "AES Recycling",
       "source": "mywaste.ie",
     },
     {

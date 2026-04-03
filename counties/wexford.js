@@ -207,7 +207,7 @@ window.__COUNTY_CACHE__['Wexford']={
       ]
     },
     {
-      "name": "Ray Whelan",
+      "name": "Ray Whelan Limited",
       "source": "mywaste.ie",
       "phone": "059 9140340",
       "website": "https://www.raywhelan.ie",

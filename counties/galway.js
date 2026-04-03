@@ -78,7 +78,7 @@ window.__COUNTY_CACHE__['Galway']={
           "scraped_date": "2026-03-21"
         }
       ],
-      "name": "Moran Refuse & Recycling Service"
+      "name": "Moran Refuse & Recycling Service",
       "source": "mywaste.ie",
     },
     {

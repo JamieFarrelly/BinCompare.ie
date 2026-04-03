@@ -3,7 +3,7 @@ window.__COUNTY_CACHE__['Laois']={
   "county": "Laois",
   "companies": [
     {
-      "name": "Oxigen Environmental",
+      "name": "Oxigen Environmental Unlimited Company",
       "source": "mywaste.ie",
       "phone": "0818 694 438",
       "website": "https://www.oxigen.ie",

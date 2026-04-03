@@ -305,7 +305,7 @@ window.__COUNTY_CACHE__['Wicklow']={
       "service_notes": "Does not serve Co. Wicklow.",
       "address_used": null,
       "plans": [],
-      "name": "Ray Whelan",
+      "name": "Ray Whelan Limited",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Ray Whelan WIS portal (raywhelan.wis.ie) returned price_group_ids=0 for all Wicklow addresses checked. Location not served.",

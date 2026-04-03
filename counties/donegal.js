@@ -156,7 +156,7 @@ window.__COUNTY_CACHE__['Donegal']={
           "scraped_date": "2026-03-21"
         }
       ],
-      "name": "Panda Green"
+      "name": "Panda Green",
       "source": "mywaste.ie",
     },
     {
