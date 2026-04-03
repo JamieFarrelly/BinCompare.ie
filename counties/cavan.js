@@ -3,7 +3,7 @@ window.__COUNTY_CACHE__['Cavan']={
   "county": "Cavan",
   "companies": [
     {
-      "name": "Mulleadys Ltd",
+      "name": "Mulleadys",
       "source": "mywaste.ie",
       "phone": "043 3324 128",
       "website": "https://www.mulleadys.com",
@@ -82,7 +82,7 @@ window.__COUNTY_CACHE__['Cavan']={
       ]
     },
     {
-      "name": "Oxigen Environmental",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 436",
       "website": "https://www.oxigen.ie/",

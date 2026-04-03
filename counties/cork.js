@@ -265,7 +265,7 @@ window.__COUNTY_CACHE__['Cork']={
       ]
     },
     {
-      "name": "Wiser Recycling (Wiser Bins)",
+      "name": "Wiser Recycling",
       "source": "mywaste.ie",
       "phone": "021 4630 601",
       "website": "https://www.wiserbins.ie",

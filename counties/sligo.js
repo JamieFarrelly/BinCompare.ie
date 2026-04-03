@@ -387,7 +387,7 @@ window.__COUNTY_CACHE__['Sligo']={
         "reason": "Oxigen WIS portal (oxigen.wis.ie) session was loaded with a Westmeath area search from prior county. Oxigen primarily serves Leinster and Midlands — Co. Sligo in northwest Connacht is outside their typical service area. Not verified via eircode check.",
         "level": "none"
       },
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "plans": [],
       "address_used": null,

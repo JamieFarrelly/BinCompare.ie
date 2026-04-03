@@ -526,7 +526,7 @@ window.__COUNTY_CACHE__['Tipperary']={
       ]
     },
     {
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
       "website": "https://www.oxigen.ie/",

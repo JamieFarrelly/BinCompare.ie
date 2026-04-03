@@ -12,7 +12,7 @@ window.__COUNTY_CACHE__['Offaly']={
         "reason": "Pricing retrieved from oxigen.wis.ie for Birr, Co. Offaly (R42 K294). price_group_ids=1. Tullamore (R35 Y2H3) returned empty — Birr confirmed served. Plans are labelled 'Laois Offaly' in the WIS system.",
         "level": "high"
       },
-      "name": "Oxigen Environmental Unlimited Company",
+      "name": "Oxigen",
       "source": "mywaste.ie",
       "plans": [
         {
