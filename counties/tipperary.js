@@ -486,6 +486,44 @@ window.__COUNTY_CACHE__['Tipperary']={
       ]
     },
     {
+      "name": "CDS Waste Management",
+      "source": "mywaste.ie",
+      "phone": "051 640 924",
+      "website": "https://www.cdswastemanagement.com/pricing.html",
+      "pricing_available": true,
+      "confidence": {
+        "level": "high",
+        "reason": "Pricing provided directly from cdswastemanagement.com/pricing.html. Single plan with one price point — €30/month regardless of payment term (1, 3, 6 or 12 months)."
+      },
+      "address_used": null,
+      "pricing_method": "public_page",
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves Carrick-on-Suir and surrounding areas of South Tipperary.",
+      "plans": [
+        {
+          "name": "3 Bin Collection",
+          "type": "monthly",
+          "price": 30.0,
+          "price_frequency": "monthly",
+          "household_size": null,
+          "bins_included": [
+            "general_waste",
+            "recycling",
+            "compost"
+          ],
+          "waste_allowance_kg": null,
+          "waste_allowance_period": null,
+          "excess_charge_per_kg": null,
+          "recycling_allowance_kg": null,
+          "recycling_excess_per_kg": null,
+          "compost_allowance_kg": null,
+          "compost_excess_per_kg": null,
+          "waste_allowance_litres": 240,
+          "notes": "€30/month. 240L general waste + 240L recycling + 140L compost + food waste caddy pack. Available as 1-month (€30), 3-month (€90), 6-month (€180) or 12-month (€360) payment.",
+          "scraped_date": "2026-04-03"
+        }
+      ]
+    },
+    {
       "name": "Oxigen Environmental Unlimited Company",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
