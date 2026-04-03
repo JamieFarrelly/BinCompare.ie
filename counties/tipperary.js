@@ -487,7 +487,7 @@ window.__COUNTY_CACHE__['Tipperary']={
     },
     {
       "name": "CDS Waste Management",
-      "source": "manual",
+      "source": "mywaste.ie",
       "phone": "051 640 924",
       "website": "https://www.cdswastemanagement.com/pricing.html",
       "pricing_available": true,
@@ -497,7 +497,7 @@ window.__COUNTY_CACHE__['Tipperary']={
       },
       "address_used": null,
       "pricing_method": "public_page",
-      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves Carrick-on-Suir and surrounding areas of South Tipperary, Kilkenny and Waterford. Weekly collection. Also offers skip hire services.",
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves Carrick-on-Suir and surrounding areas of South Tipperary.",
       "plans": [
         {
           "name": "3 Bin Collection",
