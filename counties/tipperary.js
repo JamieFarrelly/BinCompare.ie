@@ -486,6 +486,21 @@ window.__COUNTY_CACHE__['Tipperary']={
       ]
     },
     {
+      "name": "CDS Waste Management",
+      "source": "manual",
+      "phone": "051 640 924",
+      "website": "https://www.cdswastemanagement.com/pricing.html",
+      "pricing_available": false,
+      "confidence": {
+        "level": "none",
+        "reason": "Pricing page at cdswastemanagement.com/pricing.html returns 403 — could not retrieve plan details. Company is known to offer 3-bin weekly collection (general waste, recycling, food waste) with quarterly/bi-annual/annual payment options and a pay-by-weight option, but specific prices are unavailable."
+      },
+      "address_used": null,
+      "pricing_method": null,
+      "service_notes": "Based in Carrick-on-Suir, Co. Tipperary. Serves Carrick-on-Suir and surrounding areas of South Tipperary, Kilkenny and Waterford. Provides general waste, recycling and food waste bins, collected weekly on the same day. Payment accepted quarterly, bi-annually or annually; 3 months payment required in advance (Direct Debit option available). Also offers pay-by-weight and skip hire services.",
+      "plans": []
+    },
+    {
       "name": "Oxigen Environmental Unlimited Company",
       "source": "mywaste.ie",
       "phone": "0818 694 445",
