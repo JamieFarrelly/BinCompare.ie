@@ -326,7 +326,7 @@ window.__COUNTY_CACHE__['Tipperary']={
     {
       "name": "Clonmel Waste",
       "source": "manual",
-      "phone": null,
+      "phone": "052 6124509",
       "website": "https://clonmelwaste.ie/household-collection/",
       "pricing_available": true,
       "confidence": {
