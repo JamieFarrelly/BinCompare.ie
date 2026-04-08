@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of duplicate URL variants
+Disallow: /index.html
+
+Sitemap: https://bincompare.ie/sitemap.xml
