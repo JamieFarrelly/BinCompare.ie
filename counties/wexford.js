@@ -223,7 +223,7 @@ window.__COUNTY_CACHE__['Wexford']={
         {
           "name": "Monthly Flat Rate",
           "type": "monthly",
-          "price": 24.0,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
           "bins_included": [
@@ -238,8 +238,8 @@ window.__COUNTY_CACHE__['Wexford']={
           "recycling_excess_per_kg": null,
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
-          "notes": "€24/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection.",
-          "scraped_date": "2026-03-21"
+          "notes": "€27/month. 240L waste + 240L recycling + 140L organic (where available). 71kg/month waste allowance, €0.10/kg excess. No extra charge for recycling or compost. Initial €48 setup payment (credit for first 2 months). Alternate weekly collection.",
+          "scraped_date": "2026-04-10"
         },
         {
           "name": "Pay By Weight",
