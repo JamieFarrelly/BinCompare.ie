@@ -98,7 +98,7 @@ window.__COUNTY_CACHE__['Carlow']={
         {
           "name": "SS 1 Waste 1 Recycle - Monthly",
           "type": "monthly",
-          "price": 24.0,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
           "bins_included": [
@@ -116,7 +116,7 @@ window.__COUNTY_CACHE__['Carlow']={
           "setup_payment": 48.0,
           "setup_payment_note": "Initial payment of €48 acts as credit for first two months",
           "notes": "Ideal for customers who leave bins out on a regular basis.",
-          "scraped_date": "2026-03-21"
+          "scraped_date": "2026-04-10"
         },
         {
           "name": "Pay By Weight - Monthly",

@@ -242,7 +242,7 @@ window.__COUNTY_CACHE__['Laois']={
         {
           "name": "Standard Monthly",
           "type": "monthly",
-          "price": 24.0,
+          "price": 27.0,
           "price_frequency": "monthly",
           "household_size": null,
           "bins_included": [
@@ -258,7 +258,7 @@ window.__COUNTY_CACHE__['Laois']={
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
           "notes": "No extra charge for recycling or compost. Initial €48 deposit (2 months credit) required.",
-          "scraped_date": "2026-03-21"
+          "scraped_date": "2026-04-10"
         },
         {
           "name": "Pay By Weight",
@@ -279,7 +279,7 @@ window.__COUNTY_CACHE__['Laois']={
           "compost_allowance_kg": null,
           "compost_excess_per_kg": 0.2,
           "notes": "Initial €50 deposit required. Minimum €10 credit required.",
-          "scraped_date": "2026-03-21"
+          "scraped_date": "2026-04-10"
         },
         {
           "name": "Pay By Lift",
@@ -300,7 +300,7 @@ window.__COUNTY_CACHE__['Laois']={
           "compost_allowance_kg": null,
           "compost_excess_per_kg": null,
           "notes": "Initial €50 deposit required. Minimum €10 credit required.",
-          "scraped_date": "2026-03-21"
+          "scraped_date": "2026-04-10"
         }
       ]
     },
