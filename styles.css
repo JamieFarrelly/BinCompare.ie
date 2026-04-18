@@ -247,6 +247,8 @@ footer a{color:#7fdba9;text-decoration:none}
 .report-btn:hover{border-color:#d48a00;color:#d48a00}
 .visit-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border:1.5px solid var(--g);border-radius:20px;background:var(--g);color:#fff;font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;text-decoration:none;transition:all .2s}
 .visit-btn:hover{background:var(--gl);border-color:var(--gl)}
+.call-btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border:1.5px solid var(--b);border-radius:20px;background:#fff;color:var(--mid);font-family:'DM Sans',sans-serif;font-size:12px;font-weight:600;text-decoration:none;transition:all .2s}
+.call-btn:hover{border-color:#555;color:var(--dk)}
 .pip{position:fixed;bottom:20px;right:20px;z-index:199;background:var(--g);color:#fff;border:none;border-radius:24px;padding:12px 20px;font-family:'DM Sans',sans-serif;font-size:14px;font-weight:600;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.2);display:none;align-items:center;gap:8px;transition:all .2s}
 .pip:hover{background:var(--gl);transform:translateY(-2px)}
 .pip.show{display:flex}
