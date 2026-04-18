@@ -656,7 +656,7 @@ function cardHtml(c, idx, topScore) {
         return '<div class="irow">' + esc(cleaned) + '</div>';
       })()
     + '<div style="margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">'
-    + (c.phone ? '<span style="font-size:11.5px;color:#aaa">Phone: <strong style="color:#555">' + esc(c.phone) + '</strong></span>' : '')
+    + (c.phone ? '<a href="tel:' + esc(c.phone) + '" class="call-btn"><svg width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg> Call</a>' : '')
     + (web ? '<a href="' + sourceUrl + '" target="_blank" rel="noopener" class="visit-btn"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg> Visit website</a>' : '')
     + '</div>'
     + (c.trustpilot ? '<div style="margin-top:8px">' + tpBadge(c.trustpilot) + '</div>' : '')
