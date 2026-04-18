@@ -655,9 +655,9 @@ function cardHtml(c, idx, topScore) {
         if (!cleaned) return '';
         return '<div class="irow">' + esc(cleaned) + '</div>';
       })()
-    + '<div style="margin-top:10px;font-size:11.5px;color:#aaa">'
-    + (c.phone ? 'Phone: <strong style="color:#555">' + esc(c.phone) + '</strong> \u00b7 ' : '')
-    + (web ? 'Website: <a href="' + sourceUrl + '" target="_blank" style="color:var(--g)">' + esc(web) + '</a>' : '')
+    + '<div style="margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">'
+    + (c.phone ? '<span style="font-size:11.5px;color:#aaa">Phone: <strong style="color:#555">' + esc(c.phone) + '</strong></span>' : '')
+    + (web ? '<a href="' + sourceUrl + '" target="_blank" rel="noopener" class="visit-btn"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg> Visit website</a>' : '')
     + '</div>'
     + (c.trustpilot ? '<div style="margin-top:8px">' + tpBadge(c.trustpilot) + '</div>' : '')
     + (c.hasPricing ? '<button class="cmpbtn' + (inCmp ? ' added' : '') + '"'
