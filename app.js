@@ -655,9 +655,9 @@ function cardHtml(c, idx, topScore) {
         if (!cleaned) return '';
         return '<div class="irow">' + esc(cleaned) + '</div>';
       })()
-    + '<div style="margin-top:10px;font-size:11.5px;color:#aaa">'
-    + (c.phone ? 'Phone: <strong style="color:#555">' + esc(c.phone) + '</strong> \u00b7 ' : '')
-    + (web ? 'Website: <a href="' + sourceUrl + '" target="_blank" style="color:var(--g)">' + esc(web) + '</a>' : '')
+    + '<div style="margin-top:10px;display:flex;align-items:center;gap:8px;flex-wrap:wrap">'
+    + (c.phone ? '<a href="tel:' + esc(c.phone.replace(/\s/g, '')) + '" class="call-btn"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 00.07 2.18 2 2 0 012.08 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> Call</a>' : '')
+    + (web ? '<span style="font-size:11.5px;color:#aaa">Website: <a href="' + sourceUrl + '" target="_blank" style="color:var(--g)">' + esc(web) + '</a></span>' : '')
     + '</div>'
     + (c.trustpilot ? '<div style="margin-top:8px">' + tpBadge(c.trustpilot) + '</div>' : '')
     + (c.hasPricing ? '<button class="cmpbtn' + (inCmp ? ' added' : '') + '"'
