@@ -350,7 +350,7 @@ window.__COUNTY_CACHE__['Dublin']={
           "scraped_date": "2026-03-21"
         }
       ],
-      "name": "Greyhound Household",
+      "name": "Greyhound Recycling",
       "source": "mywaste.ie",
       "phone": "01 4577777",
       "pricing_available": true,
