@@ -26,6 +26,7 @@ const TRUSTPILOT = {
   'Country Clean':{score:1.5,reviews:55,url:'https://ie.trustpilot.com/review/www.countryclean.ie'},
   'Ecological Waste Management':{score:3.6,reviews:1,url:'https://ie.trustpilot.com/review/www.ecological.ie'},
   'Oxigen Environmental':{score:4.2,reviews:795,url:'https://ie.trustpilot.com/review/oxigen.ie'},
+  'Keygreen':{score:2.9,reviews:2,url:'https://ie.trustpilot.com/review/www.keygreen.ie'},
 };
 
 // ── PROCESS COUNTY_DATA INTO COMPANY LIST ──
@@ -368,7 +369,7 @@ document.getElementById('csel').addEventListener('change', function() {
   this.classList.toggle('chosen', !!countyName);
   const hint = document.getElementById('chint');
   if (!countyName) {
-    hint.textContent = 'Select your county to filter available providers.';
+    hint.textContent = 'Enter your Eircode to filter available providers.';
     hint.className = 'chint';
     document.getElementById('ncm').classList.add('show');
     quiz.county = '';
@@ -399,16 +400,117 @@ document.getElementById('csel').addEventListener('change', function() {
 
 function clearCounty() {
   quiz.county = '';
+  quiz.eircode = '';
+  quiz.wisResults = null;
+  quiz.eircodeOnly = false;
   companies = [];
   compareList = [];
   saveCompare();
   document.getElementById('csel').value = '';
   document.getElementById('csel').classList.remove('chosen');
-  document.getElementById('chint').textContent = 'Select your county to filter available providers.';
+  const mainInput = document.getElementById('eircode-main');
+  if (mainInput) { mainInput.value = ''; mainInput.classList.remove('chosen'); }
+  document.getElementById('chint').textContent = 'Enter your Eircode to filter available providers.';
   document.getElementById('chint').className = 'chint';
   document.getElementById('ncm').classList.add('show');
   render();
 }
+
+// ── EIRCODE MAIN INPUT ──
+(function() {
+  const input = document.getElementById('eircode-main');
+  if (!input) return;
+  let debounce;
+  let lastLookup = '';
+
+  async function runWis(raw) {
+    if (raw === lastLookup) return;
+    lastLookup = raw;
+    const cacheKey = 'wis_' + raw;
+    const hint = document.getElementById('chint');
+    try {
+      const cached = sessionStorage.getItem(cacheKey);
+      if (cached) {
+        quiz.wisResults = JSON.parse(cached);
+        render();
+        return;
+      }
+    } catch(e) {}
+
+    // Show checking indicator while live WIS queries run
+    if (hint) { hint.textContent = 'Checking Eircode coverage\u2026'; hint.className = 'chint'; }
+
+    let portalsToQuery = WIS_PORTALS;
+    const county = eircodeToCounty(raw);
+    if (county) {
+      const countyData = (window.__COUNTY_CACHE__ || {})[county];
+      if (countyData) {
+        const countyNames = new Set((countyData.companies || []).map(c => c.name));
+        const filtered = WIS_PORTALS.filter(p => countyNames.has(p.name));
+        if (filtered.length) portalsToQuery = filtered;
+      }
+    }
+    try {
+      quiz.wisResults = await checkWisCoverage(raw, portalsToQuery);
+      try { sessionStorage.setItem(cacheKey, JSON.stringify(quiz.wisResults)); } catch(e) {}
+    } catch(e) {
+      quiz.wisResults = portalsToQuery.map(p => ({ ...p, served: null, error: e.message }));
+    }
+    render();
+  }
+
+  input.addEventListener('input', function() {
+    clearTimeout(debounce);
+    const raw = this.value.replace(/\s+/g, '').toUpperCase();
+    const hint = document.getElementById('chint');
+    if (!raw) {
+      this.classList.remove('chosen');
+      lastLookup = '';
+      clearCounty();
+      return;
+    }
+    if (raw.length < 3) {
+      this.classList.remove('chosen');
+      hint.textContent = 'Enter your Eircode to filter available providers.';
+      hint.className = 'chint';
+      return;
+    }
+    debounce = setTimeout(() => {
+      // Routing key must map to a county (first 3 chars)
+      const county = eircodeToCounty(raw);
+      if (!county) {
+        input.classList.remove('chosen');
+        hint.textContent = 'Eircode not recognised — please check and try again.';
+        hint.className = 'chint';
+        return;
+      }
+      // Show county hint while still typing
+      if (raw.length < 7) {
+        hint.textContent = 'County: ' + county + ' — keep typing your full Eircode…';
+        hint.className = 'chint';
+        return;
+      }
+      // Full eircode must be exactly 7 alphanumeric chars: 1 letter + 2 digits (routing key) + 4 alphanumeric (unique identifier)
+      if (!/^[A-Z][0-9]{2}[AC-FHKNPRTV-Y0-9]{4}$/.test(raw)) {
+        input.classList.remove('chosen');
+        hint.textContent = 'That doesn\'t look like a valid Eircode — e.g. D01 F5D2';
+        hint.className = 'chint';
+        return;
+      }
+      // Only set quiz.eircode once we have a fully validated eircode
+      quiz.eircode = raw;
+      input.classList.add('chosen');
+      const sel = document.getElementById('csel');
+      const needCountyLoad = sel.value !== county;
+      if (needCountyLoad) {
+        sel.value = county;
+        sel.dispatchEvent(new Event('change'));
+      }
+      // Run WIS coverage check after county data is available
+      setTimeout(() => runWis(raw), needCountyLoad ? 400 : 0);
+    }, 300);
+  });
+})();
 
 document.getElementById('binGroup').addEventListener('change', function() {
   quiz.bins = [...this.querySelectorAll('input:checked')].map(i => i.value);
@@ -647,7 +749,7 @@ if (ADMIN_MODE) {
       '  <button id="wis-clear-btn" class="wis-btn wis-btn-sec" style="display:none">Clear</button>' +
       '</div>' +
       '<div id="wis-admin-panel"></div>' +
-      '<div class="chint" style="margin-top:6px">Queries all 10 WIS portals live. Requires CORS-disabled browser or proxy.</div>';
+      '<div class="chint" style="margin-top:6px">Queries all ' + WIS_PORTALS.length + ' WIS portals live. Requires CORS-disabled browser or proxy.</div>';
     countyStep.parentNode.insertBefore(panel, countyStep);
 
     document.getElementById('wis-lookup-btn').addEventListener('click', async function() {
@@ -1028,14 +1130,14 @@ function _render() {
   // Eircode filter toggle
   const filterBar = document.getElementById('eircode-filter-bar');
   if (filterBar) {
-    if (ADMIN_MODE && quiz.wisResults && quiz.eircode) {
+    if (quiz.wisResults && quiz.eircode) {
       const county = quiz.county || 'your county';
       filterBar.innerHTML = '<div class="slbl" style="margin:16px 0 8px">Company Filter <span class="plan-tip" data-tip="Some companies do not have the ability to check if your eircode is covered. For example, some ask customers to call them to check coverage. We\'ll never show companies in the list below unless they at least offer partial coverage of your county.">i</span></div>'
         + '<div class="bg" id="eircodeFilterGroup">'
         + '<label class="bo' + (!quiz.eircodeOnly ? ' sel' : '') + '">'
         + '<input type="radio" name="eircoverf" value="county"' + (!quiz.eircodeOnly ? ' checked' : '') + '>'
         + '<span class="bl">Companies that serve ' + esc(county) + '</span>'
-        + '<span class="bs">Include companies that <i>may</i> cover your Eircode</span>'
+        + '<span class="bs">Include companies that <i>may</i> cover your Eircode<br>(we\'ve excluded some companies that don\'t serve your eircode)</span>'
         + '</label>'
         + '<label class="bo' + (quiz.eircodeOnly ? ' sel' : '') + '">'
         + '<input type="radio" name="eircoverf" value="eircode"' + (quiz.eircodeOnly ? ' checked' : '') + '>'
@@ -1064,8 +1166,8 @@ function _render() {
   // Update hint with accurate post-filter count
   const total = priced.length + unpriced.length;
   const hint = document.getElementById('chint');
-  const eircodeLabel = (ADMIN_MODE && quiz.eircode) ? ' (' + quiz.eircode + ')' : '';
-  hint.textContent = '\u2713 Found ' + total + ' provider' + (total !== 1 ? 's' : '') + ' serving Co. ' + quiz.county + eircodeLabel;
+  const eircodeLabel = quiz.eircode ? ' (' + quiz.eircode + ')' : '';
+  hint.textContent = '\u2713 Found ' + total + ' ' + (total !== 1 ? 'companies' : 'company') + ' serving Co. ' + quiz.county + eircodeLabel;
   hint.className = 'chint found';
 
   grid.innerHTML = '';
@@ -1073,14 +1175,14 @@ function _render() {
   if (priced.length) {
     const d1 = document.createElement('div');
     d1.className = 'sdiv';
-    d1.innerHTML = '<div class="sdlbl">Pricing available \u2014 ' + priced.length + ' provider' + (priced.length !== 1 ? 's' : '') + '</div>';
+    d1.innerHTML = '<div class="sdlbl">Pricing available \u2014 ' + priced.length + ' ' + (priced.length !== 1 ? 'companies' : 'company') + '</div>';
     grid.appendChild(d1);
     priced.forEach(c => grid.appendChild(cardHtml(c, idx++, topScore)));
   }
   if (unpriced.length) {
     const d2 = document.createElement('div');
     d2.className = 'sdiv';
-    d2.innerHTML = '<div class="sdlbl">Contact for pricing \u2014 ' + unpriced.length + ' provider' + (unpriced.length !== 1 ? 's' : '') + '</div>';
+    d2.innerHTML = '<div class="sdlbl">Contact for pricing \u2014 ' + unpriced.length + ' ' + (unpriced.length !== 1 ? 'companies' : 'company') + '</div>';
     grid.appendChild(d2);
     unpriced.forEach(c => grid.appendChild(cardHtml(c, idx++, topScore)));
   }
@@ -1151,7 +1253,7 @@ function renderTray() {
 
   const body = document.getElementById('trayBody');
   if (!compareList.length) {
-    body.innerHTML = '<div class="ctray-hint"><div class="ctray-hint-icon">\u2696</div>Open a provider card and click <strong>\u201c+ Compare\u201d</strong> to add it here. Up to 3 providers.</div>';
+    body.innerHTML = '<div class="ctray-hint"><div class="ctray-hint-icon">\u2696</div>Open a company card and click <strong>\u201c+ Compare\u201d</strong> to add it here. Up to 3 companies.</div>';
     return;
   }
 
@@ -1195,6 +1297,7 @@ function renderTray() {
       + (c.website ? '<a class="tact" href="' + esc(c.website) + '" target="_blank" rel="noopener">Visit website \u2192</a>' : '')
       + '</div>';
 
+    const tpHtml = c.trustpilot ? '<div style="margin:6px 12px 0">' + tpBadge(c.trustpilot) + '</div>' : '';
     return '<div class="tcol' + (isCheap ? ' tcol-winner' : '') + '">'
       + '<div class="tcol-accent" style="background:' + col + '"></div>'
       + '<div class="tcol-hdr">'
@@ -1202,6 +1305,7 @@ function renderTray() {
       + '<span class="tcol-name">' + esc(c.name) + '</span>'
       + '<button class="tcol-rm" data-rm="' + esc(c.name) + '" aria-label="Remove ' + esc(c.name) + ' from comparison">&times;</button>'
       + '</div>'
+      + tpHtml
       + costSection
       + binsRow
       + '<div class="trow"><div class="trow-lbl">Collection</div><div class="trow-val">' + esc(c.freq || 'Fortnightly') + '</div></div>'

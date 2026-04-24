@@ -134,8 +134,8 @@
   <div class="hdr">
     <div class="htag">Ireland&#8217;s first &amp; only bin comparison website</div>
     <h1>Ireland&#8217;s Household Bin <span>Price Comparison</span></h1>
-    <p>The easiest way to find the cheapest bin collection in your area. We compare <strong id="hdrPlans" style="color:#7fdba9">...</strong> plans across <strong id="hdrCos" style="color:#7fdba9">...</strong> companies nationwide - select your county and we&#8217;ll show you exactly what you&#8217;d pay.</p>
-    <p class="hdr-value-prop">Every company has different plans, base costs, excess weight fees, and bin types &mdash; making it nearly impossible to compare them quickly. We do all that hard work so you don&#8217;t have to.</p>
+    <p>The easiest way to find the cheapest bin collection in your area. We compare <strong id="hdrPlans" style="color:#7fdba9">...</strong> plans across <strong id="hdrCos" style="color:#7fdba9">...</strong> companies nationwide - just type in your Eircode and we&#8217;ll show you exactly what you&#8217;d pay.</p>
+    <p class="hdr-value-prop">Every company has different plans, base costs, excess weight fees, and bin types, making it nearly impossible to compare them quickly. We do all that hard work so you don&#8217;t have to.</p>
     <div class="live-badge"><span class="live-dot"></span>Prices last verified recently</div>
   </div>
 </header>
@@ -145,33 +145,22 @@
     <div class="qs">Answer these questions and every company card will show your estimated monthly cost - not just the headline rate.</div>
     <div class="qsteps">
       <div class="qstep">
-        <div class="slbl"><span class="snum">1</span> What county are you in?</div>
+        <div class="slbl"><span class="snum">1</span> What's your Eircode?</div>
         <div class="cw">
           <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
-          <select class="csel" id="csel">
-            <option value="">&#8212; Select your county &#8212;</option>
-            <optgroup label="Leinster">
-              <option>Carlow</option><option>Dublin</option><option>Kildare</option><option>Kilkenny</option>
-              <option>Laois</option><option>Longford</option><option>Louth</option><option>Meath</option>
-              <option>Offaly</option><option>Westmeath</option><option>Wexford</option><option>Wicklow</option>
-            </optgroup>
-            <optgroup label="Munster">
-              <option>Clare</option><option>Cork</option><option>Kerry</option><option>Limerick</option>
-              <option>Tipperary</option><option>Waterford</option>
-            </optgroup>
-            <optgroup label="Connacht">
-              <option>Galway</option><option>Leitrim</option><option>Mayo</option><option>Roscommon</option><option>Sligo</option>
-            </optgroup>
-            <optgroup label="Ulster (Republic)">
-              <option>Cavan</option><option>Donegal</option><option>Monaghan</option>
-            </optgroup>
-          </select>
+          <input type="text" class="csel eircode-main" id="eircode-main" placeholder="e.g. D01 F5D2" maxlength="8" autocomplete="postal-code" spellcheck="false">
         </div>
-        <div class="chint" id="chint">Select your county to filter available providers.</div>
-        <div class="eircode-comingsoon">
-          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" style="margin-right:6px"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><text x="12" y="16" text-anchor="middle" font-size="12" font-weight="bold">i</text></svg>
-          <span><strong>Coming soon:</strong> Search by Eircode</span>
-        </div>
+        <select id="csel" style="display:none">
+          <option value=""></option>
+          <option>Carlow</option><option>Dublin</option><option>Kildare</option><option>Kilkenny</option>
+          <option>Laois</option><option>Longford</option><option>Louth</option><option>Meath</option>
+          <option>Offaly</option><option>Westmeath</option><option>Wexford</option><option>Wicklow</option>
+          <option>Clare</option><option>Cork</option><option>Kerry</option><option>Limerick</option>
+          <option>Tipperary</option><option>Waterford</option>
+          <option>Galway</option><option>Leitrim</option><option>Mayo</option><option>Roscommon</option><option>Sligo</option>
+          <option>Cavan</option><option>Donegal</option><option>Monaghan</option>
+        </select>
+        <div class="chint" id="chint">Enter your Eircode to filter available providers.</div>
       </div>
       <div class="qstep">
         <div class="slbl"><span class="snum">2</span> Which bins do you need?</div>
@@ -242,13 +231,13 @@
       <h3>How It Works</h3>
       <p>Select your county, choose which bins you need (black bin, recycling, brown bin, glass), enter your household size, and we calculate your estimated monthly cost across every waste collector in your area. We compare fixed monthly plans, pay-by-weight plans, and pay-per-lift options.</p>
       <h3>Major Waste Collection Companies in Ireland</h3>
-      <p>Providers include Panda, AES Recycling, Oxigen Environmental, Greyhound, City Bin Co., Thorntons Recycling, Country Clean Recycling, KWD Recycling, Mr Binman, Barna Recycling, Clean Ireland Recycling, Ray Whelan, McElvaney's Waste, Allied Recycling, Key Waste, Wiser Recycling, and many more regional operators.</p>
+      <p>Providers include Panda, AES Recycling, Oxigen Environmental, Greyhound, City Bin Co., Thorntons Recycling, Country Clean Recycling, KWD Recycling, Mr Binman, Barna Recycling, Clean Ireland Recycling, Ray Whelan, McElvaney's Waste, Allied Recycling, Keygreen, Wiser Recycling, and many more regional operators.</p>
       <h3>Typical Bin Collection Costs</h3>
       <p>Household waste collection in Ireland typically costs between &euro;15 and &euro;40 per month. Pay-by-weight plans suit smaller households, while fixed monthly plans with a weight allowance suit families. Our tool helps you find the cheapest bin collection in your county by calculating your real cost based on your actual waste output in kilograms.</p>
       <p>Please enable JavaScript to use the interactive price comparison tool.</p>
     </article>
   </noscript>
-  <div class="ncmsg show" id="ncm"><strong>&#128070; Select your county first</strong>Results are filtered to only show companies that collect bins in your area.</div>
+  <div class="ncmsg show" id="ncm"><strong>&#128070; Enter your Eircode first</strong>Results are filtered to only show companies that collect bins in your area.</div>
   <div class="cmp-hint" id="cmpHint"><p>Some companies coverage and prices vary depending on where you are in the county.</p><p style="margin-top:7px">If a company is missing from the list or you spot a pricing issue, please <a href="#contactSection" class="cmp-hint-link">contact us</a> (every report makes the site better!)</p><p style="margin-top:7px">&#9878; <strong>Top tip:</strong> open any card and click the compare button to compare up to 3 providers side by side.</p><p style="margin-top:7px">&#9749; If BinCompare has saved you some money, you can <a href="https://buymeacoffee.com/jamiefarrelly" target="_blank" rel="noopener" class="cmp-hint-link">buy me a coffee</a> to say thanks!</p></div>
   <div id="eircode-filter-bar"></div>
   <div class="cgrid" id="cg"></div>

@@ -39,6 +39,8 @@ header p{margin-top:14px;font-size:15px;color:rgba(255,255,255,.75);max-width:50
 .cw svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:#aaa;pointer-events:none}
 .csel{width:100%;padding:12px 14px 12px 42px;border:2px solid var(--b);border-radius:10px;font-family:'DM Sans',sans-serif;font-size:15px;background:var(--cr);outline:none;appearance:none;cursor:pointer;color:var(--dk);transition:border-color .2s}
 .csel:focus,.csel.chosen{border-color:var(--g);background:var(--gp)}
+.eircode-main{text-transform:uppercase;letter-spacing:.1em;font-weight:600;cursor:text}
+.eircode-main::placeholder{letter-spacing:normal;font-weight:400;text-transform:none}
 .chint{margin-top:8px;font-size:12px;color:#aaa}
 .chint.found{color:var(--g);font-weight:500}
 .eircode-comingsoon{display:flex;align-items:center;margin-top:12px;padding:10px 12px;background:#f0f8ff;border:1px solid #b3d9ff;border-radius:6px;font-size:12px;color:#0066cc}.bg{display:flex;gap:10px;flex-wrap:wrap}

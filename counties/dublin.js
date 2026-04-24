@@ -411,7 +411,7 @@ window.__COUNTY_CACHE__['Dublin']={
           "scraped_date": "2026-03-21"
         }
       ],
-      "name": "Key Waste Management Ltd. (KeyGreen)",
+      "name": "Keygreen",
       "source": "mywaste.ie",
       "confidence": {
         "reason": "Pricing retrieved from keygreen.ie for Dublin.",
