@@ -27,7 +27,8 @@
 <meta name="twitter:image:alt" content="BinCompare.ie - Compare bin collection prices across Ireland">
 <meta name="geo.region" content="IE">
 <meta name="geo.placename" content="Ireland">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='7' y='10' width='18' height='19' rx='2' fill='%23374151'/><rect x='9' y='12' width='14' height='15' rx='1' fill='%234b5563'/><rect x='5' y='7' width='22' height='4' rx='1.5' fill='%23374151'/><rect x='12' y='4' width='8' height='4' rx='1' fill='%23374151'/><rect x='13' y='14' width='2' height='10' rx='1' fill='%239ca3af'/><rect x='17' y='14' width='2' height='10' rx='1' fill='%239ca3af'/><circle cx='24' cy='28' r='2' fill='%23374151'/><circle cx='8' cy='28' r='2' fill='%23374151'/></svg>">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="shortcut icon" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
@@ -161,6 +162,7 @@
           <option>Cavan</option><option>Donegal</option><option>Monaghan</option>
         </select>
         <div class="chint" id="chint">Enter your Eircode to filter available providers.</div>
+        <div class="eircode-lookup-hint"><a href="https://finder.eircode.ie" target="_blank" rel="noopener" class="visit-btn"><svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg> What's my Eircode?</a></div>
       </div>
       <div class="qstep">
         <div class="slbl"><span class="snum">2</span> Which bins do you need?</div>
@@ -238,8 +240,8 @@
     </article>
   </noscript>
   <div class="ncmsg show" id="ncm"><strong>&#128070; Enter your Eircode first</strong>Results are filtered to only show companies that collect bins in your area.</div>
-  <div class="cmp-hint" id="cmpHint"><p>Some companies coverage and prices vary depending on where you are in the county.</p><p style="margin-top:7px">If a company is missing from the list or you spot a pricing issue, please <a href="#contactSection" class="cmp-hint-link">contact us</a> (every report makes the site better!)</p><p style="margin-top:7px">&#9878; <strong>Top tip:</strong> open any card and click the compare button to compare up to 3 providers side by side.</p><p style="margin-top:7px">&#9749; If BinCompare has saved you some money, you can <a href="https://buymeacoffee.com/jamiefarrelly" target="_blank" rel="noopener" class="cmp-hint-link">buy me a coffee</a> to say thanks!</p></div>
-  <div id="eircode-filter-bar"></div>
+  <div class="cmp-hint" id="cmpHint"><p>Some companies coverage and prices vary. We confirm eircode coverage where possible. Each listing tells you whether we've confirmed coverage or not for your eircode. If not, the company may or may not cover your eircode. <span class="plan-tip" data-tip="Not all bin companies have websites, and some that do don't support individual eircode lookups online. Where we can't confirm coverage automatically, we show the company as unconfirmed. We've removed companies that are confirmed as not serving your eircode to save you time. It's still worth checking with unconfirmed companies directly.">i</span></p><p style="margin-top:7px">If a company is missing from the list or you spot a pricing issue, please <a href="#contactSection" class="cmp-hint-link">contact us</a> (every report makes the site better!)</p><p style="margin-top:7px">💡 <strong>Top tip:</strong> open any card and click the compare button to compare up to 3 providers side by side.</p><p style="margin-top:7px">&#9749; If BinCompare has saved you some money, you can <a href="https://buymeacoffee.com/jamiefarrelly" target="_blank" rel="noopener" class="cmp-hint-link">buy me a coffee</a> to say thanks! I want to keep the site fully free, including ad free!</p></div>
+
   <div class="cgrid" id="cg"></div>
   <div class="nores" id="nr">No companies found for this county. Try <a href="https://www.mywaste.ie" target="_blank">mywaste.ie</a> for your Eircode.</div>
 </main>

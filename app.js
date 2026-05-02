@@ -182,7 +182,7 @@ function loadCounty(countyName, cb) {
 }
 
 // ── QUIZ STATE ──
-let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly', eircode: '', wisResults: null, eircodeOnly: false };
+let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly', eircode: '', wisResults: null };
 let aSort = 'relevance';
 let compareList = (function() { try { const s = localStorage.getItem('bc_compare'); return s ? JSON.parse(s) : []; } catch(e) { return []; } })();
 let trayOpen = false;
@@ -394,6 +394,14 @@ document.getElementById('csel').addEventListener('change', function() {
     quiz.county = countyName;
     compareList = [];
     saveCompare();
+    // If an eircode is set but wisResults not yet loaded, pull from cache now
+    // so the very first render is already filtered (prevents flash)
+    if (quiz.eircode && !quiz.wisResults) {
+      try {
+        const cached = sessionStorage.getItem('wis_' + quiz.eircode);
+        if (cached) quiz.wisResults = JSON.parse(cached);
+      } catch(e) {}
+    }
     render();
   });
 });
@@ -402,7 +410,6 @@ function clearCounty() {
   quiz.county = '';
   quiz.eircode = '';
   quiz.wisResults = null;
-  quiz.eircodeOnly = false;
   companies = [];
   compareList = [];
   saveCompare();
@@ -480,8 +487,11 @@ function clearCounty() {
       const county = eircodeToCounty(raw);
       if (!county) {
         input.classList.remove('chosen');
-        hint.textContent = 'Eircode not recognised — please check and try again.';
-        hint.className = 'chint';
+        // Only show an error once they've typed a full eircode length
+        if (raw.length >= 7) {
+          hint.textContent = 'Eircode not recognised — please check and try again.';
+          hint.className = 'chint';
+        }
         return;
       }
       // Show county hint while still typing
@@ -500,14 +510,32 @@ function clearCounty() {
       // Only set quiz.eircode once we have a fully validated eircode
       quiz.eircode = raw;
       input.classList.add('chosen');
+
+      // Pre-load WIS results from cache BEFORE county dispatches so the
+      // very first render already has them (prevents flash of unfiltered count)
+      let wisPreloaded = false;
+      try {
+        const cached = sessionStorage.getItem('wis_' + raw);
+        if (cached) {
+          quiz.wisResults = JSON.parse(cached);
+          lastLookup = raw;
+          wisPreloaded = true;
+        }
+      } catch(e) {}
+
       const sel = document.getElementById('csel');
       const needCountyLoad = sel.value !== county;
       if (needCountyLoad) {
         sel.value = county;
         sel.dispatchEvent(new Event('change'));
       }
-      // Run WIS coverage check after county data is available
-      setTimeout(() => runWis(raw), needCountyLoad ? 400 : 0);
+      // Only run live WIS check if no cache hit
+      if (!wisPreloaded) {
+        setTimeout(() => runWis(raw), needCountyLoad ? 400 : 0);
+      } else if (!needCountyLoad) {
+        // County unchanged and WIS already cached — nothing else will trigger a render
+        render();
+      }
     }, 300);
   });
 })();
@@ -610,7 +638,7 @@ async function checkWisCoverage(eircode, portalsToQuery) {
   const results = await Promise.allSettled(
     portals.map(async portal => {
       const target = 'https://' + portal.subdomain + '.wis.ie/signup/address';
-      const res = await fetch('https://corsproxy.io/?url=' + encodeURIComponent(target), {
+      const res = await fetch('https://corsproxy.io/?key=405cdc07&url=' + encodeURIComponent(target), {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: 'address=' + encodeURIComponent(eircode),
@@ -646,70 +674,72 @@ function wisCountyToAppCounty(wisCounty) {
 function eircodeToCounty(eircode) {
   const rk = (eircode || '').replace(/\s+/g, '').toUpperCase().substring(0, 3);
   const map = {
-    // Dublin (D prefix + two non-D routing keys in Fingal)
+    // Dublin (D prefix + Fingal/South Dublin routing keys)
     D01:'Dublin',D02:'Dublin',D03:'Dublin',D04:'Dublin',D05:'Dublin',
     D06:'Dublin',D6W:'Dublin',D07:'Dublin',D08:'Dublin',D09:'Dublin',
     D10:'Dublin',D11:'Dublin',D12:'Dublin',D13:'Dublin',D14:'Dublin',
     D15:'Dublin',D16:'Dublin',D17:'Dublin',D18:'Dublin',D20:'Dublin',
     D22:'Dublin',D24:'Dublin',
-    K32:'Dublin',K36:'Dublin',
+    K32:'Dublin',K34:'Dublin',K36:'Dublin',K45:'Dublin',K56:'Dublin',K67:'Dublin',K78:'Dublin',
+    A41:'Dublin',A42:'Dublin',A45:'Dublin',A94:'Dublin',A96:'Dublin',
     // Meath
-    K34:'Meath',K45:'Meath',K56:'Meath',K67:'Meath',K78:'Meath',
+    A82:'Meath',A83:'Meath',A84:'Meath',A85:'Meath',A86:'Meath',C15:'Meath',
     // Louth
-    A91:'Louth',
+    A91:'Louth',A92:'Louth',
     // Kildare
-    A41:'Kildare',A42:'Kildare',A45:'Kildare',N32:'Kildare',
+    N32:'Kildare',
+    R14:'Kildare',R51:'Kildare',R56:'Kildare',
+    W12:'Kildare',W23:'Kildare',W34:'Kildare',W91:'Kildare',
     // Wicklow
-    A63:'Wicklow',A67:'Wicklow',A75:'Wicklow',A81:'Wicklow',A94:'Wicklow',A98:'Wicklow',W23:'Wicklow',
+    A63:'Wicklow',A67:'Wicklow',A98:'Wicklow',Y14:'Wicklow',
     // Carlow
-    A82:'Carlow',A83:'Carlow',R35:'Carlow',W34:'Carlow',
+    R21:'Carlow',R93:'Carlow',
     // Kilkenny
-    A84:'Kilkenny',R32:'Kilkenny',R95:'Kilkenny',
+    R95:'Kilkenny',
     // Laois
-    A85:'Laois',R45:'Laois',R51:'Laois',R56:'Laois',
+    R32:'Laois',
     // Offaly
-    A86:'Offaly',H62:'Offaly',H65:'Offaly',
+    R35:'Offaly',R42:'Offaly',R45:'Offaly',
     // Longford
-    N37:'Longford',N39:'Longford',N41:'Longford',
+    N39:'Longford',
     // Westmeath
-    H53:'Westmeath',H54:'Westmeath',N45:'Westmeath',
+    N37:'Westmeath',N45:'Westmeath',N91:'Westmeath',
     // Wexford
-    N25:'Wexford',W12:'Wexford',Y14:'Wexford',Y21:'Wexford',Y25:'Wexford',Y34:'Wexford',Y35:'Wexford',
+    N25:'Wexford',Y21:'Wexford',Y25:'Wexford',Y34:'Wexford',Y35:'Wexford',
     // Waterford
-    W91:'Waterford',X35:'Waterford',X42:'Waterford',X91:'Waterford',
+    X35:'Waterford',X42:'Waterford',X91:'Waterford',
     // Cork
-    E21:'Cork',E25:'Cork',E32:'Cork',E34:'Cork',E41:'Cork',E45:'Cork',E53:'Cork',
-    P12:'Cork',P14:'Cork',P17:'Cork',P24:'Cork',P25:'Cork',P31:'Cork',P32:'Cork',
+    P12:'Cork',P14:'Cork',P17:'Cork',P24:'Cork',P25:'Cork',P31:'Cork',P32:'Cork',P36:'Cork',
     P43:'Cork',P47:'Cork',P51:'Cork',P56:'Cork',P61:'Cork',P67:'Cork',
     P72:'Cork',P75:'Cork',P81:'Cork',P85:'Cork',
     T12:'Cork',T23:'Cork',T34:'Cork',T45:'Cork',T56:'Cork',
     // Tipperary
-    E91:'Tipperary',P36:'Tipperary',R14:'Tipperary',R21:'Tipperary',R25:'Tipperary',R93:'Tipperary',N91:'Tipperary',
+    E21:'Tipperary',E25:'Tipperary',E32:'Tipperary',E34:'Tipperary',
+    E41:'Tipperary',E45:'Tipperary',E53:'Tipperary',E91:'Tipperary',
     // Kerry
     L56:'Kerry',L65:'Kerry',L75:'Kerry',L93:'Kerry',
-    V14:'Kerry',V15:'Kerry',V22:'Kerry',V23:'Kerry',V31:'Kerry',V35:'Kerry',
-    V42:'Kerry',V56:'Kerry',V65:'Kerry',V92:'Kerry',V93:'Kerry',V94:'Kerry',
+    V22:'Kerry',V23:'Kerry',V31:'Kerry',V56:'Kerry',V65:'Kerry',V92:'Kerry',V93:'Kerry',
     // Limerick
     L34:'Limerick',L35:'Limerick',L36:'Limerick',L45:'Limerick',
+    V35:'Limerick',V42:'Limerick',V94:'Limerick',
     // Clare
-    F52:'Clare',F56:'Clare',F92:'Clare',L27:'Clare',
+    L27:'Clare',V14:'Clare',V15:'Clare',V95:'Clare',
     // Galway
-    F31:'Galway',F35:'Galway',F42:'Galway',F45:'Galway',F91:'Galway',F93:'Galway',F94:'Galway',
-    H12:'Galway',H45:'Galway',H71:'Galway',H91:'Galway',
+    H45:'Galway',H53:'Galway',H54:'Galway',H62:'Galway',H65:'Galway',H71:'Galway',H91:'Galway',
     // Mayo
-    F12:'Mayo',F23:'Mayo',F26:'Mayo',F28:'Mayo',
+    F12:'Mayo',F23:'Mayo',F26:'Mayo',F28:'Mayo',F31:'Mayo',F35:'Mayo',
     // Sligo
-    B79:'Sligo',
+    B79:'Sligo',F56:'Sligo',F91:'Sligo',
     // Leitrim
-    H31:'Leitrim',N11:'Leitrim',
+    H31:'Leitrim',N11:'Leitrim',N41:'Leitrim',
     // Roscommon
-    B78:'Roscommon',G72:'Roscommon',H14:'Roscommon',H16:'Roscommon',H23:'Roscommon',N17:'Roscommon',
+    B78:'Roscommon',F42:'Roscommon',F45:'Roscommon',F52:'Roscommon',G72:'Roscommon',N17:'Roscommon',
     // Cavan
-    B65:'Cavan',B73:'Cavan',C47:'Cavan',
+    B65:'Cavan',B73:'Cavan',C47:'Cavan',H12:'Cavan',H14:'Cavan',H16:'Cavan',
     // Monaghan
-    H18:'Monaghan',
+    A75:'Monaghan',A81:'Monaghan',H18:'Monaghan',H23:'Monaghan',
     // Donegal
-    C15:'Donegal',C67:'Donegal',
+    C67:'Donegal',F92:'Donegal',F93:'Donegal',F94:'Donegal',
   };
   return map[rk] || null;
 }
@@ -823,7 +853,6 @@ if (ADMIN_MODE) {
     document.getElementById('wis-clear-btn').addEventListener('click', function() {
       quiz.eircode = '';
       quiz.wisResults = null;
-      quiz.eircodeOnly = false;
       document.getElementById('wis-eircode').value = '';
       this.style.display = 'none';
       renderWisPanel();
@@ -1120,40 +1149,6 @@ function _render() {
   if (quiz.wisResults) {
     const notServedNames = new Set(quiz.wisResults.filter(r => r.served === false).map(r => r.name));
     data = data.filter(c => !notServedNames.has(c.name));
-  }
-  // Strict filter: keep only companies WIS explicitly confirmed as served
-  if (quiz.eircodeOnly && quiz.wisResults) {
-    const servedNames = new Set(quiz.wisResults.filter(r => r.served === true).map(r => r.name));
-    data = data.filter(c => servedNames.has(c.name));
-  }
-
-  // Eircode filter toggle
-  const filterBar = document.getElementById('eircode-filter-bar');
-  if (filterBar) {
-    if (quiz.wisResults && quiz.eircode) {
-      const county = quiz.county || 'your county';
-      filterBar.innerHTML = '<div class="slbl" style="margin:16px 0 8px">Company Filter <span class="plan-tip" data-tip="Some companies do not have the ability to check if your eircode is covered. For example, some ask customers to call them to check coverage. We\'ll never show companies in the list below unless they at least offer partial coverage of your county.">i</span></div>'
-        + '<div class="bg" id="eircodeFilterGroup">'
-        + '<label class="bo' + (!quiz.eircodeOnly ? ' sel' : '') + '">'
-        + '<input type="radio" name="eircoverf" value="county"' + (!quiz.eircodeOnly ? ' checked' : '') + '>'
-        + '<span class="bl">Companies that serve ' + esc(county) + '</span>'
-        + '<span class="bs">Include companies that <i>may</i> cover your Eircode<br>(we\'ve excluded some companies that don\'t serve your eircode)</span>'
-        + '</label>'
-        + '<label class="bo' + (quiz.eircodeOnly ? ' sel' : '') + '">'
-        + '<input type="radio" name="eircoverf" value="eircode"' + (quiz.eircodeOnly ? ' checked' : '') + '>'
-        + '<span class="bl">Companies that definitely serve ' + esc(quiz.eircode) + '</span>'
-        + '<span class="bs"><i>May</i> filter out some companies that cover your Eircode</span>'
-        + '</label>'
-        + '</div>';
-      document.getElementById('eircodeFilterGroup').addEventListener('change', function(e) {
-        if (!e.target.matches('input[name="eircoverf"]')) return;
-        quiz.eircodeOnly = e.target.value === 'eircode';
-        this.querySelectorAll('.bo').forEach(o => o.classList.toggle('sel', o.querySelector('input').checked));
-        render();
-      });
-    } else {
-      filterBar.innerHTML = '';
-    }
   }
 
   if (!data.length) { grid.innerHTML = ''; nr.classList.add('show'); return; }
