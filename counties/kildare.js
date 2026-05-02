@@ -259,7 +259,7 @@ window.__COUNTY_CACHE__['Kildare']={
       ]
     },
     {
-      "name": "Greyhound Household",
+      "name": "Greyhound Recycling",
       "source": "mywaste.ie",
       "phone": "01 4577777",
       "website": "https://www.greyhound.ie",

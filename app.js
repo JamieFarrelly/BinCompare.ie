@@ -11,7 +11,6 @@ const TRUSTPILOT = {
   'AES Recycling':{score:2.8,reviews:278,url:'https://ie.trustpilot.com/review/bnmrecycling.ie'},
   'Panda Green':{score:4.2,reviews:2558,url:'https://ie.trustpilot.com/review/www.panda.ie'},
   'Greyhound Recycling':{score:2.0,reviews:371,url:'https://ie.trustpilot.com/review/greyhound.ie'},
-  'Greyhound Household':{score:1.9,reviews:372,url:'https://ie.trustpilot.com/review/greyhound.ie'},
   'Thorntons Recycling':{score:2.4,reviews:57,url:'https://ie.trustpilot.com/review/thorntons-recycling.ie'},
   'The City Bin Co.':{score:1.6,reviews:84,url:'https://ie.trustpilot.com/review/citybin.com'},
   'City Bin':{score:1.6,reviews:84,url:'https://ie.trustpilot.com/review/citybin.com'},
@@ -27,6 +26,7 @@ const TRUSTPILOT = {
   'Country Clean':{score:1.5,reviews:55,url:'https://ie.trustpilot.com/review/www.countryclean.ie'},
   'Ecological Waste Management':{score:3.6,reviews:1,url:'https://ie.trustpilot.com/review/www.ecological.ie'},
   'Oxigen Environmental':{score:4.2,reviews:795,url:'https://ie.trustpilot.com/review/oxigen.ie'},
+  'Keygreen':{score:2.9,reviews:2,url:'https://ie.trustpilot.com/review/www.keygreen.ie'},
 };
 
 // ── PROCESS COUNTY_DATA INTO COMPANY LIST ──
@@ -182,7 +182,7 @@ function loadCounty(countyName, cb) {
 }
 
 // ── QUIZ STATE ──
-let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly' };
+let quiz = { county: '', bins: ['general_waste'], people: 1, kgBlack: 12, useAvg: true, planType: 'monthly', eircode: '', wisResults: null };
 let aSort = 'relevance';
 let compareList = (function() { try { const s = localStorage.getItem('bc_compare'); return s ? JSON.parse(s) : []; } catch(e) { return []; } })();
 let trayOpen = false;
@@ -369,7 +369,7 @@ document.getElementById('csel').addEventListener('change', function() {
   this.classList.toggle('chosen', !!countyName);
   const hint = document.getElementById('chint');
   if (!countyName) {
-    hint.textContent = 'Select your county to filter available providers.';
+    hint.textContent = 'Enter your Eircode to filter available providers.';
     hint.className = 'chint';
     document.getElementById('ncm').classList.add('show');
     quiz.county = '';
@@ -394,22 +394,151 @@ document.getElementById('csel').addEventListener('change', function() {
     quiz.county = countyName;
     compareList = [];
     saveCompare();
+    // If an eircode is set but wisResults not yet loaded, pull from cache now
+    // so the very first render is already filtered (prevents flash)
+    if (quiz.eircode && !quiz.wisResults) {
+      try {
+        const cached = sessionStorage.getItem('wis_' + quiz.eircode);
+        if (cached) quiz.wisResults = JSON.parse(cached);
+      } catch(e) {}
+    }
     render();
   });
 });
 
 function clearCounty() {
   quiz.county = '';
+  quiz.eircode = '';
+  quiz.wisResults = null;
   companies = [];
   compareList = [];
   saveCompare();
   document.getElementById('csel').value = '';
   document.getElementById('csel').classList.remove('chosen');
-  document.getElementById('chint').textContent = 'Select your county to filter available providers.';
+  const mainInput = document.getElementById('eircode-main');
+  if (mainInput) { mainInput.value = ''; mainInput.classList.remove('chosen'); }
+  document.getElementById('chint').textContent = 'Enter your Eircode to filter available providers.';
   document.getElementById('chint').className = 'chint';
   document.getElementById('ncm').classList.add('show');
   render();
 }
+
+// ── EIRCODE MAIN INPUT ──
+(function() {
+  const input = document.getElementById('eircode-main');
+  if (!input) return;
+  let debounce;
+  let lastLookup = '';
+
+  async function runWis(raw) {
+    if (raw === lastLookup) return;
+    lastLookup = raw;
+    const cacheKey = 'wis_' + raw;
+    const hint = document.getElementById('chint');
+    try {
+      const cached = sessionStorage.getItem(cacheKey);
+      if (cached) {
+        quiz.wisResults = JSON.parse(cached);
+        render();
+        return;
+      }
+    } catch(e) {}
+
+    // Show checking indicator while live WIS queries run
+    if (hint) { hint.textContent = 'Checking Eircode coverage\u2026'; hint.className = 'chint'; }
+
+    let portalsToQuery = WIS_PORTALS;
+    const county = eircodeToCounty(raw);
+    if (county) {
+      const countyData = (window.__COUNTY_CACHE__ || {})[county];
+      if (countyData) {
+        const countyNames = new Set((countyData.companies || []).map(c => c.name));
+        const filtered = WIS_PORTALS.filter(p => countyNames.has(p.name));
+        if (filtered.length) portalsToQuery = filtered;
+      }
+    }
+    try {
+      quiz.wisResults = await checkWisCoverage(raw, portalsToQuery);
+      try { sessionStorage.setItem(cacheKey, JSON.stringify(quiz.wisResults)); } catch(e) {}
+    } catch(e) {
+      quiz.wisResults = portalsToQuery.map(p => ({ ...p, served: null, error: e.message }));
+    }
+    render();
+  }
+
+  input.addEventListener('input', function() {
+    clearTimeout(debounce);
+    const raw = this.value.replace(/\s+/g, '').toUpperCase();
+    const hint = document.getElementById('chint');
+    if (!raw) {
+      this.classList.remove('chosen');
+      lastLookup = '';
+      clearCounty();
+      return;
+    }
+    if (raw.length < 3) {
+      this.classList.remove('chosen');
+      hint.textContent = 'Enter your Eircode to filter available providers.';
+      hint.className = 'chint';
+      return;
+    }
+    debounce = setTimeout(() => {
+      // Routing key must map to a county (first 3 chars)
+      const county = eircodeToCounty(raw);
+      if (!county) {
+        input.classList.remove('chosen');
+        // Only show an error once they've typed a full eircode length
+        if (raw.length >= 7) {
+          hint.textContent = 'Eircode not recognised — please check and try again.';
+          hint.className = 'chint';
+        }
+        return;
+      }
+      // Show county hint while still typing
+      if (raw.length < 7) {
+        hint.textContent = 'County: ' + county + ' — keep typing your full Eircode…';
+        hint.className = 'chint';
+        return;
+      }
+      // Full eircode must be exactly 7 alphanumeric chars: 1 letter + 2 digits (routing key) + 4 alphanumeric (unique identifier)
+      if (!/^[A-Z][0-9]{2}[AC-FHKNPRTV-Y0-9]{4}$/.test(raw)) {
+        input.classList.remove('chosen');
+        hint.textContent = 'That doesn\'t look like a valid Eircode — e.g. D01 F5D2';
+        hint.className = 'chint';
+        return;
+      }
+      // Only set quiz.eircode once we have a fully validated eircode
+      quiz.eircode = raw;
+      input.classList.add('chosen');
+
+      // Pre-load WIS results from cache BEFORE county dispatches so the
+      // very first render already has them (prevents flash of unfiltered count)
+      let wisPreloaded = false;
+      try {
+        const cached = sessionStorage.getItem('wis_' + raw);
+        if (cached) {
+          quiz.wisResults = JSON.parse(cached);
+          lastLookup = raw;
+          wisPreloaded = true;
+        }
+      } catch(e) {}
+
+      const sel = document.getElementById('csel');
+      const needCountyLoad = sel.value !== county;
+      if (needCountyLoad) {
+        sel.value = county;
+        sel.dispatchEvent(new Event('change'));
+      }
+      // Only run live WIS check if no cache hit
+      if (!wisPreloaded) {
+        setTimeout(() => runWis(raw), needCountyLoad ? 400 : 0);
+      } else if (!needCountyLoad) {
+        // County unchanged and WIS already cached — nothing else will trigger a render
+        render();
+      }
+    }, 300);
+  });
+})();
 
 document.getElementById('binGroup').addEventListener('change', function() {
   quiz.bins = [...this.querySelectorAll('input:checked')].map(i => i.value);
@@ -471,16 +600,285 @@ function tpBadge(tp) {
     + '<span class="tp-stars">' + stars + '</span> Rated <strong>' + label + '</strong> on Trustpilot</a>';
 }
 
-// ── CONFIDENCE BADGE ──
+// ── ADMIN / TESTING FLAGS ──
 const TESTING_MODE = new URLSearchParams(window.location.search).get('testing') === 'true';
+const ADMIN_MODE = new URLSearchParams(window.location.search).get('testing') === 'true';
+
+// ── WIS PORTAL CONFIG ──
+// POC: queries each company's *.wis.ie/signup/address endpoint to check live coverage.
+// NOTE: These are cross-origin requests — CORS will block them in a regular browser.
+// To test, open Chrome with: open -a "Google Chrome" --args --disable-web-security --user-data-dir=/tmp/chrome-dev
+const WIS_PORTALS = [
+  { subdomain: 'oxigen',              name: 'Oxigen' },
+  { subdomain: 'aesirl',             name: 'AES Recycling' },
+  { subdomain: 'raywhelan',          name: 'Ray Whelan' },
+  { subdomain: 'alliedrecycling',    name: 'Allied Recycling' },
+  { subdomain: 'thorntonsrecycling', name: 'Thorntons Recycling' },
+  { subdomain: 'mulleadys',          name: 'Mulleadys' },
+  { subdomain: 'qrl',                name: 'Quality Recycling Ltd' },
+  { subdomain: 'countryclean',       name: 'Country Clean Recycling' },
+  { subdomain: 'wiserbins',          name: 'Wiser Recycling' },
+  { subdomain: 'donegalwasterecycle',name: 'Donegal Waste & Recycle' },
+  { subdomain: 'citybin',            name: 'The City Bin Co.' },
+  { subdomain: 'greyhound',          name: 'Greyhound Recycling' },
+  { subdomain: 'mrbinman',           name: 'Mr Binman' },
+  { subdomain: 'cleanireland',       name: 'Clean Ireland Recycling' },
+  { subdomain: 'kwdrecycling',       name: 'KWD Recycling' },
+  { subdomain: 'mcgrathwaste',       name: 'McGrath Industrial Waste Ltd.' },
+  { subdomain: 'advancedwaste',      name: 'Advanced Waste Recycling' },
+  { subdomain: 'dmwaste',            name: 'DM Waste' },
+  { subdomain: 'loganwaste',         name: 'Logan Waste' },
+  { subdomain: 'clonmelwaste',       name: 'Clonmel Waste' },
+  { subdomain: 'barnarecycling',     name: 'Barna Recycling' },
+];
+
+// ── WIS COVERAGE LOOKUP (ADMIN POC) ──
+async function checkWisCoverage(eircode, portalsToQuery) {
+  const portals = portalsToQuery || WIS_PORTALS;
+  const results = await Promise.allSettled(
+    portals.map(async portal => {
+      const target = 'https://' + portal.subdomain + '.wis.ie/signup/address';
+      const res = await fetch('https://corsproxy.io/?key=405cdc07&url=' + encodeURIComponent(target), {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'address=' + encodeURIComponent(eircode),
+      });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      return { ...portal, served: !!data.price_group_ids, county: data.county, resolvedEircode: data.eircode };
+    })
+  );
+  return results.map((r, i) =>
+    r.status === 'fulfilled'
+      ? r.value
+      : { ...portals[i], served: null, error: r.reason?.message || 'Failed' }
+  );
+}
+
+// Maps WIS API county strings → app county select values
+function wisCountyToAppCounty(wisCounty) {
+  const s = (wisCounty || '').replace(/^Co\.?\s*/i, '').trim();
+  const map = {
+    'carlow': 'Carlow', 'dublin': 'Dublin', 'kildare': 'Kildare', 'kilkenny': 'Kilkenny',
+    'laois': 'Laois', 'longford': 'Longford', 'louth': 'Louth', 'meath': 'Meath',
+    'offaly': 'Offaly', 'westmeath': 'Westmeath', 'wexford': 'Wexford', 'wicklow': 'Wicklow',
+    'clare': 'Clare', 'cork': 'Cork', 'kerry': 'Kerry', 'limerick': 'Limerick',
+    'tipperary': 'Tipperary', 'waterford': 'Waterford',
+    'galway': 'Galway', 'leitrim': 'Leitrim', 'mayo': 'Mayo', 'roscommon': 'Roscommon', 'sligo': 'Sligo',
+    'cavan': 'Cavan', 'donegal': 'Donegal', 'monaghan': 'Monaghan',
+  };
+  return map[s.toLowerCase()] || null;
+}
+
+// Eircode routing key → county (reliable, no network needed)
+function eircodeToCounty(eircode) {
+  const rk = (eircode || '').replace(/\s+/g, '').toUpperCase().substring(0, 3);
+  const map = {
+    // Dublin (D prefix + Fingal/South Dublin routing keys)
+    D01:'Dublin',D02:'Dublin',D03:'Dublin',D04:'Dublin',D05:'Dublin',
+    D06:'Dublin',D6W:'Dublin',D07:'Dublin',D08:'Dublin',D09:'Dublin',
+    D10:'Dublin',D11:'Dublin',D12:'Dublin',D13:'Dublin',D14:'Dublin',
+    D15:'Dublin',D16:'Dublin',D17:'Dublin',D18:'Dublin',D20:'Dublin',
+    D22:'Dublin',D24:'Dublin',
+    K32:'Dublin',K34:'Dublin',K36:'Dublin',K45:'Dublin',K56:'Dublin',K67:'Dublin',K78:'Dublin',
+    A41:'Dublin',A42:'Dublin',A45:'Dublin',A94:'Dublin',A96:'Dublin',
+    // Meath
+    A82:'Meath',A83:'Meath',A84:'Meath',A85:'Meath',A86:'Meath',C15:'Meath',
+    // Louth
+    A91:'Louth',A92:'Louth',
+    // Kildare
+    N32:'Kildare',
+    R14:'Kildare',R51:'Kildare',R56:'Kildare',
+    W12:'Kildare',W23:'Kildare',W34:'Kildare',W91:'Kildare',
+    // Wicklow
+    A63:'Wicklow',A67:'Wicklow',A98:'Wicklow',Y14:'Wicklow',
+    // Carlow
+    R21:'Carlow',R93:'Carlow',
+    // Kilkenny
+    R95:'Kilkenny',
+    // Laois
+    R32:'Laois',
+    // Offaly
+    R35:'Offaly',R42:'Offaly',R45:'Offaly',
+    // Longford
+    N39:'Longford',
+    // Westmeath
+    N37:'Westmeath',N45:'Westmeath',N91:'Westmeath',
+    // Wexford
+    N25:'Wexford',Y21:'Wexford',Y25:'Wexford',Y34:'Wexford',Y35:'Wexford',
+    // Waterford
+    X35:'Waterford',X42:'Waterford',X91:'Waterford',
+    // Cork
+    P12:'Cork',P14:'Cork',P17:'Cork',P24:'Cork',P25:'Cork',P31:'Cork',P32:'Cork',P36:'Cork',
+    P43:'Cork',P47:'Cork',P51:'Cork',P56:'Cork',P61:'Cork',P67:'Cork',
+    P72:'Cork',P75:'Cork',P81:'Cork',P85:'Cork',
+    T12:'Cork',T23:'Cork',T34:'Cork',T45:'Cork',T56:'Cork',
+    // Tipperary
+    E21:'Tipperary',E25:'Tipperary',E32:'Tipperary',E34:'Tipperary',
+    E41:'Tipperary',E45:'Tipperary',E53:'Tipperary',E91:'Tipperary',
+    // Kerry
+    L56:'Kerry',L65:'Kerry',L75:'Kerry',L93:'Kerry',
+    V22:'Kerry',V23:'Kerry',V31:'Kerry',V56:'Kerry',V65:'Kerry',V92:'Kerry',V93:'Kerry',
+    // Limerick
+    L34:'Limerick',L35:'Limerick',L36:'Limerick',L45:'Limerick',
+    V35:'Limerick',V42:'Limerick',V94:'Limerick',
+    // Clare
+    L27:'Clare',V14:'Clare',V15:'Clare',V95:'Clare',
+    // Galway
+    H45:'Galway',H53:'Galway',H54:'Galway',H62:'Galway',H65:'Galway',H71:'Galway',H91:'Galway',
+    // Mayo
+    F12:'Mayo',F23:'Mayo',F26:'Mayo',F28:'Mayo',F31:'Mayo',F35:'Mayo',
+    // Sligo
+    B79:'Sligo',F56:'Sligo',F91:'Sligo',
+    // Leitrim
+    H31:'Leitrim',N11:'Leitrim',N41:'Leitrim',
+    // Roscommon
+    B78:'Roscommon',F42:'Roscommon',F45:'Roscommon',F52:'Roscommon',G72:'Roscommon',N17:'Roscommon',
+    // Cavan
+    B65:'Cavan',B73:'Cavan',C47:'Cavan',H12:'Cavan',H14:'Cavan',H16:'Cavan',
+    // Monaghan
+    A75:'Monaghan',A81:'Monaghan',H18:'Monaghan',H23:'Monaghan',
+    // Donegal
+    C67:'Donegal',F92:'Donegal',F93:'Donegal',F94:'Donegal',
+  };
+  return map[rk] || null;
+}
+
+// ── ADMIN UI INJECTION ──
+function renderWisPanel() {
+  const el = document.getElementById('wis-admin-panel');
+  if (!el) return;
+  const results = quiz.wisResults;
+  if (!results) { el.innerHTML = ''; return; }
+  const served = results.filter(r => r.served === true);
+  const notServed = results.filter(r => r.served === false);
+  const errored = results.filter(r => r.served === null);
+  el.innerHTML =
+    '<div class="wis-panel-title">WIS live coverage for <strong>' + esc(quiz.eircode) + '</strong></div>' +
+    '<div class="wis-grid">' +
+    results.map(r => {
+      const cls = r.served === true ? 'wis-yes' : r.served === false ? 'wis-no' : 'wis-err';
+      const icon = r.served === true ? '✓' : r.served === false ? '✗' : '?';
+      const title = r.error ? r.error : (r.served ? 'Served' + (r.county ? ' · ' + r.county : '') : 'Not served');
+      return '<span class="wis-tag ' + cls + '" title="' + esc(title) + '">' + icon + ' ' + esc(r.name) + '</span>';
+    }).join('') +
+    '</div>' +
+    '<div class="wis-summary">' + served.length + ' served · ' + notServed.length + ' not served' + (errored.length ? ' · ' + errored.length + ' error (CORS?)' : '') + '</div>';
+}
+
+if (ADMIN_MODE) {
+  (function() {
+    const countyStep = document.querySelector('.qstep');
+    const panel = document.createElement('div');
+    panel.className = 'qstep wis-admin-step';
+    panel.innerHTML =
+      '<div class="slbl"><span class="snum admin-badge">A</span> Eircode live lookup <span class="admin-label">ADMIN</span></div>' +
+      '<div class="wis-input-row">' +
+      '  <input type="text" id="wis-eircode" class="wis-eircode-input" placeholder="e.g. D01, W12 DC90" maxlength="8" autocomplete="off" spellcheck="false">' +
+      '  <button id="wis-lookup-btn" class="wis-btn">Check coverage</button>' +
+      '  <button id="wis-clear-btn" class="wis-btn wis-btn-sec" style="display:none">Clear</button>' +
+      '</div>' +
+      '<div id="wis-admin-panel"></div>' +
+      '<div class="chint" style="margin-top:6px">Queries all ' + WIS_PORTALS.length + ' WIS portals live. Requires CORS-disabled browser or proxy.</div>';
+    countyStep.parentNode.insertBefore(panel, countyStep);
+
+    document.getElementById('wis-lookup-btn').addEventListener('click', async function() {
+      const raw = document.getElementById('wis-eircode').value.trim().toUpperCase();
+      if (!raw) return;
+
+      // Check sessionStorage cache first
+      const cacheKey = 'wis_' + raw.replace(/\s+/g, '');
+      try {
+        const cached = sessionStorage.getItem(cacheKey);
+        if (cached) {
+          quiz.eircode = raw;
+          quiz.wisResults = JSON.parse(cached);
+          renderWisPanel();
+          document.getElementById('wis-clear-btn').style.display = '';
+          const mapped = eircodeToCounty(raw) || wisCountyToAppCounty((quiz.wisResults).map(r => r.county).find(Boolean));
+          if (mapped) {
+            const sel = document.getElementById('csel');
+            if (sel && sel.value !== mapped) { sel.value = mapped; sel.dispatchEvent(new Event('change')); return; }
+          }
+          render();
+          return;
+        }
+      } catch(e) {}
+
+      quiz.eircode = raw;
+      quiz.wisResults = null;
+      renderWisPanel();
+      this.disabled = true;
+      this.textContent = 'Checking…';
+      document.getElementById('wis-clear-btn').style.display = 'none';
+
+      // Filter portals to only those serving the detected county
+      let portalsToQuery = WIS_PORTALS;
+      const county = eircodeToCounty(raw);
+      if (county) {
+        await new Promise(resolve => loadCounty(county, resolve));
+        const countyData = (window.__COUNTY_CACHE__ || {})[county];
+        if (countyData) {
+          const countyNames = new Set((countyData.companies || []).map(c => c.name));
+          const filtered = WIS_PORTALS.filter(p => countyNames.has(p.name));
+          if (filtered.length) portalsToQuery = filtered;
+        }
+      }
+
+      try {
+        quiz.wisResults = await checkWisCoverage(raw, portalsToQuery);
+        try { sessionStorage.setItem(cacheKey, JSON.stringify(quiz.wisResults)); } catch(e) {}
+      } catch(e) {
+        quiz.wisResults = portalsToQuery.map(p => ({ ...p, served: null, error: e.message }));
+      }
+      this.disabled = false;
+      this.textContent = 'Check coverage';
+      document.getElementById('wis-clear-btn').style.display = '';
+      renderWisPanel();
+      // Auto-select county: routing key first (reliable), WIS response as fallback
+      const fromEircode = eircodeToCounty(raw);
+      const wisCounty = (quiz.wisResults || []).map(r => r.county).find(Boolean);
+      const mapped = fromEircode || wisCountyToAppCounty(wisCounty);
+      if (mapped) {
+        const sel = document.getElementById('csel');
+        if (sel && sel.value !== mapped) {
+          sel.value = mapped;
+          sel.dispatchEvent(new Event('change'));
+          return;
+        }
+      }
+      render();
+    });
+
+    document.getElementById('wis-clear-btn').addEventListener('click', function() {
+      quiz.eircode = '';
+      quiz.wisResults = null;
+      document.getElementById('wis-eircode').value = '';
+      this.style.display = 'none';
+      renderWisPanel();
+      render();
+    });
+
+    document.getElementById('wis-eircode').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') document.getElementById('wis-lookup-btn').click();
+    });
+  })();
+}
+
 function confBadge(c) {
   if (!TESTING_MODE) return '';
   if (!quiz.county || !c.countyData[quiz.county]) return '';
   const conf = c.countyData[quiz.county].confidence;
   if (!conf || conf.level === 'none') return '';
   const cls = conf.level === 'high' ? 'conf-hi' : conf.level === 'medium' ? 'conf-med' : 'conf-lo';
-  const label = conf.level === 'high' ? '\u2713 Verified' : conf.level === 'medium' ? '~ Estimated' : '? Low confidence';
-  return '<span class="' + cls + '" title="' + (conf.reason || '').replace(/"/g, '&quot;') + '">' + label + '</span>';
+  return '<span class="' + cls + '">' + esc(conf.reason || conf.level) + '</span>';
+}
+
+function wisBadge(c) {
+  if (!quiz.eircode || !quiz.wisResults) return '';
+  const result = quiz.wisResults.find(r => r.name === c.name);
+  if (!result || result.served !== true) return '';
+  return '<span class="conf-hi" style="margin-left:8px;vertical-align:middle">Eircode coverage confirmed</span>';
 }
 
 // ── RENDER CARDS ──
@@ -568,6 +966,7 @@ function cardHtml(c, idx, topScore) {
     + '<div class="cname">' + esc(c.name)
     + (isRec ? '<span class="rbadge">\u2b50 Best match</span>' : '')
     + (noCountyPricing ? '<span class="npbadge">\u{1F4DE} Contact for pricing</span>' : '')
+    + wisBadge(c)
     + '</div>'
     + '<div class="ccov"><svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>'
     + esc(c.coverage) + ' ' + confBadge(c) + '</div>'
@@ -746,6 +1145,12 @@ function _render() {
       return !hasPricingThisCounty;
     });
   }
+  // Always remove companies WIS explicitly confirmed as NOT serving this eircode
+  if (quiz.wisResults) {
+    const notServedNames = new Set(quiz.wisResults.filter(r => r.served === false).map(r => r.name));
+    data = data.filter(c => !notServedNames.has(c.name));
+  }
+
   if (!data.length) { grid.innerHTML = ''; nr.classList.add('show'); return; }
   nr.classList.remove('show');
 
@@ -756,7 +1161,8 @@ function _render() {
   // Update hint with accurate post-filter count
   const total = priced.length + unpriced.length;
   const hint = document.getElementById('chint');
-  hint.textContent = '\u2713 Found ' + total + ' provider' + (total !== 1 ? 's' : '') + ' serving Co. ' + quiz.county;
+  const eircodeLabel = quiz.eircode ? ' (' + quiz.eircode + ')' : '';
+  hint.textContent = '\u2713 Found ' + total + ' ' + (total !== 1 ? 'companies' : 'company') + ' serving Co. ' + quiz.county + eircodeLabel;
   hint.className = 'chint found';
 
   grid.innerHTML = '';
@@ -764,14 +1170,14 @@ function _render() {
   if (priced.length) {
     const d1 = document.createElement('div');
     d1.className = 'sdiv';
-    d1.innerHTML = '<div class="sdlbl">Pricing available \u2014 ' + priced.length + ' provider' + (priced.length !== 1 ? 's' : '') + '</div>';
+    d1.innerHTML = '<div class="sdlbl">Pricing available \u2014 ' + priced.length + ' ' + (priced.length !== 1 ? 'companies' : 'company') + '</div>';
     grid.appendChild(d1);
     priced.forEach(c => grid.appendChild(cardHtml(c, idx++, topScore)));
   }
   if (unpriced.length) {
     const d2 = document.createElement('div');
     d2.className = 'sdiv';
-    d2.innerHTML = '<div class="sdlbl">Contact for pricing \u2014 ' + unpriced.length + ' provider' + (unpriced.length !== 1 ? 's' : '') + '</div>';
+    d2.innerHTML = '<div class="sdlbl">Contact for pricing \u2014 ' + unpriced.length + ' ' + (unpriced.length !== 1 ? 'companies' : 'company') + '</div>';
     grid.appendChild(d2);
     unpriced.forEach(c => grid.appendChild(cardHtml(c, idx++, topScore)));
   }
@@ -842,7 +1248,7 @@ function renderTray() {
 
   const body = document.getElementById('trayBody');
   if (!compareList.length) {
-    body.innerHTML = '<div class="ctray-hint"><div class="ctray-hint-icon">\u2696</div>Open a provider card and click <strong>\u201c+ Compare\u201d</strong> to add it here. Up to 3 providers.</div>';
+    body.innerHTML = '<div class="ctray-hint"><div class="ctray-hint-icon">\u2696</div>Open a company card and click <strong>\u201c+ Compare\u201d</strong> to add it here. Up to 3 companies.</div>';
     return;
   }
 
@@ -886,6 +1292,7 @@ function renderTray() {
       + (c.website ? '<a class="tact" href="' + esc(c.website) + '" target="_blank" rel="noopener">Visit website \u2192</a>' : '')
       + '</div>';
 
+    const tpHtml = c.trustpilot ? '<div style="margin:6px 12px 0">' + tpBadge(c.trustpilot) + '</div>' : '';
     return '<div class="tcol' + (isCheap ? ' tcol-winner' : '') + '">'
       + '<div class="tcol-accent" style="background:' + col + '"></div>'
       + '<div class="tcol-hdr">'
@@ -893,6 +1300,7 @@ function renderTray() {
       + '<span class="tcol-name">' + esc(c.name) + '</span>'
       + '<button class="tcol-rm" data-rm="' + esc(c.name) + '" aria-label="Remove ' + esc(c.name) + ' from comparison">&times;</button>'
       + '</div>'
+      + tpHtml
       + costSection
       + binsRow
       + '<div class="trow"><div class="trow-lbl">Collection</div><div class="trow-val">' + esc(c.freq || 'Fortnightly') + '</div></div>'

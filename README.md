@@ -4,7 +4,7 @@
 
 ## What this is
 
-A single-page website (`index.html`) that compares household bin collection prices across all 26 Irish counties. Users select their county, number of people, bins needed, and estimated waste weight - the site calculates their real monthly cost across every provider in their area.
+A single-page website (`index.html`) that compares household bin collection prices across all 26 Irish counties. Users enter their Eircode, choose number of people, bins needed, and estimated waste weight — the site auto-detects their county, calculates their real monthly cost across every company in their area, and (where supported) live-checks each company's coverage of that exact Eircode.
 
 ## File structure
 
@@ -12,6 +12,7 @@ A single-page website (`index.html`) that compares household bin collection pric
 index.html                      <- Page markup, meta tags, and schema JSON-LD
 styles.css                      <- All CSS styles and responsive rules
 app.js                          <- All application logic (cost calc, rendering, UI)
+favicon.svg                     <- Site favicon (real file required for Google Search)
 counties/                       <- Per-county JS files (source of truth — edit these directly)
   carlow.js, dublin.js, ...     <- 26 files, one per county
 ireland_waste_collectors.csv    <- Master list of all companies from mywaste.ie
@@ -161,19 +162,7 @@ There are 4 methods, each corresponding to a `pricing_method` value:
 
 Many Irish waste companies use the **WIS (Waste Industry Services)** platform for customer signup. Each company has a portal at `[company].wis.ie/signup`.
 
-**Known WIS portals:**
-| Portal URL | Company |
-|---|---|
-| `oxigen.wis.ie` | Oxigen Environmental |
-| `aesirl.wis.ie` | AES Recycling |
-| `raywhelan.wis.ie` | Ray Whelan |
-| `alliedrecycling.wis.ie` | Allied Recycling |
-| `thorntons.wis.ie` | Thorntons Recycling |
-| `mulleadys.wis.ie` | Mulleadys |
-| `qrl.wis.ie` | Quality Recycling Ltd |
-| `countryclean.wis.ie` | Country Clean Recycling |
-| `wiserbins.wis.ie` | Wiser Recycling |
-| `donegalwasterecycle.wis.ie` | Donegal Waste & Recycle |
+**Known WIS portals:** see the `WIS_PORTALS` array in `app.js` (currently ~21, including `oxigen.wis.ie`, `aesirl.wis.ie`, `raywhelan.wis.ie`, `alliedrecycling.wis.ie`, `thorntonsrecycling.wis.ie`, `mulleadys.wis.ie`, `qrl.wis.ie`, `countryclean.wis.ie`, `wiserbins.wis.ie`, `donegalwasterecycle.wis.ie`, `barnarecycling.wis.ie`, `clonmelwaste.wis.ie`, etc.). Note: `*.wis.ie` is a DNS catch-all that returns HTTP 200 with empty bodies for non-existent subdomains, so a working portal must be verified by inspecting the response content.
 
 **How to use a WIS portal:**
 1. Go to `[company].wis.ie/signup`
@@ -287,20 +276,35 @@ If a WIS portal says "location not served", try up to 10 different addresses acr
 
 ---
 
-## Trustpilot scores
-
-Stored in the `TRUSTPILOT` object in `app.js`. Only companies with actual Trustpilot profiles are included. Most smaller Irish waste companies don't have Trustpilot pages.
-
-To update: Google "[company name] Trustpilot" and check for an `ie.trustpilot.com/review/[domain]` page.
-
----
-
 ## Key website features
 
+- **Eircode-based search**: Step 1 is an Eircode input. The routing key (first 3 chars) auto-detects the county; the full 7-char Eircode triggers a live coverage check. Validates against the official Irish Eircode format (`[A-Z][0-9]{2}[AC-FHKNPRTV-Y0-9]{4}`) before loading any data. Changing the Eircode resets and re-runs the lookup automatically.
+- **Live WIS coverage checking**: When a full Eircode is entered, the app queries every known WIS portal (`[company].wis.ie/signup/address`) via a CORS proxy to confirm exactly which companies serve that Eircode. Results cached in `sessionStorage` (keyed by Eircode) so refreshes are instant.
+- **Eircode coverage confirmed badge**: Companies whose WIS portal confirms coverage of the entered Eircode get a green badge on their card. Companies WIS explicitly says don't serve the Eircode are hidden from results. Unconfirmed companies (no WIS portal, or portal doesn't support eircode lookups) are shown with an unconfirmed badge — users are advised to check with them directly.
 - **Cost calculator**: Estimates real monthly cost based on household size and waste weight
-- **Compare tool**: Side-by-side comparison of up to 3 providers
+- **Compare tool**: Side-by-side comparison of up to 3 companies, with Trustpilot ratings shown on each compare column
 - **Bin filtering**: Only shows companies that offer the bins you need
 - **Grey "no estimate" box**: When excess charge is unknown and weight exceeds allowance, estimate is greyed out with a tooltip
 - **Contact form**: Collapsible form at bottom for pricing errors/missing companies (via Formspree)
-- **Testing mode**: Add `?testing=true` to URL to show confidence badges
+- **Testing mode**: Add `?testing=true` to URL to show pricing confidence badges and the ADMIN Eircode lookup panel (for manually testing all WIS portals)
 - **Mobile responsive**: Full mobile layout for screens under 700px
+
+## Eircode → County detection
+
+`eircodeToCounty(eircode)` in `app.js` maps the 3-character routing key to a county. Covers all 26 counties with the full official Irish Eircode routing key list, cross-validated against two authoritative sources (the official routing key gist and the BrianHenryIE postcode CSV). Runs locally with no network call — so even if WIS is down, the user still gets the right county loaded.
+
+Notable corrections made to the routing table: all W-prefix codes (W12 Newbridge, W23 Maynooth, W34 Monasterevin, W91 Naas) correctly map to Kildare; K34–K78 correctly map to Dublin (Fingal); E-prefix codes correctly map to Tipperary (not Cork); F91 correctly maps to Sligo; F92–F94 to Donegal; H12/H14/H16 to Cavan; V94 to Limerick; V14/V15/V95 to Clare; and many others.
+
+## WIS portals
+
+Live Eircode coverage checks query these portals (via the `corsproxy.io` CORS proxy with API key). Each call is a `POST` to `[subdomain].wis.ie/signup/address` with `address=<eircode>` — a `price_group_ids` field in the JSON response indicates whether the location is served.
+
+The `WIS_PORTALS` array in `app.js` is the source of truth — to add or remove a portal, edit it there. The "Queries all N WIS portals" hint in the ADMIN panel reads `WIS_PORTALS.length` dynamically.
+
+To reduce request volume, only portals belonging to companies that actually serve the detected county are queried (filtered against `window.__COUNTY_CACHE__`).
+
+## Trustpilot scores
+
+Stored in the `TRUSTPILOT` object in `app.js`. Only companies with actual Trustpilot profiles are included. Most smaller Irish waste companies (Ryan Brothers, Quality Recycling, Ray Whelan, Doheny, McElvaney's, Advanced Waste, Ecoway, Mulleadys, KWD, Higgins, Wiser, Clonmel Waste, Moran Refuse, Logan Waste, Sharkey Waste, etc.) don't have Trustpilot pages.
+
+To update: Google "[company name] Trustpilot" and check for an `ie.trustpilot.com/review/[domain]` page.
