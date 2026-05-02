@@ -1,3 +1,20 @@
+// ── WIS CACHE (localStorage, 48-hour TTL) ──
+const WIS_CACHE_TTL = 48 * 60 * 60 * 1000;
+
+function wisCacheGet(eircode) {
+  try {
+    const raw = localStorage.getItem('wis_' + eircode);
+    if (!raw) return null;
+    const { ts, data } = JSON.parse(raw);
+    if (Date.now() - ts > WIS_CACHE_TTL) { localStorage.removeItem('wis_' + eircode); return null; }
+    return data;
+  } catch(e) { return null; }
+}
+
+function wisCacheSet(eircode, data) {
+  try { localStorage.setItem('wis_' + eircode, JSON.stringify({ ts: Date.now(), data })); } catch(e) {}
+}
+
 // ── CONSTANTS ──
 const AVG_KG_FIRST = 20; // 1st person ~20kg/month black bin waste
 const AVG_KG_ADDITIONAL = 12; // each additional person adds ~12kg/month
@@ -398,8 +415,8 @@ document.getElementById('csel').addEventListener('change', function() {
     // so the very first render is already filtered (prevents flash)
     if (quiz.eircode && !quiz.wisResults) {
       try {
-        const cached = sessionStorage.getItem('wis_' + quiz.eircode);
-        if (cached) quiz.wisResults = JSON.parse(cached);
+        const cached = wisCacheGet(quiz.eircode);
+        if (cached) quiz.wisResults = cached;
       } catch(e) {}
     }
     render();
@@ -433,16 +450,13 @@ function clearCounty() {
   async function runWis(raw) {
     if (raw === lastLookup) return;
     lastLookup = raw;
-    const cacheKey = 'wis_' + raw;
     const hint = document.getElementById('chint');
-    try {
-      const cached = sessionStorage.getItem(cacheKey);
-      if (cached) {
-        quiz.wisResults = JSON.parse(cached);
-        render();
-        return;
-      }
-    } catch(e) {}
+    const cached = wisCacheGet(raw);
+    if (cached) {
+      quiz.wisResults = cached;
+      render();
+      return;
+    }
 
     // Show checking indicator while live WIS queries run
     if (hint) { hint.textContent = 'Checking Eircode coverage\u2026'; hint.className = 'chint'; }
@@ -459,7 +473,7 @@ function clearCounty() {
     }
     try {
       quiz.wisResults = await checkWisCoverage(raw, portalsToQuery);
-      try { sessionStorage.setItem(cacheKey, JSON.stringify(quiz.wisResults)); } catch(e) {}
+      wisCacheSet(raw, quiz.wisResults);
     } catch(e) {
       quiz.wisResults = portalsToQuery.map(p => ({ ...p, served: null, error: e.message }));
     }
@@ -514,14 +528,14 @@ function clearCounty() {
       // Pre-load WIS results from cache BEFORE county dispatches so the
       // very first render already has them (prevents flash of unfiltered count)
       let wisPreloaded = false;
-      try {
-        const cached = sessionStorage.getItem('wis_' + raw);
+      {
+        const cached = wisCacheGet(raw);
         if (cached) {
-          quiz.wisResults = JSON.parse(cached);
+          quiz.wisResults = cached;
           lastLookup = raw;
           wisPreloaded = true;
         }
-      } catch(e) {}
+      }
 
       const sel = document.getElementById('csel');
       const needCountyLoad = sel.value !== county;
@@ -786,24 +800,21 @@ if (ADMIN_MODE) {
       const raw = document.getElementById('wis-eircode').value.trim().toUpperCase();
       if (!raw) return;
 
-      // Check sessionStorage cache first
-      const cacheKey = 'wis_' + raw.replace(/\s+/g, '');
-      try {
-        const cached = sessionStorage.getItem(cacheKey);
-        if (cached) {
-          quiz.eircode = raw;
-          quiz.wisResults = JSON.parse(cached);
-          renderWisPanel();
-          document.getElementById('wis-clear-btn').style.display = '';
-          const mapped = eircodeToCounty(raw) || wisCountyToAppCounty((quiz.wisResults).map(r => r.county).find(Boolean));
-          if (mapped) {
-            const sel = document.getElementById('csel');
-            if (sel && sel.value !== mapped) { sel.value = mapped; sel.dispatchEvent(new Event('change')); return; }
-          }
-          render();
-          return;
+      const cleanRaw = raw.replace(/\s+/g, '');
+      const adminCached = wisCacheGet(cleanRaw);
+      if (adminCached) {
+        quiz.eircode = raw;
+        quiz.wisResults = adminCached;
+        renderWisPanel();
+        document.getElementById('wis-clear-btn').style.display = '';
+        const mapped = eircodeToCounty(raw) || wisCountyToAppCounty((quiz.wisResults).map(r => r.county).find(Boolean));
+        if (mapped) {
+          const sel = document.getElementById('csel');
+          if (sel && sel.value !== mapped) { sel.value = mapped; sel.dispatchEvent(new Event('change')); return; }
         }
-      } catch(e) {}
+        render();
+        return;
+      }
 
       quiz.eircode = raw;
       quiz.wisResults = null;
@@ -827,7 +838,7 @@ if (ADMIN_MODE) {
 
       try {
         quiz.wisResults = await checkWisCoverage(raw, portalsToQuery);
-        try { sessionStorage.setItem(cacheKey, JSON.stringify(quiz.wisResults)); } catch(e) {}
+        wisCacheSet(cleanRaw, quiz.wisResults);
       } catch(e) {
         quiz.wisResults = portalsToQuery.map(p => ({ ...p, served: null, error: e.message }));
       }
