@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Cork']={
+{
   "county": "Cork",
   "companies": [
     {
@@ -425,4 +424,4 @@ window.__COUNTY_CACHE__['Cork']={
       ]
     }
   ]
-};
+}

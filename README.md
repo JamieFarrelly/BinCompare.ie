@@ -6,6 +6,14 @@
 
 A single-page website (`index.html`) that compares household bin collection prices across all 26 Irish counties. Users enter their Eircode, choose number of people, bins needed, and estimated waste weight — the site auto-detects their county, calculates their real monthly cost across every company in their area, and (where supported) live-checks each company's coverage of that exact Eircode.
 
+## Running locally
+
+```bash
+python3 -m http.server 8080
+```
+
+Then open `http://localhost:8080` in your browser.
+
 ## File structure
 
 ```
@@ -13,37 +21,25 @@ index.html                      <- Page markup, meta tags, and schema JSON-LD
 styles.css                      <- All CSS styles and responsive rules
 app.js                          <- All application logic (cost calc, rendering, UI)
 favicon.svg                     <- Site favicon (real file required for Google Search)
-counties/                       <- Per-county JS files (source of truth — edit these directly)
-  carlow.js, dublin.js, ...     <- 26 files, one per county
+counties/                       <- Per-county JSON files (source of truth — edit these directly)
+  carlow.json, dublin.json, ... <- 26 files, one per county
 ireland_waste_collectors.csv    <- Master list of all companies from mywaste.ie
 README.md                       <- This file
 ```
 
 ## How county data loading works
 
-When a user selects their county, `app.js` dynamically injects a `<script>` tag for `counties/[county].js`. Each file sets a single entry on `window.__COUNTY_CACHE__`:
-
-```js
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Dublin']={
-  "county": "Dublin",
-  ...
-};
-```
+When a user selects their county, `app.js` fetches `counties/[county].json` via `fetch()` and stores the result in `window.__COUNTY_CACHE__`:
 
 Only the selected county's file is downloaded — roughly 8–24 KB instead of a 400+ KB bundle. Subsequent selections of the same county use the in-memory cache with no network request.
 
-**No rebuild step needed.** To update pricing, edit `counties/[county].js` directly.
-
-**Why `.js` files and not `.json`?** `<script>` tags work on the `file://` protocol, so the
-site opens correctly when you double-click `index.html` locally without needing a dev server.
-`fetch()` requests to local JSON files would be blocked by the browser's CORS policy.
+**No rebuild step needed.** To update pricing, edit `counties/[county].json` directly.
 
 ---
 
 ## JSON schema
 
-Each county has a `counties/[county].js` file. These are the source of truth for all pricing data. The data structure inside each file mirrors JSON.
+Each county has a `counties/[county].json` file. These are the source of truth for all pricing data. The data structure inside each file mirrors JSON.
 
 ### County-level fields
 
@@ -121,7 +117,7 @@ Copy and paste one of these prompts into Claude to refresh the pricing data. The
 
 ### Full refresh (all 26 counties)
 
-> Go through every `counties/*.js` file in this repository. For each company in each county:
+> Go through every `counties/*.json` file in this repository. For each company in each county:
 >
 > 1. **If `pricing_method` is `"wis_portal"`**: Go to the WIS portal URL mentioned in `confidence.reason` (e.g. `oxigen.wis.ie/signup`). Enter the address from `address_used`. Compare the plans and prices shown to what's currently in the file. Update any that have changed.
 >
@@ -137,11 +133,11 @@ Copy and paste one of these prompts into Claude to refresh the pricing data. The
 
 ### Single county refresh
 
-> Refresh all waste pricing for **[COUNTY NAME]**. Read `counties/[county].js`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today on every plan that was updated.
+> Refresh all waste pricing for **[COUNTY NAME]**. Read `counties/[county].json`. For each company, use its `pricing_method`, `address_used`, and `confidence.reason` to re-fetch the current prices. Update any prices that have changed, add any new plans, remove any discontinued plans. Set `scraped_date` to today on every plan that was updated.
 
 ### Single company refresh (across all counties)
 
-> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `counties/*.js` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today on every plan that was updated.
+> Refresh pricing for **[COMPANY NAME]** across all counties where it appears. Search all `counties/*.json` files for this company. For each entry, re-fetch prices using the method described in `pricing_method` and `confidence.reason`. Update all changed prices. Set `scraped_date` to today on every plan that was updated.
 
 ---
 

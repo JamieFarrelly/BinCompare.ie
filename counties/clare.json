@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Clare']={
+{
   "county": "Clare",
   "companies": [
     {
@@ -241,4 +240,4 @@ window.__COUNTY_CACHE__['Clare']={
       ]
     }
   ]
-};
+}

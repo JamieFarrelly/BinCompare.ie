@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Kilkenny']={
+{
   "county": "Kilkenny",
   "companies": [
     {
@@ -435,4 +434,4 @@ window.__COUNTY_CACHE__['Kilkenny']={
       "plans": []
     }
   ]
-};
+}

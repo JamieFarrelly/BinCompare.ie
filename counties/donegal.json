@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Donegal']={
+{
   "companies": [
     {
       "service_notes": "Customer accounts must be kept in credit. Waste, recycling, and compost collection. Auto top-up available.",
@@ -157,7 +156,7 @@ window.__COUNTY_CACHE__['Donegal']={
         }
       ],
       "name": "Panda Green",
-      "source": "mywaste.ie",
+      "source": "mywaste.ie"
     },
     {
       "pricing_method": "public_page",
@@ -436,4 +435,4 @@ window.__COUNTY_CACHE__['Donegal']={
     }
   ],
   "county": "Donegal"
-};
+}

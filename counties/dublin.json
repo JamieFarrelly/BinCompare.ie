@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Dublin']={
+{
   "county": "Dublin",
   "companies": [
     {
@@ -630,7 +629,7 @@ window.__COUNTY_CACHE__['Dublin']={
       ],
       "address_used": null,
       "name": "AES Recycling",
-      "source": "mywaste.ie",
+      "source": "mywaste.ie"
     },
     {
       "confidence": {
@@ -648,4 +647,4 @@ window.__COUNTY_CACHE__['Dublin']={
       "service_notes": "Service available in Dublin 1, 2, 3 and 7 only. Expanding coverage. Pricing 'Coming soon' on website."
     }
   ]
-};
+}

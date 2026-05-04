@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Cavan']={
+{
   "county": "Cavan",
   "companies": [
     {
@@ -513,4 +512,4 @@ window.__COUNTY_CACHE__['Cavan']={
       ]
     }
   ]
-};
+}

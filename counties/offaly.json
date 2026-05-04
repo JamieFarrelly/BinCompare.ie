@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Offaly']={
+{
   "county": "Offaly",
   "companies": [
     {
@@ -343,4 +342,4 @@ window.__COUNTY_CACHE__['Offaly']={
       "service_notes": "Mid-West operator based in Shannon, Co. Clare. Website explicitly mentions Clare, Limerick and Tipperary service areas. Listed for Offaly on mywaste.ie — may serve border areas. Pay by weight only — no flat-rate plans. Sign-up via ciprtl.amcsgroup.com. Annual option also available at €309/year."
     }
   ]
-};
+}

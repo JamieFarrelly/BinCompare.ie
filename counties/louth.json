@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Louth']={
+{
   "county": "Louth",
   "companies": [
     {
@@ -534,4 +533,4 @@ window.__COUNTY_CACHE__['Louth']={
       ]
     }
   ]
-};
+}
