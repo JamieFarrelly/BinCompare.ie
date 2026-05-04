@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Roscommon']={
+{
   "county": "Roscommon",
   "companies": [
     {
@@ -505,4 +504,4 @@ window.__COUNTY_CACHE__['Roscommon']={
       "pricing_available": true
     }
   ]
-};
+}

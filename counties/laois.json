@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Laois']={
+{
   "county": "Laois",
   "companies": [
     {
@@ -454,4 +453,4 @@ window.__COUNTY_CACHE__['Laois']={
       "plans": []
     }
   ]
-};
+}

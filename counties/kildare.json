@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Kildare']={
+{
   "county": "Kildare",
   "companies": [
     {
@@ -568,4 +567,4 @@ window.__COUNTY_CACHE__['Kildare']={
       ]
     }
   ]
-};
+}

@@ -191,11 +191,16 @@ let companies = [];
 function loadCounty(countyName, cb) {
   const cache = window.__COUNTY_CACHE__ || {};
   if (cache[countyName]) { cb(cache[countyName]); return; }
-  const script = document.createElement('script');
-  script.src = 'counties/' + countyName.toLowerCase() + '.js';
-  script.onload = function() { cb((window.__COUNTY_CACHE__ || {})[countyName] || null); };
-  script.onerror = function() { cb(null); };
-  document.head.appendChild(script);
+  fetch('counties/' + countyName.toLowerCase() + '.json')
+    .then(r => r.ok ? r.json() : null)
+    .then(data => {
+      if (data) {
+        window.__COUNTY_CACHE__ = window.__COUNTY_CACHE__ || {};
+        window.__COUNTY_CACHE__[countyName] = data;
+      }
+      cb(data);
+    })
+    .catch(() => cb(null));
 }
 
 // ── QUIZ STATE ──

@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Wicklow']={
+{
   "county": "Wicklow",
   "companies": [
     {
@@ -495,4 +494,4 @@ window.__COUNTY_CACHE__['Wicklow']={
       ]
     }
   ]
-};
+}

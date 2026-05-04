@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Galway']={
+{
   "county": "Galway",
   "companies": [
     {
@@ -79,7 +78,7 @@ window.__COUNTY_CACHE__['Galway']={
         }
       ],
       "name": "Moran Refuse & Recycling Service",
-      "source": "mywaste.ie",
+      "source": "mywaste.ie"
     },
     {
       "pricing_available": true,
@@ -510,4 +509,4 @@ window.__COUNTY_CACHE__['Galway']={
       "address_used": null
     }
   ]
-};
+}

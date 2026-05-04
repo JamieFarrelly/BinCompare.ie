@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Sligo']={
+{
   "county": "Sligo",
   "companies": [
     {
@@ -396,4 +395,4 @@ window.__COUNTY_CACHE__['Sligo']={
       "pricing_method": null
     }
   ]
-};
+}

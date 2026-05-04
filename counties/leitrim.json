@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Leitrim']={
+{
   "county": "Leitrim",
   "companies": [
     {
@@ -227,4 +226,4 @@ window.__COUNTY_CACHE__['Leitrim']={
       "plans": []
     }
   ]
-};
+}

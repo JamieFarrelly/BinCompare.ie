@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Tipperary']={
+{
   "county": "Tipperary",
   "companies": [
     {
@@ -541,4 +540,4 @@ window.__COUNTY_CACHE__['Tipperary']={
       "plans": []
     }
   ]
-};
+}

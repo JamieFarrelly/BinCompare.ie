@@ -1,5 +1,4 @@
-window.__COUNTY_CACHE__=window.__COUNTY_CACHE__||{};
-window.__COUNTY_CACHE__['Westmeath']={
+{
   "county": "Westmeath",
   "companies": [
     {
@@ -426,4 +425,4 @@ window.__COUNTY_CACHE__['Westmeath']={
       ]
     }
   ]
-};
+}
